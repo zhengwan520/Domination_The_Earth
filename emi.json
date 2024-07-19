@@ -1,0 +1,18 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:elementus:anthektite_ingot",
+    "item:elementus:anthektite_block",
+    "item:elementus:diarkrite_block",
+    "item:elementus:steel_block",
+    "item:elementus:anthektite_chestplate{Damage:0}"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

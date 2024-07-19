@@ -1,0 +1,165 @@
+{
+  "bookGuiScale": 4,
+  "clickedVisualize": false,
+  "bookData": {
+    "chromaticarsenal:guide": {
+      "viewedEntries": [
+        "chromaticarsenal:super/super_glass_shield",
+        "chromaticarsenal:thunderguard",
+        "chromaticarsenal:misc/ascension_essence",
+        "chromaticarsenal:lunar_crystal",
+        "chromaticarsenal:super/super_dispel_gel",
+        "chromaticarsenal:super/super_glow_ring"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "apotheosis:apoth_chronicle": {
+      "viewedEntries": [
+        "apotheosis:adventure/attributes/prot_shred",
+        "apotheosis:adventure/attributes/prot_pierce",
+        "apotheosis:adventure/bosses/surface_bosses",
+        "apotheosis:adventure/attributes/knockback_resistance",
+        "apotheosis:enchanting/enchantments/natures_blessing",
+        "apotheosis:adventure/affix_loot/gems"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "enigmaticlegacy:the_acknowledgment": {
+      "viewedEntries": [],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "l2hostility:hostility_guide": {
+      "viewedEntries": [
+        "l2hostility:mechanics/a1_difficulty_level",
+        "l2hostility:traits/potions",
+        "l2hostility:mechanics/b1_config",
+        "l2hostility:mechanics/a4_level_bonus",
+        "l2hostility:mechanics/a2_traits",
+        "l2hostility:mechanics/a5_spawner",
+        "l2hostility:legendary/dispell",
+        "l2hostility:mechanics/b2_datapack"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "irons_spellbooks:iss_guide_book": {
+      "viewedEntries": [
+        "irons_spellbooks:progression/early_game",
+        "irons_spellbooks:spell_books/craftable_spell_books"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "l2artifacts:artifact_guide": {
+      "viewedEntries": [
+        "l2artifacts:general/a6_rank_up",
+        "l2artifacts:general/a3_set_effects",
+        "l2artifacts:general/a1_desc",
+        "l2artifacts:general/a4_obtain",
+        "l2artifacts:pocket/c3_genesis"
+      ],
+      "bookmarks": [
+        {
+          "entry": "l2artifacts:pocket/c3_genesis",
+          "page": 0
+        }
+      ],
+      "completedManualQuests": []
+    },
+    "amethyst_imbuement:glistering_tome": {
+      "viewedEntries": [
+        "amethyst_imbuement:gems/accursed_figurine",
+        "amethyst_imbuement:gems/imbued_lapis",
+        "amethyst_imbuement:gems/moonstone",
+        "amethyst_imbuement:gems/brilliant_diamond",
+        "amethyst_imbuement:gems/celestine",
+        "amethyst_imbuement:gems/tigers_eye",
+        "amethyst_imbuement:gems/malachite_figurine",
+        "amethyst_imbuement:recipes/recipes",
+        "amethyst_imbuement:altars/imbuing_table"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "simplyswords:runic_grimoire": {
+      "viewedEntries": [
+        "simplyswords:weapon_variants/entry_cutlass"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "moonstone:soul_book": {
+      "viewedEntries": [
+        "moonstone:box/necorastone",
+        "moonstone:necora/necora",
+        "moonstone:hurtring/timegold",
+        "moonstone:hurtring/hurtring",
+        "moonstone:hurtring/sevencurse",
+        "moonstone:laji/whiteorb",
+        "moonstone:laji/soulbattery",
+        "moonstone:laji/ironhorseshoe",
+        "moonstone:laji/rageapple",
+        "moonstone:laji/nanorobot",
+        "moonstone:apply/twisted",
+        "moonstone:apply/twistedhand",
+        "moonstone:necora/parasite",
+        "moonstone:necora/fungus",
+        "moonstone:doom/thefruit"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "celestial_artifacts:celestial_book": {
+      "viewedEntries": [
+        "celestial_artifacts:necklace/cross_necklace",
+        "celestial_artifacts:charm/cursed_protector",
+        "celestial_artifacts:ring/freeze_ring",
+        "celestial_artifacts:charm/angel_heart",
+        "celestial_artifacts:necklace/star_necklace",
+        "celestial_artifacts:head/sea_god_crown",
+        "celestial_artifacts:charm/cursed_totem",
+        "celestial_artifacts:charm/holy_sword",
+        "celestial_artifacts:ring/diamond_ring",
+        "celestial_artifacts:head/abyss_core",
+        "celestial_artifacts:etching/origin_etching",
+        "celestial_artifacts:etching/chaotic_etching",
+        "celestial_artifacts:etching/end_etching",
+        "celestial_artifacts:etching/nihility_etching",
+        "celestial_artifacts:etching/etching_of_life",
+        "celestial_artifacts:etching/desire_etching",
+        "celestial_artifacts:bracelet/scarlet_bracelet",
+        "celestial_artifacts:heart/greedy_heart",
+        "celestial_artifacts:charm/soul_box",
+        "celestial_artifacts:ring/thunder_ring"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "chromaticarsenal:lore": {
+      "viewedEntries": [
+        "chromaticarsenal:general/introduction",
+        "chromaticarsenal:item/super_curios/super_glass_shield"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "twilightdelight:twilight_guide": {
+      "viewedEntries": [
+        "twilightdelight:tricks/tomahawk_smeak",
+        "twilightdelight:tricks/renewable_115"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    },
+    "ice_and_fire_delight:cookbook": {
+      "viewedEntries": [
+        "ice_and_fire_delight:drinks/fire_lily_extract"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
+}
