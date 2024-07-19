@@ -1,0 +1,1321 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "4E874EA2BA471AF3"
+	group: "4E2A249F11A26E74"
+	id: "4E874EA2BA471AF3"
+	images: [
+		{
+			height: 15.0d
+			image: "l2hostility:item/bottle_of_curse"
+			order: 1
+			rotation: 0.0d
+			width: 15.0d
+			x: -11.0d
+			y: -1.0d
+		}
+		{
+			height: 7.0d
+			image: "enigmaticlegacy:item/starblade"
+			rotation: 135.0d
+			width: 7.0d
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			height: 8.0d
+			image: "ftbquests:textures/gui/shop01.png"
+			rotation: 0.0d
+			width: 7.692304d
+			x: -21.5d
+			y: -11.0d
+		}
+		{
+			height: 30.0d
+			image: "ftbquests:textures/gui/store.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: -9.5d
+			y: -9.5d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: false
+			icon: "l2hostility:tank"
+			id: "5A751B82331C36F6"
+			rewards: [{
+				id: "1DFB184EBB48235F"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "659D466B924D5497"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "419366653FA00AA6"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5DAE71CD53A85301"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "452999B8B8AAF44F"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "重装"
+			x: -12.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:speedy"
+			id: "60F4C16EB1D82635"
+			rewards: [{
+				id: "03A4D4D0E8CBAACB"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "786EB5D8E00DFDF6"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "43D488BD48DE3A8D"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "2662FE629454D863"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4AED8BF81413CE37"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "神速"
+			x: -14.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:protection"
+			id: "01ECD763FC9B2BBA"
+			rewards: [{
+				id: "20F0FC58070D9058"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0A6FA9BB8B34A3C9"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "0250B904E840945A"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "436488CD5F22F7E2"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "402D199159EE7584"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "保护"
+			x: -15.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:invisible"
+			id: "4CD80690F326871A"
+			rewards: [{
+				id: "56C8D0C0153B01FC"
+				item: "l2hostility:invisible"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7803452534972B00"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "5D81F9362A167700"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "0D5778F02C62238A"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7D216A504CB9BDD1"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "隐身"
+			x: -15.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:fiery"
+			id: "5642026DFD2AA5D1"
+			rewards: [{
+				id: "41F58440824214A2"
+				item: "l2hostility:fiery"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "1C15F4773C29476F"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7DC65D50444B200E"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "2B0312F04199D9BD"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0D306C096DB98F35"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "烈焰"
+			x: -12.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:regenerate"
+			id: "4D26E1C5A1626E2F"
+			rewards: [{
+				id: "06C7A7230DDB68F3"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7755CE46C208A3A1"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1F023817E52A5763"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "02756AD8140EDE09"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5A76F14E6331A049"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "再生"
+			x: -14.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: true
+			icon: {
+				Count: 1
+				id: "simplyswords:awakened_lichblade"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6DF6388E215C7590"
+			repeatable: true
+			rewards: [{
+				id: "4504FF1F384F0EB6"
+				table_id: 7784174967515509856L
+				type: "random"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "1011C3E5F3D53F93"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "&e简易刀剑抽奖箱"
+			x: -12.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:shulker"
+			id: "7A31AEC657312416"
+			rewards: [{
+				id: "6C57D57AE8178298"
+				item: "l2hostility:shulker"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "5E00717A057533C0"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "4806D22761ABA96E"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "59DDB2D98F949064"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "57770383F24ABA85"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "潜影"
+			x: -6.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:counter_strike"
+			id: "3D1D642FA74392B7"
+			rewards: [{
+				id: "2941C30BDFE565FB"
+				item: "l2hostility:counter_strike"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4AB9ADD1981FB09B"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "51CFF80FE09BF836"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "5AD4E864A5B122F8"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "31483F832C6D4237"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "反击"
+			x: -7.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:gravity"
+			id: "5C657C8CFABA071B"
+			rewards: [{
+				id: "5CAF71A5D9D6AADF"
+				item: "l2hostility:gravity"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "37B9BB45A97EC18C"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0A2C30033CB5A3DD"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0F0A995BD87BF058"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "70E22D0534E12982"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "重力"
+			x: -6.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:moonwalk"
+			id: "42018DD6F05561C6"
+			rewards: [{
+				id: "3E93531665295DE7"
+				item: "l2hostility:moonwalk"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "57E8251ECEAA8BAE"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "48BF2CDB1952D4FA"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "14FA8CFB76E7857D"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "08333197391D56CA"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "月步"
+			x: -7.5d
+			y: 3.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:arena"
+			id: "52E8557C33983064"
+			rewards: [{
+				id: "3E640B3DC70314A5"
+				item: "l2hostility:arena"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "4AB42B6014600F27"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "66B20F901643B12E"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "69790C9B495C5A57"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6700A4D20A7DE8A6"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "领域"
+			x: -15.5d
+			y: 2.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:weakness"
+			id: "62785034907CDF5C"
+			rewards: [{
+				id: "3B0637951693CAF9"
+				item: "l2hostility:weakness"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "5F2E1C5B7F71965B"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "43800777B0562701"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "51ED9E4D02A36D87"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7B237A78E4FBAE57"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "虚弱"
+			x: -11.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:slowness"
+			id: "5EB5D9B171C9AD29"
+			rewards: [{
+				id: "5A444569CA2F4BDE"
+				item: "l2hostility:slowness"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "5BB3ED04B9F0E7DA"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3035AEE3174536FE"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "50200942E8520777"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5182BA5C6CD7DD54"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "流沙"
+			x: -9.5d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:poison"
+			id: "698F538719777864"
+			rewards: [{
+				id: "20154A5367C547AF"
+				item: "l2hostility:poison"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "4B45505A4F15F763"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "21AF190DE9197541"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "1E689DB41F3282F5"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "6CD0E0F76AB7D158"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "剧毒"
+			x: -11.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:wither"
+			id: "1B7F044E0EB177BE"
+			rewards: [{
+				id: "69129CEE41772CF7"
+				item: "l2hostility:wither"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "48673D60BCB9DF1E"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "07E9CC5C40F73B25"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0E0FCE15091CD23F"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74615C819A3EDB67"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "凋灵"
+			x: -14.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:levitation"
+			id: "0F1800FE037131CA"
+			rewards: [{
+				id: "5EEC34554AC628C3"
+				item: "l2hostility:levitation"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "446B34094D4F539F"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6FE032E24A78F250"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "49F0C32EA7A229FB"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "44F2990CF07DDD15"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "升空"
+			x: -8.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:blindness"
+			id: "0369A6CC9CA57753"
+			rewards: [{
+				id: "466E96B76A375F99"
+				item: "l2hostility:blindness"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "50F6C4D5104D31A7"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "68BCAFAE724CF045"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "17796A04115E0311"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "4BA167EF5C538548"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "致盲"
+			x: -12.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:nausea"
+			id: "079C719E83A44741"
+			rewards: [{
+				id: "6E20B5960DFD5E15"
+				item: "l2hostility:nausea"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 2L
+					id: "1CDC2EA10C6E694C"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "5D2BA2E95E785AD2"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "61DFACFFCAF27141"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5597DFAA1AAFB90E"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "扭曲"
+			x: -9.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:soul_burner"
+			id: "7B1EEE8BD5C57CD1"
+			rewards: [{
+				id: "2B2C9EAF7084AA23"
+				item: "l2hostility:soul_burner"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "19FC093DFC16A56E"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "482D2E724D68B64D"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "1F724DF61A3DF888"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "0B825D8B209B257E"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "业火"
+			x: -6.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:freezing"
+			id: "3CC1218975E359FB"
+			rewards: [{
+				id: "59442A1B6902E2DE"
+				item: "l2hostility:freezing"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "048CFC31B798435A"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "4DD3FA8448EB4E29"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7FB4B8D8FF6C4CEA"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "43CFCA7E137DCC0B"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "寒流"
+			x: -9.5d
+			y: 4.0d
+		}
+		{
+			can_repeat: false
+			icon: "l2hostility:cursed"
+			id: "2089925E4A7CD408"
+			rewards: [{
+				id: "56F076BEFAE39582"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "6A3C5FBB860DE804"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "013D814F7A7A08E9"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "18290657852C4B83"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "19BC6A80D76CFB74"
+					item: "aquaculture:neptunium_ingot"
+					type: "item"
+				}
+			]
+			title: "诅咒"
+			x: -11.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			icon: "universalgrid:creative_wireless_universal_grid"
+			id: "17CB4E0515238AF4"
+			rewards: [{
+				id: "7AC0C6771D294C66"
+				item: "universalgrid:creative_wireless_universal_grid"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 32L
+				id: "71979857F93BA317"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:scales/dragon"
+					}
+				}
+				match_nbt: false
+				title: "龙鳞"
+				type: "item"
+			}]
+			title: "&e购买无线终端"
+			x: -11.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			id: "2D8471916EAE5F3B"
+			rewards: [{
+				count: 3
+				id: "5BCD67BCE36BC3E2"
+				item: "l2complements:poseidite_ingot"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "0826F65AA07D6020"
+				item: "l2complements:guardian_eye"
+				type: "item"
+			}]
+			title: "&e兑换海神锭"
+			x: -10.0d
+			y: -6.0d
+		}
+		{
+			icon: "enigmaticlegacy:golem_heart"
+			id: "7F3261C83B32AC50"
+			rewards: [{
+				id: "537F65267C5AD0A8"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "6E2E716E860D6C53"
+					item: "celestial_core:earth_core"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "04764EE170D31499"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+			]
+			title: "&5魔像之心"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			icon: "enigmaticlegacy:eye_of_nebula"
+			id: "39DC9BB61F6C330F"
+			rewards: [{
+				id: "5279A5878F701457"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 5L
+					id: "6FC6F402C1F33CD3"
+					item: "celestial_core:void_essence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 2L
+					id: "6180920ACC0F7C58"
+					item: "kubejs:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "&5星云之眼"
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			icon: "enigmaticlegacy:blazing_core"
+			id: "7662B38C7119C2C6"
+			rewards: [{
+				id: "0745524C97979C71"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			shape: "pentagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "5AD6CE27490A3FCC"
+					item: "bosses_of_mass_destruction:blazing_eye"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "623B7980E3D06E18"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			title: "&5烈焰之核"
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			icon: "enigmaticlegacy:void_pearl"
+			id: "75EA7300A5319653"
+			rewards: [{
+				id: "0DF5F574CFBA259F"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 10L
+					id: "577657B4F0EC7087"
+					item: "celestial_core:void_essence"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 5L
+					id: "19ECA7276AE2713D"
+					item: "kubejs:netherite_coin"
+					type: "item"
+				}
+			]
+			title: "&5虚空珍珠"
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			icon: "enigmaticlegacy:ocean_stone"
+			id: "5E8D3B47EFE39CD7"
+			rewards: [{
+				id: "53FCDD51332AC2F6"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "6838812363C6351E"
+					item: "amethyst_imbuement:golden_heart"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7EB54F91E9C4D3FD"
+					item: "kubejs:gold_coin"
+					type: "item"
+				}
+			]
+			title: "&5海洋意志"
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			icon: "enigmaticlegacy:angel_blessing"
+			id: "1608C04FE3950CBA"
+			rewards: [{
+				id: "7BBEEEBE8F0C6CDE"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "3549C66D36A0B4C2"
+					item: "curseofpandora:angelic_feather"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "1F800D53CF9A5D21"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+			]
+			title: "&5天使之祝"
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			icon: "waystones:waystone"
+			id: "32978FD00C41F3A4"
+			repeatable: true
+			rewards: [{
+				id: "03AE0397C285509F"
+				item: "waystones:waystone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "308BB95B4CEF8734"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&e兑换指路石"
+			x: -13.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: "waystones:mossy_waystone"
+			id: "6C60A8C8BE818149"
+			repeatable: true
+			rewards: [{
+				id: "2CF4E9774297BCE7"
+				item: "waystones:mossy_waystone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "09B64DC540C6C822"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&e兑换苔石指路石"
+			x: -12.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "waystones:sandy_waystone"
+			id: "7739FC2B27FC0992"
+			repeatable: true
+			rewards: [{
+				id: "4655F4B89CB63DF2"
+				item: "waystones:sandy_waystone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "06BB1A9CD6428842"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&e兑换砂岩指路石"
+			x: -10.0d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			icon: "waystones:sharestone"
+			id: "557749E27411AE70"
+			repeatable: true
+			rewards: [{
+				id: "7AA7D957C238317C"
+				item: "waystones:sharestone"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				id: "38D81FD612E14F9A"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			title: "&e兑换同族指路石"
+			x: -9.0d
+			y: -5.0d
+		}
+		{
+			can_repeat: true
+			icon: "l2hostility:hostility_orb"
+			id: "7FC8DE4E19B195D8"
+			rewards: [{
+				id: "45764486488F1752"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2B68ADADA944F0E7"
+				item: "l2hostility:miracle_powder"
+				type: "item"
+			}]
+			title: "&e兑换恶意吸收宝珠"
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "5064723BC551ECEE"
+			rewards: [{
+				id: "3318FDE7E342EC39"
+				item: "minecraft:nether_star"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "561447832784F897"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -5.0d
+		}
+		{
+			id: "1DB09C2BF72FE195"
+			rewards: [{
+				command: "/curios add hostility_curse @s"
+				elevate_perms: true
+				id: "2E9025CA505DC780"
+				type: "command"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "7BB66B96FFC56691"
+					item: { Count: 10, id: "l2artifacts:random_5" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "3F039672BA2CF861"
+					item: { Count: 3, id: "l2hostility:killer_aura" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "3110462F17C13696"
+					item: { Count: 3, id: "l2hostility:ragnarok" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "7CD6B18ABA2C6B09"
+					item: { Count: 3, id: "kubejs:heart" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "596D45266A18158E"
+					item: { Count: 3, id: "enigmaticlegacy:astral_block" }
+					type: "item"
+				}
+			]
+			title: "购买一个恶意-诅咒栏位"
+			x: -11.0d
+			y: 6.0d
+		}
+	]
+	title: "小小商店"
+}

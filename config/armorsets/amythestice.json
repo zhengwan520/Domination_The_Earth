@@ -1,0 +1,35 @@
+{
+  "armorSetName": "red",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:armor_amythest_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "iceandfire:armor_amythest_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "iceandfire:armor_amythest_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "iceandfire:armor_amythest_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0,
+      "modifierUUID": "372e7a46-2505-48de-bb23-73426867fbd1",
+      "description": "resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

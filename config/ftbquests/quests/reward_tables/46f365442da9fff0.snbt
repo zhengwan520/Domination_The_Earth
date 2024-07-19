@@ -1,0 +1,35 @@
+{
+	id: "46F365442DA9FFF0"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "simply_swords_material"
+	}
+	loot_size: 1
+	order_index: 91
+	rewards: [
+		{ item: "simplyswords:runic_tablet" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:runefused_gem"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:netherfused_gem"
+				tag: { }
+			}
+		}
+		{ item: "simplyswords:empowered_remnant", weight: 3.0f }
+		{ item: "simplyswords:contained_remnant" }
+		{ item: "simplyswords:tampered_remnant" }
+	]
+	title: "简易刀剑材料"
+}

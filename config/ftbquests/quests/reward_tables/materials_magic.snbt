@@ -1,0 +1,147 @@
+{
+	hide_tooltip: true
+	id: "57B98D90761AB9F1"
+	loot_crate: {
+		color: 9525759
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "materials_magic"
+	}
+	loot_size: 1
+	order_index: 11
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "ars_nouveau:runic_chalk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "ars_nouveau:blank_glyph" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:reactive"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{ item: "ars_nouveau:red_archwood_sapling" }
+		{ item: "ars_nouveau:green_archwood_sapling" }
+		{ item: "ars_nouveau:purple_archwood_sapling" }
+		{ item: "ars_nouveau:wixie_shards" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:mana_boost"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:spell_damage"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:spell_damage_long"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:spell_damage_strong"
+				}
+			}
+		}
+		{ item: "ars_nouveau:drygmy_shard" }
+		{
+			item: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "ars_nouveau:mana_regen"
+						lvl: 1s
+					}]
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_long"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "ars_nouveau:mana_regen_potion_strong"
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:mending_mixture" }
+		{ item: "enigmaticlegacy:ender_rod" }
+		{ item: "iceandfire:manuscript" }
+		{ item: "iceandfire:sapphire_gem" }
+		{ item: "ars_nouveau:blank_parchment" }
+		{ item: "ars_nouveau:ring_of_potential" }
+		{ item: "ars_nouveau:magebloom_fiber" }
+		{ item: "ars_nouveau:source_gem_block" }
+		{ item: "ars_elemental:water_bangle" }
+		{ item: "ars_nouveau:glyph_harvest" }
+		{ item: "ars_nouveau:timer_spell_turret" }
+		{ item: "ars_nouveau:glyph_underfoot" }
+		{ item: "ars_nouveau:glyph_smelt" }
+		{ item: "ars_nouveau:glyph_glide" }
+		{ item: "ars_elemental:glyph_not_insect_filter" }
+		{ item: "ars_nouveau:gilded_sourcestone_large_bricks_stairs" }
+		{ item: "ars_nouveau:thread_whirlisprig" }
+		{ item: "ars_elemental:ritual_detection" }
+		{ item: "ars_nouveau:reset" }
+		{ item: "ars_elemental:siren_familiar" }
+		{ item: "ars_artifice:artificers_workbench" }
+		{ item: "ars_nouveau:glyph_aoe" }
+		{ item: "ars_nouveau:amulet_of_mana_boost" }
+	]
+	title: "魔法材料"
+	use_title: true
+}

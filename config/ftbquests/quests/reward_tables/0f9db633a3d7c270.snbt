@@ -1,0 +1,25 @@
+{
+	id: "0F9DB633A3D7C270"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 63
+	rewards: [{
+		count: 10
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "dragon_egg"
+			}
+		}
+	}]
+	title: "龙蛋十连"
+}

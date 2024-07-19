@@ -1,0 +1,25 @@
+{
+	id: "27C7DBAD65E41768"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 76
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "rare_charm"
+			}
+		}
+		title: "稀有护符箱"
+	}]
+	title: "稀有护符箱"
+}

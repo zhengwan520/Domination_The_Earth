@@ -1,0 +1,25 @@
+{
+	id: "38E783F67383A511"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 92
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "simply_swords_material"
+			}
+		}
+		title: "简易刀剑材料战利品箱"
+	}]
+	title: "简易刀剑材料战利品箱"
+}

@@ -1,0 +1,24 @@
+{
+	id: "30958559C1DA8459"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "normal_charm"
+	}
+	loot_size: 1
+	order_index: 73
+	rewards: [
+		{ item: "celestial_artifacts:destroyer_badge" }
+		{ item: "celestial_artifacts:twisted_brain" }
+		{ item: "celestial_artifacts:solar_magnet" }
+		{ item: "celestial_artifacts:gluttony_badge" }
+		{ item: "celestial_artifacts:magic_horseshoe" }
+		{ item: "celestial_artifacts:sands_talisman" }
+		{ item: "celestial_artifacts:bearing_stamen" }
+	]
+	title: "平凡护符"
+}

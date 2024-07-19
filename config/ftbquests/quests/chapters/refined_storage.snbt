@@ -1,0 +1,1081 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "diamond"
+	filename: "refined_storage"
+	group: "3D50078FD72945E1"
+	icon: "refinedstorage:creative_controller"
+	id: "15AAF17B6665223D"
+	images: [
+		{
+			height: 20.0d
+			image: "ftbquests:textures/gui/frame_11.png"
+			rotation: 0.0d
+			width: 23.0d
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/refined_storage_.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: -0.5d
+			y: -12.0d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&9&d精致存储&f&r是一个提供基于网络的存储系统的大规模存储模组."
+				""
+				"要开始使用这个模组,你需要制作&6&a控制器&f&r."
+				""
+				"&a控制器&f是你的存储网络的\"核心 "
+				""
+			]
+			id: "01F18150EC923482"
+			shape: "gear"
+			size: 2.0d
+			subtitle: "开始&7[Getting Started]&f"
+			tasks: [{
+				id: "196B8B6D59ABFC74"
+				item: "refinedstorage:controller"
+				type: "item"
+			}]
+			title: "&d&d精致存储&f&7[Refined Storage]&f"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["7604D8B3C9FCCFD9"]
+			description: [
+				"&a1k 存储磁盘&f可以存储1000个物品."
+				""
+				""
+				"&7[The 1k Storage Disk can store 1000 items.]&f"
+			]
+			id: "4101F8275B41C79B"
+			shape: "diamond"
+			tasks: [{
+				id: "1121780C6403D660"
+				item: "refinedstorage:1k_storage_part"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4101F8275B41C79B"]
+			description: [
+				"&a4k 存储磁盘&f可以存储4000个物品."
+				""
+				""
+				"&7[The 4k Storage Disk can store 4000 items.]&f"
+			]
+			id: "3FD801D7DE9176FB"
+			shape: "diamond"
+			tasks: [{
+				id: "1420D2099CBB6833"
+				item: "refinedstorage:4k_storage_part"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3FD801D7DE9176FB"]
+			description: [
+				"&a16k 存储磁盘&f可以存储16000个物品."
+				""
+				""
+				"&7[The 16k Storage Disk can store 16000 items.]&f"
+			]
+			id: "03C78165C5CBD9E1"
+			shape: "diamond"
+			tasks: [{
+				id: "0346A00E2F8F7532"
+				item: "refinedstorage:16k_storage_part"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03C78165C5CBD9E1"]
+			description: [
+				"&a64k 存储磁盘&f可以存储64000个物品."
+				""
+				""
+				"&7[The 64k Storage Disk can store 64000 items.]&f"
+			]
+			id: "3F8EEE1AD4420702"
+			shape: "hexagon"
+			tasks: [{
+				id: "02A8CBA1DAC84DAE"
+				item: "refinedstorage:64k_storage_part"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			description: [
+				"合成器是我们用来存储网络中物品合成图案的工具.一旦将图案放入合成器中,就可以通过在Grid中点击所需合成物品同时按下CTRL + Shift来进行\"请求合成 \".如果你已经有该合成物品的图案,合成器将自动进行制作."
+				""
+				"该方块还可以与机器朝向配对,使用Processing模具.例如,如果你将合成器对准电炉,你可以将所需的熔炼图案放入其中,使其自动制作所需的熔炼材料.只要合成器与网络相连,电炉上有进口器,合成器就会帮助你制作所需的处理器!"
+				""
+				""
+				"&7[The Crafter is how we store patterns for our Network to know how to craft items. Once a recipe is placed into the crafter, you'll be able to \"Request\" an item to be crafted from your Grid. You can do this by hitting CTRL+Shift when clicking on the item you have a recipe for to bring up the crafting GUI.]&f"
+				""
+				"&7[This block can also be placed facing a machine to use Processing Patterns. For example, if you point the Crafter at a Furnace, you can put a recipe inside for a recipe you need a furnace for, like smelting raw processors. As long as the crafter is attached to your system and the Furnace has an importer attached to it, the Crafter will allow you to request the smelted version of the Processor!]&f"
+			]
+			id: "44881E39AB1D62AA"
+			min_width: 300
+			rewards: [{
+				count: 4
+				id: "3351B9B6898579ED"
+				item: "refinedstorage:pattern"
+				random_bonus: 4
+				type: "item"
+			}]
+			size: 1.25d
+			subtitle: "自动合成!&7[Automated crafting!]&f"
+			tasks: [{
+				id: "202A7EA0318662C5"
+				item: "refinedstorage:crafter"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"扳手用于旋转方块、直接拆解精致存储方块或拆除覆盖层."
+				""
+				""
+				"&7[The Wrench is used to rotate blocks, instantly break Refined Storage blocks, or break Covers.]&f"
+			]
+			id: "3FAD086F7D9CCAE9"
+			subtitle: "你让我发疯&7[You spin me right round']&f"
+			tasks: [{
+				id: "411F819314EF6C57"
+				item: "refinedstorage:wrench"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"电缆可以用来连接你的系统中的方块和物品."
+				""
+				"一开始,你可以通过将方块相邻放置来连接它们,但是电缆可以使你的网络扩大!任何精致存储网络都需要它."
+				""
+				""
+				"&7[Cables are used to connect blocks and items to your system.]&f"
+				""
+				"&7[In the beginning, you can get by with placing blocks next to each other to connect them to your system, but Cables allow you to extend out! This is a staple for any Refined Storage Network.]&f"
+			]
+			id: "6904EC449FBEE387"
+			rewards: [
+				{
+					count: 8
+					id: "3940AD01E5D76358"
+					item: "refinedstorage:cable"
+					random_bonus: 8
+					type: "item"
+				}
+				{
+					id: "1174925025CC0A56"
+					type: "random"
+				}
+			]
+			shape: "octagon"
+			size: 1.5d
+			subtitle: "连接系统&7[Connecting The System]&f"
+			tasks: [{
+				id: "1A2C2B95FDA9D2DA"
+				item: "refinedstorage:cable"
+				type: "item"
+			}]
+			title: "电缆&7[Cables]&f"
+			x: -6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"输入总线用于从连接的方块中提取物品."
+				""
+				"例如,可以将其用于电炉中,将成品提取到你的系统中."
+				""
+				"记得添加一些\"速度 \"或\"堆叠 \"升级!"
+				""
+				"你还可以筛选被提取的物品.需要更多的筛选槽吗？用空白升级来升级它!"
+				""
+				""
+				"&7[The Importer is used to pull items from a connected block.]&f"
+				""
+				"&7[For example, you can use these on Furnaces to pull the finished product out into your system.]&f"
+				""
+				"&7[Make sure to grab some Speed or Stack upgrades for them!]&f"
+				""
+				"&7[You can also filter what items are pulled. Need more filter slots? Upgrade it!]&f"
+			]
+			hide: true
+			id: "532229D285CA4858"
+			shape: "hexagon"
+			subtitle: "导入物品!&7[Importing Items!]&f"
+			tasks: [{
+				id: "0E57EE9B975D05C3"
+				item: "refinedstorage:importer"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"此界面会自动拆除附着的方块."
+				""
+				"你也可以将其设置为仅接受白名单方块,这对于自动化某些进程(如在Create中制造壳)非常有用."
+				""
+				""
+				"&7[This interface will automatically break the block it is attached to.]&f"
+				""
+				"&7[You can also set it to whitelist blocks, which is useful for automating certain processes, like making casings in Create.]&f"
+			]
+			hide: true
+			id: "6092490EC9008A05"
+			shape: "hexagon"
+			subtitle: "打破方块!&7[Breaking Blocks!]&f"
+			tasks: [{
+				id: "5762E9CE9A7D3FCA"
+				item: "refinedstorage:destructor"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"此界面会将指定的方块放置在其指向的方向上."
+				""
+				"你可以在图形界面中指定方块.这对于自动化非常有用!"
+				""
+				""
+				"&7[This interface will place the designated block in the direction it is pointed.]&f"
+				""
+				"&7[You can designate the block within the GUI. This is useful for automation!]&f"
+			]
+			hide: true
+			id: "2CFEE04BA574921E"
+			shape: "hexagon"
+			subtitle: "放置方块!&7[Placing Blocks!]&f"
+			tasks: [{
+				id: "2BB33FEBA2B071DF"
+				item: "refinedstorage:constructor"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"输出总线用于将系统中的物品推入网络存储器中的方块中."
+				""
+				"这可以用于金属熔炉中的矿石或燃料的填充,将材料推入指定的箱中等等."
+				""
+				"你还可以筛选被推送的物品.需要更多的筛选槽吗？用空白升级来升级它!"
+				""
+				""
+				"&7[The Exporter is used to push items from your system into a block from your Network storage.]&f"
+				""
+				"&7[This can be used to fill Furnaces with ores or fuel, push materials into designated chests, etc.]&f"
+				""
+				"&7[You can also filter what items are pushed. Need more filter slots? Upgrade it!]&f"
+			]
+			hide: true
+			id: "4CD83943865018EA"
+			shape: "hexagon"
+			subtitle: "导出物品!&7[Exporting Items!]&f"
+			tasks: [{
+				id: "528F054C15BB7191"
+				item: "refinedstorage:exporter"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7604D8B3C9FCCFD9"]
+			description: [
+				"64k流体存储原件用于制作64k流体存储磁盘."
+				""
+				""
+				"&7[The 64k Fluid Storage Part is used to craft the 64k Fluid Storage Disk.]&f"
+			]
+			id: "4B81E84CAE814BA9"
+			shape: "diamond"
+			tasks: [{
+				id: "3F9B17A338B2EEFE"
+				item: "refinedstorage:64k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4B81E84CAE814BA9"]
+			description: [
+				"&a256k流体存储原件&f用于制作&a256k流体存储磁盘&f."
+				""
+				""
+				"&7[The 256k Fluid Storage Part is used to craft the 256k Fluid Storage Disk.]&f"
+			]
+			id: "39C8E1705EF1CD31"
+			shape: "diamond"
+			tasks: [{
+				id: "440737C224526B0B"
+				item: "refinedstorage:256k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39C8E1705EF1CD31"]
+			description: [
+				"&a1024k流体存储原件&f用于制作&a1024k流体存储磁盘&f."
+				""
+				""
+				"&7[The 1024k Fluid Storage Part is used to craft the 1024k Fluid Storage Disk.]&f"
+			]
+			id: "60244F26B9ABED49"
+			shape: "diamond"
+			tasks: [{
+				id: "40AEA1CE52FAFCAB"
+				item: "refinedstorage:1024k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["60244F26B9ABED49"]
+			description: [
+				"&a4096k流体存储原件&f用于制作&a4096k流体存储磁盘&f."
+				""
+				""
+				"&7[The 4096k Fluid Storage Part is used to craft the 4096k Fluid Storage Disk.]&f"
+			]
+			id: "3751015CD5C84134"
+			shape: "hexagon"
+			tasks: [{
+				id: "2B57DE504688FC8D"
+				item: "refinedstorage:4096k_fluid_storage_part"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"这种电缆接口可能是在&d精致存储&f之旅中所能制作的最重要的物品."
+				""
+				"这种电缆接口将外部存储连接到你的&d精致存储&f网络.基本上,它让RS可以查看存储容器,让你可以在网格中访问它!"
+				""
+				"它可用于许多物品,包括但不限于:箱子,木桶,&a抽屉&f,&a抽屉控制器&f等!"
+				""
+				"如果你不能制作存储盘而只有一堆箱子,那么这是你创建存储网络的最佳选择!"
+				""
+				""
+				"&7[This type of cable interface is probably the most important item one can make in their Refined Storage journey.]&f"
+				""
+				"&7[This type of cable interface connects an external storage to your Refined Storage Network. It basically lets RS look into the storage container to let you access it within your grid!]&f"
+				""
+				"&7[This works on many things, including but not limited to: Chests, Barrels, Drawers, Drawer Controllers, and more!]&f"
+				""
+				"&7[If you can't make drives and have a bunch of chests everywhere, this is your best bet in creating a storage Network!]&f"
+			]
+			hide: true
+			id: "253657BE5D9D9162"
+			min_width: 300
+			shape: "hexagon"
+			tasks: [{
+				id: "4D9E7CCF420BDE8C"
+				item: "refinedstorage:external_storage"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"&9&a权限管理器&f&r可让你向网络中的用户授予访问和权限."
+				""
+				"当放置在你的系统中时,你需要为要配置权限的每个玩家创建一个&9&a安全卡&f&r.当没有任何卡时,任何人都可以访问所有权限."
+				""
+				"为了限制未配置玩家的权限和访问,配置一个未绑定玩家的卡并放入管理器中.放置&a权限管理器&f的人将始终可以访问它."
+				""
+				""
+				"&7[The Security Manager allows you to grant access and permissions to users within your network.]&f"
+				""
+				"&7[When placed in your system, you'll need to create a Security Card for each player you'd like to configure permissions for. When no cards are present, everyone has access to all permissions.]&f"
+				""
+				"&7[To restrict permissions and access to all unconfigured players, configure a card that isn't bound to a player and put it into the manager. The person who placed the Security Manager will always have access to it.]&f"
+			]
+			id: "3B84215240D9F2CB"
+			min_width: 300
+			optional: true
+			rewards: [{
+				id: "03E85C433BFA3B18"
+				item: "refinedstorage:security_card"
+				type: "item"
+			}]
+			subtitle: "保护您的网格!&7[Secure your grid!]&f"
+			tasks: [{
+				id: "20F3020C07C9D22B"
+				item: "refinedstorage:security_manager"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			description: [
+				"好了!我们可以在虚拟中存储物品,但是我们如何看到网络中的物品？"
+				""
+				"要访问系统,你需要创建一个&9格子&r.格子是你的库存中物品的最基本形式的\"显示 \"."
+				""
+				""
+				"&7[Great! We can store items virtually, but how do we see what is on the network?]&f"
+				""
+				"&7[To access the system, you'll need to create a Grid. The Grid is the most basic form of \"Display\" for the items in your inventory.]&f"
+			]
+			id: "43E8912CB307E421"
+			shape: "rsquare"
+			size: 1.25d
+			tasks: [{
+				id: "68A80F00CAFF427D"
+				item: "refinedstorage:grid"
+				type: "item"
+			}]
+			title: "访问我们的网络存储&7[Accessing Our Network Storage]&f"
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: [
+				"这让你可以使用合成台访问你的存储!"
+				""
+				"让我们坦白地说,没有人只会使用常规格子."
+				""
+				""
+				"&7[This lets you access your storage, but with a crafting table!]&f"
+				""
+				"&7[Let's be honest, no one just uses regular Grids.]&f"
+			]
+			id: "0F00BBDF3618B3BA"
+			shape: "diamond"
+			tasks: [{
+				id: "5B74E6CB7AB75F92"
+				item: "refinedstorage:crafting_grid"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["59F5ED931FD70C55"]
+			description: [
+				"这个格子允许您将配方印在网络的图案上."
+				""
+				"为模样创建配方的最简单方法是在JEI中查找该项,然后单击配方右下角的\"+ \"按钮.然后,这将在格子中放置配方."
+				""
+				"该部分右侧顶部插槽用于存储空白的&a模具&f.将空白的&a模具&f放入其中后,您应该能够点击下面的箭头将配方印在图案上."
+				""
+				"然后,您将需要将&a模具&f放入制造机中!"
+				""
+				""
+				"&7[This grid allows you to imprint recipes onto patterns for your network.]&f"
+				""
+				"&7[The easiest way to create a recipe for a pattern is to look up the item in JEI, then click the \"+\" button in the bottom right of the recipe. This will then place the recipe into the grid.]&f"
+				""
+				"&7[On the right side, the top slot is used for storing blank Patterns. With a blank Pattern inside, you should be able to click the Arrow underneath to imprint the recipe onto the pattern.]&f"
+				""
+				"&7[You'll then want to put the Pattern into a crafter!]&f"
+			]
+			hide: true
+			id: "65C8A43FEDBA3835"
+			min_width: 300
+			shape: "square"
+			tasks: [{
+				id: "79E70744DBC24777"
+				item: "refinedstorage:pattern_grid"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: [
+				"计划存储液体？您需要使用&9&a流体终端&f&r以查看液态磁盘中有哪些液体."
+				""
+				"专业提示:如果想要存储来自&d通用机械&f的气体,请查看能否使用&a回旋式气液转换机&f将其转化为液体."
+				""
+				""
+				"&7[Plan on storing Liquids? You'll need a Fluid Grid to be able to see what fluids you have in your Fluid Disks. ]&f"
+				""
+				"&7[Pro Tip: If you want to store gases from Mekanism, see if you can turn it into a liquid first using a Rotary Condensentrator. ]&f"
+			]
+			id: "51E9D03CD755A607"
+			shape: "diamond"
+			tasks: [{
+				id: "4EAE7D47133842B1"
+				item: "refinedstorage:fluid_grid"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: [
+				"它让你可以无线访问你的存储."
+				""
+				""
+				"&7[Allows you to access your storage wirelessly.]&f"
+			]
+			id: "15ECBC8E174FA39B"
+			shape: "diamond"
+			tasks: [{
+				id: "1488D961F51ED182"
+				item: "refinedstorage:wireless_grid"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: [
+				"它让你可以无线访问你的流体网格."
+				""
+				""
+				"&7[Allows you to access your fluid grid wirelessly.]&f"
+			]
+			id: "7FA85713C86166DA"
+			shape: "diamond"
+			tasks: [{
+				id: "77FE4FDC2F752084"
+				item: "refinedstorage:wireless_fluid_grid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: [
+				"&a便携式终端&f是一种便携式存储装置,不连接网络.它可以让您在未连接网络时与存储盘进行交互."
+				""
+				""
+				"&7[The Portable Grid is a portable storage that isn’t connected to a network. It allows you to interact with a Storage Disk while not being connected to a network.]&f"
+			]
+			hide: false
+			hide_dependency_lines: false
+			id: "66D85424EC74EDCC"
+			optional: true
+			shape: "diamond"
+			subtitle: "随时随地的网格&7[On-The-Go Grid]&f"
+			tasks: [{
+				id: "301E0669A3CD84EF"
+				item: {
+					Count: 1
+					id: "refinedstorage:portable_grid"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"要存储物品,您需要创建存储在&a&a磁盘驱动器&f&r中的磁盘.您可以将其放在&a控制器&f旁边或使用管道连接到网络."
+				""
+				"每个&a磁盘驱动器&f具有8个存储盘槽."
+				""
+			]
+			id: "12A43F82FC67A289"
+			shape: "rsquare"
+			size: 1.25d
+			subtitle: "软盘时间!&7[Floppy time!]&f"
+			tasks: [{
+				id: "3724447C3E0F9942"
+				item: "refinedstorage:disk_drive"
+				type: "item"
+			}]
+			title: "创建虚拟存储&7[Creating Virtual Storage]&f"
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			description: [
+				"允许您将物品和流体从一个存储盘传输到另一个网络的存储盘."
+				""
+				""
+				"&7[Allows you to take items and fluids from one disk into another grid's disks.]&f"
+			]
+			hide: true
+			id: "4844DEF57A2287B4"
+			shape: "hexagon"
+			tasks: [{
+				id: "057EA89AE615DA6D"
+				item: "refinedstorage:disk_manipulator"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			description: [
+				"&9&a模具&f&r是自动合成的基础.它们存储配方,让您的RS网络知道如何制作物品."
+				""
+				""
+				"&7[Patterns are the bread and butter of autocrafting. These store recipes to let your RS network know how to craft items.]&f"
+			]
+			id: "59F5ED931FD70C55"
+			rewards: [{
+				count: 8
+				id: "4348758E87B788AE"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "45359CC3EC90B74B"
+				item: "refinedstorage:pattern"
+				type: "item"
+			}]
+			title: "自动合成!&7[Autocrafting!]&f"
+			x: 2.0d
+			y: -4.449999999999999d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"与您的系统连接后,此方块将显示您网络中某个物品的当前数量."
+				""
+				""
+				"&7[When connected to your system, this block will display the current number of an item within your network.]&f"
+			]
+			hide: true
+			id: "64E85274D24FE394"
+			optional: true
+			rewards: [{
+				id: "6AC46C5C8136A9C3"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "59E1432B592B686C"
+				item: "refinedstorage:storage_monitor"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["43E8912CB307E421"]
+			dependency_requirement: "one_started"
+			description: [
+				"如果您想通过无线方式访问&d精致存储&f网络,首先需要创建&9&a无线访问点&f&r."
+				""
+				"您可以将其连接到系统的任何位置.这是使用无线网络必需的."
+				""
+				""
+				"&7[If you want to access your Refined Storage network wirelessly, you'll need to start by creating a Wireless Transmitter.]&f"
+				""
+				"&7[You can attach this anywhere on your system. This is needed to use wireless grids.]&f"
+			]
+			hide_dependency_lines: false
+			id: "6B04FC81351CD1AB"
+			shape: "hexagon"
+			subtitle: "远距离存储&7[Storage, at a distance]&f"
+			tasks: [{
+				id: "48935A6041672A29"
+				item: "refinedstorage:wireless_transmitter"
+				type: "item"
+			}]
+			title: "&5无线访问&7[Wireless Access]&f"
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2E2811D1A0F2A492"]
+			description: [
+				"\"我需要更大的范围!!! \""
+				""
+				"好吧,在&a无线访问点&f上放置其中一种即可无限范围访问您的网络存储."
+				""
+				"然而,这不包括其他维度......"
+				""
+				""
+				"&7[\"I need more RANGE!!!\"]&f"
+				""
+				"&7[Well, slap one of these bad boys in your Wireless Transmitter and you'll be able to access your network storage with infinite range.]&f"
+				""
+				"&7[This, however, does not extend to other dimensions.....]&f"
+			]
+			id: "3E0D29502690E02F"
+			shape: "circle"
+			tasks: [{
+				id: "4DD51C8F38808EB9"
+				item: "rsinfinitybooster:infinity_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["12A43F82FC67A289"]
+			dependency_requirement: "one_started"
+			description: [
+				"现在是时候创建&d精致存储&f的\"硬盘 \"了.为此,我们将需要一个&9&a磁盘外壳&f&r,将其与&a存储部件&r组合即可创建一个&d存储盘&r.只需制作所需大小的部件,然后与外壳组合即可创建磁盘."
+				""
+				"存储盘用于将物品虚拟存储在&a磁盘驱动器&f中.必须将其放入&a磁盘驱动器&f中.即使从世界中丢弃,存储盘也不会消失."
+				""
+				""
+				"&7[It's time to create the \"Hard Drives\" of Refined Storage. To do this, we'll need a Storage Housing that we'll combine with a Storage Part to create a Storage Disk. Just simply make the desired size of the part, then combine with the housing to create a disk.]&f"
+				""
+				"&7[The Storage Disk is used to store your items virtually once placed inside of the Disk Drive. It has to be put in a Disk Drive. The Storage Disk won’t despawn when dropped in the world.]&f"
+			]
+			hide: true
+			id: "7604D8B3C9FCCFD9"
+			min_width: 300
+			shape: "rsquare"
+			tasks: [{
+				id: "546B04909ABE8383"
+				item: "refinedstorage:storage_housing"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["01F18150EC923482"]
+			description: [
+				"由于&a控制器&f的限制,您可能想要连接不同的系统到您的主枢纽而不使用大量电缆连接它们."
+				""
+				"这可通过使用&6&a网络发送器&f&r和&6接收器&r来完成."
+				""
+				"&9&a发送器&f&r应连接到您的主系统,即您的&a控制器&f所在的位置."
+				""
+				"&9接收器&r应放置在您想要外部网络的任何位置.例如,这可以是您的基地的一个不同部分,其中有蜜蜂、刷怪塔等."
+				""
+				"要将接收器连接到您的主网络,您需要使用&e&a网络卡&f&r.要绑定&a网络卡&f,请右键单击&a网络接收器&f,然后将&a网络卡&f放入连接到您的主系统的&a网络发送器&f中."
+				""
+				""
+				"&7[Because of the Controller limit, you'll probably end up wanting to connect different systems to your main hub without a billion cables connecting them.]&f"
+				""
+				"&7[This is done using Network Transmitters and Receivers.]&f"
+				""
+				"&7[Transmitters should be connected to your main system, wherever your Controller is.]&f"
+				""
+				"&7[The Receiver should go wherever you want your external network to be. For example, this can be a separate part of your base where you have Bees, a mob farm, etc.]&f"
+				""
+				"&7[To connect the Receiver to your main network, you'll need to use a Network Card. To bind the Network Card, right-click on the Network Receiver, and then place the Network Card into the Network Transmitter that is attached to your main system.]&f"
+			]
+			id: "3E890BABC4C41370"
+			min_width: 300
+			rewards: [{
+				id: "7D644616E6416286"
+				item: "refinedstorage:network_card"
+				type: "item"
+			}]
+			subtitle: "无线连接网络!&7[Wirelessly Connecting Networks!]&f"
+			tasks: [
+				{
+					id: "2E028480454ECBB5"
+					item: "refinedstorage:network_transmitter"
+					type: "item"
+				}
+				{
+					id: "1CB0AFE99559C1B5"
+					item: "refinedstorage:network_receiver"
+					type: "item"
+				}
+			]
+			title: "网格网络&7[Grid Networks]&f"
+			x: -6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4B81E84CAE814BA9"
+				"4101F8275B41C79B"
+			]
+			description: [
+				"不喜欢在驱动器中存储物品？"
+				""
+				"您也可以创建存储&9方块&r,只需在系统中的某个地方放置该方块即可."
+				""
+				"无论何时打破该方块,其中的物品都将被存储."
+				""
+				"如果要取消合成,可以在持有该方块的同时进行潜行右键单击."
+				""
+				""
+				"&7[Don't like storing things in drives?]&f"
+				""
+				"&7[You can create storage Blocks instead and just slap the block down somewhere in your system.]&f"
+				""
+				"&7[Whatever items end up in the block will be stored inside whenever you break it as well.]&f"
+				""
+				"&7[If you want to un-craft it, you can sneak right click while holding it.]&f"
+			]
+			id: "62625CAF6649AB53"
+			optional: true
+			shape: "rsquare"
+			tasks: [{
+				id: "4540AB0231FE3B1A"
+				item: "refinedstorage:1k_storage_block"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6092490EC9008A05"]
+			description: [
+				"这些升级可以为您的&a灭世者&f添加魔咒."
+				""
+				"想知道为什么要使用这个吗？想象一下将&a建造机&f或采石机丝滑地投入你的系统中.你可以用&a成型面板&f放置这些矿石,然后用带有Fortune附魔的&a灭世者&f破坏它以获得更多生铁."
+				""
+				""
+				"&7[These upgrades add enchantments to your Destructor.]&f"
+				""
+				"&7[Wondering why you would use this? Imagine having a Builder or Quarry pump Silk-Touched Ores into your system. You can have a Constructor place these ores, then a Destructor with Fortune on it to break it for even more raw ores.]&f"
+			]
+			hide_dependency_lines: false
+			id: "787415570026FFAA"
+			min_width: 300
+			optional: true
+			shape: "diamond"
+			tasks: [
+				{
+					id: "416E0011066156D2"
+					item: "refinedstorage:silk_touch_upgrade"
+					type: "item"
+				}
+				{
+					id: "086992D773D34C15"
+					item: "refinedstorage:fortune_3_upgrade"
+					type: "item"
+				}
+			]
+			title: "&a灭世者&f &a空白升级&f&7[Destructor Upgrades]&f"
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			dependency_requirement: "one_completed"
+			description: [
+				"&9&a速度升级&f&r正好像它的名字一样,可以增加界面/方块工作的速度.需要更快的进口机?希望你的制造者更快的工作吗？这就是它的作用!"
+				""
+				"&6&a堆叠升级&f&r可以一次传输一个堆叠的物品而不是只有一个.与&a速度升级&f组合使用!"
+				""
+				""
+				"&7[The Speed Upgrade does exactly what it says it does. It will increase the speed at which the interface/block works. Need an importer to pull faster? Want your crafters to work faster? This is the upgrade!]&f"
+				""
+				"&7[The Stack Upgrade increases the speed of transfer by a stack of items rather than just one. Combine with Speed Upgrades!]&f"
+			]
+			hide: true
+			id: "2B27E4E04A628C60"
+			rewards: [{
+				id: "4B859F9679182D36"
+				item: "refinedstorage:speed_upgrade"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0B3AB478E6493DBC"
+					item: "refinedstorage:speed_upgrade"
+					type: "item"
+				}
+				{
+					id: "2B39C12AEFA55C59"
+					item: "refinedstorage:stack_upgrade"
+					type: "item"
+				}
+			]
+			title: "加速一切!&7[Speeding Everything Up!]&f"
+			x: -7.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"&9Filter&r是网格中用于指定哪些物品或流体可以被显示的物品."
+				""
+				""
+				"&7[The Filter is an item used in a Grid to specify which items or fluids can be visible.]&f"
+			]
+			hide: true
+			id: "35EC08D610382860"
+			optional: true
+			tasks: [{
+				id: "5BFCB4F5C8CCA8C9"
+				item: "refinedstorage:filter"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["6B04FC81351CD1AB"]
+			description: [
+				"想要增加无线连接到你的系统的范围,就需要制作&9&a范围升级&f&r."
+				""
+				"&a无线访问点&f只能容纳4个.这里有一个赠送给你."
+				""
+				""
+				"&7[To increase the range of your wireless connection to your system, you'll need to craft Range Upgrades.]&f"
+				""
+				"&7[The Wireless Transmitter can only hold 4 total. Here's one on the house.]&f"
+			]
+			hide: true
+			id: "2E2811D1A0F2A492"
+			rewards: [{
+				id: "56D7CD357A4D790B"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			shape: "circle"
+			subtitle: "我指传输范围&7[I mean Transmitting Range]&f"
+			tasks: [{
+				id: "7AB53C2469B768E0"
+				item: "refinedstorage:range_upgrade"
+				type: "item"
+			}]
+			title: "增加无线网络范围&7[Increasing Wifi Range]&f"
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3E0D29502690E02F"]
+			description: [
+				"但是这个升级是有用的!"
+				""
+				"这个模组可以让你的RS系统在任何维度里都可以进行无线访问."
+				""
+				""
+				"&7[But this one does!]&f"
+				""
+				"&7[This allows your RS system to be accessed wirelessly from any dimension.]&f"
+			]
+			id: "3EE9958D84A1252C"
+			shape: "circle"
+			tasks: [{
+				id: "19BBDF4958C7FD63"
+				item: "rsinfinitybooster:dimension_card"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6904EC449FBEE387"]
+			description: [
+				"&9Regulator &a空白升级&f&r可以使你在块或机器中保持一定数量的物品.一个很好的例子是告诉你的网络你想在&a电炉&f中保持64个煤.你会将升级放在连接到熔炉的出口器中,并将其设置为64.然后你的系统会尽力让熔炉一直保持加燃料!"
+				""
+				"但是如果你需要一件手工制作的物品怎么办？&9&a合成升级&f&r就是为此而生的.如果你在老师里学到了配方,将这个升级添加到接口中,它就知道在你用完时制作它了."
+				""
+				"使用我们之前的例子,假设我们有一个神秘的农场,有&a煤精华&f,我们可以将煤的配方放在连接到我们系统的老师中,然后将这个升级放在保持&a电炉&f燃料的同一出口器中.如果你的系统没有煤了,制作升级会让你的系统自动制作一些."
+				""
+				""
+				"&7[The Regulator Upgrade allows you to maintain a certain amount of items within a block or machine. A great example of this is telling your network that you want to keep 64 Coal within a Furnace. You'd place the upgrade in the exporter attached to the furnace, and set it to 64. Your system will then try to keep the furnace full of fuel!]&f"
+				""
+				"&7[But what if you need an item that is crafted? The Crafting Upgrade does exactly this. If you have the recipe learned inside of a crafter, adding this upgrade to an interface will let it know to craft it if you run out.]&f"
+				""
+				"&7[Using our example from before, let's say we have a Mystical Ag farm going and have Coal Essence. We can then put the Coal recipe in a crafter connected to our system, then place this upgrade in the same exporter that is keeping the Furnace fueled. If you run out of Coal in your system, the crafting upgrade allows your system to craft some more!]&f"
+			]
+			hide: true
+			hide_dependency_lines: true
+			id: "30700E99091B712A"
+			min_width: 300
+			rewards: [
+				{
+					id: "085EEF00946EFDB6"
+					item: "refinedstorage:regulator_upgrade"
+					type: "item"
+				}
+				{
+					id: "684D20A983D190DB"
+					item: "refinedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "33CE02A9C852D835"
+					item: "refinedstorage:regulator_upgrade"
+					type: "item"
+				}
+				{
+					id: "37BB3E6C1BF5560C"
+					item: "refinedstorage:crafting_upgrade"
+					type: "item"
+				}
+			]
+			title: "在&a物品传输接口&f中控制物品&7[Regulating Items in Interfaces]&f"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65C8A43FEDBA3835"]
+			description: [
+				"当连接到你的系统时, &9&a合成监控器&f&r可以让你看到当前正在制作的物品."
+				""
+				"如果你想要取消一些无效的或出锅了的工艺,你就需要一个这个升级."
+				""
+				""
+				"&7[When attached to your system, the Crafting Monitor allows you to see what items are currently in your crafting queue.]&f"
+				""
+				"&7[You'll need one of these if you want to be able to cancel crafts that aren't working or are bugged. ]&f"
+			]
+			id: "7044EAB5EDF32BBC"
+			shape: "pentagon"
+			tasks: [{
+				id: "79FEA8AA18E5ED45"
+				item: "refinedstorage:crafting_monitor"
+				type: "item"
+			}]
+			title: "监控合成队列&7[Monitoring the Crafting Queue]&f"
+			x: 1.0d
+			y: -6.5d
+		}
+	]
+	title: "&d精致存储"
+}

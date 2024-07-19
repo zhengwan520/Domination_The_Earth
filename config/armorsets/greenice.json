@@ -1,0 +1,35 @@
+{
+  "armorSetName": "red",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:armor_green_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "iceandfire:armor_green_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "iceandfire:armor_green_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "iceandfire:armor_green_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0,
+      "modifierUUID": "cefc43d5-372c-4501-90b5-3c20fb960c10",
+      "description": "resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

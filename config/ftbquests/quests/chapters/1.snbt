@@ -1,0 +1,147 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1"
+	group: "4E2A249F11A26E74"
+	icon: "mowziesmobs:sol_visage"
+	id: "0ED88B8A4E3F33F4"
+	images: [
+		{
+			height: 1.0d
+			image: "amethyst_imbuement:textures/gui/armor_chroma.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -34.5d
+			y: -6.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/ancientremnantpng.png"
+			rotation: 0.0d
+			width: 1.7777777777777777d
+			x: -24.0d
+			y: -11.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/leviathan.png"
+			rotation: 0.0d
+			width: 1.7777777777777777d
+			x: -30.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/netherboss.png"
+			rotation: 0.0d
+			width: 1.7777777777777777d
+			x: -29.5d
+			y: 0.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/monstrosity.png"
+			rotation: 0.0d
+			width: 1.7777777777777777d
+			x: -22.0d
+			y: -6.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "mowziesmobs:sol_visage"
+			id: "4C709641E8D2E9DB"
+			size: 2.0d
+			tasks: [{
+				id: "76819C58F7F8CE18"
+				type: "checkmark"
+			}]
+			title: "准备好开始挑战第三章了吗"
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4C709641E8D2E9DB"]
+			description: ["&b结构名frostmaw_spawn"]
+			id: "46BB60236B1E0DD6"
+			rewards: [{
+				id: "527EDB5A8A5FDF73"
+				item: {
+					Count: 1
+					id: "mowziesmobs:ice_crystal"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_frostmaw"
+				criterion: ""
+				id: "1AF8555D2671DB23"
+				title: "击败寒霜巨兽"
+				type: "advancement"
+			}]
+			x: -15.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C709641E8D2E9DB"]
+			description: ["&b结构名wrought_chamber"]
+			id: "28CE55394CB10E2F"
+			rewards: [
+				{
+					id: "145F6FD6CA0D498B"
+					item: {
+						Count: 1
+						id: "mowziesmobs:earthbore_gauntlet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "57FD6BDCBAF530D9"
+					item: "mowziesmobs:earth_talisman"
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_ferrous_wroughtnaut"
+				criterion: ""
+				id: "3718210A7E37D18F"
+				title: "击败钢铁守护者"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4C709641E8D2E9DB"]
+			description: ["&bumvuthana_grove"]
+			icon: "mowziesmobs:grant_suns_blessing"
+			id: "2A5ED14B9948619A"
+			rewards: [{
+				id: "5ABE9AB2B79A68BB"
+				item: "mowziesmobs:grant_suns_blessing"
+				type: "item"
+			}]
+			size: 2.0d
+			tasks: [{
+				advancement: "mowziesmobs:kill_umvuthi"
+				criterion: ""
+				id: "12A1CD0C158BD638"
+				title: "击败太阳神！"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -14.0d
+		}
+	]
+	title: "&3灾厄级Boss讨伐"
+}

@@ -1,0 +1,16 @@
+{
+	id: "780A6CFC2F1EFBE6"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 24
+	rewards: [{ count: 3, item: "minecraft:totem_of_undying" }]
+	title: "下界币奖励"
+}

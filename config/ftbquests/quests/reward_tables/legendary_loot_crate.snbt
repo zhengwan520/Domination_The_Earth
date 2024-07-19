@@ -1,0 +1,118 @@
+{
+	id: "049119B020563230"
+	loot_crate: {
+		color: 16299838
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "legendary_loot_crate"
+	}
+	loot_size: 1
+	order_index: 14
+	rewards: [
+		{
+			count: 3
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:totem_of_undying"
+			}
+		}
+		{ item: "skilltree:wisdom_scroll" }
+		{ item: "skilltree:amnesia_scroll" }
+		{ item: "l2artifacts:random_5" }
+		{ item: "rsinfinitybooster:dimension_card" }
+		{ item: "enigmaticlegacy:astral_dust" }
+		{ item: "enigmaticlegacy:astral_fruit" }
+		{
+			item: {
+				Count: 1
+				id: "l2archery:winter_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2weaponry:claw_of_determination"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2archery:upgrade"
+				tag: {
+					upgrade: "l2archery:railgun"
+				}
+			}
+		}
+		{ item: "l2hostility:undying" }
+		{ item: "l2complements:force_field" }
+		{ item: "l2complements:totem_of_the_sea" }
+		{ item: "l2complements:resonant_feather" }
+		{ item: "l2complements:captured_wind" }
+		{ item: "l2hostility:hostility_orb" }
+		{ item: "l2hostility:teleport" }
+		{ item: "l2hostility:gravity" }
+		{ item: "l2hostility:tank" }
+		{ item: "l2hostility:drain" }
+		{ item: "l2hostility:miracle_ingot" }
+		{ item: "l2hostility:book_of_reprint" }
+		{ item: "l2hostility:hostility_detector" }
+		{ item: "l2hostility:platinum_star" }
+		{
+			item: {
+				Count: 1
+				id: "l2archery:sun_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "l2archery:dispell_arrow" }
+		{
+			item: {
+				Count: 1
+				id: "l2archery:storm_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2archery:winter_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "l2archery:earth_bow"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "l2hostility:wither" }
+		{ item: "l2archery:storm_arrow" }
+		{ item: "l2complements:eternium_block" }
+		{ item: "curseofpandora:hellfire_skull" }
+	]
+	title: "传奇战利品箱"
+	use_title: true
+}

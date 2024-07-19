@@ -1,0 +1,31 @@
+{
+	icon: "celestial_artifacts:spirit_crown"
+	id: "57DCD4ABBC27505C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "holy_grade"
+	}
+	loot_size: 1
+	order_index: 62
+	rewards: [
+		{ item: "celestial_artifacts:spirit_crown", weight: 2.0f }
+		{ item: "celestial_artifacts:twisted_scabbard", weight: 2.0f }
+		{ item: "celestial_artifacts:holy_necklace", weight: 2.0f }
+		{ item: "celestial_artifacts:prayer_crown", weight: 2.0f }
+		{ item: "celestial_artifacts:destroyer_badge", weight: 2.0f }
+		{ item: "iceandfire:dragonsteel_fire_ingot", weight: 5.0f }
+		{ item: "iceandfire:dragonsteel_ice_ingot", weight: 5.0f }
+		{ item: "iceandfire:dragonsteel_lightning_ingot", weight: 5.0f }
+		{ item: "celestial_core:void_essence", weight: 3.0f }
+		{ item: "l2complements:resonant_feather", weight: 3.0f }
+		{ item: "l2complements:void_eye", weight: 3.0f }
+		{ item: "minecraft:nether_star", weight: 3.0f }
+		{ item: "enigmaticlegacy:etherium_ore", random_bonus: 2, weight: 3.0f }
+	]
+	title: "圣品饰品"
+}

@@ -1,0 +1,96 @@
+{
+	id: "32F9A93C0635A760"
+	loot_size: 1
+	order_index: 18
+	rewards: [
+		{ count: 4, item: "aquaculture:lockbox" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:gunpowder"
+			}
+		}
+		{ count: 4, item: "minecraft:book" }
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:slime_ball"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:snow_block"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:feather"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:cactus"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:water_bucket"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "blossom_saplings"
+				}
+			}
+			title: "Blossom Saplings"
+		}
+	]
+	title: "铁币奖励"
+}

@@ -1,0 +1,24 @@
+{
+	id: "13B5E5F382257945"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "back"
+	}
+	loot_size: 1
+	order_index: 85
+	rewards: [
+		{ item: "celestial_artifacts:magic_arrow_bag" }
+		{ item: "celestial_artifacts:flame_arrow_bag" }
+		{ item: "celestial_artifacts:spirit_arrow_bag" }
+		{ item: "celestial_artifacts:iron_scabbard" }
+		{ item: "celestial_artifacts:leech_scabbard" }
+		{ item: "celestial_artifacts:titan_scabbard" }
+		{ item: "celestial_artifacts:twisted_scabbard" }
+	]
+	title: "背饰"
+}

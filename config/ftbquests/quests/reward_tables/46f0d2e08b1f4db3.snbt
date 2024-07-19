@@ -1,0 +1,29 @@
+{
+	id: "46F0D2E08B1F4DB3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "dragon_egg"
+	}
+	loot_size: 1
+	order_index: 64
+	rewards: [
+		{ item: "iceandfire:dragonegg_red" }
+		{ item: "iceandfire:dragonegg_green" }
+		{ item: "iceandfire:dragonegg_bronze" }
+		{ item: "iceandfire:dragonegg_gray" }
+		{ item: "iceandfire:dragonegg_blue" }
+		{ item: "iceandfire:dragonegg_white" }
+		{ item: "iceandfire:dragonegg_sapphire" }
+		{ item: "iceandfire:dragonegg_silver" }
+		{ item: "iceandfire:dragonegg_electric" }
+		{ item: "iceandfire:dragonegg_amythest" }
+		{ item: "iceandfire:dragonegg_copper" }
+		{ item: "iceandfire:dragonegg_black" }
+	]
+	title: "龙蛋"
+}

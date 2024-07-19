@@ -1,0 +1,35 @@
+{
+  "armorSetName": "red",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "iceandfire:armor_sapphire_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "iceandfire:armor_sapphire_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "iceandfire:armor_sapphire_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "iceandfire:armor_sapphire_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 0,
+      "modifierUUID": "0490ac55-de55-4b5b-8784-19324b0d52ad",
+      "description": "resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

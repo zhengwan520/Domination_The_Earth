@@ -1,0 +1,199 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+
+[armor]
+
+[armor.ametrine]
+enchantability = 18
+durabilityMultiplier = 39
+knockbackResistance = 0.1
+toughness = 3.2
+
+[armor.ametrine.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:ametrine"
+
+[armor.ametrine.protectionAmounts]
+head = 4
+chest = 9
+legs = 7
+boots = 4
+
+[armor.steel]
+enchantability = 10
+durabilityMultiplier = 20
+knockbackResistance = 0.0
+toughness = 1.0
+
+[armor.steel.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:steel_ingot"
+
+[armor.steel.protectionAmounts]
+head = 2
+chest = 7
+legs = 6
+boots = 2
+
+[armor.garnet]
+enchantability = 12
+durabilityMultiplier = 55
+knockbackResistance = 0.05
+toughness = 2.0
+
+[armor.garnet.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:garnet"
+
+[armor.garnet.protectionAmounts]
+head = 3
+chest = 8
+legs = 6
+boots = 3
+
+[armor.glowing]
+enchantability = 35
+durabilityMultiplier = 14
+knockbackResistance = 0.05
+toughness = 3.0
+
+[armor.glowing.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:glowing_fragment"
+
+[armor.glowing.protectionAmounts]
+head = 3
+chest = 9
+legs = 7
+boots = 3
+
+[armor.shimmering]
+enchantability = 25
+durabilityMultiplier = 12
+knockbackResistance = 0.0
+toughness = 0.0
+
+[armor.shimmering.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:shimmering_fabric"
+
+[armor.shimmering.protectionAmounts]
+head = 2
+chest = 6
+legs = 5
+boots = 2
+
+[armor.soulwoven]
+enchantability = 25
+durabilityMultiplier = 25
+knockbackResistance = 0.1
+toughness = 3.0
+
+[armor.soulwoven.repairIngredient]
+type = "stack"
+value = "minecraft:crying_obsidian"
+
+[armor.soulwoven.protectionAmounts]
+head = 3
+chest = 8
+legs = 6
+boots = 3
+
+[tools]
+
+[tools.garnet]
+durability = 3151
+miningSpeedMultiplier = 7.5
+attackDamage = 3.0
+miningLevel = 3
+enchantability = 12
+
+[tools.garnet.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:garnet"
+
+[tools.glowing]
+durability = 333
+miningSpeedMultiplier = 11.5
+attackDamage = 4.5
+miningLevel = 4
+enchantability = 12
+
+[tools.glowing.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:glowing_fragment"
+
+[tools.steel]
+durability = 400
+miningSpeedMultiplier = 6.5
+attackDamage = 2.5
+miningLevel = 2
+enchantability = 15
+
+[tools.steel.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:steel_ingot"
+
+[tools.ametrine]
+durability = 2550
+miningSpeedMultiplier = 9.5
+attackDamage = 5.0
+miningLevel = 4
+enchantability = 18
+
+[tools.ametrine.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:ametrine"
+
+[tools.glistering]
+durability = 550
+miningSpeedMultiplier = 9.5
+attackDamage = 11.0
+miningLevel = 3
+enchantability = 15
+
+[tools.glistering.repairIngredient]
+type = "stack"
+value = "amethyst_imbuement:garnet"
+
+[scepters]
+
+[scepters.tier1Scepter]
+attackSpeed = -3.0
+healCooldown = 150
+
+[scepters.tier2Scepter]
+attackSpeed = -3.0
+healCooldown = 125
+
+[scepters.tier3Scepter]
+attackSpeed = -3.0
+healCooldown = 80
+
+[scepters.blades]
+attackSpeed = -2.7
+healCooldown = 125
+
+[scepters.builder]
+attackSpeed = -3.0
+healCooldown = 125
+
+[scepters.fowl]
+attackSpeed = -3.0
+healCooldown = 12
+
+[scepters.fzzyhammer]
+attackSpeed = -3.2
+healCooldown = 120
+
+[scepters.harvests]
+attackSpeed = -3.0
+healCooldown = 100
+
+[scepters.lethality]
+attackSpeed = -2.7
+healCooldown = 90
+
+[scepters.vanguard]
+attackSpeed = -3.0
+healCooldown = 125

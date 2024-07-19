@@ -1,0 +1,25 @@
+{
+	id: "0B030631410286D7"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "rare_charm"
+	}
+	loot_size: 1
+	order_index: 75
+	rewards: [
+		{ item: "celestial_artifacts:cursed_talisman" }
+		{ item: "celestial_artifacts:abyss_will_badge" }
+		{ item: "celestial_artifacts:soul_box" }
+		{ item: "celestial_artifacts:demon_curse" }
+		{ item: "celestial_artifacts:cursed_totem" }
+		{ item: "celestial_artifacts:holy_sword" }
+		{ item: "celestial_artifacts:war_dead_badge" }
+		{ item: "celestial_artifacts:angel_heart" }
+	]
+	title: "稀有护符"
+}

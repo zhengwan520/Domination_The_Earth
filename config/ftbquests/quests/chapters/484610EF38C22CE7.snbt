@@ -1,0 +1,1190 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "484610EF38C22CE7"
+	group: "08240C27B45307B0"
+	id: "484610EF38C22CE7"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/jewelry_01.png"
+			rotation: 0.0d
+			width: 18.049837486457204d
+			x: 10.5d
+			y: -14.0d
+		}
+		{
+			height: 6.0d
+			image: "l2hostility:item/curio/abrahadabra"
+			rotation: 0.0d
+			width: 6.0d
+			x: -2.0d
+			y: -10.0d
+		}
+		{
+			height: 6.0d
+			image: "curseofpandora:item/pandora/hellfire_reformation"
+			rotation: 0.0d
+			width: 6.0d
+			x: 25.5d
+			y: 1.5d
+		}
+		{
+			height: 30.0d
+			image: "ftbquests:textures/gui/frame_03.png"
+			order: -1
+			rotation: 0.0d
+			width: 45.0d
+			x: 12.5d
+			y: -5.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "131B7B66DBC62633"
+			rewards: [{
+				id: "68AFBD2D99EF9898"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6555F6954350EF92"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -11.0d
+		}
+		{
+			id: "681D86DE88B587EF"
+			rewards: [{
+				id: "42756591F8929EEF"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "61CB2600EBFA355B"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			id: "4FED14119BE3F832"
+			rewards: [{
+				id: "214648F421FF4F68"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "22FB58A3D623C2D7"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -11.0d
+		}
+		{
+			id: "118C7292EE9E0098"
+			rewards: [{
+				id: "32C56A308BB131F4"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B59CE7C698E1127"
+				item: "l2hostility:curse_of_sloth"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -11.0d
+		}
+		{
+			id: "6C79AE54F067408D"
+			rewards: [{
+				id: "7A7E54C14A699D70"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2BFC8941623CE50E"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			id: "6FCB6D81C014885A"
+			rewards: [{
+				id: "00E008B43EEB6277"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "70FEDA0512187107"
+				item: "l2hostility:ring_of_ocean"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			id: "7FBA84E1CB60EAEC"
+			rewards: [{
+				id: "60588E1922E170EE"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "643887618065653C"
+				item: "l2hostility:ring_of_life"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -8.5d
+		}
+		{
+			id: "4A5883D09EB73B75"
+			rewards: [{
+				id: "45AA41EC072D160E"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06F48C4209BAEAAD"
+				item: "l2hostility:ring_of_divinity"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -8.5d
+		}
+		{
+			id: "023D5371B2B96477"
+			rewards: [{
+				id: "1BA7E1BA6E86FA46"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4E1BC5E3E7F38296"
+				item: "l2hostility:ring_of_reflection"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -8.5d
+		}
+		{
+			id: "69AADF56EA80B7B6"
+			rewards: [{
+				id: "7AA3C1D712A9521A"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4CBAA93AD3B0E875"
+				item: "l2hostility:ring_of_incarceration"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			id: "2830D6A0C293707D"
+			rewards: [{
+				id: "1476B54B627E1B58"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1B88D92C348F1887"
+				item: "l2hostility:ring_of_corrosion"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -8.5d
+		}
+		{
+			id: "48D83843A85C6D39"
+			rewards: [{
+				id: "7B86613B342AD141"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "352E5579BF958DBD"
+				item: "l2hostility:ring_of_healing"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -8.5d
+		}
+		{
+			id: "66579D80E1F1109E"
+			rewards: [{
+				id: "08A109A77E1005DF"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2DAD645443BC28BE"
+				item: "l2hostility:flaming_thorn"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -7.0d
+		}
+		{
+			id: "41E40FEEAF46F9AF"
+			rewards: [{
+				id: "01BAEBF77181708C"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6DE47C41260F7352"
+				item: "l2hostility:imagine_breaker"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			id: "02633B8162476CB3"
+			rewards: [{
+				id: "2E5EF2506AAA8DA9"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0500D92CD64D2E39"
+				item: "l2hostility:platinum_star"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			id: "5215B3AE5C67C04F"
+			rewards: [{
+				id: "70991770C0C7FE43"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "54002588D5106052"
+				item: "l2hostility:infinity_glove"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			id: "2233E37397DF8451"
+			rewards: [{
+				id: "25B40A45C95A2260"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "152872E4DB96D925"
+				item: "l2hostility:oddeyes_glasses"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -7.0d
+		}
+		{
+			id: "40F45AFBE5041F1B"
+			rewards: [{
+				id: "2AA3E09861BE803A"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "42B4FD39BEF0D4DC"
+				item: "l2hostility:triple_strip_cape"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.0d
+		}
+		{
+			id: "4BCE4D1695E221FF"
+			rewards: [{
+				id: "1D5395FBB2B2AEA0"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "35D5B743BBAA79CD"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			id: "2041C9C385366B8A"
+			rewards: [{
+				id: "0C3D01A2CA80E3E9"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "797579B3F145366A"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			id: "5A9E79603FA0E61A"
+			rewards: [{
+				id: "7E0BEC37160DE82C"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			tasks: [{
+				id: "07E2C375812334E7"
+				item: {
+					Count: 1
+					id: "l2hostility:pocket_of_restoration"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.0d
+		}
+		{
+			id: "3020F69C81458142"
+			tasks: [{
+				id: "280B3E44B43DD92A"
+				item: "curseofpandora:curse_of_inertia"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.0d
+		}
+		{
+			id: "2A713C9F31204417"
+			tasks: [{
+				id: "58230DFC5B93624A"
+				item: "curseofpandora:curse_of_proximity"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -11.0d
+		}
+		{
+			id: "639EDF800AFD0F7B"
+			tasks: [{
+				id: "404D264836000D18"
+				item: "curseofpandora:curse_of_flesh"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.0d
+		}
+		{
+			id: "5D339A3B89146042"
+			tasks: [{
+				id: "44FA9438B73CD472"
+				item: "curseofpandora:curse_of_metabolism"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -11.0d
+		}
+		{
+			id: "52A2D3EFC14549D7"
+			tasks: [{
+				id: "28D712EA1DDAAB0D"
+				item: "curseofpandora:curse_of_tension"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -11.0d
+		}
+		{
+			id: "4D32A3EC7DF4748D"
+			tasks: [{
+				id: "6415D3079E8C9FEC"
+				item: "curseofpandora:curse_of_prudence"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -11.0d
+		}
+		{
+			id: "5B234D123C96930B"
+			tasks: [{
+				id: "2FB4ED34B5D43828"
+				item: "curseofpandora:curse_of_spell"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -11.0d
+		}
+		{
+			id: "66EE54E7A5B8174E"
+			tasks: [{
+				id: "5EF781C051954975"
+				item: "curseofpandora:charm_of_health"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -8.5d
+		}
+		{
+			id: "0645D9496B93DA00"
+			tasks: [{
+				id: "7CA8CB1CB4B41E52"
+				item: "curseofpandora:charm_of_armor"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			id: "78F4138B2FB16F7F"
+			tasks: [{
+				id: "06DEA344E16D42F8"
+				item: "curseofpandora:charm_of_speed"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -8.5d
+		}
+		{
+			id: "65065042B9189830"
+			tasks: [{
+				id: "44B054E1ACB3F3D8"
+				item: "curseofpandora:charm_of_damage"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			id: "295C2BD002D2E62D"
+			tasks: [{
+				id: "1DF883C78C0D4CF3"
+				item: "curseofpandora:charm_of_critical"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -8.5d
+		}
+		{
+			id: "0B7C9D3809E16DB8"
+			tasks: [{
+				id: "3BA33E775AE147B5"
+				item: "curseofpandora:charm_of_archery"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -8.5d
+		}
+		{
+			id: "7C1EEECCBA70A54F"
+			tasks: [{
+				id: "343BB0292052A8F3"
+				item: "curseofpandora:charm_of_protection"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -8.5d
+		}
+		{
+			id: "49CC2F36126FF417"
+			tasks: [{
+				id: "082B2C9E672B517B"
+				item: "curseofpandora:charm_of_magic"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -8.5d
+		}
+		{
+			id: "2FABF889EC8A1F4D"
+			tasks: [{
+				id: "4D0BBC21D9AD4665"
+				item: "curseofpandora:charm_of_explosion"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -8.5d
+		}
+		{
+			id: "2F8B9FBA12D543FA"
+			tasks: [{
+				id: "3BAF6349601C6CA1"
+				item: "curseofpandora:charm_of_heavy_weapon"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -11.0d
+		}
+		{
+			id: "1DE602DDFA5F5729"
+			tasks: [{
+				id: "028AB45F97A3E0E3"
+				item: "curseofpandora:charm_of_accuracy"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -7.0d
+		}
+		{
+			id: "5B27DCC1B3908BAA"
+			tasks: [{
+				id: "3445FBCD5A317FE4"
+				item: "curseofpandora:charm_of_luck"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -11.0d
+		}
+		{
+			id: "38CABAD441C2C894"
+			tasks: [{
+				id: "32FB11BFE6111DC0"
+				item: "curseofpandora:angelic_wing"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -4.5d
+		}
+		{
+			id: "254108E56C9CD920"
+			tasks: [{
+				id: "2BDE22F544D98429"
+				item: "curseofpandora:angelic_bless"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -4.5d
+		}
+		{
+			id: "5FA8BEC4B5C0D12B"
+			tasks: [{
+				id: "63D180C35D047F25"
+				item: "curseofpandora:angelic_descent"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -4.5d
+		}
+		{
+			id: "0824346F5288B2A9"
+			tasks: [{
+				id: "4BB335FF09682CF7"
+				item: "curseofpandora:angelic_protection"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -4.5d
+		}
+		{
+			id: "654D0D5D97275EA7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FBCFF4B82DDF1EA"
+				table_id: 6331169010237263964L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25A355110F6FBD8C"
+				item: "curseofpandora:angelic_punishment"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -4.5d
+		}
+		{
+			id: "0B5F4D5EDEE18886"
+			tasks: [{
+				id: "3EDA1ABFC81CB2D1"
+				item: "curseofpandora:hellfire_skull"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -3.0d
+		}
+		{
+			id: "48C51B60F54AD03D"
+			tasks: [{
+				id: "3944390DD06E34BB"
+				item: "curseofpandora:hellfire_reformation"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -3.0d
+		}
+		{
+			id: "591B0327B4D9A445"
+			tasks: [{
+				id: "208AAF7DF0EBBAAB"
+				item: "curseofpandora:eye_of_cursed_souls"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -3.0d
+		}
+		{
+			id: "262A8485C7EC01D8"
+			tasks: [{
+				id: "165F2AA989385B8C"
+				item: "curseofpandora:cursed_soul_crystal"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -3.0d
+		}
+		{
+			id: "0BA7F00013792E49"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5484762CB0101F6D"
+				table_id: 6331169010237263964L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "4053AC14F8BD9EAD"
+				item: "curseofpandora:crown_of_demon"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -3.0d
+		}
+		{
+			id: "79B28095ED56B8DD"
+			tasks: [{
+				id: "7938E2CF1C2E0A11"
+				item: "curseofpandora:shadow_core"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -4.5d
+		}
+		{
+			id: "308DAF46ADC7C0F4"
+			tasks: [{
+				id: "721D4D9A8594DB9D"
+				item: "curseofpandora:shadow_convergence"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -4.5d
+		}
+		{
+			id: "731B7A347BE08566"
+			tasks: [{
+				id: "2A91F9EE3982379A"
+				item: "curseofpandora:shadow_consolidation"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -4.5d
+		}
+		{
+			id: "2448A8A17CB4D302"
+			tasks: [{
+				id: "6504348636584AED"
+				item: "curseofpandora:shadow_reformation"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -4.5d
+		}
+		{
+			id: "1A8F71DA0BAE63E2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "63E9704D2D576CD6"
+				table_id: 6331169010237263964L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "25BAEA7A39BA4D95"
+				item: "curseofpandora:void_overflow"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -4.5d
+		}
+		{
+			id: "7CD956BB6FAE3456"
+			tasks: [{
+				id: "757A5B87E4743BBD"
+				item: "curseofpandora:abyssal_treasure"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			id: "0254FBE838A440B8"
+			tasks: [{
+				id: "6F4340856AAC9010"
+				item: "curseofpandora:abyssal_watcher"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -1.5d
+		}
+		{
+			id: "5483FDD21F77BB66"
+			tasks: [{
+				id: "7015371DA00A8BE5"
+				item: "curseofpandora:abyssal_shell"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -1.5d
+		}
+		{
+			id: "40E3D6164EA82040"
+			tasks: [{
+				id: "5E59BE552764451F"
+				item: "curseofpandora:abyssal_crown"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -1.5d
+		}
+		{
+			id: "2E61436419C59B8E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0E91C53E018BABFC"
+				table_id: 6331169010237263964L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "6227BEB77FDC1228"
+				item: "curseofpandora:abyssal_will"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.5d
+		}
+		{
+			id: "06C385F1971EED03"
+			tasks: [{
+				id: "0D95B02F7139675E"
+				item: "curseofpandora:barbaric_instinct"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -3.0d
+		}
+		{
+			id: "509C216FFADBF6B9"
+			tasks: [{
+				id: "15872C6FB4E10566"
+				item: "curseofpandora:barbaric_wrath"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -3.0d
+		}
+		{
+			id: "1A151F12E2C84F41"
+			tasks: [{
+				id: "76DA18FEFA080D3B"
+				item: "curseofpandora:barbaric_roar"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -3.0d
+		}
+		{
+			id: "5750BF52AFC6C321"
+			tasks: [{
+				id: "4BDC652723C168C6"
+				item: "curseofpandora:barbaric_blade"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -3.0d
+		}
+		{
+			id: "1F68A5E7E73D4A6C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "254DACDBF91D7690"
+				table_id: 8346677860154593221L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5B0F9D2D0C5F7084"
+				item: "curseofpandora:primal_force"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -3.0d
+		}
+		{
+			id: "380D9410B2156184"
+			tasks: [{
+				id: "6030DD60E400E567"
+				item: "curseofpandora:evil_spirit_ritual"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 0.0d
+		}
+		{
+			id: "1FBC990DB934722B"
+			tasks: [{
+				id: "2E989F5B85A5FFB7"
+				item: "curseofpandora:evil_spirit_evoke"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 0.0d
+		}
+		{
+			id: "380D1BB3B57DBECB"
+			tasks: [{
+				id: "6F7061DDE930D492"
+				item: "curseofpandora:evil_spirit_awakening"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 0.0d
+		}
+		{
+			id: "381881A53E606C58"
+			tasks: [{
+				id: "01CEA79034AB1127"
+				item: "curseofpandora:evil_spirit_curse"
+				type: "item"
+			}]
+			x: 17.5d
+			y: 0.0d
+		}
+		{
+			id: "476A4B4A8B233710"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5C3F55E6481DFC14"
+				table_id: 6331169010237263964L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "20FD4566847AF4C0"
+				item: "curseofpandora:evil_spirit_walk"
+				type: "item"
+			}]
+			x: 19.0d
+			y: 0.0d
+		}
+		{
+			id: "394A3FD2C9C48383"
+			tasks: [{
+				id: "14A70F75D0137C60"
+				item: "curseofpandora:wind_thrust"
+				type: "item"
+			}]
+			x: 22.0d
+			y: -1.5d
+		}
+		{
+			id: "4A589FB6BB31E23A"
+			tasks: [{
+				id: "613B1C081F3E8AF5"
+				item: "curseofpandora:earth_crush"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -1.5d
+		}
+		{
+			id: "605067417619096C"
+			tasks: [{
+				id: "362A93485DB3E121"
+				item: "curseofpandora:flaming_explosion"
+				type: "item"
+			}]
+			x: 25.0d
+			y: -1.5d
+		}
+		{
+			id: "13E72F89B7B9E498"
+			tasks: [{
+				id: "602DAF0E467E8DDF"
+				item: "curseofpandora:waving_spell"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -1.5d
+		}
+		{
+			id: "0A03AB9BE269898C"
+			tasks: [{
+				id: "7A074A14472A22BE"
+				item: "curseofpandora:curse_redirection"
+				type: "item"
+			}]
+			x: 28.0d
+			y: -1.5d
+		}
+		{
+			id: "2407CFD8A2E8E5A6"
+			tasks: [{
+				id: "1E605F97EA2394C3"
+				item: "curseofpandora:orb_of_stability"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -7.0d
+		}
+		{
+			id: "44D15D149056CB8D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F878D642CF392EA"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5858D8247372F8BF"
+				item: "curseofpandora:golden_heart"
+				type: "item"
+			}]
+			x: 18.0d
+			y: 2.5d
+		}
+		{
+			id: "6A5F4F57CDD434A7"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E14C72B770531E6"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "420BC46D9DADFFB8"
+				item: "curseofpandora:charm_of_calmness"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 2.5d
+		}
+		{
+			id: "14670B1E19595A32"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "237358400E8454D2"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "15F94CDD59A601D5"
+				item: "curseofpandora:bless_of_snow_walker"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 2.5d
+		}
+		{
+			id: "44C0F16E2ACFAB42"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4050481B2B30FAA0"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0402916DFCAD9117"
+				item: "curseofpandora:bless_of_lava_walker"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 2.5d
+		}
+		{
+			id: "7B014E4539F46020"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "53700449FCEDDF4A"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "5F2BB312E7C1E89A"
+				item: "curseofpandora:charm_of_night_vision"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 2.5d
+		}
+		{
+			id: "32F2ECB8C466CC6C"
+			tasks: [{
+				id: "6C1EB8E5B98394D0"
+				item: "curseofpandora:orb_of_fire_rejection"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -7.0d
+		}
+		{
+			id: "7AC5445CB14E650B"
+			tasks: [{
+				id: "093DD60F40345528"
+				item: "curseofpandora:orb_of_master"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -7.0d
+		}
+		{
+			id: "0CD6DFADB4691D53"
+			tasks: [{
+				id: "3507C46BC02BD8A4"
+				item: "curseofpandora:orb_of_nature"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -7.0d
+		}
+		{
+			id: "5D008C09C54306CA"
+			tasks: [{
+				id: "7AF19483FF9D5303"
+				item: "curseofpandora:orb_of_explosion_rejection"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -7.0d
+		}
+		{
+			id: "52AE693F27321CEE"
+			tasks: [{
+				id: "77203465804087E8"
+				item: "curseofpandora:orb_of_projectile_rejection"
+				type: "item"
+			}]
+			x: 20.5d
+			y: -7.0d
+		}
+		{
+			id: "32CC9CF8DFCBF0B6"
+			tasks: [{
+				id: "1C1BB92EB74261BB"
+				item: "curseofpandora:orb_of_magic_rejection"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -7.0d
+		}
+		{
+			id: "49F81C0BDBDC2F3D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2DA238187FE8F91B"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "04571E3D987844B9"
+				item: "curseofpandora:mini_beacon_speed"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.5d
+		}
+		{
+			id: "5DAA7B1CE3AD63F0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "79DBC76EF9A4424C"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "3C122EC9B01818B3"
+				item: "curseofpandora:mini_beacon_haste"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 2.5d
+		}
+		{
+			id: "629FA16D9E7F1C18"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "44C360C6B732E6FE"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "55CFB89CAB464A83"
+				item: "curseofpandora:mini_beacon_strength"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "29A64A18AED0F7D0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58EB7C13D9E8FC05"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "58F1883620264D31"
+				item: "curseofpandora:mini_beacon_jump"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 2.5d
+		}
+		{
+			id: "54976799888F4C7A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4C86090C896191CA"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "53A07F1E3D3DC5E4"
+				item: "curseofpandora:mini_beacon_resistance"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			id: "2B26064D4A9F4E36"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "09F6DBE2FDFD6C15"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			tasks: [{
+				id: "0F91945802D53075"
+				item: "curseofpandora:mini_beacon_regen"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 2.5d
+		}
+	]
+	title: "饰品章节"
+}

@@ -1,0 +1,1092 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6CEBD005F4196564"
+	group: "08240C27B45307B0"
+	id: "6CEBD005F4196564"
+	images: [{
+		height: 20.0d
+		image: "ftbquests:textures/gui/celestisynth.png"
+		rotation: 0.0d
+		width: 20.0d
+		x: -10.5d
+		y: 2.5d
+	}]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "68E2EEC5B0E6EE69"
+			tasks: [{
+				id: "78154B6A48B55D39"
+				item: {
+					Count: 1
+					id: "l2archery:starter_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["68E2EEC5B0E6EE69"]
+			id: "79305A7466AE2B96"
+			tasks: [{
+				id: "33D4DD8146E52B47"
+				item: {
+					Count: 1
+					id: "l2archery:iron_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68E2EEC5B0E6EE69"]
+			id: "27CA28467A1B91B3"
+			tasks: [{
+				id: "2D2E1946FCC6A911"
+				item: {
+					Count: 1
+					id: "l2archery:master_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["68E2EEC5B0E6EE69"]
+			id: "78727204BDC7CC46"
+			tasks: [{
+				id: "17E85F9726595778"
+				item: {
+					Count: 1
+					id: "l2archery:glow_aim_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["78727204BDC7CC46"]
+			id: "6241BBD57D0FFA1B"
+			tasks: [{
+				id: "2155819A46EEEE52"
+				item: {
+					Count: 1
+					id: "l2archery:magnify_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["78727204BDC7CC46"]
+			id: "7534B3E9369FA301"
+			tasks: [{
+				id: "6E7FE920CAF5088D"
+				item: {
+					Count: 1
+					id: "l2archery:ender_aim_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79305A7466AE2B96"]
+			id: "1A19E9469FC8DCA2"
+			tasks: [{
+				id: "640E33A0A880AB1E"
+				item: {
+					Count: 1
+					id: "l2archery:eagle_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["799B70638F0C6A10"]
+			id: "31112D5D7CBD30D8"
+			tasks: [{
+				id: "6DB9EBEBCD508702"
+				item: {
+					Count: 1
+					id: "l2archery:explosion_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["27CA28467A1B91B3"]
+			id: "799B70638F0C6A10"
+			tasks: [{
+				id: "25AFC615B12B0261"
+				item: {
+					Count: 1
+					id: "l2archery:flame_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27CA28467A1B91B3"]
+			id: "49ADECA5645A473E"
+			tasks: [{
+				id: "78C18D32BE131246"
+				item: {
+					Count: 1
+					id: "l2archery:froze_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27CA28467A1B91B3"]
+			id: "67205FFB820F5401"
+			tasks: [{
+				id: "12BD5BA9A2E1C7EC"
+				item: {
+					Count: 1
+					id: "l2archery:slow_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["27CA28467A1B91B3"]
+			id: "2BF430B3D284D72C"
+			tasks: [{
+				id: "65045E8C8B0CAC7C"
+				item: {
+					Count: 1
+					id: "l2archery:storm_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["79305A7466AE2B96"]
+			id: "0B7481D08031935B"
+			tasks: [{
+				id: "3465878374804A27"
+				item: {
+					Count: 1
+					id: "l2archery:turtle_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["0B7481D08031935B"]
+			id: "2EBBBC8405033FC8"
+			tasks: [{
+				id: "47BEE4B1E5AB3AF6"
+				item: {
+					Count: 1
+					id: "l2archery:earth_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2BF430B3D284D72C"]
+			id: "43064EDB3423FC02"
+			tasks: [{
+				id: "38962E8D7E7DBFEF"
+				item: {
+					Count: 1
+					id: "l2archery:wind_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["49ADECA5645A473E"]
+			id: "7A2B839AA8709DAA"
+			tasks: [{
+				id: "566510BF58369522"
+				item: {
+					Count: 1
+					id: "l2archery:winter_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2EBBBC8405033FC8"]
+			id: "37EFDC905DBFFCFC"
+			rewards: [
+				{
+					id: "7F387A6BFFC83302"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "624E67146AFA4867"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6B037BF7288E6314"
+				item: {
+					Count: 1
+					id: "l2archery:gaia_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["7534B3E9369FA301"]
+			id: "39831D3D27C09DFE"
+			tasks: [{
+				id: "05FFF84BABF9073C"
+				item: {
+					Count: 1
+					id: "l2archery:void_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["31112D5D7CBD30D8"]
+			id: "6F774C3ADE24A1FC"
+			rewards: [
+				{
+					id: "4A43FA4D6E8819E7"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7F32D1E7F60466EA"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "08971A4D50A2A524"
+				item: {
+					Count: 1
+					id: "l2archery:sun_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["03B514D1F9286ECA"]
+			id: "3A7B87D208F5C3F7"
+			rewards: [
+				{
+					count: 3
+					id: "49D08DD3A44729E2"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+				{
+					id: "39BB5B7FD545BE03"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "054BD721BB2129B8"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "715F4ED9ABACF630"
+				item: "celestisynth:celestial_crafting_table"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["048DCE8D601BB0DD"]
+			id: "03B514D1F9286ECA"
+			rewards: [{
+				id: "5690D56209A1E864"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7E0A4EE34E822513"
+				item: {
+					Count: 1
+					id: "celestisynth:celestial_netherite_ingot"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -4.0d
+			y: 2.5d
+		}
+		{
+			id: "048DCE8D601BB0DD"
+			rewards: [
+				{
+					count: 2
+					id: "1E3707133FE93C3E"
+					item: "celestisynth:celestial_core"
+					type: "item"
+				}
+				{
+					id: "01959F3990F71869"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "74F0540405370477"
+				item: "celestisynth:supernal_netherite_ingot"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "27F9894470854A0E"
+			tasks: [{
+				id: "5FAAF4E1DEEDA2E5"
+				item: "celestisynth:lunar_scrap"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["03B514D1F9286ECA"]
+			id: "2BED2B605564DE11"
+			tasks: [{
+				id: "363BFDD9075DBF11"
+				item: "celestisynth:celestial_core_heated"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "5738685E6D202861"
+			tasks: [{
+				id: "481FBE9EAC96AB6D"
+				item: "celestisynth:eyebomination"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "7748B9AC29862CFC"
+			tasks: [{
+				id: "0933CFF626A039C8"
+				item: "celestisynth:starstruck_scrap"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "2D865E37FCD8575E"
+			tasks: [{
+				id: "3A6D62B519CB864D"
+				item: "celestisynth:starstruck_feather"
+				type: "item"
+			}]
+			x: -11.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "578F4FFC69768C2B"
+			tasks: [{
+				id: "6EC0CC8D0B745E33"
+				item: "celestisynth:wintereis_shard"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["256B20F457EFAE0F"]
+			id: "102A0D8D733A14D5"
+			rewards: [
+				{
+					id: "5E0C6C2FF9B97D04"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E6B35B491E063A2"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6B2702A1107E72D4"
+				item: {
+					Count: 1
+					id: "celestisynth:solaris"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["27F9894470854A0E"]
+			id: "03F74FE79F699C16"
+			rewards: [
+				{
+					id: "03BCC1EDF58D32A3"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6FB6B75D41EFCC64"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "4BF1C50B315C1C5A"
+				item: {
+					Count: 1
+					id: "celestisynth:crescentia"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -12.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["292329BBA7A5F7F6"]
+			id: "4CCA1AE23851ADDD"
+			rewards: [
+				{
+					id: "527810ADF84BCE4F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1BDB39017599DEDA"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "6FA9D4B7EF3A9FB4"
+				item: {
+					Count: 1
+					id: "celestisynth:breezebreaker"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["5738685E6D202861"]
+			id: "7DB1B8109F8B5FD4"
+			rewards: [
+				{
+					id: "19265169E87DCFE2"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "568B815DE8A98334"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "20537AC0A88EA1EE"
+				item: {
+					Count: 1
+					id: "celestisynth:poltergeist"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -9.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "732BA918D3F0B6CC"
+			rewards: [
+				{
+					id: "2DBBC393F781D46B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "42BB1B4FC4065948"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0235C4CD15E8A498"
+				item: {
+					Count: 1
+					id: "celestisynth:aquaflora"
+					tag: {
+						Damage: 0
+						csController: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"2D865E37FCD8575E"
+				"7748B9AC29862CFC"
+			]
+			id: "4715006B3221F234"
+			rewards: [
+				{
+					id: "747A36C2163A8EA1"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "426AD52D570A2FCD"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "412E3DC2F3829B16"
+				item: {
+					Count: 1
+					id: "celestisynth:rainfall_serenity"
+					tag: {
+						Damage: 0
+						csExtras: { }
+					}
+				}
+				type: "item"
+			}]
+			x: -15.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["578F4FFC69768C2B"]
+			id: "42097C5DD8E37E00"
+			rewards: [
+				{
+					id: "3F7A90E8A51E855B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1F898FBF38E748E2"
+					table_id: 7658553385016283665L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "7D7E72320FAE0A0E"
+				item: {
+					Count: 1
+					id: "celestisynth:frostbound"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "256B20F457EFAE0F"
+			tasks: [{
+				id: "6D1AC9F6DDA8301F"
+				item: "celestisynth:solar_crystal"
+				type: "item"
+			}]
+			x: -10.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2BED2B605564DE11"]
+			id: "292329BBA7A5F7F6"
+			tasks: [{
+				id: "268EB3E8DD155549"
+				item: "celestisynth:zephyr_deposit"
+				type: "item"
+			}]
+			x: -7.5d
+			y: -0.5d
+		}
+		{
+			id: "77588E5E50E86F46"
+			tasks: [{
+				id: "121710DA0B88BB42"
+				item: "l2complements:void_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["6E810C3883E582C0"]
+			id: "2A24F245EF87E5DD"
+			rewards: [{
+				id: "5E4F4F70373162C7"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "6AC99108DA94BBEC"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_shock"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["77588E5E50E86F46"]
+			id: "22D03AF2DA8B8C14"
+			rewards: [{
+				id: "35FD6E01D8CF028A"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "02F44B2F1A3AFE39"
+				item: {
+					Count: 1
+					id: "l2weaponry:haunting_demon_of_the_end"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["77588E5E50E86F46"]
+			id: "41ADF500E340444E"
+			rewards: [{
+				id: "6B6A53377A5233A4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0E70D37052CBD032"
+				item: {
+					Count: 1
+					id: "l2weaponry:shadow_hunter"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["77588E5E50E86F46"]
+			id: "4CA06F95C158A2F9"
+			rewards: [{
+				id: "55196F582857DD1B"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "615F9852411ACFBF"
+				item: {
+					Count: 1
+					id: "l2weaponry:blade_of_illusion"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			id: "6E810C3883E582C0"
+			tasks: [{
+				id: "26376FB3759DA805"
+				item: "l2complements:resonant_feather"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6E810C3883E582C0"]
+			id: "73471ABD54279456"
+			rewards: [{
+				id: "172FC9BA7B1C9D22"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "35B26678025C1D4D"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_echo"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E810C3883E582C0"]
+			id: "628A85F8D1AA4838"
+			rewards: [{
+				id: "4BD6C0F5194E9BEA"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "2411F960E0E29418"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_terror"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E810C3883E582C0"]
+			id: "261F27DEA640903A"
+			rewards: [{
+				id: "299C871C48AB70C6"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3EAA6404DAAE43C2"
+				item: {
+					Count: 1
+					id: "l2weaponry:abyss_resonance"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.0d
+		}
+		{
+			id: "06113F0E1F97FDFE"
+			tasks: [{
+				id: "6B03F8A72F533535"
+				item: "l2complements:storm_core"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["06113F0E1F97FDFE"]
+			id: "3C923B7B023CE1DB"
+			rewards: [{
+				id: "58D7B313C43D5D31"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "0623393AB09AA61D"
+				item: {
+					Count: 1
+					id: "l2weaponry:void_escape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["06113F0E1F97FDFE"]
+			id: "4BA9F96DB9E6E5C7"
+			rewards: [{
+				id: "1DB1DA08F7397D03"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7C1A365FA511D495"
+				item: {
+					Count: 1
+					id: "l2weaponry:shadow_shredder"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 6.0d
+		}
+		{
+			id: "0A46AAE76D47AB31"
+			tasks: [{
+				id: "70A2B6FCD447EA77"
+				item: "l2complements:sun_membrane"
+				type: "item"
+			}]
+			x: 5.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A46AAE76D47AB31"]
+			id: "4EEB67C0243B1D2B"
+			rewards: [{
+				id: "30860B2A1CDF24B4"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "3B105EFAF5B11777"
+				item: {
+					Count: 1
+					id: "l2weaponry:dogmatic_punishment"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["0A46AAE76D47AB31"]
+			id: "1C60E3C2BE54152B"
+			rewards: [{
+				id: "54DE24063E55581D"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "238865E5F3890B20"
+				item: {
+					Count: 1
+					id: "l2weaponry:claw_of_determination"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.0d
+		}
+		{
+			id: "5447FF1D1D20E9A6"
+			tasks: [{
+				id: "17B7050C1E08BC1B"
+				item: "l2complements:life_essence"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 2.5d
+		}
+		{
+			id: "4CB2F5574EA45DD3"
+			tasks: [{
+				id: "49B1829F628D4C90"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5447FF1D1D20E9A6"]
+			id: "03609996B2613D03"
+			rewards: [{
+				id: "0A5818A0A3C01813"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "5C4997D1F3865BB1"
+				item: {
+					Count: 1
+					id: "l2weaponry:dogmatic_standoff"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["4CB2F5574EA45DD3"]
+			id: "59AAEFAC0F9EA5D4"
+			rewards: [{
+				id: "37FC88154B700339"
+				type: "xp_levels"
+				xp_levels: 3
+			}]
+			tasks: [{
+				id: "7837B09691E6691A"
+				item: {
+					Count: 1
+					id: "l2weaponry:axe_of_cursed_flame"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: 4.5d
+		}
+	]
+	title: "武器库"
+}

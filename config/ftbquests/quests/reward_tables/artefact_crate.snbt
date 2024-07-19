@@ -1,0 +1,146 @@
+{
+	id: "2610F864F5FA4690"
+	loot_crate: {
+		color: 16762624
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "artefact_crate"
+	}
+	loot_size: 1
+	order_index: 15
+	rewards: [
+		{ item: "artifacts:antidote_vessel", weight: 40.0f }
+		{ item: "artifacts:aqua_dashers", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:bunny_hoppers"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:charm_of_sinking", weight: 40.0f }
+		{ item: "artifacts:cloud_in_a_bottle", weight: 40.0f }
+		{ item: "artifacts:cross_necklace", weight: 40.0f }
+		{ item: "artifacts:crystal_heart", weight: 40.0f }
+		{ item: "artifacts:digging_claws", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:everlasting_beef"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:feral_claws", weight: 40.0f }
+		{ item: "artifacts:fire_gauntlet", weight: 40.0f }
+		{ item: "artifacts:flame_pendant", weight: 40.0f }
+		{ item: "artifacts:flippers", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:golden_hook"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:helium_flamingo"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:kitty_slippers", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:lucky_scarf"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "artifacts:night_vision_goggles"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:novelty_drinking_hat", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:obsidian_skull"
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:panic_necklace", weight: 40.0f }
+		{ item: "artifacts:plastic_drinking_hat", weight: 40.0f }
+		{ item: "artifacts:pocket_piston", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "artifacts:power_glove"
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:running_shoes", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:scarf_of_invisibility"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:shock_pendant", weight: 40.0f }
+		{ item: "artifacts:snorkel", weight: 40.0f }
+		{ item: "artifacts:steadfast_spikes", weight: 40.0f }
+		{
+			item: {
+				Count: 1
+				id: "artifacts:superstitious_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{ item: "artifacts:thorn_pendant", weight: 40.0f }
+		{ item: "artifacts:umbrella", weight: 40.0f }
+		{ item: "artifacts:universal_attractor", weight: 40.0f }
+		{ item: "artifacts:vampiric_glove", weight: 40.0f }
+		{ item: "artifacts:whoopee_cushion", weight: 40.0f }
+	]
+	title: "文物箱"
+}

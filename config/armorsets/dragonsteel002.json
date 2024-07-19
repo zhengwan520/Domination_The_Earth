@@ -1,0 +1,23 @@
+{
+  "armorSetName": "leather",
+  "head": {
+    "itemKey": "iceandfire:dragonsteel_ice_helmet"
+  },
+ "chest": {
+    "itemKey": "iceandfire:dragonsteel_ice_chestplate"
+  },
+ "legs": {
+    "itemKey": "iceandfire:dragonsteel_ice_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:dragonsteel_ice_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "l2complements:frozen",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    }
+  ]
+}

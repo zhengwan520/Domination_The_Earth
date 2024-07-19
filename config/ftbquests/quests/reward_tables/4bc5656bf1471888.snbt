@@ -1,0 +1,24 @@
+{
+	id: "4BC5656BF1471888"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "epic_charm"
+	}
+	loot_size: 1
+	order_index: 77
+	rewards: [
+		{ item: "celestial_artifacts:holy_talisman" }
+		{ item: "celestial_artifacts:sacrificial_object" }
+		{ item: "celestial_artifacts:corrupt_badge" }
+		{ item: "celestial_artifacts:knight_shelter" }
+		{ item: "celestial_artifacts:angel_pearl" }
+		{ item: "celestial_artifacts:undead_charm" }
+		{ item: "celestial_artifacts:cursed_protector" }
+	]
+	title: "史诗护符"
+}

@@ -1,0 +1,25 @@
+{
+	id: "70FEE06DCFA5B611"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "bracelet"
+	}
+	loot_size: 1
+	order_index: 79
+	rewards: [
+		{ item: "celestial_artifacts:emerald_bracelet" }
+		{ item: "celestial_artifacts:life_bracelet" }
+		{ item: "celestial_artifacts:precious_bracelet" }
+		{ item: "celestial_artifacts:red_ruby_bracelet" }
+		{ item: "celestial_artifacts:hidden_bracelet" }
+		{ item: "celestial_artifacts:scarlet_bracelet" }
+		{ item: "celestial_artifacts:charming_bracelet" }
+		{ item: "celestial_artifacts:spirit_bracelet" }
+	]
+	title: "手镯"
+}

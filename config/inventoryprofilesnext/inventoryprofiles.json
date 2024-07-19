@@ -1,0 +1,53 @@
+{
+    "ModSettings": {
+        "sort_order": "ACCUMULATED_COUNT_DESCENDING",
+        "enable_auto_refill": {
+            "value": false
+        },
+        "enable_updates_check": false,
+        "interval_between_clicks_ms": 1,
+        "move_all_at_cursor": false,
+        "for_modpack_devs": true,
+        "first_run": false
+    },
+    "GuiSettings": {
+        "continuous_crafting_saved_value": false,
+        "show_sort_in_columns_button": {
+            "value": false
+        },
+        "show_sort_in_rows_button": {
+            "value": false
+        },
+        "show_move_all_button": {
+            "value": false
+        }
+    },
+    "AutoRefillSettings": {
+        "disable_for_drop_item": {
+            "value": true
+        },
+        "refill_armor": {
+            "value": false
+        },
+        "refill_before_tool_break": {
+            "value": false
+        },
+        "allow_break_for_non_enchanted": {
+            "value": true
+        },
+        "type_visual_durability_notification": "CHAT",
+        "number_of_notifications": 1,
+        "visual_replace_success_notification": {
+            "value": false
+        },
+        "visual_replace_failed_notification": {
+            "value": false
+        },
+        "type_visual_replace_failed_notification": "CHAT"
+    },
+    "Tweaks": {
+        "prevent_close_gui_drop_item": {
+            "value": true
+        }
+    }
+}

@@ -1,0 +1,858 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "4difficulty_system"
+	group: "08240C27B45307B0"
+	icon: "l2hostility:teleport"
+	id: "1B139AC9176BAD04"
+	images: [
+		{
+			height: 2.0d
+			image: "l2hostility:item/bg"
+			rotation: 0.0d
+			width: 2.0d
+			x: -7.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "l2hostility:item/sealed_item"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/l2_hostility_logo_03.png"
+			rotation: 0.0d
+			width: 20.0d
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			height: 3.0d
+			image: "l2hostility:item/chaos_ingot"
+			order: 2
+			rotation: -15.0d
+			width: 3.0d
+			x: -4.5d
+			y: -15.0d
+		}
+		{
+			height: 30.0d
+			image: "ftbquests:textures/gui/frame_01.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: -1.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "l2hostility:item/miracle_ingot"
+			rotation: 0.0d
+			width: 3.0d
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			height: 5.0d
+			image: "l2hostility:item/curio/abrahadabra"
+			rotation: 5.0d
+			width: 5.0d
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			height: 5.0d
+			image: "l2hostility:item/trait/master"
+			rotation: 8.0d
+			width: 5.0d
+			x: -7.0d
+			y: 7.5d
+		}
+		{
+			height: 5.0d
+			image: "l2hostility:item/trait/ragnarok"
+			rotation: -12.0d
+			width: 5.0d
+			x: -11.5d
+			y: -13.0d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "paraglider:heart_container"
+			id: "49168C5493276AAC"
+			rewards: [{
+				id: "423B85823F713F9C"
+				type: "xp"
+				xp: 2
+			}]
+			shape: "square"
+			subtitle: "在这个 &6Modpack &7 中，您完成的难度任务越多，&chealth、damage &7 和 &9speed &2mobs &7 拥有。"
+			tasks: [{
+				id: "2A4DF252FB7F8638"
+				title: "&cHealth scaling"
+				type: "checkmark"
+			}]
+			title: "&cHealth Scaling"
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49168C5493276AAC"]
+			icon: "l2hostility:teleport"
+			id: "7D80ED445534CE39"
+			rewards: [{
+				id: "06497DE223C03986"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "&4特征 &7 由 &cL2 敌意 &7mod 添加。&7这些 &4特征 &7 基于实体的级别。有更强和更弱的&4特征。&7获得 &4特质，&7 杀死具有该特定特质的生物。&7阅读 &6L2 敌对指南 &7 了解更多信息。"
+			tasks: [{
+				id: "067DE1FF19F05062"
+				title: "&4Traits"
+				type: "checkmark"
+			}]
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["49168C5493276AAC"]
+			icon: {
+				Count: 1
+				id: "l2hostility:ring_of_life"
+				tag: {
+					affix_data: {
+						affixes: {
+							"apotheosis:socket": 0.0f
+						}
+					}
+				}
+			}
+			id: "244AC93B0A5E0B69"
+			rewards: [{
+				id: "551BBBD4B227788A"
+				type: "xp"
+				xp: 1
+			}]
+			subtitle: "&6配件 &7 由 &cL2 敌意 &7mod 添加，也有增益和减益。这些缺点通常是使所有实体都以 &620-600级生成"
+			tasks: [{
+				id: "059A9B34DF5E6E1A"
+				title: "&6Accessories"
+				type: "checkmark"
+			}]
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["49168C5493276AAC"]
+			icon: "l2hostility:book_of_omniscience"
+			id: "0029323D6C6AABD5"
+			rewards: [{
+				id: "54DE09AD8209C4B1"
+				item: "l2hostility:hostility_detector"
+				type: "item"
+			}]
+			subtitle: "您将获得 &6难度 &7when &ckilling &7实体。&c杀戮 &7 生物 &7 等级越高，难度越高，杀法&7 &c敌意检测器 &7 用于查看难度 &3 进度。"
+			tasks: [{
+				id: "71F886F3783B8148"
+				type: "checkmark"
+			}]
+			title: "&dPlayer Difficulty"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			id: "1A8F6B0A61CB11C7"
+			rewards: [{
+				id: "4765D6DFAEB6F9E1"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物将获得额外的护甲和生命值"
+			tasks: [{
+				id: "5B4938D95F41A799"
+				item: "l2hostility:tank"
+				type: "item"
+			}]
+			title: "Obtain the &cTan&8ky Tra&cit"
+			x: -5.5d
+			y: 0.0d
+		}
+		{
+			id: "456C69B824CC5C2C"
+			rewards: [{
+				id: "6F0E5BE77A5296C0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物将获得 &3speed &7 效果"
+			tasks: [{
+				id: "7665C3F5D358083D"
+				item: "l2hostility:speedy"
+				type: "item"
+			}]
+			title: "Obtain the &3Speedy Trait"
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			id: "4D699F5D5434E2F8"
+			rewards: [{
+				id: "0043652A4F33CD16"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物将获得 &8 抗性"
+			tasks: [{
+				id: "477973C2011993D5"
+				item: "l2hostility:protection"
+				type: "item"
+			}]
+			title: "Obtain the &8Protected Trait"
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "148195836F4785E4"
+			rewards: [{
+				id: "6FDC200E03AB7145"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4特征 &7 的生物将是 &6隐形的"
+			tasks: [{
+				id: "689D1910B6F37C76"
+				item: "l2hostility:invisible"
+				type: "item"
+			}]
+			title: "Obtain the &3Invisible Trait"
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "28A52C85239D3A9A"
+			rewards: [{
+				id: "6908C9045C4FCF55"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 将 &6 点燃 &7 玩家被击中并免疫 &6 火焰伤害的生物"
+			tasks: [{
+				id: "6F53DF522C35F478"
+				item: "l2hostility:fiery"
+				type: "item"
+			}]
+			title: "Obtain the &6Fiery Trait"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			id: "2B969694D7B3DE7F"
+			rewards: [{
+				id: "273010BBE5E41B58"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物将获得 &cregeneration &7 效果"
+			tasks: [{
+				id: "21B0F8BF81D7B2C6"
+				item: "l2hostility:regenerate"
+				type: "item"
+			}]
+			title: "Obtain the &cRegenerating Trait"
+			x: -2.5d
+			y: -1.5d
+		}
+		{
+			id: "7B70912163BD59FC"
+			rewards: [{
+				id: "4842C1CF7267C7D6"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物将对攻击者造成直接 &6物理 &7 伤害。"
+			tasks: [{
+				id: "7437D2D74B25822E"
+				item: "l2hostility:reflect"
+				type: "item"
+			}]
+			title: "Obtain the &3Reflect Trait"
+			x: -0.5d
+			y: -3.5d
+		}
+		{
+			id: "344C9D735903604C"
+			rewards: [{
+				id: "3CAC12FFBB86DF51"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此特性的生物每 5 秒会发射 &7 潜影 &2 射弹"
+			tasks: [{
+				id: "622EB4F8A36E9BB9"
+				item: "l2hostility:shulker"
+				type: "item"
+			}]
+			title: "Obtain the &5Shulker Trait"
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			id: "4015FBA1F19A8F8C"
+			rewards: [{
+				id: "629C12CA71D9DEA0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物每 3 秒发射一次爆炸性子弹"
+			tasks: [{
+				id: "299A57F114C3F005"
+				item: "l2hostility:grenade"
+				type: "item"
+			}]
+			title: "Obtain the &cGrenade Trait"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			id: "71DCC032A249FF8F"
+			rewards: [{
+				id: "65DCFA0D979F4D8F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物会损坏装备，尤其是在耐久度低的情况下"
+			tasks: [{
+				id: "40F9ED9AE7EC6340"
+				item: "l2hostility:corrosion"
+				type: "item"
+			}]
+			title: "Obtain the &dCorrosion Trait"
+			x: 3.0d
+			y: -2.5d
+		}
+		{
+			id: "7FA84F2DB4426D11"
+			rewards: [{
+				id: "58E4C949EA5BA27E"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有这种 &4 特性 &7 的生物会损坏装备，尤其是在耐久度高的情况下"
+			tasks: [{
+				id: "3B29BA63C811EADB"
+				item: "l2hostility:erosion"
+				type: "item"
+			}]
+			title: "Obtain the &6Erosion Trait"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			id: "165F8873076A5266"
+			rewards: [{
+				id: "2C0F6E3C704521E4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "仅适用于史莱姆,具有此特性的史莱姆会变大，并被授予再生特性"
+			tasks: [{
+				id: "217511DF8846213A"
+				item: "l2hostility:growth"
+				type: "item"
+			}]
+			title: "Obtain the &eGrowth Trait"
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			id: "1B97D9B93F0CA95C"
+			rewards: [{
+				id: "5DEC32951D789CFD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物在被杀死时会分裂成 2 个"
+			tasks: [{
+				id: "374F1FC516D1EDF0"
+				item: "l2hostility:split"
+				type: "item"
+			}]
+			title: "Obtain the &aSplit Trait"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			id: "6726CC64B60AA840"
+			rewards: [{
+				id: "652F8A189390BCF4"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物将移除一个随机 &abeneficial &7 效果，并在命中时增加所有 &4有害 &7 效果的持续时间"
+			tasks: [{
+				id: "668D9F3BD1F2DE3D"
+				item: "l2hostility:drain"
+				type: "item"
+			}]
+			title: "Obtain the &cDrain Trait"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			id: "30F993BC76ACD2E6"
+			rewards: [{
+				id: "25B3995C7EB6EE96"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "你击中的生物会尝试执行&cCounter Strike"
+			tasks: [{
+				id: "2AA260D294F11E49"
+				item: "l2hostility:counter_strike"
+				type: "item"
+			}]
+			title: "Obtain the &9Counter Strike Trait"
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			id: "42CEC9C4E70B1F1F"
+			rewards: [{
+				id: "712F241C06C1B9E5"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物将增加 &3重力 &7 在它周围的区域"
+			tasks: [{
+				id: "6967E9F9D7D6B33A"
+				item: "l2hostility:gravity"
+				type: "item"
+			}]
+			title: "获得重力特性"
+			x: 3.0d
+			y: -0.5d
+		}
+		{
+			id: "056F9C3C4A2063F7"
+			rewards: [{
+				id: "597A6EF9F45F71BB"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物将在其周围区域减少 &3重力 &7"
+			tasks: [{
+				id: "43E56DBB00810E54"
+				item: "l2hostility:moonwalk"
+				type: "item"
+			}]
+			title: "Obtain the &3Moonwalk Trait"
+			x: -4.0d
+			y: -0.5d
+		}
+		{
+			id: "424D896B5164F61A"
+			rewards: [{
+				id: "714E2AA716ABFCF3"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A &6传奇特性。&7具有此特性的生物 &4特性 &7 可以造成绕过 &5 魔法保护的伤害，&7 并随机暂时抵消装备上的附魔。它们也将免疫 &5 魔法伤害"
+			tasks: [{
+				id: "276FE4F2965121DB"
+				item: "l2hostility:dispell"
+				type: "item"
+			}]
+			title: "Obtain the &5Dispell Trait"
+			x: 1.0d
+			y: 6.0d
+		}
+		{
+			id: "367F3ACE093FF62A"
+			rewards: [{
+				id: "3864C3A5CD0831FD"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A &6传奇特性。&7 具有此 &4 特性 &7 的生物每次都会恢复到满血状态，除非它无法治疗或被 &5void &7damage 杀死。&4诅咒之刃 &5附魔 &7 是对付具有这种特性的生物的好方法"
+			tasks: [{
+				id: "3C2415E29D9F4FA0"
+				item: "l2hostility:undying"
+				type: "item"
+			}]
+			title: "Obtain the &eUndying Trait"
+			x: -2.0d
+			y: 6.0d
+		}
+		{
+			id: "07AECCD1BC396BD2"
+			rewards: [
+				{
+					id: "729F7E53028BB4B5"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "20D7AC951821700E"
+					item: "l2complements:force_field"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "A &6传奇特性。&7具有此 &4特性 &7 的生物会击退玩家和针对它的生物，并且还免疫 &6 射弹"
+			tasks: [{
+				id: "3C682235518C8FCA"
+				item: "l2hostility:repelling"
+				type: "item"
+			}]
+			title: "Obtain the &0Repelling Trait"
+			x: -1.5d
+			y: 3.5d
+		}
+		{
+			id: "1AF84E10D462FAFD"
+			rewards: [
+				{
+					id: "7DD23458E41DA97E"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "3C847964889612A2"
+					item: "l2complements:blackstone_core"
+					random_bonus: 1
+					type: "item"
+				}
+			]
+			subtitle: "A &6传奇特性。&7具有此特征的生物 &4特征 &7 会吸引玩家和生物瞄准它"
+			tasks: [{
+				id: "67D3249F85D1ED52"
+				item: "l2hostility:pulling"
+				type: "item"
+			}]
+			title: "Obtain the &9Pulling Trait"
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			id: "1BEF2C75EB4C5CCC"
+			rewards: [{
+				id: "010DB25DF25FBA92"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4特性 &7 的生物会根据目标的装备 &5 附魔增加伤害，&7并且可以复制目标的 &5 附魔 &7 直接命中时"
+			tasks: [{
+				id: "26D40FE2832B0535"
+				item: "l2hostility:reprint"
+				type: "item"
+			}]
+			title: "Obtain the &bReprint Trait"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			id: "14F7D39571A40E12"
+			rewards: [{
+				id: "40FAC571A6831B3B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A &6传奇特性。&7具有此特征的生物 &4特性 &7 当你接近它时会造成 &5魔法 &7伤害"
+			tasks: [{
+				id: "797CC3E14203D643"
+				item: "l2hostility:killer_aura"
+				type: "item"
+			}]
+			title: "获得&4杀手光环特性"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			id: "0476D1C9A69259CC"
+			rewards: [{
+				id: "76174B3C08F81927"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物将在命中时造成 &8弱点 &7 效果"
+			tasks: [{
+				id: "44AC03D0A7AB0226"
+				item: "l2hostility:weakness"
+				type: "item"
+			}]
+			title: "Obtain the &3Weakener Trait"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			id: "0C1A9A6064BC069D"
+			rewards: [{
+				id: "35D49A68A0734764"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物会在命中时造成 &8 减速 &7 效果"
+			tasks: [{
+				id: "3B71C3FFB5E3198D"
+				item: "l2hostility:slowness"
+				type: "item"
+			}]
+			title: "Obtain the &6Stray Trait"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			id: "58B2E7D743C0414C"
+			rewards: [{
+				id: "31F20F43C76E3D02"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物会在命中时造成 &aposion &7 效果"
+			tasks: [{
+				id: "50DB674BB0DBBA72"
+				item: "l2hostility:poison"
+				type: "item"
+			}]
+			title: "Obtain the &aPoisonous Trait"
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			id: "65D0B3953D94791A"
+			rewards: [{
+				id: "5DF26E5726C76E79"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特征 &7 的生物在命中时会造成 &8wither &7 效果"
+			tasks: [{
+				id: "726C505BC9683DAD"
+				item: "l2hostility:wither"
+				type: "item"
+			}]
+			title: "Obtain the &0Withering Trait"
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			id: "46DD687FF28DCE16"
+			rewards: [{
+				id: "7DE4413EBABDC802"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4特质 &7 的生物会在命中时造成 &8 失明 &7 效果"
+			tasks: [{
+				id: "3056D5607FE4BCC5"
+				item: "l2hostility:blindness"
+				type: "item"
+			}]
+			title: "Obtain the &3Blinder Trait"
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			id: "78BA9AD3F4DF78A0"
+			rewards: [{
+				id: "6F5121AB6026C800"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "生物造成 &a恶心 &7 效果，命中 &7更高 &4特征 &7 级意味着持续时间更长"
+			tasks: [{
+				id: "59F73F0BE65925C9"
+				item: "l2hostility:nausea"
+				type: "item"
+			}]
+			title: "Obtain the &aDistorter Trait"
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			id: "719DCC3E5013C4F8"
+			rewards: [{
+				id: "4D357646B3A8892D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物会造成高伤害，类似于 &7 枯萎特性 &7，但具有更高的 &cdamage"
+			tasks: [{
+				id: "196B28935A1CF06D"
+				item: "l2hostility:soul_burner"
+				type: "item"
+			}]
+			title: "Obtain the &bSoul Burner Trait"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			id: "493364F4CE33BA25"
+			rewards: [{
+				id: "54B88C32266FBAE0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4 特性 &7 的生物会造成 &bfrost &7 效果，&7which &8减速 &7 降低玩家"
+			tasks: [{
+				id: "1E9F239B5E9637D6"
+				item: "l2hostility:freezing"
+				type: "item"
+			}]
+			title: "Obtain the &bFreezing Trait"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			id: "58151E80AF281EF3"
+			rewards: [{
+				id: "23FBE24A8269D5EE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "07F279E90B0DE243"
+				item: "l2hostility:cursed"
+				type: "item"
+			}]
+			title: "Obtain the &4Cursed Trait"
+			x: -4.5d
+			y: 1.5d
+		}
+		{
+			id: "3A40641DDF89E12D"
+			rewards: [{
+				id: "0F80A2BCB451E179"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A &6传奇特性。&7具有此特征的生物 &4特质 &7 将封印装备和古玩。要解封它们，请将它们取下并 &6右键单击 &7 几秒钟。它只有在你达到最大 &cdifficulty， &7也就是 4000 时才会生成。"
+			tasks: [{
+				id: "777FD808E242BE2B"
+				item: "l2hostility:ragnarok"
+				type: "item"
+			}]
+			title: "Obtain the &6Ragnarok Trait"
+			x: 0.5d
+			y: 7.5d
+		}
+		{
+			id: "34405B25D554C418"
+			rewards: [{
+				id: "783D9DE102F00615"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			subtitle: "A &6传奇特性。&7具有此属性&4特性&7的生物免疫&6物理&7伤害，并且会造成绕过护甲的魔法伤害。要对付具有此特性的生物，您需要造成 &5 魔法 &7 伤害"
+			tasks: [{
+				id: "04655138A49D954E"
+				item: "l2hostility:dementor"
+				type: "item"
+			}]
+			title: "Obtain the &9Dementor Trait"
+			x: -1.5d
+			y: 7.5d
+		}
+		{
+			id: "5774E364DBDD3D19"
+			rewards: [{
+				id: "2DCB7A6BB2068226"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "A &6传奇特性。&7具有此特性的生物 &4 &7 将 &5传送 &7 以逃避非魔法伤害。要对付具有此特性的生物，您需要造成魔法伤害。"
+			tasks: [{
+				id: "606952E31063BDC0"
+				item: "l2hostility:teleport"
+				type: "item"
+			}]
+			title: "Obtain the &5Teleport Trait"
+			x: 3.0d
+			y: 5.5d
+		}
+		{
+			id: "2F75DBC9A33350F6"
+			rewards: [{
+				id: "227E9FF78B6F0B64"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "当一个生物击中你时，你将获得 &fLevitation &7effect，更高的 &4trait &7level 意味着持续时间更长"
+			tasks: [{
+				id: "1DE1BBFA764910B8"
+				item: "l2hostility:levitation"
+				type: "item"
+			}]
+			title: "Obtain the &8Levitater Trait"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			id: "3C2100DB523AC945"
+			rewards: [{
+				id: "436E63CCB8C71653"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "具有此 &4trait &7 的生物会习惯攻击。他们会记住最近的 &cdamage &7types，并习惯它们。要对付具有此特性的生物，您需要使用不同的 &6attack &7types"
+			tasks: [{
+				id: "44E1824E1C427A33"
+				item: "l2hostility:adaptive"
+				type: "item"
+			}]
+			title: "Obtain the &2Adaptive Trait"
+			x: -4.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["49168C5493276AAC"]
+			description: [
+				"&7当你将鼠标悬停在生物上时，你会看到左上角弹出一个小标签，它被称为玉标签，它告诉你一个生物有多少生命值和护甲，但主要问题是，哪个级别意味着什么。这个任务会告诉你这一点。"
+				""
+				"&7你在盔甲下看到的“等级：（数字）”来自&6自动练级，&7这定义了生物可以拥有什么掉落物，等级越高意味着掉落更好更强。"
+				"{@pagebreak}"
+				"&7“等级：（数字）”下的“Lv.（数字）”来自&6L2敌意&7，这叫做难度。这定义了特定生物可以具有什么特征，数字越高意味着 &4 特征越多"
+			]
+			icon: "l2hostility:imagine_breaker"
+			id: "09951FC1F8207E0F"
+			rewards: [
+				{
+					id: "172AEB5829B0148F"
+					type: "xp"
+					xp: 5
+				}
+				{
+					count: 3
+					id: "37498A0CD934A707"
+					item: "l2hostility:bottle_of_sanity"
+					type: "item"
+				}
+			]
+			subtitle: "&6L2 Hostility"
+			tasks: [{
+				id: "40274B7AD59C4F98"
+				type: "checkmark"
+			}]
+			title: "&6Explaining the Levels"
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			id: "0708F2BBB0349289"
+			tasks: [{
+				id: "709D79649F005B5B"
+				item: "l2hostility:master"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 9.0d
+		}
+	]
+	title: "&c难度词条介绍"
+}

@@ -1,0 +1,47 @@
+{
+	icon: "celestial_artifacts:holy_talisman"
+	id: "48A071FCFA5D96C5"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "best_grade"
+	}
+	loot_size: 1
+	order_index: 61
+	rewards: [
+		{ item: "celestial_artifacts:corrupt_badge" }
+		{ item: "celestial_artifacts:red_heart_necklace" }
+		{ item: "celestial_artifacts:gallop_necklace" }
+		{ item: "celestial_artifacts:titan_scabbard" }
+		{ item: "celestial_artifacts:lock_of_abyss" }
+		{ item: "celestial_artifacts:spirit_arrow_bag" }
+		{ item: "celestial_artifacts:holy_talisman", weight: 0.7f }
+		{ item: "celestial_artifacts:soul_box", weight: 0.7f }
+		{ item: "celestial_artifacts:abyss_will_badge" }
+		{ item: "celestial_artifacts:destroyer_badge" }
+		{ item: "celestial_artifacts:cursed_protector" }
+		{ item: "celestial_artifacts:cursed_talisman" }
+		{ item: "celestial_artifacts:cursed_totem" }
+		{ item: "celestial_artifacts:truth_etching" }
+		{ count: 5, item: "l2complements:poseidite_ingot", weight: 4.0f }
+		{ count: 5, item: "l2complements:totemic_gold_ingot", weight: 4.0f }
+		{ item: "l2complements:life_essence", random_bonus: 5, weight: 4.0f }
+		{ item: "l2complements:storm_core", random_bonus: 5, weight: 4.0f }
+		{ item: "enigmaticlegacy:evil_essence" }
+		{
+			item: {
+				Count: 1
+				id: "endrem:evil_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "enigmaticlegacy:cursed_stone" }
+	]
+	title: "极品饰品"
+}

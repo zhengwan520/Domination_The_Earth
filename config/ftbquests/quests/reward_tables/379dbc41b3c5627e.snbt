@@ -1,0 +1,22 @@
+{
+	id: "379DBC41B3C5627E"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "head"
+	}
+	loot_size: 1
+	order_index: 83
+	rewards: [
+		{ item: "celestial_artifacts:sea_god_crown" }
+		{ item: "celestial_artifacts:prayer_crown" }
+		{ item: "celestial_artifacts:guardian_eye" }
+		{ item: "celestial_artifacts:evil_eye" }
+		{ item: "celestial_artifacts:spirit_crown" }
+	]
+	title: "头饰"
+}

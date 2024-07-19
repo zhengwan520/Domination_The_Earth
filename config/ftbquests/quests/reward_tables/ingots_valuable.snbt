@@ -1,0 +1,38 @@
+{
+	hide_tooltip: true
+	id: "60BF6515F4373139"
+	loot_crate: {
+		color: 16766976
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ingots_valuable"
+	}
+	loot_size: 1
+	order_index: 8
+	rewards: [
+		{ item: "undergarden:forgotten_ingot" }
+		{ item: "undergarden:froststeel_ingot", weight: 0.2f }
+		{ item: "aquaculture:neptunium_ingot", weight: 0.1f }
+		{ item: "enigmaticlegacy:etherium_ingot", weight: 0.1f }
+		{ item: "minecraft:netherite_ingot", weight: 0.4f }
+		{ item: "twilightforest:knightmetal_ingot" }
+		{ item: "twilightforest:fiery_ingot" }
+		{ item: "twilightforest:ironwood_ingot" }
+		{ item: "aquaculture:box" }
+		{ item: "aquaculture:lockbox" }
+		{ item: "create:zinc_ingot" }
+		{ item: "create:brass_ingot" }
+		{ item: "alexscaves:scarlet_neodymium_ingot" }
+		{ item: "alexscaves:azure_neodymium_ingot" }
+		{ item: "amethyst_imbuement:steel_ingot" }
+		{ item: "amethyst_imbuement:beryl_copper_ingot" }
+		{ item: "iceandfire:ghost_ingot" }
+		{ item: "iceandfire:silver_ingot" }
+		{ item: "minecraft:gold_ingot" }
+	]
+	title: "有价值的锭"
+	use_title: true
+}

@@ -1,0 +1,24 @@
+{
+	id: "1E905D31A6B727A3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 84
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "head"
+			}
+		}
+	}]
+	title: "头饰箱"
+}

@@ -1,0 +1,23 @@
+{
+  "armorSetName": "leather",
+  "head": {
+    "itemKey": "iceandfire:dragonsteel_fire_helmet"
+  },
+ "chest": {
+    "itemKey": "iceandfire:dragonsteel_fire_chestplate"
+  },
+ "legs": {
+    "itemKey": "iceandfire:dragonsteel_fire_leggings"
+  },
+  "boots": {
+    "itemKey": "iceandfire:dragonsteel_fire_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "l2complements:curse",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    }
+  ]
+}

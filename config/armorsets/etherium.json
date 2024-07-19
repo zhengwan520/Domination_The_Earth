@@ -1,0 +1,35 @@
+{
+  "armorSetName": "red",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "enigmaticlegacy:etherium_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "enigmaticlegacy:etherium_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "enigmaticlegacy:etherium_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "enigmaticlegacy:etherium_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "minecraft:resistance",
+      "value": 2,
+      "modifierUUID": "a9737e61-e1f4-40fc-9b98-93f3b5167b7d",
+      "description": "resistance",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

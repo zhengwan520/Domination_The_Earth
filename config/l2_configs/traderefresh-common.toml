@@ -1,0 +1,16 @@
+banAllTradeEnchantmentsByDefault = false
+tradeNamespaceBlacklist = []
+tradeNamespaceWhitelist = ["minecraft"]
+tradeIdBlacklist = ["celestial_enchantments:the_hand_of_thief", "celestial_enchantments:the_source_of_sin", "celestial_enchantments:destruction_crack", "celestial_enchantments:celestial_shelter", "celestial_enchantments:death_blade", "celestial_enchantments:trauma_absorption", "celestial_enchantments:blood_thirst_slash", "x_enchantment:increment_attack_damage", "x_enchantment:more_loot", "celestial_enchantments:pure_body"]
+tradeIdWhitelist = ["minecraft:unbreaking"]
+banAllTableEnchantmentsByDefault = false
+tableNamespaceBlacklist = []
+tableNamespaceWhitelist = ["minecraft"]
+tableIdBlacklist = ["celestial_enchantments:the_hand_of_thief", "celestial_enchantments:the_source_of_sin", "celestial_enchantments:destruction_crack", "celestial_enchantments:celestial_shelter", "celestial_enchantments:death_blade", "celestial_enchantments:trauma_absorption", "celestial_enchantments:blood_thirst_slash"]
+tableIdWhitelist = ["minecraft:unbreaking"]
+#Always allow refreshing trade.
+# Only trades added at current villager level will be refreshed.
+alwaysAllowRefresh = false
+#Allow player to use emerald block to force restock
+allowEmeraldBlockForceRestock = true
+

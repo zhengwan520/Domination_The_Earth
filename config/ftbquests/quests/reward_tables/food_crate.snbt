@@ -1,0 +1,64 @@
+{
+	id: "62DDC65FC4E645DC"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "food_crate"
+	}
+	loot_size: 6
+	order_index: 23
+	rewards: [
+		{ item: "farmersdelight:pasta_with_mutton_chop", weight: 40.0f }
+		{ item: "farmersdelight:pasta_with_meatballs", weight: 40.0f }
+		{ item: "farmersdelight:bacon_and_eggs", weight: 40.0f }
+		{ item: "farmersdelight:noodle_soup", weight: 40.0f }
+		{ item: "farmersdelight:baked_cod_stew", weight: 40.0f }
+		{ item: "farmersdelight:pumpkin_soup", weight: 40.0f }
+		{ item: "farmersdelight:fried_rice", weight: 40.0f }
+		{ item: "farmersdelight:fish_stew", weight: 40.0f }
+		{ item: "farmersdelight:vegetable_soup", weight: 40.0f }
+		{ item: "farmersdelight:hot_cocoa", weight: 40.0f }
+		{ item: "farmersdelight:melon_juice", weight: 40.0f }
+		{ item: "farmersdelight:cooked_cod_slice", weight: 40.0f }
+		{ item: "farmersdelight:apple_cider", weight: 40.0f }
+		{ item: "farmersdelight:tomato_sauce", weight: 40.0f }
+		{ item: "farmersdelight:pumpkin_slice", weight: 40.0f }
+		{ item: "farmersdelight:beef_patty", weight: 40.0f }
+		{ item: "farmersdelight:cooked_chicken_cuts", weight: 40.0f }
+		{ item: "farmersdelight:cooked_bacon", weight: 40.0f }
+		{ item: "farmersdelight:melon_popsicle", weight: 40.0f }
+		{ item: "farmersdelight:fruit_salad", weight: 40.0f }
+		{ item: "farmersdelight:egg_sandwich", weight: 40.0f }
+		{ item: "farmersdelight:chicken_sandwich", weight: 40.0f }
+		{ item: "farmersdelight:chocolate_pie", weight: 40.0f }
+		{ item: "farmersdelight:sweet_berry_cheesecake", weight: 40.0f }
+		{ item: "farmersdelight:smoked_ham", weight: 40.0f }
+		{ item: "farmersdelight:apple_pie", weight: 40.0f }
+		{ item: "farmersdelight:cooked_salmon_slice", weight: 40.0f }
+		{ item: "farmersdelight:sweet_berry_cookie", weight: 40.0f }
+		{ item: "farmersdelight:stuffed_potato", weight: 40.0f }
+		{ item: "farmersdelight:dumplings", weight: 40.0f }
+		{ item: "farmersdelight:mutton_wrap", weight: 40.0f }
+		{ item: "farmersdelight:stuffed_potato", weight: 40.0f }
+		{ item: "farmersdelight:cabbage_rolls", weight: 40.0f }
+		{ item: "farmersdelight:cooked_rice", weight: 40.0f }
+		{ item: "farmersdelight:beef_stew", weight: 40.0f }
+		{ item: "farmersdelight:chicken_soup", weight: 40.0f }
+		{ item: "minecraft:cooked_chicken", weight: 40.0f }
+		{ item: "minecraft:cooked_rabbit", weight: 40.0f }
+		{ item: "minecraft:golden_apple", weight: 40.0f }
+		{ item: "minecraft:enchanted_golden_apple", weight: 40.0f }
+		{ item: "minecraft:cake", weight: 40.0f }
+		{ item: "twilightdelight:cooked_venison_rib", weight: 40.0f }
+		{ item: "twilightdelight:cooked_meef_slice", weight: 40.0f }
+		{ item: "farmersdelight:shepherds_pie_block", weight: 40.0f }
+		{ item: "twilightdelight:fried_insect", weight: 40.0f }
+		{ item: "twilightdelight:torchberry_cookie", weight: 40.0f }
+		{ item: "twilightdelight:glowstew", weight: 40.0f }
+	]
+	title: "食品箱"
+}

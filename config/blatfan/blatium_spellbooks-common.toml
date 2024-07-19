@@ -1,0 +1,64 @@
+
+[ArmorConfig]
+
+	#Changing armor values requires world restart
+	[ArmorConfig.blatium]
+		#Blatium's Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [4, 7, 9, 4]
+		armorValues = [4, 7, 9, 4]
+		#Blatium's Armor Toughness. Default: 4
+		toughness = 4
+		#Blatium's Knockback Resistance. Default: 0.0
+		knockbackResistance = 0.0
+		#Blatium's Max Mana. Default: 200
+		maxMana = 200
+		#Blatium's Spell Power. Default: 0.2 (+20%)
+		spellPower = 0.2
+		#Blatium's Mana Regen. Default: 0.05
+		manaRegen = 0.05
+		#Blatium's Helmet Prevents Drowning. Default: true
+		helmetPreventsDrowning = true
+		#Blatium's Helmet Prevents Elytra Damage. Default: true
+		helmetPreventsElytraDamage = true
+		#Blatium's Chestplate Prevents Fire Damage. Default: true
+		chestplatePreventsFire = true
+		#Blatium's Chestplate Prevents Dragon Breath. Default: false
+		chestplatePreventsDragonBreath = false
+		#Blatium's Leggings Prevent Wither. Default: false
+		leggingsPreventWither = false
+		#Blatium's Leggings Prevent Levitation. Default: false
+		leggingsPreventLevitation = false
+		#Blatium's Boots Prevent Fall Damage. Default: true
+		bootsPreventFallDamage = true
+		#Blatium's Armor makes Piglins Neutral (like gold armor). Default: true
+		makesPiglinsNeutral = true
+
+	[ArmorConfig.nlium]
+		#Nlium's Armor Values, in the form of [boots, leggings, chestplate, helmet]. Default: [8, 11, 13, 8]
+		armorValues = [8, 11, 13, 8]
+		#Nlium's Armor Toughness. Default: 6
+		toughness = 6
+		#Nlium's Knockback Resistance. Default: 0.0
+		knockbackResistance = 0.0
+		#Nlium's Max Mana. Default: 450
+		maxMana = 450
+		#Nlium's Spell Power. Default: 0.4 (+40%)
+		spellPower = 0.4
+		#Nlium's Mana Regen. Default: 0.15
+		manaRegen = 0.15
+		#Nlium's Helmet Prevents Drowning. Default: true
+		helmetPreventsDrowning = true
+		#Nlium's Helmet Prevents Elytra Damage. Default: true
+		helmetPreventsElytraDamage = true
+		#Nlium's Chestplate Prevents Fire Damage. Default: true
+		chestplatePreventsFire = true
+		#Nlium's Chestplate Prevents Dragon Breath. Default: true
+		chestplatePreventsDragonBreath = true
+		#Nlium's Leggings Prevent Wither. Default: true
+		leggingsPreventWither = true
+		#Nlium's Leggings Prevent Levitation. Default: true
+		leggingsPreventLevitation = true
+		#Nlium's Boots Prevent Fall Damage. Default: true
+		bootsPreventFallDamage = true
+		#Nlium's Armor makes Piglins Neutral (like gold armor). Default: true
+		makesPiglinsNeutral = true
+

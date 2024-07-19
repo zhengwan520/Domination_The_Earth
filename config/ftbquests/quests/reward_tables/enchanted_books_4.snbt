@@ -1,0 +1,91 @@
+{
+	id: "3CF1A0860A8FFF87"
+	loot_crate: {
+		color: 10097585
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "enchanted_books_4"
+	}
+	loot_size: 1
+	order_index: 50
+	rewards: [
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "enigmaticlegacy:iron_ring"
+				tag: {
+					Enchantments: [{
+						id: "minecraft:unbreaking"
+						lvl: 3s
+					}]
+					RepairCost: 1
+				}
+			}
+			title: "Unbreaking 3"
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "roughtweaks:medkit_enchanted"
+				tag: {
+					Damage: 0
+					Enchantments: [{
+						id: "minecraft:mending"
+						lvl: 1s
+					}]
+					RepairCost: 1
+				}
+			}
+			title: "Mending"
+			weight: 24.0f
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ender_eye"
+				tag: {
+					Enchantments: [{
+						id: "uniquee:ender_mending"
+						lvl: 3s
+					}]
+					RepairCost: 1
+				}
+			}
+			title: "Ender Mending 3"
+			weight: 6.0f
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "enigmaticlegacy:enchantment_transposer"
+			}
+			weight: 10.0f
+		}
+	]
+	title: "Enchanted Items"
+}

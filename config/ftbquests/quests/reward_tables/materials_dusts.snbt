@@ -1,0 +1,41 @@
+{
+	hide_tooltip: true
+	id: "23C4FE9BC166D7DA"
+	loot_crate: {
+		color: 9926
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "materials_dusts"
+	}
+	loot_size: 1
+	order_index: 6
+	rewards: [
+		{ item: "minecraft:redstone" }
+		{ item: "minecraft:glowstone_dust" }
+		{ item: "iceandfire:pixie_dust" }
+		{ item: "waystones:warp_dust" }
+		{
+			item: {
+				Count: 1b
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "tombstone:dust_of_vanishing"
+			}
+		}
+		{ item: "minecraft:pink_dye" }
+		{ item: "amethyst_imbuement:gem_dust" }
+		{ item: "create:crushed_raw_zinc" }
+		{ item: "celestial_artifacts:purified_powder" }
+		{ item: "create:powdered_obsidian" }
+		{ item: "create:crushed_raw_iron" }
+		{ item: "create:wheat_flour" }
+	]
+	title: "粉尘材料"
+	use_title: true
+}

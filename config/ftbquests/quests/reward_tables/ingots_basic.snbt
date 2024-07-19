@@ -1,0 +1,44 @@
+{
+	id: "351222B6C5DB4816"
+	loot_crate: {
+		color: 13619151
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ingots_basic"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:iron_ingot", weight: 40.0f }
+		{ item: "minecraft:gold_ingot", weight: 20.0f }
+		{ item: "twilightforest:ironwood_ingot", weight: 40.0f }
+		{ item: "minecraft:netherite_ingot" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "undergarden:froststeel_ingot"
+			}
+		}
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "undergarden:cloggrum_ingot"
+			}
+		}
+	]
+	title: "基础锭"
+	use_title: true
+}

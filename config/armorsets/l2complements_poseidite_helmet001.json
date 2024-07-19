@@ -1,0 +1,23 @@
+{
+  "armorSetName": "leather",
+  "head": {
+    "itemKey": "l2complements:poseidite_helmet"
+  },
+ "chest": {
+    "itemKey": "l2complements:poseidite_chestplate"
+  },
+ "legs": {
+    "itemKey": "l2complements:poseidite_leggings"
+  },
+  "boots": {
+    "itemKey": "l2complements:poseidite_boots"
+  },
+  "fullSetBonuses": [
+    {
+      "type": "effect",
+      "name": "cataclysm:abyssal_burn",
+      "interactionType": "immunity",
+      "description": "Poison immunity"
+    }
+  ]
+}

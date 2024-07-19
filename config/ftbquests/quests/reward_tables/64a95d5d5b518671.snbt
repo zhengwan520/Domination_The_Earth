@@ -1,0 +1,25 @@
+{
+	id: "64A95D5D5B518671"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 68
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "best_grade"
+			}
+		}
+		title: "极品饰品箱"
+	}]
+	title: "极品饰品箱"
+}

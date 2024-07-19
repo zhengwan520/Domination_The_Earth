@@ -1,0 +1,42 @@
+{
+	id: "54ADB79AD18E136B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "blossom_saplings"
+	}
+	loot_size: 1
+	order_index: 43
+	rewards: [
+		{ item: "amethyst_imbuement:gem_dust" }
+		{ item: "amethyst_imbuement:blazing_gem" }
+		{ item: "amethyst_imbuement:sparking_gem" }
+		{ item: "victus:emerald_heart_aspect" }
+		{ item: "amethyst_imbuement:brutal_gem" }
+		{ item: "amethyst_imbuement:healers_gem" }
+		{ item: "amethyst_imbuement:lethal_gem" }
+		{ item: "amethyst_imbuement:inquisitive_gem" }
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:runefused_gem"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "simplyswords:netherfused_gem"
+				tag: { }
+			}
+		}
+		{ item: "alexscaves:occult_gem" }
+		{ item: "iceandfire:sapphire_gem" }
+		{ item: "amethyst_imbuement:inquisitive_gem" }
+	]
+	title: "Blossom Saplings"
+}

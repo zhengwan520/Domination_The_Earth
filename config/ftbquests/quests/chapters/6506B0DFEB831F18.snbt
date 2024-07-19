@@ -1,0 +1,482 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "6506B0DFEB831F18"
+	group: "3D50078FD72945E1"
+	id: "6506B0DFEB831F18"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&6用贝壳号角靠近水域并从船长的鬼魂那里拿走钥匙."]
+			id: "0055B9AF86A24086"
+			tasks: [{
+				advancement: "aquamirae:adventure/obtain_frozen_key"
+				criterion: ""
+				id: "5A6A266483E235DD"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6同时使用效率VI和急迫II来瞬间破坏深板岩."]
+			id: "7D4BFC56EAB3E0A9"
+			tasks: [{
+				advancement: "quark:instamine_deepslate"
+				criterion: ""
+				id: "13B5ED9D0F6CB744"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -3.5d
+		}
+		{
+			description: ["&6把谜题羊所缺少的部分交给它."]
+			id: "33DE84F9E74C76D9"
+			tasks: [{
+				advancement: "twilightforest:quest_ram"
+				criterion: ""
+				id: "41D557B39EA33B2D"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			description: ["&6猎杀森林角落的娜迦，取得可以帮你突破巫妖塔魔法壁垒的娜迦鳞片."]
+			id: "48C6F30D12767449"
+			tasks: [{
+				advancement: "twilightforest:progress_naga"
+				criterion: ""
+				id: "78FC1E746529D359"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6击杀塔顶的巫妖并取得他的权杖！这权杖可以驱散沼泽的毒蚊群、解除黑暗森林的失明诅咒并对抗积雪森林的严寒."]
+			id: "786522803F373999"
+			tasks: [{
+				advancement: "twilightforest:progress_lich"
+				criterion: ""
+				id: "0AB461BD32B3A6C5"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			description: ["&6令骑士之墓的幻影安息，之后你将控制幽冥高塔中的砷铅铁机关."]
+			id: "7073547FF2901A4B"
+			tasks: [{
+				advancement: "twilightforest:progress_knights"
+				criterion: ""
+				id: "6F8AA7F3F8C94B8B"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6触碰暮初恶魂那炽红的眼泪."]
+			id: "20AB064D7D4CF87A"
+			tasks: [{
+				advancement: "twilightforest:progress_ur_ghast"
+				criterion: ""
+				id: "03E938AC3B474100"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6吃牛头人沙拉酱肉让你的身体适应火焰沼泽危险的高温."]
+			id: "7BF55ADA62671670"
+			tasks: [{
+				advancement: "twilightforest:progress_labyrinth"
+				criterion: ""
+				id: "27276A9606AF81BB"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6杀死强大的九头蛇！这将让你在暮色森林的威望大增."]
+			id: "3B09F8A3C1389838"
+			tasks: [{
+				advancement: "twilightforest:progress_hydra"
+				criterion: ""
+				id: "6F9519A2C8E9B6E5"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -2.0d
+		}
+		{
+			description: ["&6击败九头蛇、暮色恶魂和冰雪女王以驱散高原上空的酸雨，给自己踏足高原的勇气."]
+			id: "0226A15281765E29"
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "72E0AEE396128B78"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6披上雪怪首领松软的毛皮，抵抗冰川里那词刺骨的寒风."]
+			id: "04E4E416BFA23CD9"
+			tasks: [{
+				advancement: "twilightforest:progress_yeti"
+				criterion: ""
+				id: "382E31E397860ECF"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -2.0d
+		}
+		{
+			description: ["&6杀掉极光宫殿顶部的冰雪女王，还暮色森林一个澄澈的夜空."]
+			id: "5AF155E01EBA9EA8"
+			tasks: [{
+				advancement: "twilightforest:progress_glacier"
+				criterion: ""
+				id: "4C47B0A2326E00C7"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -2.0d
+		}
+		{
+			description: ["&6将龙血和极恶锭锻造成龙钢."]
+			id: "74D2537AABDFA4C3"
+			tasks: [{
+				advancement: "iceandfire:iceandfire/dragonsteel"
+				criterion: ""
+				id: "46CE7E0A1E56FEB1"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			description: ["&6品尝农夫乐事的全部菜肴."]
+			id: "3BFE1B98E476CC05"
+			tasks: [{
+				advancement: "farmersdelight:main/master_chef"
+				criterion: ""
+				id: "338CA01AC9E91C8F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			description: ["&6使用宝石切割台，制作一个完美的宝石."]
+			id: "54D3A6A9D33CD888"
+			tasks: [{
+				advancement: "apotheosis:affix/ancient_gem"
+				criterion: ""
+				id: "0B14E31D9A12516E"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			description: ["&6目击爆炸性深水炸弹."]
+			id: "27B20E0E5C3F2E20"
+			tasks: [{
+				advancement: "ars_nouveau:wilden_explosion"
+				criterion: ""
+				id: "508721A18EE89C8A"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6击败末影守卫."]
+			id: "65B02AD4BF7AE6B5"
+			tasks: [{
+				advancement: "cataclysm:kill_ender_guardian"
+				criterion: ""
+				id: "747108A7145C08B3"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6杀死下界合金巨兽."]
+			id: "577828506AED3AD6"
+			tasks: [{
+				advancement: "cataclysm:kill_monstrosity"
+				criterion: ""
+				id: "32F01880A9E8C8A1"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6召唤并击败利维坦."]
+			id: "214052B454997DB1"
+			tasks: [{
+				advancement: "cataclysm:kill_leviathan"
+				criterion: ""
+				id: "4B0D53D76AEE1587"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6唤醒并击败先驱者."]
+			id: "07C041CD8936E32E"
+			tasks: [{
+				advancement: "cataclysm:kill_harbinger"
+				criterion: ""
+				id: "0F100AABA6F483C2"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6召唤并击败焰魔."]
+			id: "6084C37B0E78B0C2"
+			tasks: [{
+				advancement: "cataclysm:kill_ignis"
+				criterion: ""
+				id: "4BA01B5CA294C17A"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6在诅咒金字塔中利用刷子清扫可疑的沙子，唤醒并击败远古遗魂."]
+			id: "253C422EAEE5B324"
+			tasks: [{
+				advancement: "cataclysm:kill_remnant"
+				criterion: ""
+				id: "21E8EF1C73A5FEF7"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6获得傲慢诅咒."]
+			id: "391999BF673A953E"
+			tasks: [{
+				advancement: "l2hostility:hostility/pride"
+				criterion: ""
+				id: "047FA9F1DEBD4415"
+				type: "advancement"
+			}]
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6获得扭曲之魂."]
+			id: "659F55000F88C43E"
+			tasks: [{
+				advancement: "l2hostility:hostility/abrahadabra"
+				criterion: ""
+				id: "6D401804F6198E37"
+				type: "advancement"
+			}]
+			x: 11.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6获得无止之言，成为深渊的使者."]
+			id: "774F373AE268F54B"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/the_infinitum"
+				criterion: ""
+				id: "50B4AB1CD85F597B"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			description: ["&6铸造荒芜之负，并忍受其结果."]
+			id: "5B6952DBF6DC2B6C"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/desolation_ring"
+				criterion: ""
+				id: "4DC24C63B3E7092F"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6将所有的术石都强扭成一个强力而不自然的形体——非欧立方."]
+			id: "27D62FAF85139CD9"
+			tasks: [{
+				advancement: "enigmaticlegacy:main/the_cube"
+				criterion: ""
+				id: "3B66F993085B1C7E"
+				type: "advancement"
+			}]
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			description: ["&6杀死诡异蚊鬼，诡异森林里强壮的保卫者."]
+			id: "4D79C6BD90B2E76F"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/warped_mosco_kill"
+				criterion: ""
+				id: "3F89348968176B82"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			description: ["&6消灭虚空蠕虫."]
+			id: "20111AF8C9973FC9"
+			tasks: [{
+				advancement: "alexsmobs:alexsmobs/void_worm_kill"
+				criterion: ""
+				id: "74D9DBF09E9D6C35"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			description: ["&6制作并装备一整套（耀眼）深海装备."]
+			id: "5F118371D99DF49D"
+			tasks: [{
+				advancement: "aquamirae:adventure/abyssal_armor"
+				criterion: ""
+				id: "27F36F405B1087AD"
+				type: "advancement"
+			}]
+			x: 8.0d
+			y: -0.5d
+		}
+		{
+			description: ["&6制作并放置天界工作台."]
+			id: "0634FE0C3EE512F2"
+			tasks: [{
+				advancement: "celestisynth:place_celestial_table"
+				criterion: ""
+				id: "5BF454F74EA24194"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 1.0d
+		}
+		{
+			description: ["&6在末地中，仅用一根穿透箭杀死一只幼年海龟，一位女巫，一个远古守卫者与一个猪灵蛮兵."]
+			id: "0331E76C1D7B5972"
+			tasks: [{
+				advancement: "blazeandcave:end/good_luck_getting_this_one"
+				criterion: ""
+				id: "27A76028C781213B"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6杀死20只末影龙"]
+			id: "3E63E32381835AE7"
+			tasks: [{
+				advancement: "blazeandcave:end/ring_of_the_end"
+				criterion: ""
+				id: "702F22D9012D2332"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6杀死持有每一个他们能持有的方块的末影人."]
+			id: "4774AD081BD5D798"
+			tasks: [{
+				advancement: "blazeandcave:monsters/basketblock_championship"
+				criterion: ""
+				id: "2B35DB0217058505"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			description: [
+				"&6其一：合成一个会消失的指南针."
+				"&6其二：杀死会钓鱼的尸体."
+				"&6其三：骑上传说中倒立的坐骑."
+				"&6其四：在某座古老的神庙中裁下一段拌线."
+				"&6其五：无论何地，半隐半现."
+				"&6其六：将鸟蛋丢回半空中."
+				"&6其七：让某种生物的幼体实施偷窃行为."
+				"&6其八：用瞬间治疗杀死凋灵."
+				"&6其九：想成为海盗吗？那么手机鹦鹉、望远镜、地图还有船吧."
+				"&6其十：如果你能完成这一条，你将会度过你人生中绝佳的蚀刻."
+			]
+			id: "62B70F92C3D2B432"
+			tasks: [{
+				advancement: "blazeandcave:challenges/riddle_me_this"
+				criterion: ""
+				id: "0B906166027CA281"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			description: ["&6用最难获取的八种状态激发好奇宝石."]
+			id: "16B85E15F559BB41"
+			tasks: [{
+				advancement: "amethyst_imbuement:master_researcher"
+				criterion: ""
+				id: "364AD3C4BC9C2B0E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: [
+				"&6在MC中度过了游戏中的365天."
+				"&4想查看进展，请输入：/trigger bac_statistics."
+			]
+			id: "3FDBE3FF5DD3506B"
+			tasks: [{
+				advancement: "blazeandcave:statistics/happy_new_year"
+				criterion: ""
+				id: "794DCA26E63B2387"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 4.0d
+		}
+		{
+			description: ["&6繁育2500只动物."]
+			id: "2FE3C186160D6CD1"
+			tasks: [{
+				advancement: "blazeandcave:statistics/two_by_two"
+				criterion: ""
+				id: "4AFDF154EA20478F"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 4.0d
+		}
+	]
+	title: "奖励成就系统"
+}

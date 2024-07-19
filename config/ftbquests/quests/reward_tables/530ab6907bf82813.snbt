@@ -1,0 +1,24 @@
+{
+	id: "530AB6907BF82813"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "normal_ornament"
+	}
+	loot_size: 1
+	order_index: 88
+	rewards: [
+		{ item: "celestial_artifacts:twisted_heart" }
+		{ item: "celestial_artifacts:heart_of_revenge" }
+		{ item: "celestial_artifacts:chaotic_pendant" }
+		{ item: "celestial_artifacts:skywalker_scroll" }
+		{ item: "celestial_artifacts:sea_god_scroll" }
+		{ item: "celestial_artifacts:demon_heart" }
+		{ item: "celestial_artifacts:greedy_heart" }
+	]
+	title: "平凡饰品"
+}

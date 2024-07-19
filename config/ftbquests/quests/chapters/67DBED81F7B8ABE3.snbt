@@ -1,0 +1,512 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "67DBED81F7B8ABE3"
+	group: "4E2A249F11A26E74"
+	id: "67DBED81F7B8ABE3"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/terror_decoration01.png"
+			rotation: 0.0d
+			width: 22.68389662027833d
+			x: 2.5d
+			y: -17.0d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/bat.png"
+			rotation: 0.0d
+			width: 7.983050847457626d
+			x: -6.0d
+			y: -12.5d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/tree.png"
+			rotation: 0.0d
+			width: 11.134842205929232d
+			x: 11.5d
+			y: -10.0d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/mechanism_01.png"
+			rotation: 0.0d
+			width: 18.049837486457204d
+			x: 1.0d
+			y: -16.0d
+		}
+		{
+			height: 3.0d
+			image: "l2hostility:item/book"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/bule_star01.png"
+			rotation: 0.0d
+			width: 9.925650557620818d
+			x: 1.0d
+			y: -10.5d
+		}
+		{
+			height: 20.0d
+			image: "ftbquests:textures/gui/frame_05.png"
+			rotation: 0.0d
+			width: 30.0d
+			x: 3.0d
+			y: -11.5d
+		}
+		{
+			height: 2.0d
+			image: "cataclysm:textures/entity/soul_flame_strike_sigil.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: -6.5d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:items/fabulous_scroll"
+			rotation: 0.0d
+			width: 0.16666666666666666d
+			x: -13.0d
+			y: -14.0d
+		}
+		{
+			height: 1.0d
+			image: "l2weaponry:item/3d/legendary/sonic_boom_hammer"
+			rotation: 0.0d
+			width: 0.0625d
+			x: 20.5d
+			y: -8.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [
+				"&d整合包的怪物拥有多种药水效果并且会有堪比冠军怪的词条当然这些词条都有单独的破解之法"
+				""
+				"&e并且玩家拥有独立的难度系统需要自主平衡增长"
+				""
+			]
+			icon: "l2hostility:teleport"
+			id: "79C844DE8427D3CE"
+			shape: "rsquare"
+			tasks: [{
+				id: "75AA0FAB248BB24B"
+				type: "checkmark"
+			}]
+			title: "强化版冠军怪"
+			x: -0.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&e在线的玩家越多怪物的强度越高"]
+			icon: {
+				Count: 1
+				id: "enigmaticlegacy:insignia"
+				tag: { }
+			}
+			id: "0A99A26A9C4852D3"
+			shape: "rsquare"
+			tasks: [{
+				id: "0960C8DC9AC14C6D"
+				type: "checkmark"
+			}]
+			title: "多人动态难度"
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [
+				"&c在七咒之戒的影响下,铁傀儡与村庄守卫都会对你产生敌意."
+				"&e现实七诅咒能给予你穿戴高级潘多拉饰品以及伤害拥有现实压制词条怪物的能力."
+				"&d穿戴灾厄之册后，能通过一些特殊的方式获取对应的刻蚀板来扭转对应的诅咒，将其变为增益效果."
+				"&4ps:除了七咒之戒以外的诅咒都可以选择性佩戴."
+			]
+			icon: "enigmaticlegacy:cursed_ring"
+			id: "55BBE1141297DC78"
+			shape: "square"
+			subtitle: "&c七咒之戒/&e现实七诅咒/&d灾厄手册"
+			tasks: [{
+				id: "0B5811AF62895AB4"
+				type: "checkmark"
+			}]
+			title: "二十一诅咒"
+			x: -1.5d
+			y: -10.5d
+		}
+		{
+			icon: {
+				Count: 1
+				id: "iceandfire:dragonsteel_fire_pickaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3A8634BF68E47991"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6CC6467D7D6D205C"
+				table_id: 4990425589512319089L
+				type: "loot"
+			}]
+			shape: "circle"
+			tasks: [{
+				id: "6C45E2B7B5489FB7"
+				type: "checkmark"
+			}]
+			title: "连锁挖掘"
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&d整合包当中的刷怪笼受刷出二十只怪后就会自毁,自毁后不会掉落任何物品"]
+			icon: "iceandfire:dread_spawner"
+			id: "2B52B41D2C1F50B4"
+			rewards: [{
+				id: "39DE19EC0AF65516"
+				item: {
+					Count: 1
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "7F3176F6EDFCC12E"
+				type: "checkmark"
+			}]
+			title: "刷怪笼限制机制"
+			x: 1.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [
+				"&d如果你想要击杀怪物获得物品,请尽量自己亲手击杀,不要让怪物死于燃烧、TNT爆炸等一系列负面BUFF,否则部分的饰品不会掉落"
+				""
+			]
+			icon: "l2hostility:curse_of_lust"
+			id: "122A9A63B64A0B09"
+			shape: "rsquare"
+			subtitle: "&c玩家想获得古遗物需要佩戴色欲饰品才能击杀掉落"
+			tasks: [{
+				id: "1BD8CCD355DCED83"
+				type: "checkmark"
+			}]
+			title: "击杀介绍"
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&9在本整合包中战利品箱子将会为每个打开它的玩家提供相互独立的战利品空间"]
+			icon: "lootr:trophy"
+			id: "5558207008C0B29C"
+			shape: "square"
+			tasks: [{
+				id: "36A478C38E6FDDE3"
+				type: "checkmark"
+			}]
+			title: "不一样的箱子"
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			description: ["&d饰品栏的右下角有一个时装栏,在时装栏中穿戴的盔甲会优先显示."]
+			icon: {
+				Count: 1
+				id: "alexsmobs:novelty_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "51DE8889CBA7BC8B"
+			shape: "circle"
+			tasks: [{
+				id: "7A51F332356D5E9B"
+				type: "checkmark"
+			}]
+			title: "时装"
+			x: 8.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&6部分BOSS拥有逝不过三机制,即当一名玩家被当前挑战的BOSS击杀三次时,该BOSS将会回满状态"]
+			icon: "minecraft:warden_spawn_egg"
+			id: "1BE33593659C849A"
+			shape: "square"
+			tasks: [{
+				id: "15E3FAC3DF52373E"
+				type: "checkmark"
+			}]
+			title: "世不过三"
+			x: 1.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&c更加方便的保护玩家"]
+			icon: {
+				Count: 1
+				id: "aquamirae:abyssal_brigantine"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "041BB3D3DF50F6A4"
+			shape: "rsquare"
+			tasks: [{
+				id: "42C0BD75A7C5C902"
+				type: "checkmark"
+			}]
+			title: "护甲增强"
+			x: -2.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&d将20-50之间的伤害减免80%，可以避免前期遭遇过于强大的敌人而跑不了的情况，至少能挨一两下，减少前期因跑尸而连续死掉的情况，优化游戏体验"]
+			icon: "minecraft:armor_stand"
+			id: "379583C2666949B9"
+			shape: "rsquare"
+			tasks: [{
+				id: "753D340CF24A54BF"
+				type: "checkmark"
+			}]
+			title: "减伤优化"
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [
+				"&aBad Omen Moon：随着夜幕降临，Bad Omen Moon 悬挂在天空，主世界的气氛逐渐变得紧张。出现时玩家会获得整夜的不祥之兆Ⅰ状态效果。"
+				"&eBig Moon：遥望夜空，亲眼见证惊人的大月亮于地平线上升起。出现时玩家会获得整夜的跳跃提升Ⅲ和缓降Ⅰ或飘浮Ⅰ状态效果。"
+				"&eBlood Moon：Blood Moon 升起时，准备好与怪物激烈搏斗。出现时月亮为红色，怪物的生成量和伤害值会增加。爆率真的很高（指事件）！"
+				"&cCrimson Moon：Crimson Moon 让主世界和下界之间的界限变得缥缈。准备好体验前所未有的维度重叠！出现时主世界会生成下界怪物。"
+				"&cHero Moon：经历数日的生死搏斗，勇士们的英勇事迹传遍了各个村庄！沉浸在 Hero Moon 独特的氛围中，村民们愿意表达内心的崇敬，为勇士们降低交易的价格。出现时玩家会获得整夜的村庄英雄Ⅰ状态效果。"
+				"&5Miner Moon：当 Miner Moon 出现时，不必拘束，尽情释放你内心的矿工天性！出现时玩家会获得整夜的急迫Ⅰ状态效果。"
+				"&5Tiny Moon：Tiny Moon 升起时，体验重力急剧增大带来的生存挑战。出现时未落地的生物快速向下位移。（反应有点慢）"
+				"&5White Moon：勇士们看到 White Moon 升起时，庆幸自己终于可以松一口气。出现时中立生物和敌对生物不再生成。"
+				"&5Eclipse Moon：难得一遇的月食事件！出现时暴露在建筑外的玩家会获得黑暗Ⅰ效果。"
+			]
+			icon: "amethyst_imbuement:moonstone"
+			id: "152C6F32ADD3D85E"
+			shape: "rsquare"
+			tasks: [{
+				id: "622A0606B8B02CFF"
+				type: "checkmark"
+			}]
+			title: "独特设计的月亮事件"
+			x: 4.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&5玩家会遇到许多作者单独制作的新建筑并会获得丰富的战利品"]
+			icon: "alexsmobs:transmutation_table"
+			id: "4A45BBC2ECAB7414"
+			rewards: [{
+				id: "51082A84A7C85F18"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [{
+				id: "737A6CC2D5EF4F89"
+				type: "checkmark"
+			}]
+			title: "地牢冒险建筑"
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&e超多更强大的附魔来保护玩家且制作更加困难"]
+			icon: {
+				Count: 1
+				id: "minecraft:enchanted_book"
+				tag: {
+					StoredEnchantments: [{
+						id: "minecraft:protection"
+						lvl: 5s
+					}]
+				}
+			}
+			id: "13EECBC7F7DA5862"
+			shape: "rsquare"
+			tasks: [{
+				id: "21938B36BE275ED6"
+				type: "checkmark"
+			}]
+			title: "不一样的附魔"
+			x: 2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&5玩家会遇到大概400种新饰品和部分模组作者特供的饰品"]
+			icon: "celestial_artifacts:knight_shelter"
+			id: "5C690B0D71658636"
+			rewards: [{
+				id: "12911AD2659C39E7"
+				item: "ftbquests:book"
+				type: "item"
+			}]
+			shape: "square"
+			tasks: [{
+				id: "57ED2E57D426C8C6"
+				type: "checkmark"
+			}]
+			title: "数不尽的饰品"
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [""]
+			icon: "powah:energizing_orb"
+			id: "7BFE5F2FEC3AB324"
+			rewards: [{
+				id: "6B9627ECF76D58CD"
+				item: "powah:book"
+				type: "item"
+			}]
+			shape: "square"
+			subtitle: "&c过量充能！！"
+			tasks: [{
+				id: "02A561053D659BF7"
+				type: "checkmark"
+			}]
+			title: "powah!"
+			x: -1.5d
+			y: -9.5d
+		}
+		{
+			description: [
+				"&5整合包加入了不一样的技能树"
+				"&5升级技能树所需要的技能点，需要通过各类任务进行获取也能在小小商店中使用硬币购买."
+			]
+			icon: "l2complements:captured_shulker_bullet"
+			id: "108623BBD205DDFE"
+			shape: "circle"
+			subtitle: "默认O键"
+			tasks: [{
+				id: "201F76E6FB3F90F1"
+				type: "checkmark"
+			}]
+			title: "技能树"
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			description: [
+				"&5新人玩家请跟着任务一步步去探险"
+				""
+				""
+				"&a&l此整合包是forge和fabric结合的全新玩法&r"
+			]
+			icon: "curseofpandora:curse_of_proximity"
+			id: "18057AD39CF853DD"
+			rewards: [{
+				id: "78E5656BA51E625A"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				id: "19B031AD8A5B147B"
+				type: "checkmark"
+			}]
+			title: "&a&l此整合包是forge和fabric结合的全新玩法&r"
+			x: 1.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: [
+				"&d本整合包中给予了每种boss不同等级的现实压制词条.需要玩家拥有不低于现实压制等级的现实指数才能对其造成伤害."
+				"&d现实指数需要玩家佩戴潘多拉饰品中的现实诅咒饰品获得."
+			]
+			icon: "curseofpandora:void_overflow"
+			id: "5FA2E760A2519DDE"
+			shape: "square"
+			tasks: [{
+				id: "158407FAE3D0FB09"
+				type: "checkmark"
+			}]
+			title: "潘多拉饰品"
+			x: 0.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["18057AD39CF853DD"]
+			description: ["&5加入了新生魔艺的魔法模组并且还有元素魔艺且大改了新生魔艺的机制需要两者结合使用"]
+			icon: "ars_nouveau:creative_spell_book"
+			id: "2002446691BDDD06"
+			shape: "square"
+			tasks: [{
+				id: "0FFAFAA1CCDD1B2C"
+				title: "新生魔艺"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			description: [
+				"整合包中拥有精致存储模组，再也不能在家里摆一大堆箱子啦."
+				"&4ps:给冒险玩家一点点科技的震撼.  领取奖励处于主线第一章"
+			]
+			icon: "rsinfinitybooster:infinity_card"
+			id: "2D35B7342056DC7D"
+			shape: "circle"
+			subtitle: "&d我需要存放点东西"
+			tasks: [{
+				id: "7E195A3DCFEF6DE3"
+				type: "checkmark"
+			}]
+			title: "&c存储终端"
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			description: ["&6原版的末影之眼已经无法寻找末地要塞,你需要收集特殊的眼睛来进行寻找(各眼都分布至各个boss中)."]
+			hide: true
+			icon: {
+				Count: 1
+				id: "endrem:cursed_eye"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5CD9266D6CD2C144"
+			subtitle: "&5\"传说有一位勇士,为了封印末地的巨龙,将主世界与末地的通道彻底封锁.向唯一能打开通路的钥匙中注入日月的力量,将其散落在世界各地.\""
+			tasks: [{
+				id: "45784B5C063B0FF2"
+				type: "checkmark"
+			}]
+			title: "&a\"末地:创世\""
+			x: 15.5d
+			y: -11.0d
+		}
+	]
+	subtitle: ["&e介绍了游戏的机制"]
+	title: "整合包机制介绍"
+}

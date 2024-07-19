@@ -1,0 +1,37 @@
+{
+  "ability": {
+    "abilities": {
+      "frosty_shackles": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 0,
+        "stats": {}
+      },
+      "snowy_whirlwind": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 0,
+        "stats": {}
+      },
+      "icy_projectiles": {
+        "requiredPoints": 1,
+        "requiredLevel": 0,
+        "maxLevel": 0,
+        "stats": {}
+      }
+    }
+  },
+  "leveling": {
+    "initialCost": 100,
+    "maxLevel": 10,
+    "step": 200
+  },
+  "loot": {
+    "entries": {
+      "[\\w]+:chests\\/[\\w_\\/]*(jungle|temple)[\\w_\\/]*": 0.075
+    }
+  },
+  "style": {
+    "style": "DEFAULT"
+  }
+}

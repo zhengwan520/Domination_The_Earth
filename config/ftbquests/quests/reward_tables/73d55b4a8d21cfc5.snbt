@@ -1,0 +1,43 @@
+{
+	id: "73D55B4A8D21CFC5"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "middle_grade"
+	}
+	loot_size: 1
+	order_index: 59
+	rewards: [
+		{ item: "celestial_artifacts:traveler_scroll" }
+		{ item: "celestial_artifacts:sea_god_scroll" }
+		{ item: "celestial_artifacts:skywalker_scroll" }
+		{ item: "celestial_artifacts:sea_god_crown" }
+		{ item: "celestial_artifacts:chaotic_pendant" }
+		{ item: "celestial_artifacts:evil_eye" }
+		{ item: "celestial_artifacts:spirit_necklace" }
+		{ item: "celestial_artifacts:spirit_bracelet" }
+		{ item: "celestial_artifacts:fang_necklace" }
+		{ item: "celestial_artifacts:emerald_necklace" }
+		{ item: "celestial_artifacts:ender_protector" }
+		{ item: "celestial_artifacts:greedy_heart" }
+		{ item: "celestial_artifacts:sands_talisman" }
+		{ item: "celestial_artifacts:amethyst_ring" }
+		{ item: "celestial_artifacts:freeze_ring" }
+		{ item: "celestial_artifacts:nether_fire" }
+		{ item: "celestial_artifacts:thunder_ring" }
+		{ item: "celestial_artifacts:emerald_bracelet" }
+		{ item: "celestial_artifacts:life_bracelet" }
+		{ item: "celestial_artifacts:precious_bracelet" }
+		{ item: "celestial_artifacts:leech_scabbard" }
+		{ item: "celestial_artifacts:magic_arrow_bag" }
+		{ item: "celestial_artifacts:magic_horseshoe" }
+		{ item: "minecraft:diamond", random_bonus: 3, weight: 3.0f }
+		{ item: "minecraft:gold_ingot", random_bonus: 10, weight: 3.0f }
+		{ item: "minecraft:scute", random_bonus: 3, weight: 3.0f }
+	]
+	title: "中品饰品"
+}

@@ -1,0 +1,60 @@
+
+["Materials Config"]
+
+	#Changing armor and tools values requires world restart
+	["Materials Config".blatium]
+
+		["Materials Config".blatium.armor]
+			values = [400, 550, 500, 400]
+			toughness = 25
+			knockbackResistance = 25.0
+
+		["Materials Config".blatium.sword]
+			damage = 750
+			speed = 1.4
+
+		["Materials Config".blatium.pickaxe]
+			damage = 25
+			destroyTime = 10.0
+			speed = 1.2
+
+		["Materials Config".blatium.axe]
+			damage = 800
+			speed = 1.0
+
+		["Materials Config".blatium.hoe]
+			damage = 10
+			speed = 4.0
+
+		["Materials Config".blatium.shovel]
+			damage = 10
+			speed = 1.0
+
+	["Materials Config".nlium]
+
+		["Materials Config".nlium.armor]
+			values = [800, 1100, 1000, 800]
+			toughness = 50
+			knockbackResistance = 50.0
+
+		["Materials Config".nlium.sword]
+			damage = 1500
+			speed = 1.4
+
+		["Materials Config".nlium.pickaxe]
+			damage = 50
+			destroyTime = 20.0
+			speed = 1.2
+
+		["Materials Config".nlium.axe]
+			damage = 1600
+			speed = 1.0
+
+		["Materials Config".nlium.hoe]
+			damage = 20
+			speed = 4.0
+
+		["Materials Config".nlium.shovel]
+			damage = 20
+			speed = 1.0
+

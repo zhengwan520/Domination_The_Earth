@@ -1,0 +1,2383 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "76C48D566C4923A5"
+	group: "08240C27B45307B0"
+	icon: {
+		Count: 1
+		id: "l2complements:eternium_helmet"
+		tag: {
+			Damage: 0
+			affix_data: {
+				sockets: 1
+			}
+		}
+	}
+	id: "76C48D566C4923A5"
+	images: [
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/armors.png"
+			order: 1
+			rotation: 0.0d
+			width: 18.049837486457204d
+			x: 0.5d
+			y: -11.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/armor_stand"
+			rotation: 30.0d
+			width: 2.0d
+			x: -8.0d
+			y: -10.5d
+		}
+		{
+			height: 2.0d
+			image: "l2complements:item/generated/eternium/chestplate"
+			rotation: -15.0d
+			width: 2.0d
+			x: 8.5d
+			y: -10.0d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/frame_06.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.5d
+			y: -11.5d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&4免疫诸神黄昏的封印效果"
+				"&4使玩家拥有创造飞行的能力.免疫大部分负面效果."
+			]
+			id: "5296D1C3E4F4F53F"
+			rewards: [{
+				id: "1287915306607863"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "唯有永恒最接近天理"
+			tasks: [
+				{
+					id: "26278011862559D1"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48FCBB7DF57473BC"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0997106A40C1E5E8"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "70B48CBA5F61FF6C"
+					item: {
+						Count: 1
+						id: "l2complements:eternium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6毕业套装"
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			id: "3D3BB005A5A34AB6"
+			rewards: [{
+				id: "452D0DF7D061E474"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "火神"
+			tasks: [
+				{
+					id: "7186DDC5FAB20FA9"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14B2285147244821"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "445F032A8D6B09B0"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "774D6D8417D01D34"
+					item: {
+						Count: 1
+						id: "cataclysm:ignitium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6焰魔套"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			description: ["&4免疫饥饿、中毒、凋灵buff，消耗耐久时为玩家回复生命值."]
+			id: "4F1A5295D75AF4E4"
+			rewards: [{
+				id: "023C845A4450B09B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "快速的回血"
+			tasks: [
+				{
+					id: "7D7237603913CB89"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7EFB27F52B25FDD8"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D27C757DA170B4A"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2F13306235A5E080"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6生命套"
+			x: -7.5d
+			y: -5.5d
+		}
+		{
+			description: ["&4拥有极高的耐久，免疫漂浮，且每次最多受到1点耐久损耗."]
+			id: "071B4E44D45629B7"
+			rewards: [{
+				id: "0B92B8B2D9676891"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "无需经验修补"
+			tasks: [
+				{
+					id: "1ED4EF031680BE57"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37019D181F9F87FF"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0607FD410DDFEBB0"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "303E4565C867BC81"
+					item: {
+						Count: 1
+						id: "l2complements:shulkerate_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6潜影套"
+			x: -4.5d
+			y: -5.5d
+		}
+		{
+			description: [
+				"&4单件免疫失明、黑暗、挖掘疲劳、范围、缓慢、虚弱."
+				"&4穿着4件套时，玩家发出的任何震动都会被抵消."
+			]
+			id: "25D8D27E0EF9BADB"
+			rewards: [{
+				id: "587BAD7D5A388CA0"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "幽魂匿匿"
+			tasks: [
+				{
+					id: "34FD2D7A9F150F03"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EBEBE824D22E329"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "688EEF447969DF1E"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7635A2FD1F1658ED"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6幽匿套"
+			x: -3.0d
+			y: -5.5d
+		}
+		{
+			description: ["&4免疫深渊灼烧与深渊恐惧."]
+			id: "278CF4883975F6FB"
+			rewards: [{
+				id: "2B1F7D462558D65F"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "浸水将会更强"
+			tasks: [
+				{
+					id: "6FF3FDF3C13C7251"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_helmet"
+						tag: {
+							Damage: 0
+							UserInWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B36874C52625449"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_chestplate"
+						tag: {
+							Damage: 0
+							UserInWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42188E4D945C13B8"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_leggings"
+						tag: {
+							Damage: 0
+							UserInWater: 0b
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0BED36D10BCF92A8"
+					item: {
+						Count: 1
+						id: "l2complements:poseidite_boots"
+						tag: {
+							Damage: 0
+							UserInWater: 0b
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6海神套"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			description: ["&4给予玩家力量1buff."]
+			id: "15FC0DA2C978D46E"
+			rewards: [{
+				id: "566D4EB0FB9E28E7"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "24C81CA564A6EB4A"
+					item: {
+						Count: 1
+						id: "minecraft:iron_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "436BF4ECE562AE92"
+					item: {
+						Count: 1
+						id: "minecraft:iron_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F451DB49A75498F"
+					item: {
+						Count: 1
+						id: "minecraft:iron_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46BE84E76D573545"
+					item: {
+						Count: 1
+						id: "minecraft:iron_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			id: "2C1D0DCBF906BD0C"
+			rewards: [{
+				id: "5102656A8D2F0717"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "570F2DBC0AFDF965"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "214E3E6F5111961D"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "403B8AB37F747675"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A4110E43C332EFD"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -7.5d
+		}
+		{
+			description: ["&4给予玩家急迫2buff."]
+			id: "733D16461A27AE8E"
+			rewards: [{
+				id: "6991A981EE080300"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "065568C36634F81C"
+					item: {
+						Count: 1
+						id: "minecraft:golden_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5500D076EED37A5E"
+					item: {
+						Count: 1
+						id: "minecraft:golden_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "51851EDC6BD447F2"
+					item: {
+						Count: 1
+						id: "minecraft:golden_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "416AB8FAFFD90D34"
+					item: {
+						Count: 1
+						id: "minecraft:golden_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -7.5d
+		}
+		{
+			description: ["&4给予玩家伤害吸收1、迅捷1buff."]
+			id: "275C27392957EFF5"
+			rewards: [{
+				id: "2197ED39DD580D1D"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "1D985B97B47D055D"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5F1535C2CF0CED98"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36E4E198D70CA734"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2804F40B85EA66BB"
+					item: {
+						Count: 1
+						id: "minecraft:diamond_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -7.5d
+		}
+		{
+			description: ["&4给予玩家抗性提升1、抗火buff."]
+			id: "3A2D783F16CAB053"
+			rewards: [{
+				id: "450AB06B6F76E9F3"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7F5C4F4789147963"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0D3911422F071FAD"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "61B3229BC18FD2AD"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E16913E0C8472BC"
+					item: {
+						Count: 1
+						id: "minecraft:netherite_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -7.5d
+		}
+		{
+			description: ["&4套装效果：为玩家提供10点护甲值与缓慢Ibuff"]
+			id: "6A1CC19B202340FF"
+			rewards: [{
+				id: "62A43DD745660B5F"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "14911B6861062973"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:steel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C9C270B9783B581"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:steel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08EE40CB0D44DD88"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:steel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AE5CBF139BA68CB"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:steel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -3.5d
+		}
+		{
+			description: ["&4套装效果：抗性提升II"]
+			id: "7E6DFFEC79969E6B"
+			rewards: [{
+				id: "13DDCE23B8DFD88A"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4B46953BF183E921"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:ametrine_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0FD230E3B0D85B87"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:ametrine_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6701CCFC97DC79A7"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:ametrine_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C22558C514D2489"
+					item: {
+						Count: 1
+						id: "amethyst_imbuement:ametrine_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			id: "0D9842F49B2B4C07"
+			rewards: [{
+				id: "6E216FFB8A118B70"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "521A482F62D8096B"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FFAC8231C142040"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "578E20665EAC696F"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42B04D6CB20742B4"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -7.5d
+			y: -1.5d
+		}
+		{
+			id: "3A2821C236BCECEC"
+			rewards: [{
+				id: "68FDCDB1D58794C1"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "423A89505BD366D3"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46A51E652F3A7651"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3F44308DB6A476F3"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "380C2B8B8BBFC61C"
+					item: {
+						Count: 1
+						id: "aquamirae:terrible_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			id: "1489F81BEC2FFFA0"
+			rewards: [{
+				id: "07BA25F72A8D31E9"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7396137B506D869D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1DC6DF5C61D259EC"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "46AED9DED34A62E3"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "521353F4E03B411F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -4.5d
+			y: -1.5d
+		}
+		{
+			id: "0B25BEA4310CECBD"
+			rewards: [{
+				id: "492B77DDDF5D4DEF"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4AFD88D714E4CC9F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D46020EB80B51D4"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3C3D4A0EBB26F881"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CF216DD7C9CE4FD"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			id: "64AE163BD11FF9BD"
+			rewards: [{
+				id: "5A65F17F93337BAC"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "375C3DE313D64366"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "453DC1A712712A32"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1719C947A2F57D75"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0C2B3DAB355D8B4D"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -7.5d
+		}
+		{
+			id: "601520A409C5D957"
+			rewards: [{
+				id: "51A8A18D95C8DA5D"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4CF6385D1CE32949"
+					item: {
+						Count: 1
+						id: "iceandfire:sheep_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "242F3313584D51F6"
+					item: {
+						Count: 1
+						id: "iceandfire:sheep_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FB77F396F4A62AE"
+					item: {
+						Count: 1
+						id: "iceandfire:sheep_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EFB61BC081F147E"
+					item: {
+						Count: 1
+						id: "iceandfire:sheep_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -7.5d
+		}
+		{
+			id: "2984D37EC2A93207"
+			rewards: [{
+				id: "37F43DD12C8624BE"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "3B02173B5417AAA6"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "11E50333A1F8F87C"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "42A8B19819ED9C22"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "71FDE817712D4D66"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_silver_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -7.5d
+		}
+		{
+			id: "1E4D1C00F67C77D2"
+			rewards: [{
+				id: "5503F71D79A943C9"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "7800059252728243"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68E3CA9170533464"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7429AAF1181EE168"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "237441BF7AC89B7D"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_copper_metal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			id: "250344B4732EED9A"
+			rewards: [{
+				id: "7B83D41CED9C9707"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "21EA6D7CBEBA9C22"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "050ECC546F1DC066"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A95CA944AC27F08"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "602561978073CC68"
+					item: {
+						Count: 1
+						id: "iceandfire:deathworm_yellow_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			id: "39D30A592EE79D44"
+			rewards: [{
+				id: "2CC3A0724BD9B3D8"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "51B7BEC732470BE9"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "45FF0CF1E808B077"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B9955BEF2DC437B"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "613B81F28A50C971"
+					item: {
+						Count: 1
+						id: "iceandfire:myrmex_desert_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.5d
+		}
+		{
+			id: "7F25D9795F038668"
+			rewards: [{
+				id: "6794E2CDDB721082"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "13496809971CEEB7"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "56AA44605DB3F024"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01460D00D6E2E165"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0DDF4ABDE195EAFA"
+					item: {
+						Count: 1
+						id: "iceandfire:tide_blue_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -5.5d
+		}
+		{
+			id: "4005E31A0567406A"
+			rewards: [{
+				id: "383C431CE8780A77"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "28A7291747A2D99F"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D8EBA5CDBB6E88A"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "110B8ED36F00F1F3"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "35D0F7EBFF77581B"
+					item: {
+						Count: 1
+						id: "iceandfire:forest_troll_leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			id: "6646800E2287E448"
+			rewards: [{
+				id: "6E03A8AC8FA0680B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5DD54CB0286B1E31"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:aqua_affinity"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E47C6139FE61511"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2AEF00C8A0003F67"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3E35A9C4165D2150"
+					item: {
+						Count: 1
+						id: "twilightforest:ironwood_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			id: "7933D6C875C25FBE"
+			rewards: [{
+				id: "6DD4F11688123251"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "2DBD027696476336"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:projectile_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1B854B7B899E707B"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:blast_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15E42F83BE1B2411"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:fire_protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "207524DBA41A256B"
+					item: {
+						Count: 1
+						id: "twilightforest:steeleaf_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:feather_falling"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -3.5d
+		}
+		{
+			id: "1199A0CAE3BDF348"
+			rewards: [{
+				id: "0D01E8ED6692EFDD"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "28E91DACB238EE9A"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "34ABB131AB3667E5"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "24D7FC2D0413368D"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E464D512CB2D035"
+					item: {
+						Count: 1
+						id: "twilightforest:knightmetal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -3.5d
+		}
+		{
+			id: "6D989E0A7755F4BB"
+			rewards: [{
+				id: "284196484C686A14"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0C455183F98F9574"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5023DFDBCE4F241D"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "01E9827E145B3B64"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "08FB41C3DDEC6F0A"
+					item: {
+						Count: 1
+						id: "twilightforest:fiery_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			id: "0D52360E35AE5BAE"
+			rewards: [{
+				id: "38838F55C28DD962"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "616186AD5E4663D0"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38AED4F27F551677"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2A0295F96BAD1A05"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D59A7D8A0BA63F8"
+					item: {
+						Count: 1
+						id: "twilightforest:arctic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			id: "43CA08156DEE0742"
+			rewards: [{
+				id: "5720BDE95771FE2B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4D84F746181F77BE"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_helmet"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0317521B8E40215E"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_chestplate"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "701DB5D5FF0E7830"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_leggings"
+						tag: {
+							Damage: 0
+							Enchantments: [{
+								id: "minecraft:protection"
+								lvl: 2s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "062065E8985DCB9E"
+					item: {
+						Count: 1
+						id: "twilightforest:yeti_boots"
+						tag: {
+							Damage: 0
+							Enchantments: [
+								{
+									id: "minecraft:protection"
+									lvl: 2s
+								}
+								{
+									id: "minecraft:feather_falling"
+									lvl: 4s
+								}
+							]
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			description: ["&4给予玩家幸运III、抗性提升III、强化刀刃buff与减少2个手饰栏位"]
+			id: "121606ED39A532F2"
+			rewards: [{
+				id: "31B577B10894F2C5"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "4CAC3D94EA8F5EDE"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "64F8917A4F17D5AE"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0023A78DFCE6BF38"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CC20C40CAE424A1"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			id: "7256A8455837C0EB"
+			rewards: [{
+				id: "54F138979277D63B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "6F4A034DA54C46E4"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1305F723A4CC5FE3"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_suit"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5EA2A67A705E044D"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3259B9F596F5D4F6"
+					item: {
+						Count: 1
+						id: "aquamirae:three_bolt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			id: "1D3C862103F8EEC6"
+			rewards: [{
+				id: "0AF77BEC59D68BEE"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "66384EAAF7406FB4"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7001B13C347EEB8E"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "788A164E464965C7"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E8CDE7F89310ABF"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			id: "1CE97CD0A50DF97D"
+			rewards: [{
+				id: "5A698D131E43C418"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "5E76F70F4C81D1A4"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77980C20F7B6B4A3"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "521382D9BAF74139"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2144D6E604575FB8"
+					item: {
+						Count: 1
+						id: "iceandfire:armor_red_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -1.5d
+		}
+		{
+			description: ["&4免疫诅咒"]
+			id: "52A2CE2A450E6BA2"
+			rewards: [{
+				id: "01F99E825789667B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "25D9D9608C4926CF"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68A7BA9A0C47BC82"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77DB91FDEAA01035"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25159FEB9E89CFF2"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			description: ["&4免疫诅咒"]
+			id: "40CC82548AC4C406"
+			rewards: [{
+				id: "0EA130313AE491C3"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "0DE60D03C030DB65"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1EE44CF2D0F43F64"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "358EF74FCEF15EB1"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A4BD7A256F6751E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -1.5d
+		}
+		{
+			description: ["&4免疫诅咒"]
+			id: "575AA186BC116CEC"
+			rewards: [{
+				id: "43DF6EFB6274A93B"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "65CC7D8A1FC1CEC6"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "23B33376D6BCAB50"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "77ED529F01081418"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7AFEE253499F3338"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 7.0d
+			y: -1.5d
+		}
+		{
+			id: "7574B969C87B46D2"
+			rewards: [{
+				id: "10728DF76BDA5573"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "385D8F293BF824C6"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_heaume"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "15D4BCF1AC0E3766"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_brigantine"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "48CA4FEE35438E52"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0422BE4ACCAEC283"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "47C5E36B7C20B64D"
+					item: {
+						Count: 1
+						id: "aquamirae:abyssal_tiara"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -1.5d
+		}
+	]
+	title: "自选套装"
+}

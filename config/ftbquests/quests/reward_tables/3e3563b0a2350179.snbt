@@ -1,0 +1,30 @@
+{
+	icon: "celestial_artifacts:unowned_pendant"
+	id: "3E3563B0A2350179"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "lower_grade"
+	}
+	loot_size: 1
+	order_index: 58
+	rewards: [
+		{ item: "celestial_artifacts:unowned_pendant", weight: 0.2f }
+		{ item: "minecraft:iron_ingot", random_bonus: 5 }
+		{ item: "celestial_artifacts:iron_scabbard", weight: 0.2f }
+		{ item: "celestial_artifacts:ring_of_life", weight: 0.2f }
+		{ item: "celestial_artifacts:red_ruby_bracelet", weight: 0.2f }
+		{ item: "celestial_artifacts:gold_ring", weight: 0.2f }
+		{ item: "celestial_artifacts:diamond_ring", weight: 0.2f }
+		{ item: "celestial_artifacts:emerald_ring", weight: 0.2f }
+		{ item: "minecraft:coal", random_bonus: 7 }
+		{ item: "celestial_artifacts:solar_magnet", weight: 0.2f }
+		{ item: "celestial_artifacts:sacrificial_object", weight: 0.2f }
+		{ item: "minecraft:oak_log", random_bonus: 64 }
+	]
+	title: "下品饰品"
+}

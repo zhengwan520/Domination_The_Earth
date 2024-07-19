@@ -1,0 +1,9067 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "160ECECA18904167"
+	group: "4E2A249F11A26E74"
+	id: "160ECECA18904167"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:item/totem_of_undying"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.0d
+			y: -21.0d
+		}
+		{
+			dependency: "0A3F6166FC1175AC"
+			height: 2.0d
+			image: "enigmaticlegacy:item/twisted_mirror"
+			rotation: 0.0d
+			width: 2.0d
+			x: -16.0d
+			y: -10.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/gui/backpack02.png"
+			rotation: 0.0d
+			width: 2.29236d
+			x: -20.0d
+			y: -10.5d
+		}
+		{
+			alpha: 230
+			height: 5.0d
+			image: "pandora:item/pandora_necklace"
+			rotation: 0.0d
+			width: 5.0d
+			x: -16.0d
+			y: 3.0d
+		}
+		{
+			height: 6.5d
+			image: "ftbquests:textures/gui/hexagram_star.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 12.0d
+			y: -32.9d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:items/evil_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.5d
+			y: -35.0d
+		}
+		{
+			height: 1.0d
+			image: "enigmaticlegacy:items/evil_essence"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.5d
+			y: -30.5d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/gui/warden_02.png"
+			rotation: 0.0d
+			width: 2.29236d
+			x: -12.0d
+			y: -17.5d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/minecells_portal.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: -22.0d
+			y: -14.0d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/minecells_portal.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: -9.5d
+			y: -14.0d
+		}
+		{
+			height: 5.0d
+			image: "enigmaticlegacy:block/astral_block"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: -32.0d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/enigmatic_legacy_logo.png"
+			order: 2
+			rotation: 0.0d
+			width: 18.049837486457204d
+			x: 1.5d
+			y: -38.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticlegacy:item/abyssal_heart"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -39.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticlegacy:item/twisted_heart"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.5d
+			y: -38.0d
+		}
+		{
+			height: 2.0d
+			image: "enigmaticlegacy:item/the_acknowledgment"
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.0d
+			y: -39.0d
+		}
+		{
+			height: 3.0d
+			image: "enigmaticlegacy:item/enigmatic_item"
+			rotation: 15.0d
+			width: 3.0d
+			x: -3.0d
+			y: -29.5d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/minecells_portal.png"
+			rotation: -90.0d
+			width: 5.0d
+			x: -22.0d
+			y: -32.5d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/minecells_portal.png"
+			rotation: 90.0d
+			width: 5.0d
+			x: -9.5d
+			y: -32.5d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/gui/twilight_forest.png"
+			order: 1
+			rotation: 0.0d
+			width: 16.0d
+			x: -16.3d
+			y: -56.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/gui/hydra2.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -13.0d
+			y: -54.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/gui/queen2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -19.0d
+			y: -54.5d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/gui/yeti2.png"
+			rotation: 0.0d
+			width: 1.2d
+			x: -20.0d
+			y: -52.5d
+		}
+		{
+			height: 1.25d
+			image: "ftbquests:textures/gui/mino2.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -12.0d
+			y: -52.5d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/ghast2.png"
+			rotation: 0.0d
+			width: 0.9569377990430622d
+			x: -15.5d
+			y: -54.5d
+		}
+		{
+			dependency: "1BF1449D6B8B17D3"
+			height: 1.4d
+			image: "ftbquests:textures/gui/phantom.png"
+			rotation: 0.0d
+			width: 0.7d
+			x: -16.5d
+			y: -61.0d
+		}
+		{
+			height: 1.5d
+			image: "ftbquests:textures/gui/naga2.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -17.0d
+			y: -48.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/lich2.png"
+			rotation: 0.0d
+			width: 0.6557377049180327d
+			x: -15.5d
+			y: -50.0d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/l2_hostility_logo_03.png"
+			rotation: 0.0d
+			width: 10.0d
+			x: -16.0d
+			y: -28.5d
+		}
+		{
+			height: 3.0d
+			image: "curseofpandora:item/pandora/shadow_convergence"
+			rotation: 0.0d
+			width: 3.0d
+			x: -12.0d
+			y: -46.0d
+		}
+		{
+			height: 3.0d
+			image: "ftbquests:textures/gui/ender_dragon_01.png"
+			rotation: 0.0d
+			width: 2.95275d
+			x: -17.5d
+			y: -70.0d
+		}
+		{
+			height: 2.0d
+			image: "ftbquests:textures/gui/ender_guardian.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: -14.5d
+			y: -83.5d
+		}
+		{
+			height: 5.0d
+			image: "ftbquests:textures/gui/sons_of_sins_logo.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -16.0d
+			y: -78.5d
+		}
+		{
+			height: 3.0d
+			image: "cataclysm:item/abyss_eye"
+			rotation: 0.0d
+			width: 3.0d
+			x: -16.0d
+			y: -86.0d
+		}
+		{
+			height: 4.0d
+			image: "ftbquests:textures/gui/11111.png"
+			rotation: 0.0d
+			width: 4.56644d
+			x: -14.5d
+			y: -92.0d
+		}
+		{
+			height: 1.0d
+			image: "cataclysm:textures/mob_effect/abyssal_curse.png"
+			rotation: 0.0d
+			width: 1.0d
+			x: -17.0d
+			y: -82.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6开局玩家将背负这两种诅咒道具：七咒之戒与灾厄之册"
+				"&6七咒之戒将会给予玩家七重诅咒与七重祝福."
+				"&6灾厄之册在没有获取到特定的解咒道具前将会给你带来最纯正的七种诅咒."
+				""
+				"&6不过不用担心,两种诅咒道具虽然会对前期的生存带来诸多不便,但是只有佩戴足够时间的七咒后期才能够使用特殊的遗物."
+				"&6而灾厄之册,在获取其对应的道具解除诅咒后,将会将对应的诅咒转化为极强的正面祝福."
+				""
+				"&6抢夺宝珠作为整合包中大量获取资源的道具,如果有能力请第一时间制作,每种抢夺宝珠击杀词条怪物时,都将掉落不同的词条掉落物."
+			]
+			icon: "l2artifacts:wrath_head_5"
+			id: "0A3F6166FC1175AC"
+			shape: "square"
+			size: 2.0d
+			subtitle: "&5\"挣脱法则,主宰一切\""
+			tasks: [{
+				id: "2448D3538CF8B1F9"
+				title: "冒险路途！！！"
+				type: "checkmark"
+			}]
+			title: "&a冒险征途！！！"
+			x: -16.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0A3F6166FC1175AC"]
+			hide_dependency_lines: true
+			icon: {
+				Count: 1
+				id: "minecraft:leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6809732720BE31B8"
+			rewards: [
+				{
+					id: "1087F24F58789C61"
+					item: {
+						Count: 1
+						id: "minecraft:leather_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7166A7958E4D105A"
+					item: {
+						Count: 1
+						id: "minecraft:leather_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69C4F8117D36946A"
+					item: {
+						Count: 1
+						id: "minecraft:leather_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F534395D7951004"
+					item: {
+						Count: 1
+						id: "minecraft:leather_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&5\"先穿着吧\""
+			tasks: [{
+				id: "146DF8CFDF1C5229"
+				type: "checkmark"
+			}]
+			title: "&a总比没有强"
+			x: -16.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["6809732720BE31B8"]
+			description: [
+				"&6本模组的很多材料都需要击杀怪物来获得,材料的掉落和词条种类息息相关.而词条出现的条件跟玩家自身的难度等级是相关联的."
+				"&6本整合包限制了所有能使难度自然增长和减少的条件.只能通过击败各种不同的boss来获得固定的难度提升."
+			]
+			icon: "l2hostility:greed_of_nidhoggur"
+			id: "396B7C86A20EC7A1"
+			subtitle: "&5\"把控难度\""
+			tasks: [{
+				id: "7B14EACF33DC6D4C"
+				type: "checkmark"
+			}]
+			title: "&a\"难度值与材料\""
+			x: -16.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["396B7C86A20EC7A1"]
+			description: [
+				"&6背包可以装备在饰品栏中的背饰或者放在放在物品栏中直接按b键进行访问."
+				"&6当然如果你的物品栏同时拥有多个背包,可以试着将鼠标移动到你要打开的背包上,然后按下b键即可访问."
+				"&6顺带一提,背包的最高等级为下界合金.等级越高的背包,它的储物量和可安装的插件数量就越多."
+			]
+			icon: "sophisticatedbackpacks:backpack"
+			id: "056148425FA9A8FC"
+			rewards: [
+				{
+					id: "57ACD7767B7E286E"
+					item: "dummmmmmy:target_dummy"
+					type: "item"
+				}
+				{
+					id: "187BBC771E785877"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "30985C6EC5D65126"
+					item: "sophisticatedbackpacks:backpack"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&5\"身为一个冒险家怎么能没有一个背包呢\""
+			tasks: [{
+				id: "485FCB5B5E353F03"
+				type: "checkmark"
+			}]
+			title: "&a背包客"
+			x: -19.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["396B7C86A20EC7A1"]
+			id: "782CF75BB1B9EB6D"
+			rewards: [
+				{
+					count: 3
+					id: "3836B9643AEE388E"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "5864FD9E55416E79"
+					type: "xp"
+					xp: 100
+				}
+			]
+			subtitle: "&5\"获得升级\""
+			tasks: [{
+				id: "15CEB894BD5EAA02"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a万变不离其宗"
+			x: -13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["6809732720BE31B8"]
+			description: [
+				"&6本整合包给原版的防具都添加套装效果来增强玩家前期的生存能力."
+				"&6将鼠标移动到防具上,同时按住ctrl+shift便可以看到它的套装效果."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:netherite_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "61D13F485691CA0A"
+			subtitle: "&5\"防具的重要性\""
+			tasks: [{
+				id: "545430F0035CF9F9"
+				type: "checkmark"
+			}]
+			title: "&a套装效果"
+			x: -18.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"782CF75BB1B9EB6D"
+				"056148425FA9A8FC"
+			]
+			description: [
+				"&6面对前期较高的难度,不如先来偷几个箱子吧."
+				"&6每个玩家在初次看起战利品箱的时候都将获得不同的物品,再也不用担心和朋友抢箱子了."
+				""
+				"&cps:任务给的铜币可以在小小商店中抽取简易刀剑哦.（硬币可以在硬币商店中使用对应的材料来兑换获取）."
+			]
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "random_dyes"
+				}
+			}
+			id: "650A327261CF806B"
+			rewards: [
+				{
+					count: 5
+					id: "3099D48C754B2459"
+					item: "kubejs:copper_coin"
+					type: "item"
+				}
+				{
+					id: "4E7E6EEF0E314BAD"
+					item: "enigmaticaddons:ode_to_living"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"风险与机遇并存\""
+			tasks: [
+				{
+					id: "5ACB0E76A56476A7"
+					stat: "lootr:looted_stat"
+					type: "stat"
+					value: 1
+				}
+				{
+					id: "2F1570B11810CE94"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "&a先来开点箱子"
+			x: -16.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["650A327261CF806B"]
+			description: ["&6少部分强力的附魔需要与村民进行交易和利用新生魔艺的附魔装置进行合成."]
+			id: "23193E62241EB7F4"
+			rewards: [
+				{
+					id: "3114B78E66B01D52"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "3510FCEF6403942E"
+					item: "celestial_artifacts:amethyst_ring"
+					type: "item"
+				}
+				{
+					id: "33EE37122E3CE39D"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "amethyst_imbuement:lifesteal"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			subtitle: "&5\"附魔台能获取本整合包的大部分附魔\""
+			tasks: [{
+				id: "6EA19BC799F98A60"
+				item: "minecraft:enchanting_table"
+				type: "item"
+			}]
+			title: "&a给装备来点调味料"
+			x: -16.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["23193E62241EB7F4"]
+			id: "5ED20E083151C4B7"
+			rewards: [{
+				id: "6A37059BF4A039D7"
+				type: "xp"
+				xp: 100
+			}]
+			subtitle: "&5\"用于制作紫晶魔艺中的各种物品\""
+			tasks: [{
+				id: "5AF98BC5DC1CB606"
+				item: "amethyst_imbuement:imbuing_table"
+				type: "item"
+			}]
+			title: "&a注入魔力"
+			x: -18.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["5ED20E083151C4B7"]
+			description: [
+				"&6将机遇宝石拿在手上,并且累计获得8种buff后."
+				"&6机遇宝石将会转换为好奇宝石."
+			]
+			id: "1F86522C0A2659D6"
+			rewards: [
+				{
+					id: "25ABAE15EFABF2E8"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "44ED74C90E0F91E4"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:mending"
+								lvl: 1s
+							}]
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&5\"你没逝吧\""
+			tasks: [{
+				id: "707D541FEBA1646F"
+				item: "amethyst_imbuement:inquisitive_gem"
+				type: "item"
+			}]
+			title: "&a尝百草"
+			x: -20.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["1F86522C0A2659D6"]
+			description: [
+				"&6单独一个经验祭坛只能存储35级的经验."
+				"&6在其周围摆放蜡烛,即可提升经验祭坛的存储量"
+				"{image:ftbquests:textures/gui/altar_of_experience.png width:150 height:100 align:1}"
+			]
+			id: "4DDD29E3211B5186"
+			rewards: [
+				{
+					id: "171691BA7F9F31DB"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 4
+					id: "43F0E9939679155B"
+					item: "amethyst_imbuement:imbued_quartz"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1AD3DCBA95DC4D4C"
+				item: "amethyst_imbuement:altar_of_experience"
+				only_from_crafting: true
+				type: "item"
+			}]
+			title: "&a经验祭坛"
+			x: -22.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["1F86522C0A2659D6"]
+			description: [
+				"&6消耗经验和书本来对装备进行祛魔."
+				"&6单独一个祛魔台,只能为每个装备进行一次祛魔操作."
+				"&6在其周围摆上矿物柱子即可增加祛魔次数."
+				"&4ps:矿物柱子可以全部为一种材料."
+				"{image:ftbquests:textures/gui/disenchanting_table.png width:150 height:100 align:1}"
+			]
+			id: "20B4231BC2C16EE4"
+			rewards: [
+				{
+					id: "0C71731BFB283129"
+					item: {
+						Count: 1
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "335BAFFCC2E7C593"
+					type: "xp"
+					xp: 100
+				}
+			]
+			tasks: [{
+				id: "237332A22B4C07F4"
+				item: "amethyst_imbuement:disenchanting_table"
+				type: "item"
+			}]
+			title: "&a祛魔台"
+			x: -22.0d
+			y: -12.5d
+		}
+		{
+			dependencies: [
+				"421CEFC66FE9FF98"
+				"318AAD435D34C45A"
+			]
+			description: [
+				"&6生命套拥有着对部分负面的免疫力,而且会使用耐久治疗使用者.但很可惜其本身耐久十分的堪忧."
+				""
+				"&cps:也许可以试试为它打上生命修复与盔甲耐久(或者硬化)这两本附魔."
+			]
+			id: "749D06F04CA8E6B4"
+			min_required_tasks: 2
+			rewards: [
+				{
+					id: "4AEA333794189559"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "7F6AD10BE44F24BA"
+					item: "l2complements:totemic_apple"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"脆弱但很顽强\""
+			tasks: [
+				{
+					id: "76BAFA06EAC0114A"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "43343ABEA18560E3"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7F03B2E51DFAA37F"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "69FF0377D8AC68C5"
+					item: {
+						Count: 1
+						id: "l2complements:totemic_gold_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a生命套装"
+			x: -16.0d
+			y: -23.0d
+		}
+		{
+			dependencies: ["0A3F6166FC1175AC"]
+			description: ["&6别问为什么是原版钓竿.因为自动钓鱼附魔只有原版钓竿才能起效."]
+			hide_dependency_lines: true
+			id: "04CE8ED3C7A7A5E2"
+			subtitle: "&5\"我能钓上一整天的鱼\""
+			tasks: [{
+				id: "5A5A8F239BACC5E9"
+				item: {
+					Count: 1
+					id: "minecraft:fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -17.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["04CE8ED3C7A7A5E2"]
+			id: "4CA22BE18E77B230"
+			rewards: [{
+				id: "63B65E87FD273E83"
+				item: {
+					Count: 1
+					id: "aquaculture:neptunium_fishing_rod"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "&5\"隐约听见海浪的声音\""
+			tasks: [{
+				id: "7871215ADA0C760A"
+				item: "aquaculture:neptunes_bounty"
+				type: "item"
+			}]
+			title: "&a海王恩惠"
+			x: -18.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["4CA22BE18E77B230"]
+			description: ["&6钓鱼佬套装,拥有不错的硬度与诸多水下buff."]
+			id: "7F9BCFCBC70CE039"
+			rewards: [
+				{
+					id: "41FE2D9D01573FEE"
+					item: "minecraft:heart_of_the_sea"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "5724554D489BD444"
+					item: "l2complements:poseidite_ingot"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"游龙当归海\""
+			tasks: [
+				{
+					id: "64E289013F4A7E18"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5A89D1CE48E3E148"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5539E50EA6ADB9F0"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6F481C0F4CA693AF"
+					item: {
+						Count: 1
+						id: "aquaculture:neptunium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a海王套装"
+			x: -17.0d
+			y: -18.5d
+		}
+		{
+			dependencies: ["43CB9B3DAD77683A"]
+			id: "40E40EAE5E9F826B"
+			rewards: [{
+				id: "3808F789AA6D96E8"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "21EAAB181975526E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_fire_brick"
+					}
+					type: "item"
+				}
+				{
+					id: "7F6C771BCA41FB61"
+					item: "iceandfire:dragonforge_fire_input"
+					type: "item"
+				}
+				{
+					id: "27F5937997304F2F"
+					item: "iceandfire:dragonforge_fire_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&a龙炎锻炉"
+			x: -13.0d
+			y: -39.5d
+		}
+		{
+			dependencies: ["40E40EAE5E9F826B"]
+			id: "53B91732C1F91017"
+			rewards: [{
+				id: "61FBADB66A3F15E1"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "5C005E92B8DFC172"
+				item: "iceandfire:dragonsteel_fire_ingot"
+				type: "item"
+			}]
+			title: "&a龙炎钢锭"
+			x: -13.0d
+			y: -41.0d
+		}
+		{
+			dependencies: ["605894F90D1565D9"]
+			id: "6F3D29EC75E31974"
+			rewards: [{
+				id: "7D2C6BA3F246D6E0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "0EB40544BF88CACD"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_lightning_brick"
+					}
+					type: "item"
+				}
+				{
+					id: "1F3EAB6C33EEF224"
+					item: "iceandfire:dragonforge_lightning_input"
+					type: "item"
+				}
+				{
+					id: "60A636007C526108"
+					item: "iceandfire:dragonforge_lightning_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&a龙霆锻炉"
+			x: -16.0d
+			y: -39.5d
+		}
+		{
+			dependencies: ["6F3D29EC75E31974"]
+			id: "584234D8219CE12C"
+			rewards: [{
+				id: "2E630745EFBCDC5E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "1FEEB6763B549571"
+				item: "iceandfire:dragonsteel_lightning_ingot"
+				type: "item"
+			}]
+			title: "&a龙霆钢锭"
+			x: -16.0d
+			y: -41.0d
+		}
+		{
+			dependencies: ["35557AE2D124F340"]
+			id: "46F53F4EBEC22267"
+			rewards: [{
+				id: "3CFD10BD5CAEBB6E"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "446E1539B246BB6D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "iceandfire:dragonforge_ice_brick"
+					}
+					type: "item"
+				}
+				{
+					id: "37366FEB59936A02"
+					item: "iceandfire:dragonforge_ice_input"
+					type: "item"
+				}
+				{
+					id: "5AF958E4DFF30F10"
+					item: "iceandfire:dragonforge_ice_core_disabled"
+					type: "item"
+				}
+			]
+			title: "&a龙霜锻炉"
+			x: -19.0d
+			y: -39.5d
+		}
+		{
+			dependencies: ["46F53F4EBEC22267"]
+			id: "59B24DAA9BDC53C1"
+			rewards: [{
+				id: "07CBFC1493E98A58"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "21D55089AF039017"
+				item: "iceandfire:dragonsteel_ice_ingot"
+				type: "item"
+			}]
+			title: "&a龙霜钢锭"
+			x: -19.0d
+			y: -41.0d
+		}
+		{
+			dependencies: ["6809732720BE31B8"]
+			icon: "rsinfinitybooster:infinity_card"
+			id: "291DAAEE484DBB53"
+			rewards: [
+				{
+					id: "10C11CE4ECE1B76B"
+					item: "rsinfinitybooster:infinity_card"
+					type: "item"
+				}
+				{
+					id: "4F3003C011D04406"
+					item: "refinedstorage:white_creative_controller"
+					type: "item"
+				}
+				{
+					id: "4849706698D581EF"
+					item: "refinedstorage:white_crafting_grid"
+					type: "item"
+				}
+				{
+					id: "72ED01F2C5106E4D"
+					item: "refinedstorage:disk_drive"
+					type: "item"
+				}
+				{
+					id: "6018B4AB3B6FC169"
+					item: "refinedstorage:white_wireless_transmitter"
+					type: "item"
+				}
+				{
+					id: "1C462C18E8B7B090"
+					item: "rsinfinitybooster:dimension_card"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "22E8E0CAD919CED2"
+					item: {
+						Count: 1
+						id: "extradisks:1048576k_storage_disk"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "737F3C3D8037DD53"
+					item: "chunkloaders:ultimate_chunk_loader"
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			subtitle: "&5我需要存放点东西"
+			tasks: [{
+				id: "5B24DBFEA0BE2944"
+				type: "checkmark"
+			}]
+			title: "&c存储终端"
+			x: -14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["396B7C86A20EC7A1"]
+			icon: "celestial_artifacts:backtrack_mirror"
+			id: "322D808B5899EDC0"
+			rewards: [
+				{
+					id: "5C8B054A434B9C73"
+					item: "celestial_artifacts:backtrack_mirror"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "35C2477F033B78D5"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					id: "3C320515D0732757"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:enigmatic_eye"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "79EA9AABB314F904"
+					item: "enigmaticlegacy:cursed_ring"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"全是特性\""
+			tasks: [{
+				id: "18ED2D27EC48AD51"
+				type: "checkmark"
+			}]
+			title: "&a整合包没bug(狗头)"
+			x: -18.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["396B7C86A20EC7A1"]
+			icon: "waystones:waystone"
+			id: "18D362E6933DCA93"
+			rewards: [{
+				id: "4821EAC7A79E4666"
+				item: "celestial_artifacts:diamond_ring"
+				type: "item"
+			}]
+			subtitle: "&5\"本整合包无法正常挖掘野生指路石\""
+			tasks: [{
+				id: "439CEC281E1BDACB"
+				type: "checkmark"
+			}]
+			title: "&a指路石"
+			x: -14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "72C1B31CE6EEDC53"
+			rewards: [{
+				id: "2D36512A078F9754"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "41C4863E7118D80D"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:life_mending"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&a孔融让梨"
+			x: -33.0d
+			y: -30.0d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "4771E17065B4ACDF"
+			rewards: [{
+				id: "0B51F5DA6A566815"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "2477D9009B76DB16"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:durable_armor"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&a报纸变钢板"
+			x: -33.5d
+			y: -29.5d
+		}
+		{
+			dependencies: ["23193E62241EB7F4"]
+			description: ["&6探险家指南针搜索\"pillager_castle\"，再也不缺绿宝石啦！！"]
+			icon: {
+				Count: 1
+				id: "minecraft:white_banner"
+				tag: {
+					BlockEntityTag: {
+						Patterns: [
+							{
+								Color: 9
+								Pattern: "mr"
+							}
+							{
+								Color: 8
+								Pattern: "bs"
+							}
+							{
+								Color: 7
+								Pattern: "cs"
+							}
+							{
+								Color: 8
+								Pattern: "bo"
+							}
+							{
+								Color: 15
+								Pattern: "ms"
+							}
+							{
+								Color: 8
+								Pattern: "hh"
+							}
+							{
+								Color: 8
+								Pattern: "mc"
+							}
+							{
+								Color: 15
+								Pattern: "bo"
+							}
+						]
+						id: "minecraft:banner"
+					}
+					HideFlags: 32
+					display: {
+						Name: "{\"color\":\"gold\",\"translate\":\"block.minecraft.ominous_banner\"}"
+					}
+				}
+			}
+			id: "53D9FBECE464129F"
+			rewards: [
+				{
+					id: "0133E028CE1CAD20"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "60DDA11D31878B70"
+					item: "fruitsdelight:hawberry_sapling"
+					type: "item"
+				}
+			]
+			subtitle: "&5批发绿宝石"
+			tasks: [{
+				id: "4D5D08B63C6870D3"
+				type: "checkmark"
+			}]
+			title: "&a还记得你说家是唯一的城堡"
+			x: -16.0d
+			y: -19.0d
+		}
+		{
+			dependencies: ["53D9FBECE464129F"]
+			id: "421CEFC66FE9FF98"
+			rewards: [
+				{
+					id: "06A064635D948DEF"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A7F1421E9743056"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:illusioner"
+				id: "232E475214AC9DDE"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a幻术师"
+			x: -19.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["53D9FBECE464129F"]
+			id: "318AAD435D34C45A"
+			rewards: [
+				{
+					id: "35F19893B11CF9B2"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6BB0BB138556E6E5"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				entity: "minecraft:evoker"
+				id: "22319353844755F1"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&a唤魔者"
+			x: -13.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["53D9FBECE464129F"]
+			id: "613F14C41912EA80"
+			rewards: [
+				{
+					id: "0F4DE2D1E0C82BE9"
+					type: "xp"
+					xp: 100
+				}
+				{
+					exclude_from_claim_all: true
+					id: "00243C0C85554CC4"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+			]
+			tasks: [
+				{
+					id: "2436F097FA99744D"
+					item: "ars_nouveau:ritual_challenge"
+					type: "item"
+				}
+				{
+					id: "371EEB6458160F4E"
+					item: "ars_nouveau:ritual_brazier"
+					type: "item"
+				}
+			]
+			title: "&a挑战之板"
+			x: -16.0d
+			y: -21.0d
+		}
+		{
+			dependencies: ["056148425FA9A8FC"]
+			hide_dependency_lines: true
+			id: "578F497D72258965"
+			rewards: [{
+				id: "3B63EC1FFBC1F271"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "700985804051B184"
+				item: "sophisticatedbackpacks:stack_upgrade_tier_1"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["056148425FA9A8FC"]
+			hide_dependency_lines: true
+			id: "505EABEDCE61826A"
+			rewards: [{
+				id: "157DB00AD60958BD"
+				item: "sophisticatedbackpacks:tank_upgrade"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "340C0D46691C161F"
+				item: "sophisticatedbackpacks:xp_pump_upgrade"
+				type: "item"
+			}]
+			x: -20.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["056148425FA9A8FC"]
+			hide_dependency_lines: true
+			id: "69664431B0468512"
+			rewards: [{
+				count: 32
+				id: "7B8E2D4AD872FD8B"
+				item: "minecraft:golden_carrot"
+				type: "item"
+			}]
+			shape: "diamond"
+			tasks: [
+				{
+					id: "5D6B14BD3D59C2CD"
+					item: "sophisticatedbackpacks:feeding_upgrade"
+					type: "item"
+				}
+				{
+					id: "58651A1D8B3BAE83"
+					item: "sophisticatedbackpacks:advanced_feeding_upgrade"
+					type: "item"
+				}
+			]
+			x: -21.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["59B24DAA9BDC53C1"]
+			id: "7A33B27AAC2CA662"
+			rewards: [
+				{
+					id: "14F6C0B77381C70E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "24D59C733588E61A"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "13E8838EE246DE4A"
+					table_id: 6785902794130635920L
+					type: "loot"
+				}
+				{
+					id: "02AEB58C029C0D83"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "5322787D0AF2D033"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2176AF6436E11930"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72315A6E45D24408"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "41B570652EC772A3"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_ice_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a龙霜钢防具"
+			x: -19.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["53B91732C1F91017"]
+			id: "545AEA5098B504E7"
+			rewards: [
+				{
+					id: "116C7D29F793936F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7650399BBA20A60B"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6CF17C35EA65F5BA"
+					table_id: 6785902794130635920L
+					type: "loot"
+				}
+				{
+					id: "77CBBBA30877036D"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "23212D05B434626D"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4E2F5A51ED93FF81"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F09ECA96DE279B4"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7D39747F37862FD8"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_fire_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a龙炎钢防具"
+			x: -13.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["584234D8219CE12C"]
+			id: "4F6C7C677E91CDFF"
+			rewards: [
+				{
+					id: "69E3D61CFFA26DBC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DE7511F2FB5B121"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "23B91FC17527CBCA"
+					table_id: 6785902794130635920L
+					type: "loot"
+				}
+				{
+					id: "7537E718C9E3A774"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "03A6D5D74C42E2DB"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "38A7914E2A804834"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C82392475806224"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "21ED611075B1AD49"
+					item: {
+						Count: 1
+						id: "iceandfire:dragonsteel_lightning_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a龙霆钢防具"
+			x: -16.0d
+			y: -42.5d
+		}
+		{
+			dependencies: ["036EE4F7CA70F4FC"]
+			id: "197C634D244C7B8F"
+			rewards: [
+				{
+					id: "317F507251BC7A00"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 4
+					id: "5D08F6B99119DAB3"
+					item: "enigmaticlegacy:evil_essence"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"三首恶魔\""
+			tasks: [
+				{
+					id: "0C0AF550AAEE9437"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+				{
+					entity: "minecraft:wither"
+					id: "53293CE79EC88974"
+					type: "kill"
+					value: 1L
+				}
+			]
+			title: "&a凋灵"
+			x: -16.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: [
+				"&6这把行刑者能很利落的取到怪物首级."
+				"&4相信我，你需要击杀不少的凋灵."
+			]
+			id: "036EE4F7CA70F4FC"
+			rewards: [
+				{
+					id: "39E91DBB996BC387"
+					type: "xp"
+					xp: 100
+				}
+				{
+					id: "178CFC55BF1D7040"
+					item: {
+						Count: 1
+						id: "minecraft:enchanted_book"
+						tag: {
+							StoredEnchantments: [{
+								id: "minecraft:looting"
+								lvl: 3s
+							}]
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "0FEAD11455EF5C4D"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7A157B01706EDAE6"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:forbidden_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -16.0d
+			y: -27.0d
+		}
+		{
+			id: "2E1922663E68F643"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "40A91FBDA38D7542"
+				item: "curseofpandora:curse_of_inertia"
+				type: "item"
+			}]
+			title: "&a现实第一诅咒：囚笼"
+			x: -37.0d
+			y: 4.0d
+		}
+		{
+			id: "703212CED81CFF03"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "50C013B8454FA9EB"
+				item: "curseofpandora:curse_of_proximity"
+				type: "item"
+			}]
+			title: "&a现实第二诅咒：制限"
+			x: -30.0d
+			y: 4.0d
+		}
+		{
+			id: "202A5D95E8A4ADFB"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "077EB7D171BD79B1"
+				item: "curseofpandora:curse_of_flesh"
+				type: "item"
+			}]
+			title: "&a现实第三诅咒：血肉"
+			x: -23.0d
+			y: 4.0d
+		}
+		{
+			id: "330678AA9F0C58DA"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "21084D7CB01A467B"
+				item: "curseofpandora:curse_of_metabolism"
+				type: "item"
+			}]
+			title: "&a现实第四诅咒：羸弱"
+			x: -16.0d
+			y: 4.0d
+		}
+		{
+			id: "38DF80084F28B5E6"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "1A51E5094C7E1E91"
+				item: "curseofpandora:curse_of_tension"
+				type: "item"
+			}]
+			title: "&a现实第五诅咒：恐惧"
+			x: -9.0d
+			y: 4.0d
+		}
+		{
+			id: "403497CB98919AC5"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "1441E1208D1026E6"
+				item: "curseofpandora:curse_of_prudence"
+				type: "item"
+			}]
+			title: "&a现实第六诅咒：碎魂"
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			id: "10ECA318F962AA93"
+			shape: "pentagon"
+			size: 2.0d
+			tasks: [{
+				id: "133F3C161C5327BE"
+				item: "curseofpandora:curse_of_spell"
+				type: "item"
+			}]
+			title: "&a现实第七诅咒：咒缚"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "103B2746ABB6112B"
+			rewards: [{
+				id: "464D1FAEF5128AB0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7951E06B52167B3A"
+				item: "enigmaticlegacy:golem_heart"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -34.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "0F9565FEE98895B9"
+			rewards: [{
+				id: "3708578F594DBCD0"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "409990EC57707CE3"
+				item: "enigmaticlegacy:angel_blessing"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"103B2746ABB6112B"
+				"4767A75A91E56DAA"
+				"407C8EDD0C1C9398"
+				"0220F8032C14A122"
+				"78927A91B812F057"
+				"0F9565FEE98895B9"
+			]
+			id: "1C392BCA216D94DE"
+			rewards: [{
+				id: "25E22C449EB25A0E"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5755F1A5E50A7A4D"
+				item: "enigmaticlegacy:the_cube"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -33.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "407C8EDD0C1C9398"
+			rewards: [{
+				id: "40A2774C78368F1F"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "3F3F052968DD3872"
+				item: "enigmaticlegacy:eye_of_nebula"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -30.5d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "78927A91B812F057"
+			rewards: [{
+				id: "219F5A90BD935383"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "20EA55B6DF4AAC4D"
+				item: "enigmaticlegacy:ocean_stone"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -31.5d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "0220F8032C14A122"
+			rewards: [{
+				id: "6BCEA0AD30718F0B"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&e免疫火焰"
+			tasks: [{
+				id: "33017440B434102C"
+				item: "enigmaticlegacy:blazing_core"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -34.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: true
+			id: "4767A75A91E56DAA"
+			rewards: [
+				{
+					id: "3F44817EF4611E24"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "4C5F197827DEDD66"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "2D89F087F9FBFE5C"
+				item: "enigmaticlegacy:void_pearl"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "1A9FBED3B85534AA"
+			rewards: [{
+				id: "39282AC98C44D346"
+				type: "xp"
+				xp: 100
+			}]
+			shape: "diamond"
+			tasks: [{
+				id: "3880DD147DE2C467"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:life_sync"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&a我和装备心连心"
+			x: -32.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["6D0306E04BA987CD"]
+			description: ["&6还为了盔甲老是碎裂而发愁吗，硬化附魔能让盔甲每次受损仅消耗1点耐久."]
+			id: "6BB2EFE5634116E3"
+			shape: "diamond"
+			tasks: [{
+				id: "25AD943F32059916"
+				item: {
+					Count: 1
+					id: "minecraft:enchanted_book"
+					tag: {
+						StoredEnchantments: [{
+							id: "l2complements:hardened"
+							lvl: 1s
+						}]
+					}
+				}
+				type: "item"
+			}]
+			title: "&a好用多用"
+			x: -15.0d
+			y: -18.5d
+		}
+		{
+			icon: "celestial_core:warden_sclerite"
+			id: "6D0306E04BA987CD"
+			rewards: [
+				{
+					count: 2
+					id: "2C3934D623E2C9BB"
+					item: "kubejs:iron_coin"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "1F640E144DAA5271"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"嘘...它看不见\""
+			tasks: [{
+				checkItem: false
+				entity: "minecraft:warden"
+				id: "1F82DE909E5C226F"
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "&a击杀监守者"
+			x: -13.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["6D0306E04BA987CD"]
+			description: [
+				"&6相信你已经发现生命套在遇见一些能够给予诅咒效果的怪时候,已经显得力不从心."
+				"&6幽匿套拥有更为广泛的免疫效果,更高的防御力以及耐久."
+			]
+			id: "26460393743C3B6D"
+			shape: "diamond"
+			subtitle: "&5\"融入暗影\""
+			tasks: [
+				{
+					id: "7078F72065A6E2BF"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4DF67A1C87AF300B"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07956FF774EC2078"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58C8A9447A829786"
+					item: {
+						Count: 1
+						id: "l2complements:sculkium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&a幽匿套装"
+			x: -15.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["197C634D244C7B8F"]
+			id: "362E76155DF1F861"
+			rewards: [{
+				id: "1497082C052B5A8C"
+				item: "l2complements:force_field"
+				type: "item"
+			}]
+			tasks: [{
+				id: "536A2D28B7874BED"
+				item: "l2complements:force_field"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["197C634D244C7B8F"]
+			description: ["&6开启屠龙之旅,接下来只需制作完成任意一套龙钢防具 ，即可开启第二章任务."]
+			id: "6EEE70C5F970328C"
+			tasks: [{
+				id: "40E2E6C2E285CCBC"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["6EEE70C5F970328C"]
+			dependency_requirement: "all_started"
+			hide_dependency_lines: true
+			id: "35557AE2D124F340"
+			rewards: [
+				{
+					id: "42B281BCE447248D"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "4A0CFBACFF7ADD95"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "点击鳞片获取更多信息"
+			tasks: [{
+				id: "2C38EDA94738B25A"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:scales/dragon/ice"
+					}
+				}
+				title: "击杀任意冰霜巨龙"
+				type: "item"
+			}]
+			title: "&a冰霜巨龙"
+			x: -19.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["6EEE70C5F970328C"]
+			hide_dependency_lines: true
+			id: "43CB9B3DAD77683A"
+			rewards: [
+				{
+					id: "378E4047813A231B"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "249A93E7951BE5F5"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "点击鳞片了解更多信息"
+			tasks: [{
+				id: "4ADC46F4B9A68D7C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:scales/dragon/fire"
+					}
+				}
+				title: "击杀任意火焰巨龙！"
+				type: "item"
+			}]
+			title: "&a火焰巨龙"
+			x: -13.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["6EEE70C5F970328C"]
+			hide_dependency_lines: true
+			id: "605894F90D1565D9"
+			rewards: [
+				{
+					id: "6ADD49FD054F9DD4"
+					type: "xp"
+					xp: 100
+				}
+				{
+					count: 2
+					id: "7FD20810AEA6C189"
+					item: "skilltree:wisdom_scroll"
+					type: "item"
+				}
+			]
+			subtitle: "点击鳞片获取更多信息"
+			tasks: [{
+				id: "1BC7DBCE2CFB50A0"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "iceandfire:scales/dragon/lightning"
+					}
+				}
+				title: "击杀任意闪电巨龙"
+				type: "item"
+			}]
+			title: "&a闪电巨龙"
+			x: -16.0d
+			y: -38.0d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "66DDA022B9981FA2"
+			shape: "diamond"
+			tasks: [{
+				id: "5664517DDBBF0417"
+				item: "alloy_forgery:stone_bricks_forge_controller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "460AB1A21A293431"
+			shape: "diamond"
+			tasks: [{
+				id: "18F132102DA1C609"
+				item: "alloy_forgery:bricks_forge_controller"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "4FC12FA89A7D9F7C"
+			shape: "diamond"
+			tasks: [{
+				id: "2132DA20E7F59950"
+				item: "alloy_forgery:deepslate_bricks_forge_controller"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "26B7B145A8CA705C"
+			shape: "diamond"
+			tasks: [{
+				id: "2E92E8C410D2D967"
+				item: "alloy_forgery:polished_blackstone_forge_controller"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "7E55CC59A5AB6189"
+			shape: "diamond"
+			tasks: [{
+				id: "4F29C2F001F59371"
+				item: "alloy_forgery:prismarine_bricks_forge_controller"
+				type: "item"
+			}]
+			x: -11.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "7F643FADCD63E71E"
+			shape: "diamond"
+			tasks: [{
+				id: "30F489896FE310EF"
+				item: "alloy_forgery:end_stone_bricks_forge_controller"
+				type: "item"
+			}]
+			x: -10.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["29997CFA9A77845B"]
+			hide_dependency_lines: true
+			id: "4B02365B9A1F4418"
+			shape: "diamond"
+			tasks: [{
+				id: "7626778BA510D441"
+				item: "alloy_forgery:adamantite_block_forge_controller"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["782CF75BB1B9EB6D"]
+			description: [
+				"&6搭建冶炼炉来冶炼高级的合金,可以使用煤炭/岩浆/烈焰棒等提供热量."
+				"&6每种合金所需的冶炼炉等级不同,最低为1(石砖/红砖等),最高为3(末地石/精金)."
+				"{image:ftbquests:textures/gui/smelting_furnace.png width:180 height:100 align:1}"
+			]
+			id: "29997CFA9A77845B"
+			shape: "pentagon"
+			tasks: [{
+				id: "305FA9AD13807612"
+				type: "checkmark"
+			}]
+			title: "&a高级冶炼"
+			x: -11.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["197C634D244C7B8F"]
+			description: [
+				"&6拥有嫉妒诅咒后,莱特兰恶意的大门正式为你敞开."
+				"&6现在你击杀带有词条的怪物,都有概率掉落其身上所对应的词条."
+			]
+			hide_dependency_lines: false
+			icon: "l2hostility:curse_of_envy"
+			id: "2E3DB176D52952B0"
+			subtitle: "&5\"渴望获得与怪物一样的能力\""
+			tasks: [{
+				id: "04DC74D34ACFF202"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			title: "&a嫉妒诅咒"
+			x: -9.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["738264215199650A"]
+			id: "08D706546A6B5003"
+			rewards: [{
+				count: 4
+				id: "088A7FF25CF759EA"
+				item: "celestial_enchantments:basic_celestial_catalyst"
+				type: "item"
+			}]
+			tasks: [{
+				id: "673A8CDB7D65C271"
+				item: "celestial_enchantments:celestial_enchanting_table"
+				type: "item"
+			}]
+			x: -11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["23193E62241EB7F4"]
+			id: "738264215199650A"
+			tasks: [{
+				id: "660600FC6CACFAD9"
+				item: "celestial_enchantments:basic_celestial_catalyst"
+				type: "item"
+			}]
+			x: -13.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["08D706546A6B5003"]
+			id: "53F34C6FCD48D6E3"
+			tasks: [{
+				id: "643A77190DF2E5E9"
+				item: "celestial_enchantments:advanced_celestial_catalyst"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["08D706546A6B5003"]
+			id: "2AF3ADE5DAA0A042"
+			tasks: [{
+				id: "41454739B0787685"
+				item: "celestial_enchantments:legendary_celestial_catalyst"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -12.5d
+		}
+		{
+			id: "70D26726E3A1B173"
+			rewards: [
+				{
+					id: "720CA55A36E44546"
+					item: "ars_nouveau:blue_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "536EA85C7494A520"
+					item: "ars_nouveau:red_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "133EE89961F6D3E0"
+					item: "ars_nouveau:purple_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "6DDD2B0743DC992A"
+					item: "ars_nouveau:green_archwood_sapling"
+					type: "item"
+				}
+				{
+					id: "1A2ED13FD2001954"
+					item: "ars_elemental:yellow_archwood_sapling"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "34A696C003C7949E"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:logs/archwood"
+					}
+				}
+				title: "Any #forge:logs/archwood"
+				type: "item"
+			}]
+			title: "&a魔力至高"
+			x: -25.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["70D26726E3A1B173"]
+			id: "5ADCC6D15E2232B8"
+			shape: "pentagon"
+			tasks: [{
+				id: "332108B86381FA5A"
+				item: "ars_nouveau:imbuement_chamber"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			id: "77B4DA9F95E94AF2"
+			shape: "diamond"
+			tasks: [{
+				id: "2D651EB13B0B6E06"
+				item: "ars_nouveau:source_gem"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			hide_dependency_lines: true
+			id: "2403574340B18091"
+			shape: "diamond"
+			tasks: [{
+				id: "1DF49B81C08D12BC"
+				item: "ars_nouveau:agronomic_sourcelink"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			hide_dependency_lines: true
+			id: "1114B6DE8D47FFF7"
+			shape: "diamond"
+			tasks: [{
+				id: "03DB5EB131445681"
+				item: "ars_nouveau:volcanic_sourcelink"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -34.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			hide_dependency_lines: true
+			id: "7ACF0F8DE5BD1EAA"
+			shape: "diamond"
+			tasks: [{
+				id: "6FFA46F13FFC93C1"
+				item: "ars_nouveau:alchemical_sourcelink"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: true
+			id: "66E704CC4C0577C1"
+			shape: "diamond"
+			tasks: [{
+				id: "203630A2FA77C898"
+				item: "ars_nouveau:vitalic_sourcelink"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -34.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			hide_dependency_lines: true
+			id: "611148C9B8423F42"
+			shape: "diamond"
+			tasks: [{
+				id: "15FF49B2848A37CC"
+				item: "ars_nouveau:mycelial_sourcelink"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["40945FBB99E8111F"]
+			id: "545CB395588845A2"
+			shape: "diamond"
+			tasks: [{
+				id: "2C8689CCDD4555CB"
+				item: "ars_nouveau:ritual_brazier"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			id: "037ED524CBB61123"
+			shape: "diamond"
+			tasks: [{
+				id: "69B967217DFD56EF"
+				item: "ars_nouveau:source_jar"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["40945FBB99E8111F"]
+			id: "063839D0E6585EBC"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "4667B8C7DEA4CE56"
+					item: "ars_nouveau:enchanting_apparatus"
+					type: "item"
+				}
+				{
+					id: "1062439E0813B92F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcane_core"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -34.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			id: "40945FBB99E8111F"
+			shape: "diamond"
+			tasks: [{
+				id: "6F914DE622E8C8F7"
+				item: "ars_nouveau:arcane_pedestal"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["70D26726E3A1B173"]
+			hide_dependency_lines: true
+			id: "1A66F62F84D00C96"
+			shape: "pentagon"
+			tasks: [{
+				id: "27F487A295ECD050"
+				item: "ars_nouveau:scribes_table"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			hide_dependent_lines: true
+			id: "240B30A32968F981"
+			shape: "diamond"
+			tasks: [{
+				id: "5EF894B3F6C69D2E"
+				item: "ars_nouveau:relay"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -31.0d
+		}
+		{
+			dependencies: ["240B30A32968F981"]
+			id: "35604E851869E47F"
+			shape: "diamond"
+			tasks: [{
+				id: "1937B5AA30333EEA"
+				item: "ars_nouveau:relay_splitter"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["240B30A32968F981"]
+			id: "699EF62D5F29681E"
+			shape: "diamond"
+			tasks: [{
+				id: "636E542B96049F49"
+				item: "ars_nouveau:relay_deposit"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["240B30A32968F981"]
+			id: "6B980A15047408EC"
+			shape: "diamond"
+			tasks: [{
+				id: "35CF12B173F59AA4"
+				item: "ars_nouveau:relay_warp"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["240B30A32968F981"]
+			id: "17FFB2B28AA8594C"
+			shape: "diamond"
+			tasks: [{
+				id: "0687F2E9CD958848"
+				item: "ars_nouveau:relay_collector"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			id: "7CC0C3ECCE1BC9B4"
+			shape: "diamond"
+			tasks: [{
+				id: "4719973C4F4E83FD"
+				item: "ars_nouveau:basic_spell_turret"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["77B4DA9F95E94AF2"]
+			id: "474C6D6DED075BF6"
+			shape: "diamond"
+			tasks: [{
+				id: "3C95F85B9D20B77B"
+				item: "ars_elemental:manipulation_turret"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			hide_dependency_lines: true
+			id: "1184DABD43ABE5DE"
+			shape: "diamond"
+			tasks: [{
+				id: "1FCA56BEE2B00C25"
+				item: "ars_nouveau:abjuration_essence"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			hide_dependency_lines: true
+			id: "212BC6EB7B273B65"
+			shape: "diamond"
+			tasks: [{
+				id: "0DB93A0A70C481FB"
+				item: "ars_nouveau:conjuration_essence"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "0C19234303A44D77"
+			shape: "diamond"
+			tasks: [{
+				id: "5734EA27A0DE45F0"
+				item: "ars_nouveau:air_essence"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "31A24EFA2B0A9D3E"
+			shape: "diamond"
+			tasks: [{
+				id: "333EB8838AA5C792"
+				item: "ars_nouveau:earth_essence"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			dependency_requirement: "one_started"
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "26BE0B7D60BA655B"
+			shape: "diamond"
+			tasks: [{
+				id: "62D03E29A8E16B8E"
+				item: "ars_nouveau:fire_essence"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -31.0d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5E66A3DBF1B02620"
+			shape: "diamond"
+			tasks: [{
+				id: "7217F7A958253D0D"
+				item: "ars_nouveau:manipulation_essence"
+				type: "item"
+			}]
+			x: -27.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "630AC21E6B19B3CF"
+			shape: "hexagon"
+			tasks: [{
+				id: "365AC98604EC4916"
+				item: "ars_nouveau:mundane_belt"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "7B05CB1C220B7857"
+			shape: "hexagon"
+			tasks: [{
+				id: "077689342648C775"
+				item: "ars_nouveau:ring_of_potential"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -29.0d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "2FC95EC0619377CE"
+			shape: "hexagon"
+			tasks: [{
+				id: "67824B24B66AC236"
+				item: "ars_nouveau:magebloom_crop"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["2FC95EC0619377CE"]
+			id: "093DF6C449C0406C"
+			shape: "diamond"
+			tasks: [{
+				id: "10F676EB8A5630EE"
+				item: "ars_nouveau:magebloom_fiber"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -27.5d
+		}
+		{
+			dependencies: ["1A66F62F84D00C96"]
+			id: "5B605215C15EFF33"
+			tasks: [{
+				id: "2CD6B94B2E6D0D90"
+				item: "ars_nouveau:alteration_table"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["093DF6C449C0406C"]
+			id: "22E2D1A6B6881625"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "77C747DC65D7CFC8"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32FF9D710A713DC0"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "324C898D43C88A76"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58BD508132D33ABF"
+					item: {
+						Count: 1
+						id: "ars_nouveau:sorcerer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -39.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["093DF6C449C0406C"]
+			id: "1C46D73B944CE02E"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "397F08739859A8EA"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18AFD1FE1D3E07DA"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5D444151E0C14343"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "794A38DFC25458B8"
+					item: {
+						Count: 1
+						id: "ars_nouveau:arcanist_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -38.5d
+			y: -27.0d
+		}
+		{
+			dependencies: ["093DF6C449C0406C"]
+			id: "187A412C1845753A"
+			shape: "diamond"
+			tasks: [
+				{
+					id: "3F7C50441C2A810F"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_hood"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "386431C73EF7BA54"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_robes"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CC2173A0BCF70E5"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4199AEA6568FD112"
+					item: {
+						Count: 1
+						id: "ars_nouveau:battlemage_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -39.0d
+			y: -26.5d
+		}
+		{
+			dependencies: ["630AC21E6B19B3CF"]
+			id: "2AD9202A91AC0D53"
+			shape: "diamond"
+			tasks: [{
+				id: "4E01E6FBDE889A07"
+				item: "ars_nouveau:belt_of_levitation"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["630AC21E6B19B3CF"]
+			id: "713E40B2A7BB0BD5"
+			shape: "diamond"
+			tasks: [{
+				id: "26C93B9B7B29F102"
+				item: "ars_nouveau:belt_of_unstable_gifts"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["630AC21E6B19B3CF"]
+			id: "1936105C8FF7A1A4"
+			shape: "diamond"
+			tasks: [{
+				id: "0E031430995822A3"
+				item: {
+					Count: 1
+					id: "ars_artifice:spell_storing_belt"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -37.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["7B05CB1C220B7857"]
+			id: "209F238C6BB1CC3C"
+			shape: "diamond"
+			tasks: [{
+				id: "2A6BEE6507D50F18"
+				item: "ars_nouveau:ring_of_lesser_discount"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["7B05CB1C220B7857"]
+			id: "5BFB85B63B681ADA"
+			shape: "diamond"
+			tasks: [{
+				id: "09DD3DC3C627D092"
+				item: "ars_nouveau:ring_of_greater_discount"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["7B05CB1C220B7857"]
+			id: "2DA997D945BF9932"
+			shape: "diamond"
+			tasks: [{
+				id: "15122660AECCCA61"
+				item: {
+					Count: 1
+					id: "ars_artifice:spell_storing_ring"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -35.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["7B05CB1C220B7857"]
+			id: "5AC4963C64507193"
+			shape: "diamond"
+			tasks: [{
+				id: "23FB3E8A91DAC7D3"
+				item: "ars_nouveau:jump_ring"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -28.0d
+		}
+		{
+			dependencies: ["7B05CB1C220B7857"]
+			id: "7FA10C0E55179A08"
+			shape: "diamond"
+			tasks: [{
+				id: "19FD42725EA9EF81"
+				item: "ars_elemental:base_bangle"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -26.5d
+		}
+		{
+			dependencies: ["063839D0E6585EBC"]
+			id: "60518D493EA03AFB"
+			shape: "diamond"
+			tasks: [{
+				id: "44C5D9569CCA358D"
+				item: "ars_nouveau:dull_trinket"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -29.0d
+		}
+		{
+			dependencies: ["60518D493EA03AFB"]
+			id: "7C15E9885205DAE2"
+			shape: "diamond"
+			tasks: [{
+				id: "4289E645E3BBAD27"
+				item: "ars_nouveau:amulet_of_mana_regen"
+				type: "item"
+			}]
+			x: -41.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["60518D493EA03AFB"]
+			id: "783DDABD43F308C8"
+			shape: "diamond"
+			tasks: [{
+				id: "04C3ADACDAB35EED"
+				item: {
+					Count: 1
+					id: "ars_artifice:spell_storing_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -40.5d
+			y: -27.5d
+		}
+		{
+			dependencies: ["60518D493EA03AFB"]
+			id: "1E48CE56121CB0B9"
+			shape: "diamond"
+			tasks: [{
+				id: "3435DE61F7E5D17D"
+				item: "ars_nouveau:amulet_of_mana_boost"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -27.0d
+		}
+		{
+			dependencies: ["5B605215C15EFF33"]
+			id: "6A9FDEECD594B1B4"
+			tasks: [{
+				id: "64CA739E879B9892"
+				item: "ars_nouveau:blank_thread"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "65AFAB81B8DF2FB7"
+			tasks: [{
+				id: "1604C810A0ABE23F"
+				item: "ars_nouveau:glyph_launch"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -36.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "0DAA63D6515CC7B5"
+			tasks: [{
+				id: "2C5F49DEAE108E53"
+				item: "ars_nouveau:glyph_gust"
+				type: "item"
+			}]
+			x: -24.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "580782F5DE96DF05"
+			tasks: [{
+				id: "51D8B77B1D708B45"
+				item: "ars_nouveau:glyph_light"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -35.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "5A138AE6702E6A71"
+			tasks: [{
+				id: "4D75DF61FFAA2284"
+				item: "ars_nouveau:glyph_leap"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -36.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "66D9D3DAC686D562"
+			tasks: [{
+				id: "21E8E534B52A42EF"
+				item: "ars_nouveau:glyph_dispel"
+				type: "item"
+			}]
+			x: -23.5d
+			y: -36.5d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "3FBCAAFE686F6B84"
+			tasks: [{
+				id: "2DCCAAB59CB43C88"
+				item: "ars_nouveau:glyph_amplify"
+				type: "item"
+			}]
+			x: -24.5d
+			y: -36.5d
+		}
+		{
+			dependencies: [
+				"5829B935C2196095"
+				"204E28EADF8BD148"
+			]
+			id: "71CCCC8290E20E73"
+			shape: "diamond"
+			tasks: [{
+				id: "3936C4773BD47683"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:an_focus"
+					}
+				}
+				title: "Any #curios:an_focus"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["5ADCC6D15E2232B8"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "23FE483D8A1A2BBB"
+			shape: "diamond"
+			tasks: [{
+				id: "7DDD6250741556FF"
+				item: "ars_nouveau:water_essence"
+				type: "item"
+			}]
+			x: -26.5d
+			y: -31.0d
+		}
+		{
+			dependencies: [
+				"545CB395588845A2"
+				"063839D0E6585EBC"
+			]
+			id: "28D8E7E987B3313B"
+			rewards: [
+				{
+					id: "71F9778DEBC754C2"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "79AA57FC497EB2EA"
+					item: "cagedmobs:hopping_mob_cage"
+					type: "item"
+				}
+				{
+					id: "79CBA835AB82FABE"
+					item: "undergarden:catalyst"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				id: "23A37703F4C39FFE"
+				item: "ars_nouveau:wilden_tribute"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["28D8E7E987B3313B"]
+			id: "204E28EADF8BD148"
+			tasks: [{
+				id: "4A2B879F73F8B1A0"
+				item: "ars_elemental:mark_of_mastery"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -31.5d
+		}
+		{
+			dependencies: ["28D8E7E987B3313B"]
+			id: "5829B935C2196095"
+			tasks: [{
+				id: "24F4D8B6F6E7B111"
+				item: "ars_nouveau:summon_focus"
+				type: "item"
+			}]
+			x: -39.5d
+			y: -33.5d
+		}
+		{
+			dependencies: ["71CCCC8290E20E73"]
+			id: "63083CA189755A77"
+			tasks: [
+				{
+					id: "197630D34CA6ADED"
+					item: {
+						Count: 1
+						id: "kubejs:defense_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E6F9FD41DAC1512"
+					item: {
+						Count: 1
+						id: "kubejs:defense_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "10C6AAF68A8FBFD1"
+					item: {
+						Count: 1
+						id: "kubejs:defense_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14162E8202C11175"
+					item: {
+						Count: 1
+						id: "kubejs:defense_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -42.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["70D26726E3A1B173"]
+			hide_dependency_lines: true
+			id: "324CF1BE6CBF4588"
+			shape: "pentagon"
+			tasks: [{
+				id: "27087910A86DE20E"
+				item: "ars_nouveau:novice_spell_book"
+				type: "item"
+			}]
+			x: -25.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["324CF1BE6CBF4588"]
+			id: "6ED239185162FF4D"
+			shape: "pentagon"
+			tasks: [{
+				id: "092C5902E3D013C1"
+				item: "ars_nouveau:apprentice_spell_book"
+				type: "item"
+			}]
+			x: -30.0d
+			y: -36.0d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "5486F38F21DD0684"
+			shape: "pentagon"
+			tasks: [{
+				id: "37FA78BD3E7FCE45"
+				item: "ars_nouveau:archmage_spell_book"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -35.0d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "67CBD99364C9B597"
+			tasks: [{
+				id: "7C7C8F77871BB53D"
+				item: "ars_elemental:glyph_bubble_shield"
+				type: "item"
+			}]
+			x: -30.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "71C373875012AAB3"
+			tasks: [{
+				id: "587E099D11A90D8F"
+				item: "ars_nouveau:glyph_dampen"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "39629D8CD4754CAF"
+			tasks: [{
+				id: "6004469F9CAF7B3F"
+				item: "ars_nouveau:glyph_gravity"
+				type: "item"
+			}]
+			x: -29.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "13C39F04DDB4663A"
+			tasks: [{
+				id: "757C642D9B7BF07A"
+				item: "ars_nouveau:glyph_slowfall"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "49EB49AC28943FAC"
+			tasks: [{
+				id: "0604FDC94CF420EB"
+				item: "ars_nouveau:glyph_grow"
+				type: "item"
+			}]
+			x: -28.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["6ED239185162FF4D"]
+			id: "2A13668A6802391C"
+			tasks: [{
+				id: "3616E0202B387CD5"
+				item: "toomanyglyphs:glyph_amplify_two"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -37.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "3BE494BC4C89AE88"
+			tasks: [{
+				id: "1AE197AAD930D574"
+				item: "adamsarsplus:glyph_effectdomain"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "4C661456CC37FF60"
+			tasks: [{
+				id: "49FD08E7816A1AAD"
+				item: "ars_nouveau:glyph_blink"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -35.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "02F038A93E9164CC"
+			tasks: [{
+				id: "090B6C0D5A4F21A3"
+				item: "ars_nouveau:glyph_lightning"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "1A6C3A367E402FCD"
+			tasks: [{
+				id: "696A60D4A7655904"
+				item: "ars_nouveau:glyph_glide"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "36912BEBBF2166E5"
+			tasks: [{
+				id: "387FB4DB1B05C310"
+				item: "adamsarsplus:glyph_effectlimitless"
+				type: "item"
+			}]
+			x: -36.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["5486F38F21DD0684"]
+			id: "3C7442631A796E34"
+			tasks: [{
+				id: "3590ECCE87DB2FF2"
+				item: "adamsarsplus:glyph_extendtime_three"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -36.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2F399FC03DB26EBD"
+			tasks: [{
+				id: "482C855E73511E3B"
+				item: "botania:entropinnyum"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "718F083C919115DE"
+			tasks: [{
+				id: "231D6FF6A9599D39"
+				item: "botania:thermalily"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "3C6E5B44E163C799"
+			tasks: [{
+				id: "3CC564AD9E634521"
+				item: "botania:shulk_me_not"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "71A4C5B1E8C9C79C"
+			tasks: [{
+				id: "7551A29BB6766D8B"
+				item: "botania:endoflame"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "0A75593D0D68EC0F"
+			tasks: [{
+				id: "0D6842DE6A0F5F86"
+				item: "botania:munchdew"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2DB8FCEEAA44B8EE"
+			tasks: [{
+				id: "707A9D4D4FAC8A11"
+				item: "botania:dandelifeon"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "6B6C1338DA6E05E1"
+			tasks: [{
+				id: "1592854EC4383B50"
+				item: "botania:rafflowsia"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "25A5A748D3DB6FD0"
+			tasks: [{
+				id: "01401C09AFABF05D"
+				item: "botania:rosa_arcana"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "09DDD53672B0A561"
+			tasks: [{
+				id: "5E242EF65557C353"
+				item: "botania:hydroangeas"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "20CD84F21593809A"
+			tasks: [{
+				id: "621014BB3335D3EF"
+				item: "botania:spectrolus"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4E9962D7D506C825"
+			tasks: [{
+				id: "16B6114ED1DA62F7"
+				item: "botania:kekimurus"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "1A2858B1927BC08F"
+			tasks: [{
+				id: "2CB39AF7466DC8C1"
+				item: "botania:gourmaryllis"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4B45C598CB667293"
+			tasks: [{
+				id: "0B6D440D84C8D897"
+				item: "botania:narslimmus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "0D7302F3B76BEC3A"
+			tasks: [{
+				id: "415C63BEFFC4F2FF"
+				item: "botania:labellia"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "74876684DC462F9A"
+			tasks: [{
+				id: "2F4D09CA6AC20B14"
+				item: "botania:heisei_dream"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "13D165DA7627571B"
+			tasks: [{
+				id: "1ADD49FF68CADF5B"
+				item: "botania:bubbell"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "27AC22B620B89DF4"
+			tasks: [{
+				id: "5E6CA696214A2F55"
+				item: "botania:fallen_kanade"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4910B83CB988196B"
+			tasks: [{
+				id: "64132B6C1780F3E8"
+				item: "botania:jaded_amaranthus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "569D4AF8036BF532"
+			tasks: [{
+				id: "5F91F1F95CD351DE"
+				item: "botania:spectranthemum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "46BD42AE54F2CE89"
+			tasks: [{
+				id: "20B3E523F483DF85"
+				item: "botania:vinculotus"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -17.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "0975F41A35E0A953"
+			tasks: [{
+				id: "48E4655E900F3330"
+				item: "botania:marimorphosis"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "1DED9FFD8AC3C2FB"
+			tasks: [{
+				id: "30A0D772BEA3A5CE"
+				item: "botania:daffomill"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "3FBBF519A94669E4"
+			tasks: [{
+				id: "153F2C7FC129ABCC"
+				item: "botania:agricarnation"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "178CEDDE5FB1477D"
+			tasks: [{
+				id: "4ACCF4F716289804"
+				item: "botania:loonium"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "3677DAB681F8D9C8"
+			tasks: [{
+				id: "20070489CA09CFEE"
+				item: "botania:tigerseye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "41742AAE9E513983"
+			tasks: [{
+				id: "3B1D18185B892357"
+				item: "botania:pollidisiac"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "739DFA411EBFB864"
+			tasks: [{
+				id: "44FA281DB71055AB"
+				item: "botania:bellethorn"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -14.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "380C15C1DAC3F9D7"
+			tasks: [{
+				id: "0422DE55C3632C9D"
+				item: "botania:hopperhock"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "521A546902D8C10B"
+			tasks: [{
+				id: "6ECD669989AF4C96"
+				item: "botania:rannuncarpus"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "397FC7D166A82A7A"
+			tasks: [{
+				id: "4040C2C9FF8D502C"
+				item: "botania:dreadthorn"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4AF639EFD211E634"
+			tasks: [{
+				id: "3E1B23D1B6023C3F"
+				item: "botania:jiyuulia"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "68C6FBD10D2B6D72"
+			tasks: [{
+				id: "42706D477581554D"
+				item: "botania:orechid"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2E6728E2898E3201"
+			tasks: [{
+				id: "41621C2949CFF126"
+				item: "botania:clayconia"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "17D7A712F5CCFEDF"
+			tasks: [{
+				id: "4429F9A7995A3D4B"
+				item: "botania:orechid_ignem"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "3276FA70E0225D04"
+			tasks: [{
+				id: "70812B6BF6E48C18"
+				item: "botania:hyacidus"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "420D15E11CFCA292"
+			tasks: [{
+				id: "62B58805D061F3E8"
+				item: "botania:solegnolia"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "26DD7670DD6BC270"
+			tasks: [{
+				id: "2EA241B535AFCA80"
+				item: "botania:tangleberrie"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "7D1CEAA94F356A43"
+			tasks: [{
+				id: "2DF6E5FE50E32377"
+				item: "botania:exoflame"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -16.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "1440C7814E99B2C6"
+			tasks: [{
+				id: "6A5F4C331F61E829"
+				item: "botania:medumone"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			id: "2AF513D68BE988F3"
+			tasks: [
+				{
+					id: "482EF4320920B504"
+					item: {
+						Count: 1
+						id: "botania:manasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2689FDB7FC961463"
+					item: {
+						Count: 1
+						id: "botania:manasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "60BCC9C5A4F112E7"
+					item: {
+						Count: 1
+						id: "botania:manasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "72A76DFCB16BA613"
+					item: {
+						Count: 1
+						id: "botania:manasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "344B4CBE72289980"
+					item: {
+						Count: 1
+						id: "botania:manasteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6E301CA9C61EEA55"
+					item: {
+						Count: 1
+						id: "botania:manasteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "37345381B45DCCD5"
+					item: {
+						Count: 1
+						id: "botania:manasteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D65D0F796C8A092"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "355BC4F06B2B89D3"
+					item: {
+						Count: 1
+						id: "botania:manasteel_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "452A25D498BA572A"
+					item: {
+						Count: 1
+						id: "botania:manasteel_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manasteel Gear"
+			x: -33.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			id: "0321A7B6265CEB0C"
+			tasks: [{
+				id: "78FB5433FA79DBAF"
+				item: "botania:mana_fluxfield"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "01200B72145FDADD"
+			tasks: [{
+				id: "7F3F8F93A8299CC6"
+				item: "botania:manasteel_ingot"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -12.0d
+		}
+		{
+			dependencies: [
+				"01200B72145FDADD"
+				"7129CFCFCC75AAFC"
+			]
+			id: "4BB6AB7809B102B9"
+			tasks: [{
+				id: "0F8655C28058E4CD"
+				item: "botania:crafting_halo"
+				type: "item"
+			}]
+			x: -35.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			id: "0D915881A8BF7EE3"
+			tasks: [{
+				id: "649A1947D59AC3FA"
+				item: "botania:terra_plate"
+				type: "item"
+			}]
+			x: -37.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "7129CFCFCC75AAFC"
+			tasks: [{
+				id: "0EC8AF84752722B9"
+				item: "botania:mana_pearl"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7129CFCFCC75AAFC"]
+			id: "59D87E91D1A823D2"
+			tasks: [{
+				id: "54EEC2EB4F66562D"
+				item: "botania:alchemy_catalyst"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["7129CFCFCC75AAFC"]
+			id: "29BBD83472699DA4"
+			tasks: [{
+				id: "2BBEA41959561DDC"
+				item: "botania:mana_tablet"
+				type: "item"
+			}]
+			x: -33.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["793DCC312DFF0198"]
+			hide_dependent_lines: true
+			id: "45AC772575502EB6"
+			tasks: [{
+				id: "2AEB1FA3E37A8C54"
+				item: "botania:mana_pool"
+				type: "item"
+			}]
+			x: -34.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "641E7D71ACC0F28B"
+			tasks: [{
+				id: "1C5CA8CAF9AA3DCE"
+				item: "botania:mana_diamond"
+				type: "item"
+			}]
+			x: -35.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["641E7D71ACC0F28B"]
+			hide_dependent_lines: true
+			id: "278D27920CB07C59"
+			tasks: [{
+				id: "7F09BE20C379E9DC"
+				item: "botania:runic_altar"
+				type: "item"
+			}]
+			x: -36.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "651A934D02AD1F90"
+			tasks: [{
+				id: "26EDDAFE43B34F88"
+				item: "botania:mana_string"
+				type: "item"
+			}]
+			x: -33.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "54517F82F4BBEDB5"
+			tasks: [{
+				advancement: "botania:main/enchanter_make"
+				criterion: ""
+				id: "3D00B10632B642F5"
+				type: "advancement"
+			}]
+			title: "Make a Mana Enchanter"
+			x: -31.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["651A934D02AD1F90"]
+			id: "5943C8B3EF469F17"
+			tasks: [
+				{
+					id: "29BF7FC0F9BD2DC4"
+					item: {
+						Count: 1
+						id: "botania:manaweave_helmet"
+						tag: {
+							Damage: 0
+							selected: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4D62791456A8B79E"
+					item: {
+						Count: 1
+						id: "botania:manaweave_chestplate"
+						tag: {
+							Damage: 0
+							selected: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "402A2D45C01217A4"
+					item: {
+						Count: 1
+						id: "botania:manaweave_leggings"
+						tag: {
+							Damage: 0
+							selected: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "32B4910E9045F54F"
+					item: {
+						Count: 1
+						id: "botania:manaweave_boots"
+						tag: {
+							Damage: 0
+							selected: { }
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Manaweave Armor"
+			x: -35.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["44DF71B4C8D2B61A"]
+			id: "7F4A982FF8F7F124"
+			tasks: [{
+				id: "2311D036C30172F7"
+				item: {
+					Count: 1
+					id: "botania:terra_pick"
+					tag: {
+						Damage: 0
+						mana: 2147483646
+					}
+				}
+				type: "item"
+			}]
+			x: -38.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0D915881A8BF7EE3"]
+			id: "44DF71B4C8D2B61A"
+			tasks: [{
+				id: "789EA90E2F090F61"
+				item: "botania:terrasteel_ingot"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["44DF71B4C8D2B61A"]
+			id: "1F640301A7DFAF61"
+			tasks: [
+				{
+					id: "428C6144BC0F73CC"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "203E8D3B869CAFEA"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D989C234F3E1A20"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2454459CA4464BC9"
+					item: {
+						Count: 1
+						id: "botania:terrasteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "09E6C631F76A0BBD"
+					item: {
+						Count: 1
+						id: "botania:terra_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F1E81FAFDF909AD"
+					item: {
+						Count: 1
+						id: "botania:terra_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Terrasteel Gear"
+			x: -38.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["0BA60C71BADB27EA"]
+			id: "0365DF3000755BCA"
+			rewards: [{
+				count: 8
+				id: "2F004B4DBFDC937F"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12AB987B855C150E"
+				item: "botania:livingwood_log"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["0BA60C71BADB27EA"]
+			id: "793DCC312DFF0198"
+			rewards: [{
+				count: 8
+				id: "627E198D3854148F"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			tasks: [{
+				id: "595062CEFAB338F0"
+				item: "botania:livingrock"
+				type: "item"
+			}]
+			x: -32.5d
+			y: -15.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			id: "0BA60C71BADB27EA"
+			tasks: [{
+				id: "2DE51BB02B5241F2"
+				item: "botania:pure_daisy"
+				type: "item"
+			}]
+			x: -31.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["485B2B25658C5301"]
+			id: "7D112B8FC4531A7E"
+			progression_mode: "linear"
+			tasks: [{
+				id: "60358EC46F777869"
+				item: "botania:apothecary_default"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["06796341AB3CFBB4"]
+			id: "485B2B25658C5301"
+			rewards: [
+				{
+					id: "23F045D809AB3A6B"
+					item: "botania:flower_bag"
+					type: "item"
+				}
+				{
+					count: 32
+					id: "0B9F4687091023CF"
+					item: "botania:fertilizer"
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "7ABB92917F9A529C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "botania:mystical_flowers"
+					}
+				}
+				title: "Any #botania:mystical_flowers"
+				type: "item"
+			}]
+			x: -27.5d
+			y: -14.0d
+		}
+		{
+			hide: true
+			id: "06796341AB3CFBB4"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "7AB518F0AAAD7EF3"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			x: -25.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["0D915881A8BF7EE3"]
+			id: "5C05E71686140C61"
+			tasks: [{
+				id: "02225091E1C7C825"
+				item: "botania:spark"
+				type: "item"
+			}]
+			x: -37.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["0365DF3000755BCA"]
+			id: "22B2C00FB3706A6F"
+			tasks: [{
+				id: "4329EC960DEF3600"
+				item: {
+					Count: 1
+					id: "botania:twig_wand"
+					tag: {
+						color1: 0
+						color2: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -31.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1CE364B83E30A5F9"]
+			id: "479CCC7995B0C0D4"
+			tasks: [{
+				id: "7D021966984E6630"
+				item: "botania:lens_normal"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["22B2C00FB3706A6F"]
+			id: "1CE364B83E30A5F9"
+			tasks: [{
+				id: "13DCC4C05E215CC6"
+				item: "botania:mana_spreader"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["479CCC7995B0C0D4"]
+			id: "01466AA75BC97D89"
+			tasks: [{
+				id: "512136CD2D70F198"
+				item: "botania:prism"
+				type: "item"
+			}]
+			x: -26.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["1CE364B83E30A5F9"]
+			id: "6FCE275B8B4666F6"
+			tasks: [{
+				id: "0AD80A460F2296C8"
+				item: "botania:redstone_spreader"
+				type: "item"
+			}]
+			x: -31.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1CE364B83E30A5F9"]
+			id: "41AE0B6A34EE680F"
+			tasks: [{
+				id: "153B7C2DA50049AD"
+				item: "botania:elven_spreader"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -12.5d
+		}
+		{
+			dependencies: ["1CE364B83E30A5F9"]
+			id: "24598EAB4F2A89E0"
+			tasks: [{
+				id: "097EF12E52DEB6E5"
+				item: "botania:gaia_spreader"
+				type: "item"
+			}]
+			x: -28.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["44DF71B4C8D2B61A"]
+			id: "486A51B5EAECBF17"
+			tasks: [
+				{
+					count: 2L
+					id: "26AFEB45A912AA44"
+					item: {
+						Count: 1
+						id: "botania:natura_pylon"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "73095A51A24E98DA"
+					item: {
+						Count: 8
+						id: "botania:livingwood"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "0FA4B1B10B751AEC"
+					item: {
+						Count: 3
+						id: "botania:glimmering_livingwood"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "4FBBFE8E65EB654C"
+					item: {
+						Count: 1
+						id: "botania:alfheim_portal"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			x: -40.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["49D0F5D9196D9E2A"]
+			id: "145F11A416AEAB22"
+			tasks: [{
+				id: "194FD96B0AA1693C"
+				item: {
+					Count: 1
+					id: "botania:lexicon"
+					tag: {
+						"botania:elven_unlock": 1b
+					}
+				}
+				type: "item"
+			}]
+			x: -41.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["486A51B5EAECBF17"]
+			id: "49D0F5D9196D9E2A"
+			tasks: [{
+				advancement: "botania:main/elf_portal_open"
+				criterion: ""
+				id: "270F36D3E74E74C5"
+				type: "advancement"
+			}]
+			title: "Open the Alfheim Portal"
+			x: -42.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["49D0F5D9196D9E2A"]
+			id: "4BD4D197F9DC863F"
+			tasks: [{
+				id: "4EE0CA39D7110BC9"
+				item: "botania:dreamwood_log"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -11.0d
+		}
+		{
+			dependencies: ["49D0F5D9196D9E2A"]
+			id: "006D707637E3F606"
+			tasks: [{
+				id: "05697A894CC9C263"
+				item: "botania:elementium_ingot"
+				type: "item"
+			}]
+			x: -41.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["006D707637E3F606"]
+			id: "2AFF3A18E9A02A42"
+			tasks: [
+				{
+					id: "18632F439A7C3010"
+					item: {
+						Count: 1
+						id: "botania:elementium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C7858F439D4B08D"
+					item: {
+						Count: 1
+						id: "botania:elementium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2B949E60DAC43A0C"
+					item: {
+						Count: 1
+						id: "botania:elementium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1836C3BA72F672A3"
+					item: {
+						Count: 1
+						id: "botania:elementium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4922B712092C979B"
+					item: {
+						Count: 1
+						id: "botania:elementium_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0455D5D11B5B58D2"
+					item: {
+						Count: 1
+						id: "botania:elementium_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1D37C60CD53481C8"
+					item: {
+						Count: 1
+						id: "botania:elementium_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0AE6F1861276B113"
+					item: {
+						Count: 1
+						id: "botania:elementium_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1CFF464EBE59B1BE"
+					item: {
+						Count: 1
+						id: "botania:elementium_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7CB535C3CDA53F45"
+					item: {
+						Count: 1
+						id: "botania:elementium_shears"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C9505935C8C1998"
+					item: {
+						Count: 1
+						id: "botania:star_sword"
+						tag: {
+							Damage: 0
+							lastTriggerTime: 586138L
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Elementium Gear"
+			x: -40.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["006D707637E3F606"]
+			id: "6B0E85AA7CDEF191"
+			tasks: [{
+				id: "3FCFB77DF9211A92"
+				item: "botania:gaia_pylon"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["4BD4D197F9DC863F"]
+			id: "2E1BF033CA30ECDA"
+			tasks: [{
+				id: "0E376E9C808FB402"
+				item: "botania:light_relay"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["2E1BF033CA30ECDA"]
+			id: "29C392416255DF7A"
+			tasks: [{
+				id: "7CBE310562DB0D4E"
+				item: "botania:light_launcher"
+				type: "item"
+			}]
+			x: -40.5d
+			y: -10.0d
+		}
+		{
+			dependencies: ["6B0E85AA7CDEF191"]
+			id: "4F5A513E14904BDA"
+			rewards: [{
+				id: "1D5CF39A4E4F1C7C"
+				item: {
+					Count: 1
+					id: "currency:can100"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+							Name: "{\"text\":\"史诗兑换券\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				entity: "botania:doppleganger"
+				icon: "botania:gaia_head"
+				id: "2DD7A2D965330759"
+				type: "kill"
+				value: 1L
+			}]
+			x: -41.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4F5A513E14904BDA"]
+			id: "768DB75FDF38BB98"
+			tasks: [{
+				id: "1FFE94D5DA0B4183"
+				item: {
+					Count: 1
+					id: "botania:flight_tiara"
+					tag: {
+						variant: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -43.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4F5A513E14904BDA"]
+			id: "6C892E06A15C3774"
+			tasks: [{
+				id: "24723957C8B136B4"
+				item: "botania:gaia_ingot"
+				type: "item"
+			}]
+			x: -40.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["4F5A513E14904BDA"]
+			id: "3603740347DD9051"
+			tasks: [{
+				id: "3F8B87ACBE621908"
+				item: "botania:spawner_mover"
+				type: "item"
+			}]
+			x: -39.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["4F5A513E14904BDA"]
+			id: "2DBF539424CF616F"
+			tasks: [{
+				id: "2B28737EB6634138"
+				item: "botania:pinkinator"
+				type: "item"
+			}]
+			x: -42.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			id: "38BC867C7A861B7B"
+			tasks: [{
+				id: "08311AEF83BFDACE"
+				item: "botania:brewery"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -13.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "570B152BB34722E6"
+			tasks: [{
+				id: "7E4F636F96B907BE"
+				item: "botania:bergamute"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "26C37DB6B3A9A36C"
+			tasks: [{
+				id: "18392FB576050DD5"
+				item: "botania:manastar"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -15.0d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "11196E016236444D"
+			tasks: [{
+				id: "4BC1E47F6FFAE0DA"
+				item: {
+					Count: 1
+					id: "botania:gravity_rod"
+					tag: {
+						dist: -1.0d
+						target: -1
+						ticksCooldown: 0
+						ticksTillExpire: -1
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "099CBB1A1652CD6D"
+			tasks: [{
+				id: "7F493C669DC28CD8"
+				item: "botania:divining_rod"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "330BAA73E6933965"
+			tasks: [{
+				id: "5BD071AB03C7C617"
+				item: "botania:terraform_rod"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "0252740820CB59C9"
+			tasks: [{
+				id: "46EA7149C75AA348"
+				item: "botania:fire_rod"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "6EC8E605BEB14EF3"
+			tasks: [{
+				id: "5960D7931FB552C4"
+				item: "botania:cobble_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "62AC79636FC81F6C"
+			tasks: [{
+				id: "2511F6869258BCB0"
+				item: "botania:dirt_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "06772862A436D231"
+			tasks: [{
+				id: "5B16328A01B0007C"
+				item: "botania:water_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "4792FA38BFC257DB"
+			tasks: [{
+				id: "5D38187C4B4A9208"
+				item: "botania:missile_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "73F185F69E6B0C66"
+			tasks: [{
+				id: "296F7791D1AD5B4A"
+				item: {
+					Count: 1
+					id: "botania:tornado_rod"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "734EC0287E5E5B25"
+			tasks: [{
+				id: "210B0BB9B3B31279"
+				item: "botania:skydirt_rod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -12.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "49B1A4D8883C6764"
+			tasks: [{
+				id: "219D731E7D4A38B9"
+				item: "botania:smelt_rod"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -13.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "6DDB5989EC24BB03"
+			tasks: [{
+				id: "144BAA0654F24F51"
+				item: "botania:rainbow_rod"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -14.5d
+		}
+		{
+			dependencies: ["278D27920CB07C59"]
+			hide_dependency_lines: true
+			id: "0403AC9E6CDB36B6"
+			tasks: [{
+				id: "4DB40A61BAAFD3E5"
+				item: "botania:exchange_rod"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -14.0d
+		}
+		{
+			dependencies: ["670CAE8410C43D23"]
+			id: "089A8999CB3B2278"
+			rewards: [{
+				id: "055072B73CDE81A6"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&d你好像那吞噬兽一点也吃不饱"
+			tasks: [{
+				id: "68147B7177153FA7"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:xp_scroll"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["292BA13BF594C2E1"]
+			hide: false
+			id: "670CAE8410C43D23"
+			rewards: [{
+				id: "6924C5986EFA361C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&5用于合成各种神器卷轴."
+			tasks: [{
+				id: "2BB63896A9F5D454"
+				item: "enigmaticlegacy:thicc_scroll"
+				type: "item"
+			}]
+			title: "神奇卷轴"
+			x: -6.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["670CAE8410C43D23"]
+			hide: false
+			id: "2D5412017BB65B2B"
+			rewards: [{
+				id: "33982F83E33DF3A0"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&e移动的骨灰盒"
+			tasks: [{
+				id: "6E2D32F36F6E7C4E"
+				item: "enigmaticlegacy:escape_scroll"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["670CAE8410C43D23"]
+			id: "2950B42F626864A4"
+			rewards: [{
+				id: "6A3C3D9354D65B21"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&e这点距离要你有合用"
+			tasks: [{
+				id: "73313A7F015BD988"
+				item: "enigmaticlegacy:heaven_scroll"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["2950B42F626864A4"]
+			id: "0E325E79B8616C05"
+			rewards: [{
+				id: "5F9A62BBA7020C83"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&c我也可以飞了.....只是这经验消耗"
+			tasks: [{
+				id: "4779959748080ABA"
+				item: "enigmaticlegacy:fabulous_scroll"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -28.5d
+		}
+		{
+			hide: true
+			id: "590BB82C9FE8239F"
+			rewards: [{
+				id: "04C4783F1E2CBE3C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6小命要紧"
+			tasks: [{
+				id: "01729DDD6F11B4FD"
+				item: "enigmaticlegacy:recall_potion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["590BB82C9FE8239F"]
+			hide: false
+			id: "7E8386A1ED27B3BB"
+			rewards: [{
+				id: "31EC73076ADD4885"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1C9C670F9710A0BD"
+				item: "enigmaticlegacy:twisted_mirror"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["590BB82C9FE8239F"]
+			id: "2DE2D01355FF2B63"
+			rewards: [{
+				id: "18C3C731BAD4B76A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B85AFB5814AF394"
+				item: "enigmaticlegacy:twisted_potion"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["7FBAC10876D62D9F"]
+			id: "3A06DD670821A03D"
+			rewards: [{
+				id: "56AA97BA2FC201B5"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6无限的骨粉？？？？"
+			tasks: [{
+				id: "00A74A287397D66B"
+				item: "enigmaticlegacy:infinimeal"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -34.0d
+		}
+		{
+			dependencies: [
+				"54CCC614E3C23E2C"
+				"292BA13BF594C2E1"
+			]
+			hide: false
+			id: "7FBAC10876D62D9F"
+			rewards: [{
+				id: "5DEECA01059C9044"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "491095ED750246D6"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:earth_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["7FBAC10876D62D9F"]
+			hide: false
+			id: "6D43A9CE99385630"
+			rewards: [{
+				id: "040C187211143216"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6矿工的帽子"
+			tasks: [{
+				id: "5768A5FA1A7C9CAB"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:mining_charm"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -36.0d
+		}
+		{
+			id: "4EC6741762A1EE8E"
+			rewards: [{
+				id: "1C31B533CF0033D6"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "33C5AB2B6A10E2C6"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -37.0d
+		}
+		{
+			id: "5DB45CDE4718A898"
+			rewards: [{
+				id: "2A6338E7B820C12A"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "7B64C5DB3A70E2E2"
+				item: "enigmaticlegacy:hunter_guidebook"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -37.0d
+		}
+		{
+			id: "48207E31C005F883"
+			rewards: [{
+				id: "74640396F9A0C541"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "71CE6C363A9E10B0"
+				item: "enigmaticlegacy:animal_guidebook"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -37.0d
+		}
+		{
+			id: "1174A11FDFA856FF"
+			rewards: [{
+				id: "2BBE1520ABF8A106"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1DAC9BF700953198"
+				item: "enigmaticlegacy:curse_transposer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["0C6D9A089076E10B"]
+			id: "74CA3616250BD2EE"
+			rewards: [{
+				id: "78DE56C882D29515"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "07891261434115D9"
+				item: "enigmaticlegacy:the_infinitum"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["54CCC614E3C23E2C"]
+			id: "4873664ED42EC29C"
+			rewards: [{
+				id: "0C2B4E34054BEE66"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "68184AF2B307A5AF"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:infernal_shield"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -5.5d
+			y: -37.0d
+		}
+		{
+			hide: false
+			id: "54CCC614E3C23E2C"
+			rewards: [{
+				id: "27477F32392DBBB4"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "4D47386EE2379EC6"
+				item: "enigmaticlegacy:twisted_heart"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -35.0d
+		}
+		{
+			dependencies: ["15D33E543B57F74F"]
+			hide: false
+			id: "005663846B6921E2"
+			rewards: [{
+				id: "1A7D9F14662C7105"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6F15A6F619DB1CCB"
+				item: "enigmaticlegacy:the_twist"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["10C5AC49022A8DB0"]
+			id: "74B33604535FC507"
+			rewards: [{
+				id: "673AD54A26A50E49"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "00EECE8877585A22"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:eldritch_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -28.5d
+		}
+		{
+			dependencies: ["54CCC614E3C23E2C"]
+			id: "7ED30DC57F3B4E9C"
+			rewards: [{
+				id: "341F1BF0AEE16143"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "6D9AC9F0E5B96CCC"
+				item: "enigmaticlegacy:berserk_charm"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["4C68F5942E4DA0BC"]
+			id: "10C5AC49022A8DB0"
+			rewards: [{
+				id: "5CB4E7284336A095"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "0E97F3ABC643B4F0"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ascension_amulet"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["54CCC614E3C23E2C"]
+			id: "3AA672C3D3D463E3"
+			rewards: [{
+				id: "6CFCAE96114230F5"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "289B8B49FF8A2828"
+				item: "enigmaticlegacy:soul_compass"
+				type: "item"
+			}]
+			x: -4.5d
+			y: -37.0d
+		}
+		{
+			dependencies: ["13B8D1C61881B604"]
+			id: "1BC8E1A00545E085"
+			tasks: [{
+				id: "14E52FD03C42E9C4"
+				item: "enigmaticlegacy:golden_ring"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -37.0d
+		}
+		{
+			dependencies: [
+				"54CCC614E3C23E2C"
+				"4BE2FE61C7ABDF79"
+				"1BC8E1A00545E085"
+			]
+			hide: false
+			id: "70C707525675F102"
+			rewards: [{
+				id: "2ABA61A3557C3986"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&d不怕猪灵的敌对了"
+			tasks: [{
+				id: "41A8F092EC7276BE"
+				item: "enigmaticlegacy:avarice_scroll"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -37.0d
+		}
+		{
+			hide: true
+			hide_dependency_lines: false
+			id: "4BE2FE61C7ABDF79"
+			rewards: [{
+				id: "34F8DEB46F880B88"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6猪灵堡垒必定能遇到"
+			tasks: [{
+				id: "0AFCA3BCB5F5637C"
+				item: "enigmaticlegacy:darkest_scroll"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -36.0d
+		}
+		{
+			id: "13B8D1C61881B604"
+			tasks: [{
+				id: "4A2A59098FD76E36"
+				item: "enigmaticlegacy:iron_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["13B8D1C61881B604"]
+			hide: false
+			id: "0A83D9BA569198B6"
+			rewards: [{
+				id: "0543B3A0728CF96C"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&e便携末影箱"
+			tasks: [{
+				id: "24B1697F0D5092B2"
+				item: "enigmaticlegacy:ender_ring"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["4BE2FE61C7ABDF79"]
+			hide: false
+			id: "5DBE4BDD2E06320C"
+			rewards: [{
+				id: "6FF764F86C512971"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&6还是留着吧看看就好"
+			tasks: [{
+				id: "48147D59158307BB"
+				item: "enigmaticlegacy:cursed_scroll"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -35.0d
+		}
+		{
+			dependencies: ["13B8D1C61881B604"]
+			hide: false
+			id: "1FCC8B4A65DA1BB9"
+			rewards: [{
+				id: "387B17D82B1585E7"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&e如意如意"
+			tasks: [{
+				id: "67D65EBB960889F3"
+				item: "enigmaticlegacy:magnet_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -37.0d
+		}
+		{
+			dependencies: ["1FCC8B4A65DA1BB9"]
+			hide: false
+			id: "5EA839A7D89188DD"
+			rewards: [{
+				id: "5BFC615C39AA6275"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&d加强的磁铁？？"
+			tasks: [{
+				id: "5F4FEA4CAD1C617D"
+				item: "enigmaticlegacy:super_magnet_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -35.0d
+		}
+		{
+			dependencies: ["527B5626D0C85CAD"]
+			description: ["&6尽管护甲值不如悚怖套，但集齐以太四件套所提供的护盾效果将为你提供最强的防御。"]
+			id: "750EA3FBC5265264"
+			rewards: [{
+				id: "662B1084AD9C27BA"
+				item: {
+					Count: 1
+					id: "currency:can100"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"§6手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+							Name: "{\"text\":\"§d史诗兑换券\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "rsquare"
+			subtitle: "以太金属带来绝对防御"
+			tasks: [
+				{
+					id: "786152EC108194FC"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4EAF142C048D5F44"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4057B606041E378B"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14F01A4CD43586CA"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:etherium_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&6以太套"
+			x: 4.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["311479B4A915E491"]
+			id: "527B5626D0C85CAD"
+			rewards: [{
+				id: "25D088A5FA9246A9"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "62B1F5E38ABBCD12"
+				item: "enigmaticlegacy:etherium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -28.5d
+		}
+		{
+			dependencies: ["407C8EDD0C1C9398"]
+			hide_dependency_lines: true
+			id: "339059D2D855BF88"
+			rewards: [{
+				id: "07E67BF3A0A86F8D"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "783C91ED5E29C412"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:enigmatic_elytra"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 12.0d
+			y: -29.5d
+		}
+		{
+			dependencies: ["3C531E51F715FDBD"]
+			id: "311479B4A915E491"
+			rewards: [{
+				id: "11E09188702B6841"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&c末地的神秘物品"
+			tasks: [{
+				id: "0B8247163624F1EE"
+				item: "enigmaticlegacy:etherium_ore"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["15D33E543B57F74F"]
+			id: "3C531E51F715FDBD"
+			rewards: [{
+				id: "440654F8BA3D4DDA"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "5AFBACA6BF8BA050"
+				item: "enigmaticlegacy:evil_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -32.5d
+		}
+		{
+			dependencies: ["1F055834F7076BE8"]
+			id: "15D33E543B57F74F"
+			rewards: [
+				{
+					id: "5A09F066ECEE6727"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6A9376B36FA45F95"
+					item: {
+						Count: 1
+						id: "enigmaticlegacy:earth_heart"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			subtitle: "&c击杀凋零"
+			tasks: [{
+				id: "4B356A4C46880DA8"
+				item: "enigmaticlegacy:evil_essence"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["292BA13BF594C2E1"]
+			icon: "enigmaticlegacy:soul_crystal"
+			id: "1F055834F7076BE8"
+			rewards: [{
+				count: 5
+				id: "50AA78A7D06134D3"
+				item: "enigmaticlegacy:soul_crystal"
+				type: "item"
+			}]
+			subtitle: "&e捡回处于尸体的灵魂水晶"
+			tasks: [{
+				id: "3FB2539665C7AE98"
+				type: "checkmark"
+			}]
+			title: "死亡代表着重生"
+			x: -3.0d
+			y: -32.5d
+		}
+		{
+			dependencies: [
+				"0DA2585123CA50F9"
+				"0C6D9A089076E10B"
+			]
+			id: "1CF7427BA6CE95AC"
+			rewards: [{
+				id: "57F2EA6F9E403EEB"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "1ABEFF1796B54FE4"
+				item: "enigmaticlegacy:lore_inscriber"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -34.0d
+		}
+		{
+			dependencies: ["3C531E51F715FDBD"]
+			id: "0C6D9A089076E10B"
+			rewards: [{
+				id: "554571017E80AC88"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&d闪闪发光的一看就很昂贵"
+			tasks: [{
+				id: "01623E9BF24EAB62"
+				item: "enigmaticlegacy:astral_dust"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["0C6D9A089076E10B"]
+			id: "50F8EAE6DF74BEE4"
+			rewards: [{
+				id: "488227F091EBA6D8"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&4尝一口有什么不一样吗"
+			tasks: [{
+				id: "777A67ED55788C6E"
+				item: "enigmaticlegacy:astral_potato"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -30.5d
+		}
+		{
+			dependencies: ["0C6D9A089076E10B"]
+			id: "4C68F5942E4DA0BC"
+			rewards: [{
+				id: "40EAAA319DE98640"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "2E6E9EB6F94BE713"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:cosmic_heart"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["0C6D9A089076E10B"]
+			id: "13BA9A066DB1D6D7"
+			rewards: [{
+				id: "4C225BB00145BB34"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "56110D3CE2557D83"
+				item: "enigmaticlegacy:cosmic_cake"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -30.5d
+		}
+		{
+			id: "0DA2585123CA50F9"
+			rewards: [{
+				id: "0A7EA6972B3FA4F3"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "50074B4E3E6B45A3"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:lore_fragment"
+					tag: {
+						display: { }
+					}
+				}
+				type: "item"
+			}]
+			x: 8.0d
+			y: -34.0d
+		}
+		{
+			id: "292BA13BF594C2E1"
+			rewards: [{
+				id: "27C1A23C960F96B7"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "octagon"
+			tasks: [{
+				id: "7567EE9384D954AC"
+				item: "enigmaticlegacy:the_acknowledgment"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "2EEB7BBE8DFA13DB"
+			tasks: [{
+				id: "389469E828006E4A"
+				item: "botania:aura_ring"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -15.5d
+		}
+		{
+			dependencies: [
+				"01200B72145FDADD"
+				"29BBD83472699DA4"
+			]
+			hide_dependency_lines: true
+			id: "5AA730044BE9D730"
+			tasks: [{
+				id: "1AA7220F7E2519A1"
+				item: "botania:mana_ring"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "33383FED4493F850"
+			tasks: [{
+				id: "530A7B89B07C42B9"
+				item: "botania:mining_ring"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "28AD26E5C7969EDF"
+			tasks: [{
+				id: "3A68D8330CB9EA97"
+				item: "botania:dodge_ring"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "3B6B666EC99618E0"
+			tasks: [{
+				id: "2139BDDFE1A26FC5"
+				item: "botania:swap_ring"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -17.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "08DFEC6DD7EECA91"
+			tasks: [{
+				id: "260241C41438DC40"
+				item: "botania:water_ring"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -17.5d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			hide_dependency_lines: true
+			id: "30BB9E0BBC84742B"
+			tasks: [{
+				id: "199B6E697B3AD171"
+				item: "botania:magnet_ring"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -15.5d
+		}
+		{
+			dependencies: ["006D707637E3F606"]
+			hide_dependency_lines: true
+			id: "684BEB36DEF19655"
+			tasks: [{
+				id: "0194EB7173A3C2EA"
+				item: {
+					Count: 1
+					id: "botania:reach_ring"
+					tag: {
+						baubleUUID: [I;
+							507972441
+							1339248514
+							-1271882078
+							775419640
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 11.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["006D707637E3F606"]
+			hide_dependency_lines: true
+			id: "61971EA5F25E27ED"
+			tasks: [{
+				id: "1617D84BBDFA815C"
+				item: {
+					Count: 1
+					id: "botania:pixie_ring"
+					tag: {
+						baubleUUID: [I;
+							1261380438
+							-1485617743
+							-1730575947
+							882196205
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 15.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4C792DE04121F766"
+			tasks: [{
+				id: "295CA389EC066A3A"
+				item: "botania:bauble_box"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "1C7CADAA45091921"
+			tasks: [{
+				id: "5E0BD578559768FE"
+				item: "botania:travel_belt"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "4E34C24AFF391781"
+			tasks: [{
+				id: "3AD8D6E7EAF64822"
+				item: "botania:speed_up_belt"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "04AD13AC8BE8259B"
+			tasks: [{
+				id: "65F9331E51448E51"
+				item: {
+					Count: 1
+					id: "botania:knockback_belt"
+					tag: {
+						baubleUUID: [I;
+							841272522
+							1467302445
+							-2131145906
+							-389196318
+						]
+					}
+				}
+				type: "item"
+			}]
+			x: 16.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "6FD4CFBBA3BFDE69"
+			tasks: [{
+				id: "5CBAA1C5A4D8D193"
+				item: "botania:super_travel_belt"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "03A7D9C18E567825"
+			tasks: [{
+				id: "2DD3C9656A4606AD"
+				item: "botania:invisibility_cloak"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "71CDFBF7A42FF469"
+			tasks: [{
+				id: "49AC377D3EB1ABF4"
+				item: "botania:balance_cloak"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2FE0444BAB9D297B"
+			tasks: [{
+				id: "3F57E4138AA4EFD2"
+				item: "botania:unholy_cloak"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "6C55F97745E4C565"
+			tasks: [{
+				id: "6FAB518401079705"
+				item: "botania:holy_cloak"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2CE5629A34B9CE5E"
+			tasks: [{
+				id: "3F16644588877441"
+				item: {
+					Count: 1
+					id: "botania:mana_gun"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "0B2D4775EB017CCC"
+			tasks: [{
+				id: "2E8A5F82A6E1EB33"
+				item: {
+					Count: 1
+					id: "botania:slime_bottle"
+					tag: {
+						active: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 9.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "26ADB42F6ECD72D0"
+			tasks: [{
+				id: "10EA96EB49141FC3"
+				item: "botania:astrolabe"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "0E68037B5FB515E0"
+			tasks: [{
+				id: "7A0A163A5437AA67"
+				item: "botania:sextant"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "38AB76E38DF2BE6A"
+			tasks: [{
+				id: "3BE45B4827BB43E3"
+				item: "botania:itemfinder"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "2BEEF68B5912AF4F"
+			tasks: [{
+				id: "00D55C27E03C6154"
+				item: "botania:diva_charm"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "52636F1E33D91CA3"
+			tasks: [{
+				id: "49E09972E2986C6F"
+				item: "botania:goddess_charm"
+				type: "item"
+			}]
+			x: 16.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "6E45FD4C45D4261A"
+			tasks: [{
+				id: "7F9B9B6333924BFC"
+				item: "botania:tiny_planet"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "5AE2CA8248591BFF"
+			tasks: [{
+				id: "6C4A08D7F0DDE3FA"
+				item: "botania:monocle"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "5AFDB8923ECA400D"
+			tasks: [{
+				id: "54A9A1A799895A4F"
+				item: "botania:third_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "43FD9F2E7F11F4B4"
+			tasks: [{
+				id: "5B43B948EB83B7A3"
+				item: "botania:black_hole_talisman"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "16661CCB81E6BD48"
+			tasks: [{
+				id: "2D5B5F1B0C09DBA2"
+				item: {
+					Count: 1
+					id: "botania:temperance_stone"
+					tag: {
+						active: 0b
+					}
+				}
+				type: "item"
+			}]
+			x: 12.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "388F97E8D5E152A0"
+			tasks: [{
+				id: "0D833CA32C782F32"
+				item: "botania:cacophonium"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "602B626B4FE41A4A"
+			tasks: [{
+				id: "7632D27F6EEFEDA1"
+				item: "botania:flower_bag"
+				type: "item"
+			}]
+			x: 17.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "48DAFE450A14D7FE"
+			tasks: [{
+				id: "5CCF28FC366025A8"
+				item: "botania:cloud_pendant"
+				type: "item"
+			}]
+			x: 17.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "28D7382DC011FD94"
+			tasks: [{
+				id: "13BDEEBC0334D101"
+				item: "botania:super_cloud_pendant"
+				type: "item"
+			}]
+			x: 14.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "28554D891EE74B0C"
+			tasks: [{
+				id: "1DC30B95CB92FC72"
+				item: "botania:lava_pendant"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "3BCECE610CA260B9"
+			tasks: [{
+				id: "3A24566E4F3345FB"
+				item: "botania:super_lava_pendant"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7D112B8FC4531A7E"]
+			hide_dependency_lines: true
+			id: "36EEA1400B28AEEB"
+			tasks: [{
+				id: "02EBD017A7B17299"
+				item: "botania:ice_pendant"
+				type: "item"
+			}]
+			x: 15.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["5AA730044BE9D730"]
+			id: "318553FB59CFA5E6"
+			tasks: [{
+				id: "27B0207FB98FD37B"
+				item: "botania:mana_ring_greater"
+				type: "item"
+			}]
+			x: 14.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["30BB9E0BBC84742B"]
+			id: "6A6E4403428E103A"
+			tasks: [{
+				id: "167060222B51511D"
+				item: "botania:magnet_ring_greater"
+				type: "item"
+			}]
+			x: 13.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["2EEB7BBE8DFA13DB"]
+			id: "195F3C7EA2756B45"
+			tasks: [{
+				id: "6EFA9C6E0151C1DC"
+				item: "botania:aura_ring_greater"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -16.5d
+		}
+		{
+			dependencies: ["15D33E543B57F74F"]
+			id: "25A0ABFD8F39EE77"
+			rewards: [{
+				id: "1B7F486B60A889DC"
+				type: "xp"
+				xp: 10
+			}]
+			subtitle: "&3和七咒共存亡"
+			tasks: [{
+				id: "4AEC83086B523B4D"
+				item: "enigmaticlegacy:cursed_stone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -33.5d
+		}
+		{
+			id: "3FF24E5141159484"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "05D7690BFE8D743F"
+				item: "curseofpandora:curse_of_inertia"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -74.0d
+		}
+		{
+			dependencies: ["15D33E543B57F74F"]
+			id: "7CC3C61621D974E2"
+			tasks: [{
+				id: "6D749128371654E9"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:ender_slayer"
+					tag: {
+						Damage: 0
+						itemModifier: "modifiers:heavy"
+					}
+				}
+				type: "item"
+			}]
+			x: -1.0d
+			y: -33.5d
+		}
+		{
+			dependencies: ["15D33E543B57F74F"]
+			id: "1E05072184B660D0"
+			tasks: [{
+				id: "01D758CE153E1AC7"
+				item: "enigmaticlegacy:enchanter_pearl"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["0C6D9A089076E10B"]
+			id: "535E8D1515F1E464"
+			tasks: [{
+				id: "22A1A9286EE739D1"
+				item: "enigmaticlegacy:desolation_ring"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -31.5d
+		}
+		{
+			dependencies: ["292BA13BF594C2E1"]
+			id: "7A4007C9E71D5684"
+			tasks: [{
+				id: "20F4DD31DD3085DD"
+				item: {
+					Count: 1
+					id: "enigmaticlegacy:extradimensional_eye"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: -5.0d
+			y: -31.5d
+		}
+		{
+			dependencies: [
+				"0CC3CAB242775AC3"
+				"460E190C9B5D8049"
+			]
+			hide_dependency_lines: false
+			id: "38C2542071C3D487"
+			min_required_tasks: 1
+			tasks: [{
+				id: "3182F7D2EF212321"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			title: "&a魔能抢夺锭"
+			x: -14.5d
+			y: -53.5d
+		}
+		{
+			dependencies: [
+				"77706B05F7B0AE52"
+				"0CC3CAB242775AC3"
+				"460E190C9B5D8049"
+			]
+			description: ["&4本章节说明了部分词条的解决方案，后续将会减少这类提示.需玩家可自行查询词条效果，并想出解法."]
+			hide_dependency_lines: true
+			id: "719796804CB5A311"
+			rewards: [{
+				id: "62B3661E3C4DFD84"
+				item: {
+					Count: 1
+					id: "currency:can100"
+					tag: {
+						display: {
+							Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+							Name: "{\"text\":\"史诗兑换券\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "278290CA1145505A"
+				item: "l2hostility:curse_of_wrath"
+				type: "item"
+			}]
+			title: "&a迈出新手村"
+			x: -18.0d
+			y: -55.5d
+		}
+		{
+			dependencies: [
+				"4F6C7C677E91CDFF"
+				"7A33B27AAC2CA662"
+				"545AEA5098B504E7"
+			]
+			description: [
+				"&6在2*2的无限水源旁摆满鲜花或者树叶后，向里面投入一颗钻石即可打开前往暮色森林的传送门."
+				"{image:ftbquests:textures/gui/the_twilight_forest.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: true
+			id: "160CD76BF518D0BE"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				advancement: "twilightforest:root"
+				criterion: ""
+				id: "5B66903C81E86FF8"
+				type: "advancement"
+			}]
+			title: "&a被永恒之夜笼罩的奇异森林"
+			x: -16.0d
+			y: -44.5d
+		}
+		{
+			dependencies: ["160CD76BF518D0BE"]
+			description: [
+				"&6魔法地图的可视距离非常的远，可以清晰的看到各地的资源和boss分布."
+				"{image:ftbquests:textures/gui/magic_map.png width:100 height:100 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "3EC7F5552EDAB878"
+			tasks: [{
+				id: "7AC2B21380D8C091"
+				item: "twilightforest:magic_map"
+				type: "item"
+			}]
+			title: "&a空白魔法地图"
+			x: -16.0d
+			y: -46.0d
+		}
+		{
+			dependencies: ["3EC7F5552EDAB878"]
+			description: [
+				"&6娜迦可以在娜迦庭院中找到。击杀后，它会掉落娜迦鳞片、一个娜迦战利品和一些其他战利品；获得鳞片后，玩家就能进入巫妖塔。"
+				"&4ps:当你被施加诅咒效果时&c(被拥有诅咒词条的怪物击中)&4你会失去一切回血的能力，但是龙钢套装可以很好的避免这个问题."
+				"{image:ftbquests:textures/gui/naga_courtyard.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:naga_trophy"
+			id: "4D0657F3F45E29C6"
+			rewards: [
+				{
+					id: "452B908C7828DE52"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4A276BC4CE5243C0"
+					table_id: 5655352712931457870L
+					type: "loot"
+				}
+				{
+					id: "3111B6C3A7766A91"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+			]
+			size: 1.0d
+			subtitle: "&5击败森林庭院中的娜迦并获得娜迦鳞片来解除巫妖塔周围的禁制。"
+			tasks: [{
+				id: "054642649F3646CC"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:naga_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a娜迦庭院"
+			x: -16.0d
+			y: -47.5d
+		}
+		{
+			dependencies: ["4D0657F3F45E29C6"]
+			description: [
+				"&6暮色巫妖可以在巫妖塔找到。击杀它并获得权杖，就能进入沼泽、黑暗森林和积雪森林并探索其中的地牢了。"
+				""
+				"&6下一步是暮色沼泽。进入之前你必须打败暮色巫妖并获得权杖，否则会给玩家饥饿效果。"
+				"&4ps:身为不死者，巫妖拥有强大的治愈能力&c(拥有再生词条)&4，也许我们可以以其人之道治其人之身，给它砸一瓶喷溅型诅咒药水、给武器打上抑制之刃或者诅咒之刃的附魔又或者是利用被动技能树的涂毒技能，在武器上涂上诅咒药水都可以有效的抑制其再生能力."
+				"{image:ftbquests:textures/gui/lich_tower.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:lich_trophy"
+			id: "1108C687BEE810E9"
+			rewards: [
+				{
+					id: "7BF80CC086958590"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "2D310164E8C93764"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					id: "51A4A3D58286EF13"
+					item: {
+						Count: 1
+						id: "twilightforest:fortification_scepter"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5击杀巫妖塔顶的暮色巫妖并获得权杖来清除沼泽的蚊群，破除黑暗森林的失明诅咒，并抵御冰雪森林的寒冷。"
+			tasks: [{
+				id: "2331FF76014A0222"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:lich_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a高塔亡灵"
+			x: -16.0d
+			y: -49.0d
+		}
+		{
+			dependencies: ["1108C687BEE810E9"]
+			dependency_requirement: "all_started"
+			description: [
+				"&6幻影骑士能够在黑暗森林地底的地精骑士要塞中找到。在进入要塞之前，玩家需要找到一个有战利品基座的房间。在基座上放置任意战利品。放置完后，要塞的保护罩就会被移除。玩家需要在要塞中找到幻影骑士并将其打败，来获得进入黑暗高塔的权力。"
+				"&4ps:反射词条将会把玩家造成的伤害以高倍率的魔法伤害返还，也许想办法给自己一个高等级的抗性提升buff、制作一本魔法免疫的附魔书或者制作魔免宝珠都会有意想不到的效果."
+				"{image:ftbquests:textures/gui/goblin_knight_stronghold.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:knight_phantom_trophy"
+			id: "1BF1449D6B8B17D3"
+			rewards: [
+				{
+					id: "7F19F65FAC58F263"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "41BB9CCDF75D8C22"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty base add 20"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "27E5F787D43AE3A7"
+					title: "恶意难度提升20"
+					type: "command"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5解决骑士陵墓中的不眠亡灵，砷铅铁高塔的机关就会向你臣服。"
+			tasks: [{
+				id: "333686618C727F2B"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:knight_phantom_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a幻影骑士"
+			x: -16.0d
+			y: -51.5d
+		}
+		{
+			dependencies: ["1108C687BEE810E9"]
+			description: [
+				"&6雪怪首领在积雪森林中心的雪怪巢穴中找到。巢穴一共有四个入口。巢穴中居住着很多雪怪。击杀雪怪首领并获得雪怪首领毛皮能解锁暮色冰川群系。"
+				"&4ps:隐身词条顾名思义没其他用处只能隐藏怪物的身形，侦测眼镜即可破解."
+				"{image:ftbquests:textures/gui/yeti_llair.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:alpha_yeti_trophy"
+			id: "4CF4D4A2102F2B27"
+			rewards: [
+				{
+					id: "047CC795CF4B21B7"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 20"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "1C5F07DE2B35B385"
+					title: "恶意难度提升20"
+					type: "command"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5用雪怪首领毛皮缝制衣服，让你能抵御暮色冰川的寒冷。"
+			tasks: [{
+				id: "39A8907BD366DEF7"
+				item: "twilightforest:alpha_yeti_trophy"
+				type: "item"
+			}]
+			title: "&a雪怪首领"
+			x: -19.5d
+			y: -52.0d
+		}
+		{
+			dependencies: ["1108C687BEE810E9"]
+			description: [
+				"&6米诺菇可以在迷宫中找到，迷宫位于暮色沼泽群系。自然生成的入口可以在穿过洞穴或地表的小山处找到通过入口可以直达中心。这个地牢的目标是击败米诺菇。杀死它并吃掉一个牛头人沙拉酱肉能让玩家进入火焰沼泽。"
+				"&4ps:从米诺陶开始，之后将出现高等级重装，怪物将会获得高血量、高护甲和高韧性.破甲药水可能是个不错的选择(搭配技能树的某些天赋会有意想不到的效果)."
+				"{image:ftbquests:textures/gui/labyrinth.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:minoshroom_trophy"
+			id: "576FEEF37898CF15"
+			rewards: [
+				{
+					id: "57779512E974D70E"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 20"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "711C924512DE3A3B"
+					title: "恶意难度提升20"
+					type: "command"
+				}
+				{
+					id: "6C1525183D3C88AD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			size: 1.0d
+			subtitle: "&5肉排和蘑菇煲让你感到十分温暖，让你觉得能够进入火焰沼泽冒险了。"
+			tasks: [{
+				id: "3FD869017987197A"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:minoshroom_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a米诺菇"
+			x: -12.5d
+			y: -52.0d
+		}
+		{
+			dependencies: ["576FEEF37898CF15"]
+			description: [
+				"&6九头蛇可以在火焰沼泽中心的九头蛇巢穴中找到。击败它并获得炽热的血液能够解锁暮色高地。"
+				""
+				"&6下一步是进入黑暗森林。玩家需要先击败暮色巫妖才能解除其中的失明诅咒，但玩家可以通过穿戴有夜视效果的头盔来避免。"
+				"&4ps:再生词条会让怪物拥有超强的恢复力，给予拥有再生词条的怪物一个诅咒效果能很好的压制这种恢复能力."
+				"{image:ftbquests:textures/gui/hydra_lair.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			id: "460E190C9B5D8049"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 30"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "3788A6FB0F996BC2"
+					title: "恶意难度提升30"
+					type: "command"
+				}
+				{
+					id: "4D34163EE93ADC98"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "04E7209B0E94C27E"
+					table_id: 5322779551390250289L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5击败强大的九头蛇并增强自己。"
+			tasks: [{
+				id: "1377D2CDFD52E1DD"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:hydra_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a九头蛇"
+			x: -13.5d
+			y: -54.0d
+		}
+		{
+			dependencies: ["1BF1449D6B8B17D3"]
+			description: [
+				"&6暮初恶魂可以在黑暗森林中心的黑暗高塔中找到。它会与其他怪物一起生成在塔顶，例如砷铅铁恶灵、塔木蛀虫和砷铅铁傀儡。击败它并获得炽热之泪能够解锁暮色高地。"
+				""
+				"&6下一步就是前往积雪森林和暮色冰川。击败暮色巫妖之前，玩家进入其中会被冰冻，并且移动十分缓慢。"
+				"&4ps:再生词条会让怪物拥有超强的恢复力，给予拥有再生词条的怪物一个诅咒效果能很好的压制这种恢复能力."
+				"{image:ftbquests:textures/gui/dark_tower.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:ur_ghast_trophy"
+			id: "0CC3CAB242775AC3"
+			rewards: [
+				{
+					id: "13B4814D44BDCA57"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 30"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "7EFE85F737DC9EAC"
+					title: "恶意难度提升30"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "41F3F8F373892B91"
+					table_id: 5322779551390250289L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5触碰暮初恶魂的火红眼泪。"
+			tasks: [{
+				id: "54D22DCCAF93894C"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:ur_ghast_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a暮色恶魂"
+			x: -16.0d
+			y: -54.0d
+		}
+		{
+			dependencies: ["4CF4D4A2102F2B27"]
+			description: [
+				"&6冰雪女王在暮色冰川的极光宫殿中找到。击败冰雪女王后，玩家能够解锁暮色高地。"
+				"{image:ftbquests:textures/gui/aurora_palace.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: false
+			icon: "twilightforest:snow_queen_trophy"
+			id: "77706B05F7B0AE52"
+			rewards: [
+				{
+					id: "0B5731343C5CCF7C"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "aquaculture:treasure_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "54A7F4572B5D1CDD"
+					type: "xp_levels"
+					xp_levels: 4
+				}
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 30"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "13245C4AB9A87250"
+					title: "恶意难度提升30"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "417A60BEEF8287EB"
+					table_id: 5322779551390250289L
+					type: "loot"
+				}
+			]
+			size: 1.0d
+			subtitle: "&5打败极光宫殿顶层的冰雪女王。"
+			tasks: [{
+				id: "53653AB513254461"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "twilightforest:snow_queen_trophy"
+				}
+				type: "item"
+			}]
+			title: "&a冰雪女王"
+			x: -18.5d
+			y: -54.0d
+		}
+		{
+			dependencies: ["4D0657F3F45E29C6"]
+			hide_dependency_lines: false
+			id: "73FE714471F9CD3B"
+			rewards: [{
+				count: 16
+				id: "712568C62B820BE8"
+				item: "minecraft:prismarine_crystals"
+				type: "item"
+			}]
+			tasks: [{
+				id: "48F1E69F73D254E3"
+				item: "twilightforest:naga_scale"
+				type: "item"
+			}]
+			title: "&a娜迦鳞片"
+			x: -18.0d
+			y: -47.5d
+		}
+		{
+			dependencies: [
+				"73FE714471F9CD3B"
+				"67C7CA13D23BA01C"
+			]
+			dependency_requirement: "one_completed"
+			hide_dependency_lines: false
+			id: "6E9A2953AE647D73"
+			tasks: [{
+				id: "1EF96AFB8139F1ED"
+				item: "curseofpandora:curse_of_proximity"
+				type: "item"
+			}]
+			title: "&a现实第二诅咒：制限"
+			x: -19.5d
+			y: -48.5d
+		}
+		{
+			dependencies: ["1BF1449D6B8B17D3"]
+			hide_dependency_lines: false
+			id: "1A9736A564DDDD50"
+			tasks: [{
+				id: "1F6039702FBDFC50"
+				item: {
+					Count: 1
+					id: "twilightforest:phantom_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a幻影战甲"
+			x: -17.0d
+			y: -52.5d
+		}
+		{
+			dependencies: [
+				"0CC3CAB242775AC3"
+				"460E190C9B5D8049"
+				"77706B05F7B0AE52"
+			]
+			description: [
+				"&6当九头蛇、暮初恶魂和冰雪女王被击败后，暮色高地就会解锁，最终阶段逐渐揭露。在击杀全部前置boss之前进入暮色高地，玩家会被酸雨伤害。"
+				""
+				"&6与之前的流程不同，暮色高地没有需要击杀的boss，只需要到中心取得一个物品。这个区域被分为两个部分：巨魔洞窟和云上小屋。要达成目标，玩家必须从巨型黑曜石中获得余烬之灯，而你需要巨人镐才能破坏巨型黑曜石。获得余烬之灯后，玩家就能进入下一步。"
+				"{image:ftbquests:textures/gui/final_castle.png width:100 height:70 align:1}"
+			]
+			hide_dependency_lines: true
+			id: "5E48107C1E8032CA"
+			rewards: [
+				{
+					id: "2ECBE420AF67343D"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							"dungeons_libraries:built_in_enchantments": {
+								BuiltInEnchantments: [ ]
+							}
+						}
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "5D7D9CBFFAE05EA6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					command: "/hostility player @s difficulty total add 30"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "134F67246C0AAF2D"
+					title: "恶意难度提升20"
+					type: "command"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&5击杀九头蛇、暮初恶魂和冰雪女王来清除酸雨，并使你有信心前往暮色高地。"
+			tasks: [{
+				advancement: "twilightforest:progress_merge"
+				criterion: ""
+				id: "03650FEB768B6AD8"
+				type: "advancement"
+			}]
+			title: "&a最终进军"
+			x: -14.25d
+			y: -55.5d
+		}
+		{
+			dependencies: [
+				"70B45751CBCCCB06"
+				"2B3E5F4ED811AECD"
+			]
+			dependency_requirement: "one_completed"
+			description: [
+				"&6词条以及词条掉落物为该整合包的主体，大部分词条只能通过击杀boss获取.击杀大部分的boss都会提升玩家的难度&c(物品栏上方的最后一个图标可以查看当前难度)&6."
+				"&4ps:任务中会尽量给出棘手词条的应对方案，但不会列出所有方案."
+			]
+			hide_dependency_lines: false
+			icon: "l2hostility:tank"
+			id: "7C09F1BD173EE79C"
+			tasks: [{
+				id: "76E86B595190EC6F"
+				type: "checkmark"
+			}]
+			title: " &a关于词条"
+			x: -12.5d
+			y: -48.5d
+		}
+		{
+			dependencies: ["1108C687BEE810E9"]
+			description: [
+				"&6佩戴上色欲诅咒后,即可在杀怪途中概率获取除史诗级以下的古遗物."
+				"&6获取未鉴定的古遗物后,可右键抽取相对应品质的古遗物,也可以打开古遗物多功能包直接将其放入后,会自动抽取对应品质的古遗物"
+			]
+			hide_dependency_lines: false
+			icon: "l2hostility:curse_of_lust"
+			id: "67C7CA13D23BA01C"
+			rewards: [
+				{
+					id: "6C695BC6BE953125"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					id: "317B60E04F848A02"
+					item: "l2artifacts:filter"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "4591DA4B03C38F18"
+					item: "l2artifacts:random_2"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"你的就是我的\""
+			tasks: [{
+				id: "04BD6815583B6B1F"
+				item: "l2hostility:curse_of_lust"
+				type: "item"
+			}]
+			title: "&a色欲诅咒"
+			x: -18.0d
+			y: -49.5d
+		}
+		{
+			dependencies: ["1108C687BEE810E9"]
+			description: ["&6帮助玩家获取大量的瓶装恶意，为之后所需的恶意精华做足准备."]
+			hide_dependency_lines: false
+			icon: "l2hostility:curse_of_gluttony"
+			id: "70B45751CBCCCB06"
+			rewards: [{
+				id: "17D99B64EA99EE23"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "3438796D635AFC30"
+				item: "l2hostility:curse_of_gluttony"
+				type: "item"
+			}]
+			title: "&a暴食诅咒"
+			x: -14.0d
+			y: -49.5d
+		}
+		{
+			dependencies: [
+				"0CC3CAB242775AC3"
+				"77706B05F7B0AE52"
+			]
+			description: ["&6可以帮助玩家更容易获取词条掉落物."]
+			hide_dependency_lines: false
+			icon: "l2hostility:curse_of_greed"
+			id: "2C80EBD004BC302D"
+			rewards: [{
+				id: "1EACBE11A0FC0824"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				id: "02589A16D2F2B026"
+				item: "l2hostility:curse_of_greed"
+				type: "item"
+			}]
+			title: "&a贪婪诅咒"
+			x: -17.5d
+			y: -53.5d
+		}
+		{
+			dependencies: ["1BF1449D6B8B17D3"]
+			hide_dependency_lines: false
+			id: "5CF011B000DC0E27"
+			tasks: [{
+				id: "035437E730569A6E"
+				item: "curseofpandora:curse_of_flesh"
+				type: "item"
+			}]
+			title: "&a现实第三诅咒：血肉"
+			x: -15.0d
+			y: -52.5d
+		}
+		{
+			dependencies: ["749D06F04CA8E6B4"]
+			description: [
+				"&6恶意吸收宝珠的获取数量是跟玩家的难度等级挂钩的."
+				"&6所以在前期每颗恶意宝珠都要有规划的使用."
+			]
+			hide: true
+			id: "7A7C8B53472D7C24"
+			invisible: true
+			shape: "gear"
+			size: 1.5d
+			subtitle: "&5\"曾经可以净化恶意的道具\""
+			tasks: [{
+				id: "352BB1698F08DA59"
+				item: "l2hostility:hostility_orb"
+				type: "item"
+			}]
+			title: "&a恶意吸收宝珠"
+			x: -16.0d
+			y: -25.0d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: [
+				"&6获取破灭残片所需的爆炸伤害，只需要爆炸物本身的爆炸伤害能达到就行."
+				"&6也就是说即使身穿护甲，爆炸后只掉几滴血，也能获取破灭残片!!!"
+				"&cps:末地水晶和闪电苦力怕的爆炸伤害都能达到条件"
+			]
+			hide_dependency_lines: true
+			id: "320D42D621FB3176"
+			shape: "rsquare"
+			subtitle: "&5\"爆炸就是艺术\""
+			tasks: [{
+				id: "1D50239162EE078D"
+				item: "l2complements:explosion_shard"
+				type: "item"
+			}]
+			title: "&a破灭残片"
+			x: -18.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: ["&6莱特兰中低造价的魂火箭能够很容易赋予魂火效果"]
+			hide_dependency_lines: true
+			id: "7705F6165747A97D"
+			shape: "rsquare"
+			subtitle: "&5\"让灵魂之火净化一切\""
+			tasks: [{
+				id: "78A3E51EAF79DD7D"
+				item: "l2complements:soul_flame"
+				type: "item"
+			}]
+			title: "&a灵魂火种"
+			x: -13.5d
+			y: -26.5d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: [
+				"&6如果你拥有足够多的材料,不妨试试看焚化功能."
+				"&cps:将焚化材料扔进岩浆就行,焚化出来的材料是不会被岩浆烧没的"
+			]
+			hide_dependency_lines: true
+			id: "4EC5D0B3CB4DC907"
+			shape: "rsquare"
+			subtitle: "&5\"已逝之人的泪水\""
+			tasks: [{
+				id: "47FE4B6C3025A782"
+				item: "l2complements:cursed_droplet"
+				type: "item"
+			}]
+			title: "&a亡魂之泪"
+			x: -18.5d
+			y: -26.5d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: ["&6这玩意之后需求量非常大"]
+			hide_dependency_lines: true
+			id: "378E7EAF1D280B0C"
+			shape: "rsquare"
+			subtitle: "&5\"注满恶意的容器\""
+			tasks: [{
+				id: "7766FCE575619C74"
+				item: "l2hostility:bottle_of_curse"
+				type: "item"
+			}]
+			title: "&a瓶装恶意"
+			x: -13.5d
+			y: -23.5d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: [
+				"&6在玩家达到每秒200格的移动速度时,背包中捕风瓶会自动转换成千风精华."
+				"&cps:新生魔艺的自身+击退(发射)+强化魔符*7的搭配可以短时间的让玩家达成转换条件"
+				"&c搭配好魔法后,需要至少能连续释放3次的魔力量才能达到千风精华的转换条件"
+			]
+			hide_dependency_lines: true
+			id: "6D868CCA7AD69164"
+			shape: "rsquare"
+			size: 1.0d
+			subtitle: "&5\"今天的风儿甚是喧嚣\""
+			tasks: [{
+				id: "1830C825DABF6EA9"
+				item: "l2complements:captured_wind"
+				type: "item"
+			}]
+			title: "&a千风精华"
+			x: -13.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["7A7C8B53472D7C24"]
+			description: [
+				"&6细雪冻死溺尸其实并不算难,做点超维之眼来转移水里的溺尸."
+				"&6再去野外整桶细雪就行,当然如果找不到细雪.新生魔艺是个不错的选择."
+			]
+			hide_dependency_lines: true
+			id: "59A7FD99A6AC7020"
+			shape: "rsquare"
+			subtitle: "&5\"令亡灵也胆寒的极寒\""
+			tasks: [{
+				id: "6974E93F0990EB6D"
+				item: "l2complements:hard_ice"
+				type: "item"
+			}]
+			title: "&a告死寒霜"
+			x: -18.5d
+			y: -25.0d
+		}
+		{
+			dependencies: ["4D0657F3F45E29C6"]
+			description: [
+				"&6拥有嫉妒诅咒后,莱特兰恶意的大门正式为你敞开."
+				"&6现在你击杀带有词条的怪物,都有概率掉落其身上所对应的词条."
+			]
+			id: "2B3E5F4ED811AECD"
+			rewards: [{
+				id: "196A7F1F336DF33E"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			shape: "circle"
+			subtitle: "&5\"渴望获得与怪物一样的能力\""
+			tasks: [{
+				id: "5BB1BBA1CD38C6E7"
+				item: "l2hostility:curse_of_envy"
+				type: "item"
+			}]
+			title: "&a嫉妒"
+			x: -14.0d
+			y: -47.5d
+		}
+		{
+			dependencies: ["70B45751CBCCCB06"]
+			description: [
+				"&6获取恶意精华需要大量的瓶装恶意."
+				"&6也许戴上暴食诅咒能让你轻松些."
+				"&6拥有了足够的恶意精华后，就可以使用龙钢锻炉来制作我们的奇迹粉了."
+			]
+			hide_dependency_lines: true
+			icon: "l2hostility:hostility_essence"
+			id: "1F1A346CCDD893B5"
+			subtitle: "&5\"万恶之始,净化恶意\""
+			tasks: [
+				{
+					id: "3968394CDA1AED5F"
+					item: "l2hostility:hostility_essence"
+					type: "item"
+				}
+				{
+					id: "5E203D3BEB47775C"
+					item: "l2hostility:miracle_powder"
+					type: "item"
+				}
+			]
+			title: "&a恶意精华"
+			x: -11.0d
+			y: -49.5d
+		}
+		{
+			dependencies: ["1F1A346CCDD893B5"]
+			id: "19BB1252E7479A3F"
+			subtitle: "&5\"奇迹与恶意中诞生的产物\""
+			tasks: [{
+				id: "4F37C106FF9D8923"
+				item: "l2hostility:miracle_ingot"
+				type: "item"
+			}]
+			title: "&a奇迹锭"
+			x: -11.0d
+			y: -48.5d
+		}
+		{
+			dependencies: ["19BB1252E7479A3F"]
+			description: [
+				"&6制作出平凡的坠饰后可以开始制作强大的潘多拉饰品了."
+				"&6潘多拉模组的饰品可以免疫之后诸神黄昏的封印效果."
+				"&6所以当需要达到某种效果或者获取某种buff时请优先考虑潘多拉坠饰."
+				"&4后续请前往潘多拉之咒章节."
+			]
+			id: "049753D4818742D6"
+			shape: "pentagon"
+			subtitle: "&5\"潘多拉饰品\""
+			tasks: [{
+				id: "3DAB51D9D2E59592"
+				item: "curseofpandora:plain_charm"
+				type: "item"
+			}]
+			title: "&a受诅咒的坠饰"
+			x: -11.0d
+			y: -47.5d
+		}
+		{
+			description: ["&4佩戴粗糙抢夺宝珠可获得的掉落物：火药、恶魂之泪、凋灵玫瑰、不死图腾、烈焰棒、钻石、苦力怕的头、墨囊、潜影壳、发酵蛛眼、河豚、龙息、兔子脚、附魔金苹果、鳞甲、蜘蛛眼、蜘蛛网、下界合金碎片、凋灵骷髅头、诅咒药水"]
+			id: "38DE96F500797624"
+			size: 1.5d
+			tasks: [{
+				id: "08A498DE79B25750"
+				item: "l2hostility:charm_of_looting_1"
+				type: "item"
+			}]
+			title: "&a粗糙抢夺宝珠"
+			x: -26.5d
+			y: -3.5d
+		}
+		{
+			description: ["&4佩戴魔能抢夺宝珠能获取的掉落物：瓶中潜影弹、破灭残片、生命精华、亡魂之泪、告死寒霜、女巫浓缩凝露、潜影锭、潜影粒、灵魂火种、守卫者之眼."]
+			id: "7572233FA38B5F85"
+			size: 1.5d
+			tasks: [{
+				id: "37E34DC8FE9239C0"
+				item: "l2hostility:charm_of_looting_2"
+				type: "item"
+			}]
+			title: "&a魔能抢夺宝珠"
+			x: -20.0d
+			y: -3.5d
+		}
+		{
+			description: ["&4佩戴奇迹抢夺宝珠能获取的掉落物：法皇之绿、破咒遗骨、共振之羽、混沌锭、永恒锭、虚空之眼、逐日之翼."]
+			id: "5F848E03F84C6369"
+			size: 1.5d
+			tasks: [{
+				id: "16686403662A7934"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			title: "&a奇迹抢夺宝珠"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["5E48107C1E8032CA"]
+			description: [
+				"&6击杀敌对生物低概率掉落."
+				"&6掷出苍蓝色的灵魂之星,它会被一座散发着邪恶气息的塔所吸引.之后需要在四个基座上放入灵魂之星来唤醒夜巫妖."
+				"&4ps:夜巫妖及其之后的Boss将会拥有两个棘手的词条，适应与复印.适应可以适应x种伤害&c(x为适应词条的等级)&4.所以玩家需要准备多种类型的伤害来对其&c造成伤害&4来刷新其的适应的伤害种类&c(例如：制作并打上撕裂之刃、炎刃、冰刃等附魔以及合理利用被动技能树的涂毒技能)."
+				"&4复印词条会根据玩家身上的附魔等级总和来指数级提升怪物的伤害(例如玩家的身上的附魔等级合计为n，那怪物的伤害将会提升2^n)."
+				"{image:ftbquests:textures/gui/night_lich_tower.png width:150 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "bosses_of_mass_destruction:soul_star"
+			id: "78EA42EDD09DE0BE"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 50"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "615741D8CEE5D9A4"
+					title: "恶意难度提升50"
+					type: "command"
+				}
+				{
+					id: "0FAC5B5A2AB53B1B"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					id: "2C33CDFC56CC2392"
+					item: {
+						Count: 1
+						id: "touhou_little_maid:garage_kit"
+						tag: {
+							EntityInfo: {
+								ModelId: "touhou_little_maid:yukari_yakumo"
+								id: "touhou_little_maid:maid"
+							}
+						}
+					}
+					title: "八雲紫"
+					type: "item"
+				}
+				{
+					id: "3EB6AC02CA98D65C"
+					item: "youkaishomecoming:youkai_spawn_egg"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"被封印于极北之地的暗夜巫妖\""
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:lich"
+					id: "7431A444967000C8"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "7CA5C342029EC3F4"
+					item: "bosses_of_mass_destruction:soul_star"
+					type: "item"
+				}
+			]
+			title: "&e暗夜巫妖"
+			x: -8.5d
+			y: -58.5d
+		}
+		{
+			dependencies: ["38B845076BBA9E76"]
+			description: [
+				"&6收集一朵铃兰,将其与紫水晶碎片合成来获取能为我们指引虚空之花所在地的奇妙花朵."
+				"&6将虚空百合种下,即可生成粒子效果指向虚空之花."
+				"&4ps:虚空之花及其接下来的boss将会出现排斥与反击词条.当玩家对拥有反击词条的怪物造成伤害时，怪物就会往玩家的方向进行位移."
+				"&4排斥词条会将玩家推离拥有该词条的怪物，拥有一整套绝缘3附魔的防具可以极大的减少这种斥力."
+				"{image:ftbquests:textures/gui/void_blossom.png width:150 height:100 align:1}"
+			]
+			icon: "bosses_of_mass_destruction:void_lily"
+			id: "14A5FE213AEDB631"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 50"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "000AD98A2755B7DA"
+					title: "恶意难度提升50"
+					type: "command"
+				}
+				{
+					id: "32181F8C0A47CDC4"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"暗藏于虚空之上的生命之花\""
+			tasks: [
+				{
+					entity: "bosses_of_mass_destruction:void_blossom"
+					id: "04B8F38312AFA9DB"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "1E9F69E789D05926"
+					item: "bosses_of_mass_destruction:void_lily"
+					type: "item"
+				}
+			]
+			title: "&e虚空之花"
+			x: -7.5d
+			y: -62.5d
+		}
+		{
+			dependencies: ["747ED1E976AE2454"]
+			icon: "endrem:guardian_eye"
+			id: "19030152BDCBFC03"
+			rewards: [{
+				id: "3BF4EACBFFFACFA3"
+				item: {
+					Count: 1
+					id: "endrem:guardian_eye"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "478EE6683ADCBBC0"
+				item: {
+					Count: 1
+					id: "l2weaponry:poseidon_madness"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&a海神之怒"
+			x: -15.0d
+			y: -65.5d
+		}
+		{
+			dependencies: ["5CBDCE1C789E000B"]
+			dependency_requirement: "one_completed"
+			description: ["{image:ftbquests:textures/gui/the_end.png width:150 height:100 align:1}"]
+			id: "747ED1E976AE2454"
+			subtitle: "&5\"奏响终末之乐章\""
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "0E8618262492270F"
+				type: "dimension"
+			}]
+			title: "&a迎接终末"
+			x: -16.0d
+			y: -67.0d
+		}
+		{
+			dependencies: ["747ED1E976AE2454"]
+			description: [
+				"&6本包的末影龙经过加强后,将是对电脑的性能进行考验."
+				"&cps:实在卡的不行,可以来回切换下游戏难度."
+			]
+			icon: "minecraft:dragon_head"
+			id: "382EF3E9CE7C1D4E"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "74F2121AB617F560"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "287B34603F0B00DA"
+					item: "enigmaticlegacy:abyssal_heart"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"一味的逃避并不能解决问题.终于在数千年后的今日,末地的巨龙迎来了属于它的终焉.\""
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				id: "28A41DB4AEA00114"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e世界将得到重构"
+			x: -16.0d
+			y: -70.0d
+		}
+		{
+			dependencies: ["382EF3E9CE7C1D4E"]
+			description: [
+				"&6在末地中寻找一根大型的黑曜石柱子,将末影之眼放入其中的祭坛中,即可召唤黑曜石柱."
+				"{image:ftbquests:textures/gui/obsidilith_arena.png width:150 height:100 align:1}"
+			]
+			icon: "bosses_of_mass_destruction:obsidian_heart"
+			id: "2F122DC8BE7F7F94"
+			rewards: [{
+				id: "3D3322C3ADE3BD8C"
+				item: "currency:ten_pence"
+				type: "item"
+			}]
+			subtitle: "&5\"虚空中十分突兀的一根黑曜石柱子,但是不知道为什么我居然能在其中感受到一丝生命之力.\""
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				id: "55E8B6C49871D80A"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e具有生命的巨型黑曜石柱"
+			x: -16.0d
+			y: -72.0d
+		}
+		{
+			dependencies: ["382EF3E9CE7C1D4E"]
+			description: ["&6佩戴怠惰诅咒可以从怪物身上获取史诗和神话级别的古遗物."]
+			icon: "l2hostility:curse_of_sloth"
+			id: "544B832FBD92EA36"
+			rewards: [{
+				id: "2D459A8CF4311CE9"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "664258F1E74B13C6"
+				type: "checkmark"
+			}]
+			title: "&a怠惰诅咒"
+			x: -17.0d
+			y: -68.0d
+		}
+		{
+			dependencies: ["382EF3E9CE7C1D4E"]
+			id: "3E41481AE0F28E61"
+			rewards: [
+				{
+					count: 2
+					id: "3EEE43EF88E439DE"
+					item: "kubejs:halberd"
+					type: "item"
+				}
+				{
+					id: "79645AC94A3A3C32"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5EBC231F4D10931C"
+					table_id: 2328116491033307783L
+					type: "loot"
+				}
+				{
+					id: "4AAB5B8B23339D5A"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "1183454CA0D6F9A6"
+				item: "celestial_artifacts:flight_ring"
+				type: "item"
+			}]
+			x: -15.0d
+			y: -68.0d
+		}
+		{
+			dependencies: ["382EF3E9CE7C1D4E"]
+			id: "0FD3DEEB891C0210"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0AA4E5789B884CB8"
+					table_id: 2866501225629882216L
+					type: "loot"
+				}
+				{
+					id: "6BB3DE2ABEC323D1"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "1593C3009EAD7287"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "00C20DB8ADF9D354"
+				item: "l2hostility:charm_of_looting_4"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -70.0d
+		}
+		{
+			id: "2B737FF8B24F6DCA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "340E8C10482C8F3D"
+					table_id: 2866501225629882216L
+					type: "loot"
+				}
+				{
+					count: 3
+					id: "4BEE71F36454F3C5"
+					item: "kubejs:diamond_coin"
+					type: "item"
+				}
+				{
+					id: "086CAF83478769CD"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+			]
+			tasks: [{
+				id: "279DCAF75439186E"
+				item: "l2hostility:abyssal_thorn"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -58.0d
+		}
+		{
+			dependencies: ["2F122DC8BE7F7F94"]
+			description: ["&c玩家要在床下放置以太块两个，床周围放置6个凋零骷髅头"]
+			hide_dependency_lines: true
+			id: "0C0EF0A1F5CBEB25"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32CC751957AF0DF1"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [
+				{
+					count: 2L
+					id: "4880F28CA3E67C7B"
+					item: "enigmaticlegacy:etherium_block"
+					type: "item"
+				}
+				{
+					id: "2A4808D1F443BF67"
+					item: "minecraft:white_bed"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "21755EA4E0A61F85"
+					item: "minecraft:wither_skeleton_skull"
+					type: "item"
+				}
+			]
+			title: "&a准备材料"
+			x: -16.0d
+			y: -76.0d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: {
+				Count: 1
+				id: "sons_of_sins:butcher_cleaver"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "0485DA51DB02627D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7A4CA7855DD429AF"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:butcher"
+				id: "38A1F3700C475875"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e暴怒"
+			x: -19.0d
+			y: -79.5d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			description: ["&6这家伙有个1%概率掉落的饰品"]
+			icon: "sons_of_sins:cursed_head"
+			id: "464AD8CBFAAEAFD3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0A3212FC1D81428B"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				checkItem: false
+				entity: "sons_of_sins:curse"
+				id: "28360142803D2C7B"
+				nbt: { }
+				type: "questsadditions:killnbt"
+				value: 1L
+			}]
+			title: "&e色欲"
+			x: -18.5d
+			y: -77.0d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 1
+					}
+				}
+				id: "sons_of_sins:puppet_of_strife"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 1
+					}
+				}
+			}
+			id: "3BD2947DD2B66AAA"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D441A47C6A928D3"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:walking_bed"
+				id: "028E03AF9DACD4FC"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e怠惰"
+			x: -16.5d
+			y: -80.5d
+		}
+		{
+			dependencies: ["0C0EF0A1F5CBEB25"]
+			id: "7ED846E3A4CA9DDB"
+			rewards: [{
+				auto: "enabled"
+				command: "/hostility player @s difficulty total add 100"
+				elevate_perms: true
+				icon: "l2hostility:hostility_detector"
+				id: "6C0F09E98C056642"
+				title: "恶意难度提升100"
+				type: "command"
+			}]
+			subtitle: "&e神的到来 "
+			tasks: [{
+				dimension: "lostcities:lostcity"
+				id: "371ED83E03670FC6"
+				type: "dimension"
+			}]
+			title: "&a大战开始"
+			x: -16.0d
+			y: -78.5d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: "sons_of_sins:touch_of_greed"
+			id: "188CEE6CE46AA57F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "676E3888A621639C"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:blud"
+				id: "00E54E17AEC04C56"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e贪婪"
+			x: -20.0d
+			y: -78.0d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: "sons_of_sins:ether_engine"
+			id: "01FB9FA73DB24374"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3D303CD81A90C27F"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:kelvin"
+				id: "2CEDC93CF1BC1A38"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e嫉妒"
+			x: -14.0d
+			y: -77.0d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: {
+				Count: 1
+				id: "sons_of_sins:wistivers_jaws"
+				tag: { }
+			}
+			id: "11161DBD0092B451"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "73CA65A930501881"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:wistiver"
+				id: "4D1D2DC2C83D3A88"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e暴食"
+			x: -14.5d
+			y: -80.5d
+		}
+		{
+			dependencies: ["7ED846E3A4CA9DDB"]
+			icon: "sons_of_sins:hand_of_riot"
+			id: "6090E1362924732F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "10138889123DDBC2"
+				table_id: 5233308098350651077L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "sons_of_sins:prowler"
+				id: "14BE1F951B04239D"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e傲慢"
+			x: -12.5d
+			y: -79.0d
+		}
+		{
+			dependencies: ["14A5FE213AEDB631"]
+			description: [
+				"&6下界铁掌的遗迹一般在下界岩浆层附近."
+				"&6找到遗迹后,利用镐子挖掉中间黑石柱子中带有眼睛图案的方块,即可召唤下界铁掌."
+				"&4ps:下界铁掌拥有3个棘手的词条&c(吸引、传送、分裂)"
+				"&4吸引词条会将玩家强制向拥有该词条的怪物飞去，与解决排斥一样，准备一套绝缘3附魔的防具可以极大减少该词条对玩家的影响."
+				"&4传送词条将会给予怪物末影人的传送能力，最好的方法就是对其施加禁锢的药水效果，将其传送词条的效果无效化."
+				"&4分裂词条会在怪物被玩家杀死的瞬间分裂出多个个体.其分身拥有近似本体的能力&c(制作分裂抑制的附魔可以从根本上解决问题)&4."
+				"{image:ftbquests:textures/gui/gauntlet_arena.png width:150 height:100 align:1}"
+			]
+			icon: "bosses_of_mass_destruction:blazing_eye"
+			id: "5CBDCE1C789E000B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 50"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "039CA4CD796B2FCB"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "7E8A96613993B82F"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C1F1833E5F09C76"
+					table_id: 5362484379163422117L
+					type: "loot"
+				}
+			]
+			subtitle: "&5\"被黑石柱封印的神秘右手,从它身上散发的暴戾气息,能感受到它曾经的主人的强大.也许还有着其它被封印的部位？\""
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				id: "78894A38C1A306AF"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e沾染邪恶的右腕"
+			x: -23.0d
+			y: -63.5d
+		}
+		{
+			dependencies: ["747ED1E976AE2454"]
+			icon: "endrem:exotic_eye"
+			id: "7213A6B94570CBA1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4F746CB098C6FDBC"
+				table_id: 5362484379163422117L
+				type: "loot"
+			}]
+			tasks: [{
+				entity: "aquamirae:eel"
+				id: "2B27763FB774A309"
+				type: "kill"
+				value: 1L
+			}]
+			x: -17.0d
+			y: -65.5d
+		}
+		{
+			dependencies: ["197C634D244C7B8F"]
+			description: ["&4唯一一个可以通过购买获得的刻蚀."]
+			id: "6128B6C57CCC3B81"
+			rewards: [{
+				id: "0585EB1650109CF9"
+				item: "celestial_artifacts:truth_etching"
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					id: "3A4DB1536874197E"
+					item: "mythicmetals:unobtainium"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "23C9249DF6CCEC09"
+					item: "celestial_artifacts:nebula_cube"
+					type: "item"
+				}
+			]
+			title: "真理刻蚀"
+			x: -18.5d
+			y: -30.5d
+		}
+		{
+			dependencies: ["78EA42EDD09DE0BE"]
+			hide_dependency_lines: true
+			id: "4304E3A9F373D9B2"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "21836CC683054148"
+				item: "curseofpandora:curse_of_metabolism"
+				type: "item"
+			}]
+			title: "&a现实第三诅咒：羸弱"
+			x: -16.0d
+			y: -60.3d
+		}
+		{
+			dependencies: ["5CBDCE1C789E000B"]
+			hide_dependency_lines: true
+			id: "50E4398593E090D6"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "2E788A87FA235479"
+				item: "curseofpandora:curse_of_prudence"
+				type: "item"
+			}]
+			title: "&a现实第六诅咒：碎魂"
+			x: -16.0d
+			y: -64.0d
+		}
+		{
+			dependencies: ["197C634D244C7B8F"]
+			id: "6802FC32D960711E"
+			tasks: [{
+				id: "56F719E19DCD84AD"
+				item: "curseofpandora:curse_of_spell"
+				type: "item"
+			}]
+			x: -22.0d
+			y: -32.5d
+		}
+		{
+			dependencies: ["38B845076BBA9E76"]
+			description: [
+				"&5在村民面前吃人肉或者妖怪化/半妖怪化状态下在村民面前杀村民时生成妖怪."
+				"&5之后拿着八云紫的手办右键妖怪即可召唤八云紫."
+			]
+			hide_dependency_lines: true
+			id: "241067D3BDD6B3DA"
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				id: "6F04301BD9C6307F"
+				item: "curseofpandora:curse_of_tension"
+				type: "item"
+			}]
+			title: "&a 现实第五诅咒：恐惧"
+			x: -16.0d
+			y: -62.2d
+		}
+		{
+			dependencies: [
+				"3BD2947DD2B66AAA"
+				"188CEE6CE46AA57F"
+				"11161DBD0092B451"
+				"01FB9FA73DB24374"
+				"0485DA51DB02627D"
+				"464AD8CBFAAEAFD3"
+				"6090E1362924732F"
+			]
+			description: [
+				"&6制作虚空之眼,之后像寻找末地要塞一样,向天空掷出."
+				"&6它将会带你找到废弃堡垒,末影守卫就在堡垒的最下方."
+				"&6同时在前几层中也会有强大的末影傀儡守候在某个房间内."
+				"{image:ftbquests:textures/gui/ruined_citadel.png width:150 height:100 align:1}"
+			]
+			hide_dependency_lines: true
+			icon: "cataclysm:void_eye"
+			id: "7783E5C6FAE1B54E"
+			rewards: [
+				{
+					auto: "disabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "46B5D425B3774E18"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "78819E85B0A99529"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+			]
+			subtitle: "&5\"没想到前文明早已造访了末地,并在此处进行了合成兽实验,他们到底在跟谁战斗?伴随的地底传来的轰鸣声,我知道一场恶战即将到来.\""
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				id: "60F29C7E1EBEDECA"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e末地的守护者"
+			x: -16.0d
+			y: -83.25d
+		}
+		{
+			dependencies: ["3525C2235CCAB822"]
+			description: [
+				"&6制作1颗机械之眼,之后向寻找末地要塞一样,向着天空掷出."
+				"&6它将会带领你找到远古工厂."
+				"&6需要手持下界之星右键唤醒先驱者,才能进行挑战."
+				"&4ps:先驱者会出现两种强力词条，嗜魔和破魔."
+				"&4被拥有嗜魔词条的怪物击中时，将会延长玩家身上负面效果的持续时间并吸收x（x为词条等级）种玩家的正面效果，并且为自身增加伤害."
+				"&4被拥有破魔词条的怪物击中时，将会随机封印玩家身上的x(x为词条等级)件装备上的附魔."
+				"{image:ftbquests:textures/gui/ancient_factory.png width:150 height:100 align:1}"
+			]
+			icon: "cataclysm:mech_eye"
+			id: "46EF78C66DEBD26B"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "394751CD1EB84E70"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "0D631F4FA45CD87E"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "008B263F4E97EC5E"
+					table_id: 5362484379163422117L
+					type: "loot"
+				}
+			]
+			subtitle: "&5\"沉睡在不属于这个时代的科技工厂中,它的存在无疑证明了在现文明诞生前,还有比现在更加辉煌的文明存在\""
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				id: "193C4738DC7ED638"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e不可存于现世的机械造物"
+			x: -17.5d
+			y: -87.25d
+		}
+		{
+			dependencies: ["7783E5C6FAE1B54E"]
+			description: [
+				"&6制作1颗沙漠之眼,之后像寻找末地要塞一样,向天空掷出."
+				"&6它将会带你找到诅咒金字塔."
+				"&6你需要先使用刷子在诅咒金字塔中刷可疑的沙子,其会有概率掉落沙漠项链,手持沙漠项链右键沉睡的远古遗魂才能进行挑战."
+				"{image:ftbquests:textures/gui/cursed_pyramid.png width:150 height:100 align:1}"
+			]
+			icon: "cataclysm:desert_eye"
+			id: "3525C2235CCAB822"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "27F4A75F29F88F56"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "5F2FB512A95C5FE1"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "446EA429DFAE7EE4"
+					table_id: 5362484379163422117L
+					type: "loot"
+				}
+			]
+			subtitle: "&5\"现存的遗魂都十分的弱小,但是在沙漠深处一座被诅咒的金字塔内还有着从上古被封印强大遗魂.也许是封印的原因,使得它躲过了岁月的磨损\""
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				id: "140C001A67CA9B9E"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e苍白骸骨"
+			x: -17.5d
+			y: -85.25d
+		}
+		{
+			dependencies: ["7783E5C6FAE1B54E"]
+			description: [
+				"&6制作1颗恶兽之眼,之后像寻找末地要塞一样,向天空掷出."
+				"&6它将会带你找到灵魂锻造厂,下界合金巨兽正沉睡在其中."
+				"{image:ftbquests:textures/gui/soul_black_smith.png width:150 height:100 align:1}"
+			]
+			icon: "cataclysm:monstrous_eye"
+			id: "3E2418F22828E582"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "5F7F8B7B22B1E65F"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "4FA9D611BD2A0251"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3DFCF813D0C4F385"
+					table_id: 5362484379163422117L
+					type: "loot"
+				}
+			]
+			subtitle: "&5\"又是一处前文明的遗址,虽然已经残破不堪,其中还留有已经沉睡着的巨型战争机器.\""
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				id: "484B09C9DFE17386"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e遗弃的战争机器"
+			x: -14.5d
+			y: -85.25d
+		}
+		{
+			dependencies: ["3E2418F22828E582"]
+			description: [
+				"&6制作1颗深渊之眼,之后像寻找末地要塞一样,向天空掷出."
+				"&6它将会带你找到沉没之城，利维坦的召唤祭坛就在其中."
+				"&6你需要在沉没之城之击杀小怪,使用它们的掉落物制作深渊祭品,之后手持深渊祭品右键沉没之城中的深渊祭坛即可召唤利维坦."
+				"{image:ftbquests:textures/gui/sunken_city.png width:150 height:100 align:1}"
+			]
+			icon: "cataclysm:abyss_eye"
+			id: "4E5AA52C2C285FDD"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "6841106B254644A6"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "3BF0DFA82703F695"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4AD7562EAF17EE82"
+					table_id: 5362484379163422117L
+					type: "loot"
+				}
+			]
+			subtitle: "&5\"也许亚特兰蒂斯真的存在,近期大海中缓缓浮现出一座宏伟的建筑,其中还有着奇特的生物,它们似乎是想唤醒某种强大的存在.\""
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				id: "27D41046B49561E9"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e凝视深渊"
+			x: -14.5d
+			y: -87.25d
+		}
+		{
+			dependencies: [
+				"4E5AA52C2C285FDD"
+				"46EF78C66DEBD26B"
+			]
+			description: ["&6击杀搁浅舰船其船长室内的掠夺者获取贝壳号角后，在冰冻深海群系的海边吹响号角，船长科妮莉亚亡灵就会从水中浮现."]
+			id: "36B28B2B78FEBBA0"
+			rewards: [
+				{
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "153BE0875A5CD896"
+					title: "恶意难度提升100"
+					type: "command"
+				}
+				{
+					id: "764A5519DFE6F060"
+					item: "currency:ten_pence"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "259CB4802BA1E5A3"
+					table_id: 5362484379163422117L
+					type: "random"
+				}
+			]
+			subtitle: "&5\"在无情的冰霜与时间洪流的封冻下的是骇人生物和残损沉船，嘹亮的号角声在寒冰迷宫中回荡，一道身影缓慢浮现.\""
+			tasks: [{
+				entity: "aquamirae:captain_cornelia"
+				id: "1330ACF2F2651571"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e海渊的回响"
+			x: -16.0d
+			y: -88.25d
+		}
+		{
+			dependencies: [
+				"3E2418F22828E582"
+				"3525C2235CCAB822"
+			]
+			id: "3B2D242FBB3C6AAA"
+			tasks: [{
+				id: "0621E10E514362B7"
+				item: "l2hostility:curse_of_pride"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -84.75d
+		}
+		{
+			dependencies: [
+				"4E5AA52C2C285FDD"
+				"46EF78C66DEBD26B"
+			]
+			id: "373535A6E2F644C0"
+			tasks: [{
+				id: "708A64F7FB4846C8"
+				item: "l2hostility:greed_of_nidhoggur"
+				type: "item"
+			}]
+			x: -16.0d
+			y: -86.25d
+		}
+		{
+			dependencies: ["61D5A0774A3F225B"]
+			description: ["&6本整合包的毕业级饰品，能抵挡所有词条效果."]
+			id: "581D3B111E38112A"
+			tasks: [{
+				id: "478A69B9E4787FF0"
+				item: "l2hostility:abrahadabra"
+				type: "item"
+			}]
+			x: -14.5d
+			y: -88.75d
+		}
+		{
+			dependencies: ["36B28B2B78FEBBA0"]
+			description: ["&4作为本整合包的最终boss，焰魔拥有最高的词条强度."]
+			id: "61D5A0774A3F225B"
+			tasks: [{
+				id: "50F9869B1B8C2EEC"
+				title: "最终最强"
+				type: "checkmark"
+			}]
+			x: -16.0d
+			y: -89.75d
+		}
+		{
+			dependencies: ["61D5A0774A3F225B"]
+			description: [
+				"&6制作1颗火焰之眼,之后向寻找末地要塞一样,向天空掷出."
+				"&6它将会带领你找到燃烧竞技场,焰魔祭坛就在最顶层.但是召唤焰魔我们还需要到下层击杀燃魂获取炽燃余烬."
+				"&6之后使用炽燃余烬右键焰魔祭坛即可召唤焰魔."
+				""
+				"&cps:焰魔作为本整合包的最终boss,其战斗能力为本整合包的顶点."
+				"{image:ftbquests:textures/gui/burning_arena.png width:150 height:100 align:1}"
+			]
+			icon: {
+				Count: 1
+				id: "cataclysm:ignitium_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "58C9E16C823F38BB"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/hostility player @s difficulty total add 100"
+					elevate_perms: true
+					icon: "l2hostility:hostility_detector"
+					id: "344504D2A075832C"
+					title: "恶意难度提升300"
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "06FD2530E0A0E8FA"
+					table_id: 6331169010237263964L
+					type: "loot"
+				}
+				{
+					id: "71F44214BA6CE275"
+					item: {
+						Count: 1
+						id: "currency:can100"
+						tag: {
+							display: {
+								Lore: ["{\"text\":\"手持该券可以前往主线任务章节中的兑换商店内兑换各种珍贵的物资！\"}"]
+								Name: "{\"text\":\"史诗兑换券\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "&5\"下界中伫立着一座竞技场,与其说是人为建造.不如说是为了某种存在而自然生成的.仪式过后,一道手持巨剑巨盾身披战甲的火焰之躯缓缓浮现.\""
+			tasks: [{
+				entity: "cataclysm:ignis"
+				id: "51A1EB4B40008F84"
+				type: "kill"
+				value: 1L
+			}]
+			title: "&e挣脱束缚的最后一道屏障"
+			x: -16.0d
+			y: -91.5d
+		}
+		{
+			dependencies: ["78EA42EDD09DE0BE"]
+			icon: "kubejs:cat"
+			id: "38B845076BBA9E76"
+			tasks: [{
+				entity: "youkaishomecoming:yukari"
+				id: "10EFEFC531D81F18"
+				type: "kill"
+				value: 1L
+			}]
+			x: -24.5d
+			y: -60.0d
+		}
+		{
+			dependencies: [
+				"4BD4D197F9DC863F"
+				"006D707637E3F606"
+			]
+			id: "00947279AB7390DB"
+			tasks: [{
+				id: "71F37D16F2369202"
+				item: "mythicbotany:mana_infuser"
+				type: "item"
+			}]
+			x: -43.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["45AC772575502EB6"]
+			id: "2526BB4212EA889D"
+			shape: "hexagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "2EB0D84570944D9F"
+					item: "mythicbotany:gjallar_horn_empty"
+					type: "item"
+				}
+				{
+					id: "04BDD0DED98EC942"
+					item: "mythicbotany:gjallar_horn_full"
+					type: "item"
+				}
+			]
+			x: -27.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["6C892E06A15C3774"]
+			id: "1F9D81250B86746A"
+			tasks: [{
+				id: "77CE36B144B8146F"
+				item: "botania:dice"
+				type: "item"
+			}]
+			x: -38.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["00947279AB7390DB"]
+			id: "56F7D94805D1F53F"
+			tasks: [{
+				id: "55F9B9A719D002E0"
+				item: "mythicbotany:alfsteel_ingot"
+				type: "item"
+			}]
+			x: -45.0d
+			y: -13.0d
+		}
+		{
+			dependencies: ["56F7D94805D1F53F"]
+			id: "678A05F27F5081D3"
+			tasks: [
+				{
+					id: "5F3F905AC018F6EF"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4A9197454DE90DC1"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1E88EE5F83853DFA"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "517324CE1A6C21C8"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -44.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2526BB4212EA889D"]
+			id: "63B9CC3B2B0A87E7"
+			tasks: [
+				{
+					id: "037DB985407BF64E"
+					item: "mythicbotany:rune_holder"
+					type: "item"
+				}
+				{
+					id: "520006A159D2A412"
+					item: "mythicbotany:central_rune_holder"
+					type: "item"
+				}
+			]
+			title: "符文仪式"
+			x: -28.5d
+			y: -16.0d
+		}
+		{
+			dependencies: ["56F7D94805D1F53F"]
+			id: "2F999C071A3E12F4"
+			tasks: [
+				{
+					id: "001AE8EF61603CB1"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4115C3ACC0DC0666"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "36A93B9BD5E8F948"
+					item: {
+						Count: 1
+						id: "mythicbotany:alfsteel_pick"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: -44.5d
+			y: -14.0d
+		}
+		{
+			dependencies: ["63B9CC3B2B0A87E7"]
+			id: "4843E753E7BBA086"
+			shape: "octagon"
+			size: 1.0d
+			tasks: [
+				{
+					id: "605452C9911ED9E1"
+					item: "mythicbotany:mjoellnir"
+					type: "item"
+				}
+				{
+					id: "49A9DD0A727FCB9C"
+					item: "mythicbotany:fimbultyr_tablet"
+					type: "item"
+				}
+			]
+			x: -30.0d
+			y: -16.0d
+		}
+		{
+			dependencies: ["01200B72145FDADD"]
+			id: "294231AAFEDC10C7"
+			tasks: [{
+				id: "15252CE7AA038D3E"
+				item: "botania:hourglass"
+				type: "item"
+			}]
+			x: -34.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["63B9CC3B2B0A87E7"]
+			id: "7150EDDBCE6D4F77"
+			shape: "octagon"
+			tasks: [{
+				id: "5522535D826E3557"
+				item: "mythicbotany:kvasir_blood"
+				type: "item"
+			}]
+			x: -29.5d
+			y: -15.0d
+		}
+		{
+			dependencies: ["63B9CC3B2B0A87E7"]
+			id: "0F38D56069F5AAC6"
+			shape: "octagon"
+			tasks: [{
+				id: "518C65AD6D558369"
+				item: {
+					Count: 1
+					id: "mythicbotany:andwari_ring"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -27.5d
+			y: -15.0d
+		}
+		{
+			id: "6B12EE01D1867E0D"
+			size: 1.5d
+			tasks: [{
+				id: "02B176683183EDC2"
+				item: "l2hostility:charm_of_looting_3"
+				type: "item"
+			}]
+			x: -12.0d
+			y: -3.5d
+		}
+	]
+	title: "第一章"
+}

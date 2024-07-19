@@ -1,0 +1,35 @@
+{
+  "armorSetName": "diamond",
+  "performanceMode": true,
+  "head": {
+    "itemKey": "kubejs:defense_helmet",
+    "mustBeEmpty": false
+  },
+  "chest": {
+    "itemKey": "kubejs:defense_chestplate",
+    "mustBeEmpty": false
+  },
+  "legs": {
+    "itemKey": "kubejs:defense_leggings",
+    "mustBeEmpty": false
+  },
+  "boots": {
+    "itemKey": "kubejs:defense_boots",
+    "mustBeEmpty": false
+  },
+  "fullSetBonuses": [
+    {
+      "type": "attribute",
+      "name": "ars_nouveau:ars_nouveau.perk.max_mana",
+      "value": 40.0,
+      "modifierUUID": "d6a7dc88-9405-4398-b1e5-250b4c6dd218",
+      "description": "+40 max_mana",
+      "attributeOperation": 0,
+      "interactionType": "self",
+      "interactionDuration": 300,
+      "hideBonusDescription": false,
+      "onlyImmuneToNewEffects": false
+    }
+  ],
+  "hideGeneratedTooltip": false
+}

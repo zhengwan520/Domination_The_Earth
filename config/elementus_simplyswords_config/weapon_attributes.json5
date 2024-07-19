@@ -1,0 +1,9 @@
+{
+	// Steel Damage Modifier is now using SimplySwords's Config
+	"diarkrite_damageModifier": 3.0,
+	"anthektite_damageModifier": 3.0,
+	"simply_sword_darkrite_atkSpeedAdd": 0.0,
+	"simply_sword_darkrite_atkSpeedNeg": 0.30000001192092896,
+	"simply_sword_anthektite_atkSpeedAdd": 0.5,
+	"simply_sword_anthektite_atkSpeedNeg": 0.0
+}

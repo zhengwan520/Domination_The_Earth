@@ -1,0 +1,25 @@
+{
+	id: "204F219D1BC4EA87"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 78
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "epic_charm"
+			}
+		}
+		title: "史诗护符箱"
+	}]
+	title: "史诗护符箱"
+}

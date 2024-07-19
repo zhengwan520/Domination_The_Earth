@@ -1,0 +1,26 @@
+{
+	id: "42B2216E9C4AC5A5"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "ring"
+	}
+	loot_size: 1
+	order_index: 71
+	rewards: [
+		{ item: "celestial_artifacts:gold_ring" }
+		{ item: "celestial_artifacts:amethyst_ring" }
+		{ item: "celestial_artifacts:diamond_ring" }
+		{ item: "celestial_artifacts:emerald_ring" }
+		{ item: "celestial_artifacts:netherite_ring" }
+		{ item: "celestial_artifacts:ring_of_life" }
+		{ item: "celestial_artifacts:thunder_ring" }
+		{ item: "celestial_artifacts:nether_fire" }
+		{ item: "celestial_artifacts:freeze_ring" }
+	]
+	title: "戒指"
+}

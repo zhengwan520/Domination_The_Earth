@@ -1,0 +1,649 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "shop"
+	group: "4E2A249F11A26E74"
+	icon: "kubejs:gold_coin"
+	id: "0000000000000579"
+	images: [
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/copper_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/diamond_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/gold_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/iron_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/netherite_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/nether_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			image: "kubejs:textures/item/monster_coin.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.5d
+			y: -3.0d
+		}
+		{
+			height: 10.0d
+			image: "ftbquests:textures/gui/coin.png"
+			rotation: 0.0d
+			width: 18.049837486457204d
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:item/netherite_coin"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: -8.0d
+		}
+		{
+			height: 3.0d
+			image: "kubejs:item/netherite_coin"
+			rotation: 0.0d
+			width: 3.0d
+			x: 9.5d
+			y: -8.0d
+		}
+		{
+			height: 1.0d
+			image: "ftbquests:textures/gui/frame_02.png"
+			rotation: 0.0d
+			width: 0.4298745724059293d
+			x: 19.5d
+			y: -8.0d
+		}
+		{
+			height: 30.0d
+			image: "ftbquests:textures/gui/frame_02.png"
+			order: -1
+			rotation: 90.0d
+			width: 22.0d
+			x: 3.5d
+			y: -1.5d
+		}
+	]
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			description: ["提交硬币后就会给你物品。"]
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "common_loot_crate"
+				}
+			}
+			id: "64AE92F598464E3E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3A026DBB414A2849"
+				table_id: 4734148794142699034L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "需要铜币（可重复）"
+			tasks: [{
+				consume_items: true
+				id: "3BB03FCF02073F96"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "普通战利品箱随机奖励"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "uncommon_loot_crate"
+				}
+			}
+			id: "071F9F757CCADA93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "551B6ECBB7CBF669"
+				table_id: 5735513140715080140L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "需要铁币（可重复）"
+			tasks: [{
+				consume_items: true
+				id: "2262663480ABB5B9"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "罕见战利品箱随机奖励"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "rare_loot_crate"
+				}
+			}
+			id: "62356B57A7D667A6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3667AC848FB6ABB8"
+				table_id: 1428536202741681313L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "需要金币（可重复）"
+			tasks: [{
+				consume_items: true
+				id: "64B6FB6EC391B652"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "稀有战利品箱随机奖励"
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "epic_loot_crate"
+				}
+			}
+			id: "2EB2758D16E8BAE2"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "61AF479ECACE6698"
+				table_id: 4179527381065745422L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "需要钻石币（可重复）"
+			tasks: [{
+				consume_items: true
+				id: "6F316CB4B0B62C5B"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "史诗战利品箱随机奖励"
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			disable_toast: true
+			icon: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "legendary_loot_crate"
+				}
+			}
+			id: "15645F279C638145"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "22046B1903A2AB9D"
+				table_id: 329072492022215216L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "需要下界合金币（可重复）"
+			tasks: [{
+				consume_items: true
+				id: "1AA543BE63FB898A"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			title: "传说战利品箱随机奖励"
+			x: 8.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "637B4E0CF8EE27A0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5111BBC2824EEA54"
+				table_id: 493550106172164909L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "选择可重复奖励"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "415052283BCDC314"
+				item: "kubejs:nether_coin"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -1.0d
+		}
+		{
+			disable_toast: true
+			id: "2BF225A3266C70D9"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5502FA08DACEFCC4"
+				table_id: 5655352712931457870L
+				type: "loot"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			subtitle: "随机可重复奖励"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "4445DD2E276F6F57"
+				item: {
+					Count: 1
+					ForgeCaps: {
+						"dungeons_libraries:built_in_enchantments": {
+							BuiltInEnchantments: [ ]
+						}
+					}
+					id: "kubejs:monster_coin"
+				}
+				type: "item"
+			}]
+			title: "怪物币"
+			x: 11.5d
+			y: -1.0d
+		}
+		{
+			can_repeat: true
+			id: "4E56EDF507A50240"
+			repeatable: true
+			rewards: [{
+				id: "5D74FD746DFEC7D2"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "1D3243C8F21C75F5"
+				item: "minecraft:cyan_glazed_terracotta"
+				type: "item"
+			}]
+			title: "&5购买铜币"
+			x: -8.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "0EFC48EBE93226F3"
+			min_required_tasks: 2
+			min_width: 2
+			repeatable: true
+			rewards: [{
+				id: "66A0A51726CF7662"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [{
+				consume_items: true
+				id: "6FFA66CD74630B60"
+				item: "minecraft:diamond_block"
+				type: "item"
+			}]
+			title: "&5购买银币"
+			x: -4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "1C017422DE12E95D"
+			min_required_tasks: 1
+			rewards: [{
+				id: "54099D27D9AD19AF"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					id: "0956014415AB9105"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/scales/dragon/fire"
+						}
+					}
+					title: "&e火龙鳞"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "534560B4E8ED1ACA"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/scales/dragon/ice"
+						}
+					}
+					title: "&e冰龙鳞"
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7D0D77B6FAF634B4"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:storage_blocks/scales/dragon/lightning"
+						}
+					}
+					title: "&e电龙鳞"
+					type: "item"
+				}
+			]
+			title: "&5购买金币"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "423EB9BF9436569C"
+			min_required_tasks: 1
+			rewards: [{
+				id: "59B6C7194941F59B"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			shape: "octagon"
+			tasks: [
+				{
+					consume_items: true
+					count: 3L
+					id: "0AF9A7295D67484B"
+					item: "iceandfire:dragonsteel_fire_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "25C6282C1D91DD3F"
+					item: "iceandfire:dragonsteel_ice_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					id: "17F286BCB1FFD7A3"
+					item: "iceandfire:dragonsteel_lightning_ingot"
+					type: "item"
+				}
+			]
+			title: "&5购买钻石币"
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:unowned_pendant"
+			id: "2185177EFFA775B1"
+			rewards: [{
+				id: "21342D63DCD0B3E0"
+				table_id: 5322779551390250289L
+				team_reward: false
+				title: "下品饰品箱"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "4B06A92C9D804A66"
+				item: "kubejs:copper_coin"
+				type: "item"
+			}]
+			title: "下品饰品箱"
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:sea_god_crown"
+			id: "18CD11442C20373A"
+			rewards: [{
+				id: "777D264BD35B7854"
+				table_id: 7658553385016283665L
+				team_reward: false
+				title: "中品饰品箱"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 5L
+				id: "7BC338D3F735593D"
+				item: "kubejs:iron_coin"
+				type: "item"
+			}]
+			title: "中品饰品箱"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:twisted_scroll"
+			id: "5BBB427BC708CA64"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2AF27B2F9E7A60DE"
+				table_id: 6785902794130635920L
+				team_reward: false
+				title: "上品饰品箱"
+				type: "choice"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 3L
+				id: "2B794594774F3F9A"
+				item: "kubejs:gold_coin"
+				type: "item"
+			}]
+			title: "上品饰品箱"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:holy_talisman"
+			id: "6391F82C32C4104A"
+			rewards: [{
+				id: "4F732CFE6A7BC9A3"
+				table_id: 7253431330402305649L
+				team_reward: false
+				title: "极品饰品箱"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				count: 2L
+				id: "271DB2532477BECA"
+				item: "kubejs:diamond_coin"
+				type: "item"
+			}]
+			title: "极品饰品箱"
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			can_repeat: true
+			icon: "celestial_artifacts:spirit_crown"
+			id: "3962C1878E56C2BC"
+			rewards: [{
+				id: "61E28FAFBE9D2C6F"
+				table_id: 7221144177337162780L
+				team_reward: false
+				title: "圣品饰品箱"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				consume_items: true
+				id: "5A632DEB2E32F88B"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			title: "圣品饰品箱"
+			x: 8.0d
+			y: 2.0d
+		}
+		{
+			id: "61340ABA57EA4DA2"
+			rewards: [{
+				id: "627DBE062BD0FDC4"
+				item: "kubejs:netherite_coin"
+				type: "item"
+			}]
+			tasks: [{
+				consume_items: true
+				count: 30L
+				id: "09EB99BA91AD43E9"
+				item: "currency:ten_pence"
+				title: "兑换硬币"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 4.0d
+		}
+		{
+			can_repeat: true
+			id: "06CE8F6CF318B4A6"
+			rewards: [{
+				id: "5E1D07CF73032A3B"
+				table_id: 1125255814820905584L
+				team_reward: false
+				title: "龙蛋十连"
+				type: "random"
+			}]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					id: "597711E59F0563E3"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_fire"
+						tag: {
+							DragonAge: 130
+							DragonType: 0
+							Stage: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "3F26B25AA2A8905E"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_lightning"
+						tag: {
+							DragonAge: 114
+							DragonType: 0
+							Stage: 5
+						}
+					}
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "5326F687F3E7C3E9"
+					item: {
+						Count: 1
+						id: "iceandfire:dragon_skull_ice"
+						tag: {
+							DragonAge: 100
+							DragonType: 0
+							Stage: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: 2.0d
+		}
+	]
+	title: "$ - 硬币商店 - $"
+}

@@ -1,0 +1,24 @@
+{
+	id: "23B139B00ADC85E9"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 82
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "necklace"
+			}
+		}
+	}]
+	title: "项链箱"
+}

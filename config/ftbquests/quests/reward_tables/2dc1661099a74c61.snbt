@@ -1,0 +1,37 @@
+{
+	icon: "celestial_artifacts:twisted_scroll"
+	id: "2DC1661099A74C61"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "top_grade"
+	}
+	loot_size: 1
+	order_index: 60
+	rewards: [
+		{ item: "celestial_artifacts:twisted_scroll" }
+		{ item: "celestial_artifacts:heart_of_revenge" }
+		{ item: "celestial_artifacts:netherite_ring" }
+		{ item: "celestial_artifacts:hidden_bracelet" }
+		{ item: "celestial_artifacts:star_necklace" }
+		{ item: "celestial_artifacts:cross_necklace" }
+		{ item: "celestial_artifacts:precious_necklace" }
+		{ item: "celestial_artifacts:shadow_pendant" }
+		{ item: "celestial_artifacts:flame_arrow_bag" }
+		{ item: "celestial_artifacts:angel_heart" }
+		{ item: "celestial_artifacts:angel_pearl" }
+		{ item: "celestial_artifacts:undead_charm" }
+		{ item: "celestial_artifacts:knight_shelter" }
+		{ item: "celestial_artifacts:gluttony_badge" }
+		{ item: "celestial_artifacts:bearing_stamen" }
+		{ item: "minecraft:netherite_ingot", random_bonus: 1, weight: 3.0f }
+		{ item: "l2complements:cursed_droplet", random_bonus: 3, weight: 3.0f }
+		{ item: "l2complements:soul_flame", random_bonus: 3, weight: 3.0f }
+		{ item: "l2complements:hard_ice", weight: 3.0f }
+	]
+	title: "上品饰品"
+}

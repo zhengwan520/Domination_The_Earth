@@ -1,0 +1,22 @@
+{
+	id: "3C1639309D02D75B"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "rare_ornament"
+	}
+	loot_size: 1
+	order_index: 89
+	rewards: [
+		{ item: "celestial_artifacts:twisted_scroll" }
+		{ item: "celestial_artifacts:traveler_scroll" }
+		{ item: "celestial_artifacts:shadow_pendant" }
+		{ item: "celestial_artifacts:lock_of_abyss" }
+		{ item: "celestial_artifacts:ender_protector" }
+	]
+	title: "稀有饰品"
+}

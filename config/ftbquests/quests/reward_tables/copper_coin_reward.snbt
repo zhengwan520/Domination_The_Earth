@@ -1,0 +1,103 @@
+{
+	id: "5F9723EEDCAA90F3"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "copper_coin_reward"
+	}
+	loot_size: 1
+	order_index: 17
+	rewards: [
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:coal"
+			}
+		}
+		{ count: 4, item: "minecraft:clay_ball" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:leather"
+			}
+		}
+		{ count: 2, item: "minecraft:ink_sac" }
+		{
+			count: 2
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:bone"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:sand"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:box"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:flint"
+			}
+		}
+		{
+			count: 4
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:dirt"
+			}
+		}
+	]
+	title: "铜币奖励"
+}

@@ -1,0 +1,26 @@
+{
+	id: "0DDD9DCBCE1B9DC1"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "necklace"
+	}
+	loot_size: 1
+	order_index: 81
+	rewards: [
+		{ item: "celestial_artifacts:star_necklace" }
+		{ item: "celestial_artifacts:cross_necklace" }
+		{ item: "celestial_artifacts:gallop_necklace" }
+		{ item: "celestial_artifacts:fang_necklace" }
+		{ item: "celestial_artifacts:precious_necklace" }
+		{ item: "celestial_artifacts:holy_necklace" }
+		{ item: "celestial_artifacts:emerald_necklace" }
+		{ item: "celestial_artifacts:red_heart_necklace" }
+		{ item: "celestial_artifacts:spirit_necklace" }
+	]
+	title: "项链"
+}

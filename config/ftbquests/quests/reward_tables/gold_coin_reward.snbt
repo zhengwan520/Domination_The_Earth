@@ -1,0 +1,68 @@
+{
+	id: "5D7127D0072C76C4"
+	loot_size: 1
+	order_index: 21
+	rewards: [
+		{
+			count: 32
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "aquaculture:treasure_chest"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:ender_pearl"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:golden_carrot"
+			}
+		}
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:quartz"
+			}
+		}
+		{
+			count: 8
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:blaze_rod"
+			}
+		}
+	]
+	title: "金币奖励"
+}

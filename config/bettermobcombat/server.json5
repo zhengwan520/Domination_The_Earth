@@ -1,0 +1,21 @@
+{
+	/* The additional attack cooldown applied to a mob, in ticks, after it launches a Better Combat attack. 
+	   In vanilla, there is usually a delay of 20 ticks between a mob's attacks. 
+	   7 was chosen because a default Better Combat sword attack takes 13 ticks.
+	*/
+	"mob_additional_attack_cooldown": 7,
+	/* Controls which mobs are blacklisted from using the Better Combat system. 
+	   Helpful if certain mobs aren't able to properly animate Better Combat attacks.
+	*/
+	"mob_blacklist": [
+		"minecraft:fox"
+	],
+	/* Allows the mob blacklist to instead be used as a whitelist. 
+	   This makes it so that only mobs in the whitelist can use the Better Combat system.
+	*/
+	"mob_blacklist_as_whitelist": false,
+	/* Automatically blacklists mobs detected to be using a GeckoLib model from using the Better Combat system. 
+	   GeckoLib models are not supported by Mob Player Animator, and therefore won't animate Better Combat attacks.
+	*/
+	"geckolib_mobs_blacklisted": true
+}

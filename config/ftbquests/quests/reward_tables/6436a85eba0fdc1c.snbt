@@ -1,0 +1,25 @@
+{
+	id: "6436A85EBA0FDC1C"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 69
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "holy_grade"
+			}
+		}
+		title: "圣品饰品箱"
+	}]
+	title: "圣品饰品箱"
+}

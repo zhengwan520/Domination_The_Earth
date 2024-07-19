@@ -1,0 +1,257 @@
+{
+	id: "1C204EDCADA3D28F"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "armor_crate"
+	}
+	loot_size: 1
+	order_index: 25
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_amythest_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_amythest_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_amythest_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_amythest_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_black_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_black_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_black_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_black_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:armor_blue_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:forest_troll_leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:forest_troll_leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:forest_troll_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:forest_troll_leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:frost_troll_leather_leggings"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:myrmex_desert_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "iceandfire:myrmex_desert_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:diamond_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "minecraft:iron_chestplate"
+				tag: {
+					Damage: 0
+				}
+			}
+			weight: 40.0f
+		}
+	]
+	title: "盔甲箱"
+}

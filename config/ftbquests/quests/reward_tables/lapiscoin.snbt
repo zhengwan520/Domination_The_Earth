@@ -1,0 +1,7 @@
+{
+	id: "0E5493707E76ECF8"
+	loot_size: 1
+	order_index: 29
+	rewards: [{ item: "kubejs:iron_coin" }]
+	title: "铁币"
+}

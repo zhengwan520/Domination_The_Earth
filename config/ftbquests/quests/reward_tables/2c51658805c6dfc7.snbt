@@ -1,0 +1,25 @@
+{
+	id: "2C51658805C6DFC7"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		string_id: "_"
+	}
+	loot_size: 1
+	order_index: 72
+	rewards: [{
+		item: {
+			Count: 1
+			id: "ftbquests:lootcrate"
+			tag: {
+				type: "ring"
+			}
+		}
+		title: "戒指箱"
+	}]
+	title: "戒指箱"
+}

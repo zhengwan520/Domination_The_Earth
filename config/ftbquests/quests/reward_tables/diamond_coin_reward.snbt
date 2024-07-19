@@ -1,0 +1,34 @@
+{
+	id: "0BC9EE62BBE93C0A"
+	loot_size: 1
+	order_index: 22
+	rewards: [
+		{
+			count: 64
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:emerald_ore"
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				ForgeCaps: {
+					"dungeons_libraries:built_in_enchantments": {
+						BuiltInEnchantments: [ ]
+					}
+				}
+				id: "minecraft:diamond"
+			}
+			random_bonus: 16
+		}
+		{ item: "minecraft:totem_of_undying" }
+	]
+	title: "钻石币奖励"
+}
