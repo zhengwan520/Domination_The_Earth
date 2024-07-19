@@ -1,0 +1,28 @@
+{
+	"ENCHANTMENT_CONFIG": {
+		"COOLDOWN": {
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3
+		},
+		"BEAST_BOSS": {
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3
+		},
+		"BEAST_BURST": {
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3
+		},
+		"BEAST_SURGE": {
+			"isEnabled": true,
+			"isAvailableForEnchantedBookOffer": true,
+			"isAvailableForRandomSelection": true,
+			"maxLevel": 3
+		}
+	}
+}

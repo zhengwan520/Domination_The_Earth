@@ -1,0 +1,103 @@
+{
+
+  "commands.magicaljewelry.jewelGive.failure.exist": "项目 '%s' 不存在?",
+
+  "commands.magicaljewelry.jewelGive.failure.item": "项目 '%s' 无效!",
+
+  "commands.magicaljewelry.jewelGive.failure.rarity": "稀有度 '%s' 无效!",
+
+  "commands.magicaljewelry.jewelTestLoot.config1": "配置选项 %s 设置为 %s",
+
+  "commands.magicaljewelry.jewelTestLoot.config2": "配置选项 %s 和 %s 都设置为 %s",
+
+  "commands.magicaljewelry.jewelTestLoot.droprate": "默认丢弃率：%s",
+
+  "commands.magicaljewelry.jewelTestLoot.dropratewith": "%s 的默认丢弃率：%s",
+
+  "commands.magicaljewelry.jewelTestLoot.failure": "战利品表'%s'对测试无效！!",
+
+  "commands.magicaljewelry.jewelTestLoot.onerarity": "唯一可以掉落的稀有度是：%s",
+
+  "commands.magicaljewelry.jewelTestLoot.settings": "%s的稀有度下降设置",
+
+  "commands.magicaljewelry.jewelTestLoot.type.boss": "boss生物",
+
+  "commands.magicaljewelry.jewelTestLoot.type.chest": "箱子",
+
+  "commands.magicaljewelry.jewelTestLoot.type.hostile": "敌对生物",
+
+  "gui.config.magicaljewelry.disableUpgrading": "升级已禁用",
+
+  "gui.config.magicaljewelry.effectIconDisabled": "效果图标被禁用",
+
+  "gui.config.magicaljewelry.epicAmount": "史诗效果量",
+
+  "gui.config.magicaljewelry.epicDrop": "史诗级的稀有度掉落率",
+
+  "gui.config.magicaljewelry.epicDurability": "史诗级的耐久度",
+
+  "gui.config.magicaljewelry.epicLegendaryAttributes": "史诗级和传奇级都有属性",
+
+  "gui.config.magicaljewelry.goldNeutralPiglins": "黄金珠宝使猪灵保持中立",
+
+  "gui.config.magicaljewelry.jewelDurability": "珠宝经久耐用",
+
+  "gui.config.magicaljewelry.jewelRarityToDrop": "什么稀有度应该下降",
+
+  "gui.config.magicaljewelry.jewelsInChest": "箱子里的珠宝",
+
+  "gui.config.magicaljewelry.legendaryAmount": "传奇级效果量",
+
+  "gui.config.magicaljewelry.legendaryDrop": "传说级的稀有掉落率",
+
+  "gui.config.magicaljewelry.legendaryEffects": "传奇有超炫特效",
+
+  "gui.config.magicaljewelry.legendaryUpgradeOnly": "传奇级稀有度只是升级",
+
+  "gui.config.magicaljewelry.maxEffectLevel": "最大堆叠效果等级",
+
+  "gui.config.magicaljewelry.oneRarityDrop": "只有一种稀有度下降",
+
+  "gui.config.magicaljewelry.rareAmount": "稀有级效果量",
+
+  "gui.config.magicaljewelry.rareDrop": "稀有掉落率",
+
+  "gui.config.magicaljewelry.rareDurability": "稀有的耐久",
+
+  "gui.config.magicaljewelry.rarityName": "名称中显示的稀有性",
+
+  "gui.config.magicaljewelry.rarityTooltips": "工具提示中显示的稀有度",
+
+  "gui.config.magicaljewelry.regenerationCombinable": "生命恢复是可以组合的",
+
+  "gui.config.magicaljewelry.uncommonAmount": "不常见的效果量",
+
+  "gui.config.magicaljewelry.uncommonDurability": "不寻常的耐久性量",
+
+  "item.magicaljewelry.gold_amulet": "黄金护身符",
+
+  "item.magicaljewelry.gold_bracelet": "金手镯",
+
+  "item.magicaljewelry.gold_ring": "金戒指",
+
+  "item.magicaljewelry.silver_amulet": "银色护身符",
+
+  "item.magicaljewelry.silver_bracelet": "银手镯",
+
+  "item.magicaljewelry.silver_ring": "银戒指",
+
+  "item.magicaljewelry.the_one_ring": "至尊戒指",
+
+  "item.magicaljewelry.tooltip.creative": "这件物品没有附加任何效果或属性，因此没有任何作用！此物品无法升级！",
+
+  "itemGroup.magicaljewelryGroup": "神奇的珠宝",
+
+  "rarity.magicaljewelry.epic": "史诗级",
+
+  "rarity.magicaljewelry.legendary": "传奇级",
+
+  "rarity.magicaljewelry.rare": "稀有级",
+
+  "rarity.magicaljewelry.uncommon": "不常见"
+
+}

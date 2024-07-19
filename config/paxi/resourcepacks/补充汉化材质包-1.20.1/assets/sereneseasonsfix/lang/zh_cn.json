@@ -1,0 +1,4 @@
+{
+    "commands.sereneseasonsfix.getseason.notwhitelisted": "此维度已禁用季节！",
+    "commands.sereneseasonsfix.setseason.notwhitelisted": "此维度已禁用季节！"
+}

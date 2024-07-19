@@ -1,0 +1,706 @@
+{
+	"ARTIFACT_GENERAL_SPAWN_CHANCE": 0.25,
+	"ARTIFACT_DUNGEON_SPAWN_CHANCE": 0.10000000149011612,
+	"AGILITY_ARTIFACT_STATS": {
+		"BOOTS_OF_SWIFTNESS": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 100,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"DEATH_CAP_MUSHROOM": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"GHOST_CLOAK": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 120,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"LIGHT_FEATHER": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 120,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	},
+	"DAMAGING_ARTIFACT_STATS": {
+		"BLAST_FUNGUS": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 120,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"HARVESTER": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 60,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"LIGHTNING_ROD": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 40,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"POWERSHAKER": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"UPDRAFT_TOME": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 300,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	},
+	"DEFENSIVE_ARTIFACT_STATS": {
+		"ENCHANTERS_TOME": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 100,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"IRON_HIDE_AMULET": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 500,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"SOUL_HEALER": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 60,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"TOTEM_OF_REGENERATION": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"TOTEM_OF_SHIELDING": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"TOTEM_OF_SOUL_PROTECTION": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"WIND_HORN": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 250,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	},
+	"QUIVER_ARTIFACT_STATS": {
+		"FLAMING_QUIVER": {
+			"comment": [
+				"When Quivers are activated, their effect remains",
+				"active during the cooldown phase. Therefore, their",
+				"maxCooldownEnchantmentTime should be treated as inverted:",
+				"the higher the value, the longer the effect lasts;",
+				"the lower the value, the shorter the effect lasts."
+			],
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 500,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"HARPOON_QUIVER": {
+			"comment": [
+				"When Quivers are activated, their effect remains",
+				"active during the cooldown phase. Therefore, their",
+				"maxCooldownEnchantmentTime should be treated as inverted:",
+				"the higher the value, the longer the effect lasts;",
+				"the lower the value, the shorter the effect lasts."
+			],
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"THUNDERING_QUIVER": {
+			"comment": [
+				"When Quivers are activated, their effect remains",
+				"active during the cooldown phase. Therefore, their",
+				"maxCooldownEnchantmentTime should be treated as inverted:",
+				"the higher the value, the longer the effect lasts;",
+				"the lower the value, the shorter the effect lasts."
+			],
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"TORMENT_QUIVER": {
+			"comment": [
+				"When Quivers are activated, their effect remains",
+				"active during the cooldown phase. Therefore, their",
+				"maxCooldownEnchantmentTime should be treated as inverted:",
+				"the higher the value, the longer the effect lasts;",
+				"the lower the value, the shorter the effect lasts."
+			],
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	},
+	"STATUS_INFLICTING_ARTIFACT_STATS": {
+		"CORRUPTED_SEEDS": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 100,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"GONG_OF_WEAKENING": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 100,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"LOVE_MEDALLION": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 120,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"SATCHEL_OF_ELEMENTS": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 60,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"SHOCK_POWDER": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 64,
+			"maxCooldownEnchantmentTime": 300,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/pillager_outpost",
+				"minecraft:chests/woodland_mansion"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	},
+	"SUMMONING_ARTIFACT_STATS": {
+		"BUZZY_NEST": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"ENCHANTED_GRASS": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"GOLEM_KIT": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"TASTY_BONE": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		},
+		"WONDERFUL_WHEAT": {
+			"comment": null,
+			"isEnabled": true,
+			"durability": 8,
+			"maxCooldownEnchantmentTime": 600,
+			"generalSpawnWeight": 2,
+			"dungeonSpawnWeight": 1,
+			"generalLootTables": [
+				"minecraft:chests/village/village_armorer",
+				"minecraft:chests/village/village_plains_house",
+				"minecraft:chests/village/village_toolsmith",
+				"minecraft:chests/village/village_temple",
+				"minecraft:chests/village/village_savanna_house",
+				"minecraft:chests/village/village_butcher",
+				"minecraft:chests/village/village_shepherd",
+				"minecraft:chests/village/village_fletcher",
+				"minecraft:chests/village/village_mason",
+				"minecraft:chests/village/village_snowy_house",
+				"minecraft:chests/village/village_tannery",
+				"minecraft:chests/village/village_desert_house",
+				"minecraft:chests/village/village_fisher",
+				"minecraft:chests/village/village_taiga_house",
+				"minecraft:chests/village/village_cartographer"
+			],
+			"dungeonLootTables": [
+				"minecraft:chests/simple_dungeon",
+				"minecraft:chests/abandoned_mineshaft",
+				"minecraft:chests/shipwreck_treasure"
+			]
+		}
+	}
+}

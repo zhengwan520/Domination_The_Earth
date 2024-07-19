@@ -1,0 +1,17 @@
+{
+    "text.owo.config.button.done": "完成",
+    "text.owo.config.button.exit_minecraft": "退出Minecraft",
+    "text.owo.config.button.ignore_restart": "稍后重新启动",
+    "text.owo.config.button.range.edit_as_text": "以文本编辑",
+    "text.owo.config.button.range.edit_with_slider": "以滑块编辑",
+    "text.owo.config.button.reload": "重新加载",
+    "text.owo.config.list.add_entry": "添加项",
+    "text.owo.config.must_restart": "您所做的一些更改需要重新启动才能应用",
+    "text.owo.config.search": "搜索...",
+    "text.owo.config.search.no_matches": "没有匹配项",
+    "text.owo.configure_hot_reload.choose_file": "选择文件",
+    "text.owo.configure_hot_reload.choose_ui_model_source": "选择UI模型源",
+    "text.owo.configure_hot_reload.reload_from.unset": "取消设置",
+    "text.owo.configure_hot_reload.save": "保存",
+    "text.owo.configure_hot_reload.title": "配置热重载"
+}

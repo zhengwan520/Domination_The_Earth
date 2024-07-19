@@ -1,0 +1,11 @@
+{
+    "fluid.moonlight.generic_fluid": "未命名流体",
+    "gui.moonlight.open_mod_page": "打开%s的CurseForge页面",
+    "item.minecraft.potion_lingering": "滞留药水",
+    "item.minecraft.potion_splash": "飞溅药水",
+    "leaves_type.twilightforest.dark": "黑暗树叶",
+    "leaves_type.ulterlands.souldrained": "石化的",
+    "message.moonlight.anti_repost": "你似乎从一个恶意网站下载了%1$s：( 获取真正的版本%2$s。",
+    "message.moonlight.anti_repost_link": "这里",
+    "wood_type.twilightforest.dark": "黑暗木"
+}
