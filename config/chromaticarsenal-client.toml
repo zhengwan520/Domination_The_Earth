@@ -1,0 +1,12 @@
+
+[TooltipSettings]
+	#Disables the extra tooltip lines which are displayed when a super curio is enchanted with a non-curse enchantment.
+	suppressEnchantedSuperCurioWarning = false
+	#Whenever ticks are converted to seconds in a tooltip, the decimal is kept if the resulting amount of seconds is under this value.
+	#Range: > 0
+	tooltipDecimalThreshold = 10
+
+[AnonymityUmbrellaSettings]
+	#The Anonymity Umbrella is meant to be a fun item to cause a bit of mischief in small servers, similar to the Invisibility effect. If it is being misused, you can disable it here. While disabled, you will see the true skins of anonymous players, however nametags will still be hidden.
+	anonymityOptOut = false
+

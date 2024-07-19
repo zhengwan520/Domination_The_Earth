@@ -1,0 +1,76 @@
+
+["Magma Cube"]
+	"Magma Always On Fire" = true
+	"Magma Render On Fire" = false
+
+[Endermite]
+	"Endermite Attacks Villagers" = true
+
+[Wither]
+	"Wither Attacks Villagers" = true
+
+[Zombie]
+	"Zombies Spawn With Better Gear" = true
+	"Zombie Piglins Attack On Sight" = true
+	#Range: > 1
+	"Zombie Enchanted Items Chance" = 80
+	"Zombie Piglins Attacks Villagers" = true
+	#Range: > 1
+	"Zombie Break Door Chance" = 80
+	"Runner Zombies" = true
+	"Zombies Don't Burn" = true
+
+[Creeper]
+	"Creepers Don't Stop When Exploding" = true
+	"Creeper Always Charged" = true
+	"Creeper Attacks Villagers" = true
+	#Range: > 1
+	"Creeper Explosion Power" = 3
+	"Creepers Blowup Doors" = true
+	"Creepers Attack Iron Golems" = true
+	"Creeper Explodes Faster" = true
+
+[Vex]
+	"Vex Attacks Villagers" = true
+
+[Silverfish]
+	"Silverfish Attacks Villagers" = true
+
+[Shulker]
+	"Shulker Attacks Villagers" = true
+
+[Slimes]
+	"Slimes Attacks Villagers" = true
+
+[Skeletons]
+	"Skeletons Don't Burn" = true
+	#Range: > 1
+	"Skeleton Enchanted Items Chance" = 80
+	"Skeletons Attacks Villagers" = true
+
+[Spiders]
+	"Spiders Always Jockeys" = true
+	"Spiders Attacks Villagers" = true
+	"Spiders Always Attack" = true
+
+[Enderman]
+	"Enderman Always Attacks" = true
+	"Enderman Attacks Villagers" = true
+
+[Phantoms]
+	"Phantoms Always Spawn" = true
+
+[Blaze]
+	"Blaze Always On Fire" = true
+	"Blaze Attacks Villagers" = true
+
+[Ghast]
+	#Range: > 1
+	"Ghast Fireball Power" = 4
+	"Ghast Attacks Villagers" = true
+
+[General]
+	"Monsters Can Warden Sense" = true
+	#Range: > 1
+	"Monster Sensing Range" = 32
+

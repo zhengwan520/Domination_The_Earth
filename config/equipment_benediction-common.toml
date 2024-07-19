@@ -1,0 +1,6 @@
+#Config
+#Enable ModifierHud Debug
+enableModifierHudDebug = false
+#Enable EquipmentSet Tooltip
+enableEquipmentSetTooltip = true
+

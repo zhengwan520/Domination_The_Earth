@@ -1,0 +1,21 @@
+#The growth rate of plague research sites
+#Range: 0.0 ~ 100.0
+GrowthSpeed = 0.1
+#The corrosion speed of the plague
+#Range: 0.0 ~ 100.0
+CorrosionSpeed = 0.01
+#The corrosive effect of plague(All effects will be multiplied by this value)
+#Range: 0.01 ~ 100.0
+CorrosionEffect = 1.0
+#Nightmare Moai's enchantment level bonus
+#Range: 0 ~ 100
+EnchantmentBonus = 2
+#How many critical hits will brain make
+#Range: 1 ~ 100
+MBrain_many = 5
+#Brain's critical strike multiplier
+#Range: 1.0 ~ 999.0
+MBrain_critical_multiplier = 2.25
+#Whether to enable exclusion and affinity mechanisms
+"Exclusion and affinity" = false
+

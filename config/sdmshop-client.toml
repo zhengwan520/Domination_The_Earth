@@ -1,0 +1,13 @@
+
+[THEMES]
+	#Allowed Values: SHADOW, PINK, DESIDERIUM, CUSTOM
+	"Shop Theme" = "SHADOW"
+
+	[THEMES.THEMES_CUSTOM]
+		background = "#5555FF"
+		shadow = "#5555FF"
+		react = "#5555FF"
+		stoke = "#5555FF"
+		select_tab_color = "#5555FF"
+		moneyTextColor = "#5555FF"
+

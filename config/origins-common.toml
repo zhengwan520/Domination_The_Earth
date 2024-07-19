@@ -1,0 +1,554 @@
+
+[origins]
+
+	[origins."origins:enderian"]
+		enabled = true
+		"origins:throw_ender_pearl" = true
+		"origins:water_vulnerability" = true
+		"origins:pumpkin_hate" = true
+		"origins:extra_reach" = true
+		"origins:ender_particles" = true
+		"origins:damage_from_potions" = true
+
+	[origins."legendary_origins:profession/exploration"]
+		enabled = true
+		"legendary_origins:profession/exploration/resource" = true
+		"legendary_origins:profession/exploration/rookie" = true
+		"legendary_origins:profession/exploration/skilled" = true
+		"legendary_origins:profession/exploration/expert" = true
+		"legendary_origins:profession/exploration/master" = true
+		"legendary_origins:profession/exploration/elite" = true
+		"legendary_origins:profession/exploration/epic" = true
+		"legendary_origins:profession/exploration/legendary" = true
+		"legendary_origins:profession/exploration/timer" = true
+
+	[origins."legendary_origins:race/dwarf"]
+		enabled = true
+		"legendary_origins:global/angry_villager" = true
+		"legendary_origins:global/energy" = true
+		"legendary_origins:global/extra_food" = true
+		"legendary_origins:global/jump_fences" = true
+		"legendary_origins:global/no_trade" = true
+		"legendary_origins:global/villager_help" = true
+		"legendary_origins:race/dwarf/starting_equipment" = true
+		"legendary_origins:race/dwarf/pickaxe" = true
+		"legendary_origins:race/dwarf/break_speed" = true
+		"legendary_origins:global/night_vision" = true
+		"legendary_origins:race/dwarf/fire_resistance" = true
+		"legendary_origins:race/dwarf/luck" = true
+
+	[origins."origins:human"]
+		enabled = true
+
+	[origins."legendary_origins:race/elf"]
+		enabled = true
+		"legendary_origins:global/angry_villager" = true
+		"legendary_origins:global/energy" = true
+		"legendary_origins:global/extra_food" = true
+		"legendary_origins:global/invisibility" = true
+		"legendary_origins:global/jump_fences" = true
+		"legendary_origins:global/no_trade" = true
+		"legendary_origins:global/villager_help" = true
+		"legendary_origins:race/elf/climb" = true
+		"legendary_origins:race/elf/fall_damage" = true
+		"legendary_origins:race/elf/invisible" = true
+		"legendary_origins:race/elf/jump" = true
+		"legendary_origins:race/elf/phasing_leaves" = true
+		"legendary_origins:global/night_vision" = true
+		"legendary_origins:race/elf/speed" = true
+		"legendary_origins:race/elf/poison_resistance" = true
+
+	[origins."legendary_origins:class/warrior"]
+		enabled = true
+		"legendary_origins:class/warrior/starting_equippment" = true
+		"legendary_origins:class/warrior/shield" = true
+		"legendary_origins:class/warrior/knockback" = true
+		"legendary_origins:class/warrior/rage/add" = true
+		"legendary_origins:class/warrior/rage/attack_speed" = true
+		"legendary_origins:class/warrior/rage/consume" = true
+		"legendary_origins:class/warrior/rage/damage" = true
+		"legendary_origins:class/warrior/rage/hit_effect" = true
+		"legendary_origins:class/warrior/rage/power" = true
+		"legendary_origins:class/warrior/rage/resource" = true
+		"legendary_origins:class/warrior/rage/speed" = true
+		"legendary_origins:class/warrior/rage/state" = true
+		"legendary_origins:class/warrior/tank/add" = true
+		"legendary_origins:class/warrior/tank/consume" = true
+		"legendary_origins:class/warrior/tank/invulnerable" = true
+		"legendary_origins:class/warrior/tank/power" = true
+		"legendary_origins:class/warrior/tank/resource" = true
+		"legendary_origins:class/warrior/tank/shield_dash" = true
+		"legendary_origins:class/warrior/tank/state" = true
+
+	[origins."legendary_origins:race/orc"]
+		enabled = true
+		"legendary_origins:global/angry_villager" = true
+		"legendary_origins:global/energy" = true
+		"legendary_origins:global/extra_food" = true
+		"legendary_origins:global/jump_fences" = true
+		"legendary_origins:global/no_trade" = true
+		"legendary_origins:global/villager_help" = true
+		"legendary_origins:race/orc/starting_equipment" = true
+		"legendary_origins:race/orc/axe" = true
+		"legendary_origins:race/orc/extra_base_damage" = true
+		"legendary_origins:race/orc/knockback_resistance" = true
+
+	[origins."legendary_origins:class/hunter"]
+		enabled = true
+		"legendary_origins:class/hunter/starting_equippment" = true
+		"legendary_origins:class/hunter/quiver" = true
+		"legendary_origins:class/hunter/detection" = true
+		"legendary_origins:class/hunter/detection_plus" = true
+		"legendary_origins:class/hunter/loots" = true
+		"legendary_origins:class/hunter/table" = true
+		"legendary_origins:class/hunter/recipes" = true
+		"legendary_origins:class/hunter/damage" = true
+		"legendary_origins:class/hunter/damage_plus" = true
+		"legendary_origins:class/hunter/shots/corrupted_shot" = true
+		"legendary_origins:class/hunter/shots/explosive_shot" = true
+		"legendary_origins:class/hunter/shots/healing_shot" = true
+		"legendary_origins:class/hunter/shots/infernal_shot" = true
+		"legendary_origins:class/hunter/shots/levitation_shot" = true
+		"legendary_origins:class/hunter/shots/lightning_shot" = true
+		"legendary_origins:class/hunter/shots/paralyzing_shot" = true
+		"legendary_origins:class/hunter/shots/perforation_shot" = true
+		"legendary_origins:class/hunter/shots/poisonous_shot" = true
+		"legendary_origins:class/hunter/shots/teleport_shot" = true
+
+	[origins."legendary_origins:class/rogue"]
+		enabled = true
+		"legendary_origins:global/invisibility" = true
+		"legendary_origins:class/rogue/climb" = true
+		"legendary_origins:class/rogue/double_jump" = true
+		"legendary_origins:class/rogue/invisible" = true
+		"legendary_origins:class/rogue/backstab" = true
+		"legendary_origins:class/rogue/daggers" = true
+		"legendary_origins:class/rogue/steal" = true
+		"legendary_origins:class/rogue/unnoticed" = true
+		"legendary_origins:global/night_vision" = true
+		"legendary_origins:class/rogue/jump" = true
+		"legendary_origins:class/rogue/fall_damage" = true
+		"legendary_origins:class/rogue/fall_ignored" = true
+		"legendary_origins:class/rogue/speed" = true
+		"legendary_origins:class/rogue/crossbow" = true
+		"legendary_origins:class/rogue/shots" = true
+		"legendary_origins:class/rogue/immune" = true
+		"legendary_origins:class/rogue/poison" = true
+		"legendary_origins:class/rogue/ender_chest" = true
+
+	[origins."origins:feline"]
+		enabled = true
+		"origins:fall_immunity" = true
+		"origins:sprint_jump" = true
+		"origins:velvet_paws" = true
+		"origins:nine_lives" = true
+		"origins:weak_arms" = true
+		"origins:scare_creepers" = true
+		"origins:cat_vision" = true
+
+	[origins."origins:elytrian"]
+		enabled = true
+		"origins:elytra" = true
+		"origins:launch_into_air" = true
+		"origins:aerial_combatant" = true
+		"origins:light_armor" = true
+		"origins:claustrophobia" = true
+		"origins:more_kinetic_damage" = true
+
+	[origins."legendary_origins:class/magician"]
+		enabled = true
+		"legendary_origins:class/magician/magic_power" = true
+		"legendary_origins:class/magician/regen_potions" = true
+		"legendary_origins:class/magician/combat_mode" = true
+		"legendary_origins:class/magician/fireball" = true
+		"legendary_origins:class/magician/arcane_shot" = true
+		"legendary_origins:class/magician/lightning" = true
+		"legendary_origins:class/magician/fire_shield" = true
+		"legendary_origins:class/magician/ice_shield" = true
+		"legendary_origins:class/magician/lightning_shield" = true
+		"legendary_origins:class/magician/lava_trap" = true
+		"legendary_origins:class/magician/ice_trap" = true
+		"legendary_origins:class/magician/healing" = true
+		"legendary_origins:class/magician/death" = true
+
+	[origins."origins:shulk"]
+		enabled = true
+		"origins:shulker_inventory" = true
+		"origins:natural_armor" = true
+		"origins:strong_arms" = true
+		"origins:strong_arms_break_speed" = true
+		"origins:no_shield" = true
+		"origins:more_exhaustion" = true
+
+	[origins."legendary_origins:profession/mining"]
+		enabled = true
+		"legendary_origins:profession/mining/break_speed" = true
+		"legendary_origins:profession/mining/loot" = true
+		"legendary_origins:profession/mining/vision" = true
+
+	[origins."origins:merling"]
+		enabled = true
+		"origins:water_breathing" = true
+		"origins:water_vision" = true
+		"origins:aqua_affinity" = true
+		"origins:swim_speed" = true
+		"origins:like_water" = true
+		"origins:aquatic" = true
+		"origins:conduit_power_on_land" = true
+		"origins:air_from_potions" = true
+
+	[origins."origins:phantom"]
+		enabled = true
+		"origins:phantomize" = true
+		"origins:translucent" = true
+		"origins:phasing" = true
+		"origins:invisibility" = true
+		"origins:burn_in_daylight" = true
+		"origins:hunger_over_time" = true
+		"origins:fragile" = true
+		"origins:phantomize_overlay" = true
+
+	[origins."origins:arachnid"]
+		enabled = true
+		"origins:climbing" = true
+		"origins:master_of_webs" = true
+		"origins:carnivore" = true
+		"origins:fragile" = true
+		"origins:arthropod" = true
+
+	[origins."origins:blazeborn"]
+		enabled = true
+		"origins:fire_immunity" = true
+		"origins:nether_spawn" = true
+		"origins:burning_wrath" = true
+		"origins:hotblooded" = true
+		"origins:water_vulnerability" = true
+		"origins:flame_particles" = true
+		"origins:damage_from_snowballs" = true
+		"origins:damage_from_potions" = true
+
+	[origins."origins:avian"]
+		enabled = true
+		"origins:slow_falling" = true
+		"origins:fresh_air" = true
+		"origins:like_air" = true
+		"origins:tailwind" = true
+		"origins:lay_eggs" = true
+		"origins:vegetarian" = true
+
+	[origins."legendary_origins:race/human"]
+		enabled = true
+		"legendary_origins:global/angry_villager" = true
+		"legendary_origins:global/energy" = true
+		"legendary_origins:global/extra_food" = true
+		"legendary_origins:global/jump_fences" = true
+		"legendary_origins:global/no_trade" = true
+		"legendary_origins:global/villager_help" = true
+		"legendary_origins:race/human/bribe" = true
+		"legendary_origins:race/human/trader" = true
+
+	[origins."legendary_origins:class/adventurer"]
+		enabled = true
+		"legendary_origins:class/adventurer/starting_equipment" = true
+		"legendary_origins:class/adventurer/backpack" = true
+		"legendary_origins:class/adventurer/pocket" = true
+		"legendary_origins:class/adventurer/climb" = true
+		"legendary_origins:class/adventurer/campfire" = true
+
+	[origins."legendary_origins:welcome"]
+		enabled = true
+
+	[origins."legendary_origins:class/druid"]
+		enabled = true
+		"legendary_origins:class/druid/core/global_resource" = true
+		"legendary_origins:class/druid/core/global_state" = true
+		"legendary_origins:class/druid/core/reset_all" = true
+		"legendary_origins:class/druid/eagle_aspect/power" = true
+		"legendary_origins:class/druid/eagle_aspect/go_up" = true
+		"legendary_origins:class/druid/eagle_aspect/countdown" = true
+		"legendary_origins:class/druid/eagle_aspect/death" = true
+		"legendary_origins:class/druid/eagle_aspect/detect" = true
+		"legendary_origins:class/druid/eagle_aspect/diet" = true
+		"legendary_origins:class/druid/eagle_aspect/fall" = true
+		"legendary_origins:class/druid/eagle_aspect/hunger" = true
+		"legendary_origins:class/druid/eagle_aspect/resource" = true
+		"legendary_origins:class/druid/eagle_aspect/speed" = true
+		"legendary_origins:class/druid/eagle_aspect/state" = true
+		"legendary_origins:class/druid/eagle_aspect/vision" = true
+		"legendary_origins:class/druid/eagle_aspect/wings" = true
+		"legendary_origins:class/druid/dolphin_aspect/power" = true
+		"legendary_origins:class/druid/dolphin_aspect/air" = true
+		"legendary_origins:class/druid/dolphin_aspect/countdown" = true
+		"legendary_origins:class/druid/dolphin_aspect/damage" = true
+		"legendary_origins:class/druid/dolphin_aspect/death" = true
+		"legendary_origins:class/druid/dolphin_aspect/diet" = true
+		"legendary_origins:class/druid/dolphin_aspect/grace" = true
+		"legendary_origins:class/druid/dolphin_aspect/hunger" = true
+		"legendary_origins:class/druid/dolphin_aspect/hunt" = true
+		"legendary_origins:class/druid/dolphin_aspect/outside_water" = true
+		"legendary_origins:class/druid/dolphin_aspect/resource" = true
+		"legendary_origins:class/druid/dolphin_aspect/state" = true
+		"legendary_origins:class/druid/dolphin_aspect/vision" = true
+		"legendary_origins:class/druid/wolf_aspect/power" = true
+		"legendary_origins:class/druid/wolf_aspect/countdown" = true
+		"legendary_origins:class/druid/wolf_aspect/damage" = true
+		"legendary_origins:class/druid/wolf_aspect/death" = true
+		"legendary_origins:class/druid/wolf_aspect/diet" = true
+		"legendary_origins:class/druid/wolf_aspect/hunger" = true
+		"legendary_origins:class/druid/wolf_aspect/pets" = true
+		"legendary_origins:class/druid/wolf_aspect/resource" = true
+		"legendary_origins:class/druid/wolf_aspect/speed" = true
+		"legendary_origins:class/druid/wolf_aspect/state" = true
+		"legendary_origins:class/druid/wolf_aspect/vision" = true
+		"legendary_origins:class/druid/mole_aspect/power" = true
+		"legendary_origins:class/druid/mole_aspect/blindness" = true
+		"legendary_origins:class/druid/mole_aspect/climb" = true
+		"legendary_origins:class/druid/mole_aspect/countdown" = true
+		"legendary_origins:class/druid/mole_aspect/death" = true
+		"legendary_origins:class/druid/mole_aspect/detect" = true
+		"legendary_origins:class/druid/mole_aspect/diet" = true
+		"legendary_origins:class/druid/mole_aspect/digging" = true
+		"legendary_origins:class/druid/mole_aspect/get_blocks" = true
+		"legendary_origins:class/druid/mole_aspect/get_ores_speed" = true
+		"legendary_origins:class/druid/mole_aspect/hunger" = true
+		"legendary_origins:class/druid/mole_aspect/immunity" = true
+		"legendary_origins:class/druid/mole_aspect/metals_loot" = true
+		"legendary_origins:class/druid/mole_aspect/mining" = true
+		"legendary_origins:class/druid/mole_aspect/no_sprint" = true
+		"legendary_origins:class/druid/mole_aspect/resource" = true
+		"legendary_origins:class/druid/mole_aspect/state" = true
+		"legendary_origins:class/druid/mole_aspect/vision" = true
+		"legendary_origins:class/druid/core/cancel_all" = true
+
+	[origins."legendary_origins:profession/farming"]
+		enabled = true
+		"legendary_origins:profession/farming/bonemeal" = true
+		"legendary_origins:profession/farming/livestock" = true
+
+	[origins."medievalorigins:dwarf"]
+		enabled = true
+		"medievalorigins:dwarf/dwarven_tech" = true
+		"medievalorigins:dwarf/miniature" = true
+		"medievalorigins:dwarf/nocturnal_eyes" = true
+		"medievalorigins:dwarf/darkness_dweller" = true
+		"medievalorigins:dwarf/dense" = true
+		"medievalorigins:dwarf/potent_brew" = true
+		"medievalorigins:dwarf/mythril_resonance" = true
+		"medievalorigins:dwarf/pickaxeless_stone" = true
+		"medievalorigins:dwarf/helmet_spawn" = true
+
+	[origins."medievalorigins:pixie"]
+		enabled = true
+		"medievalorigins:pixie/flight" = true
+		"medievalorigins:pixie/pixie_properties" = true
+		"medievalorigins:pixie/feather_footed" = true
+		"medievalorigins:pixie/wings" = true
+		"medievalorigins:pixie/mount" = true
+		"medievalorigins:pixie/good_fortunes" = true
+		"medievalorigins:pixie/mischief_maketh_man" = true
+		"medievalorigins:pixie/curse_of_flight" = true
+		"medievalorigins:pixie/soaked" = true
+		"medievalorigins:pixie/troublemaker" = true
+
+	[origins."medievalorigins:high_elf"]
+		enabled = true
+		"medievalorigins:high_elf/glacial_step" = true
+		"medievalorigins:high_elf/elegant" = true
+		"medievalorigins:high_elf/ebonbreath" = true
+		"medievalorigins:high_elf/spell_power_ars" = true
+		"medievalorigins:high_elf/mystic_affinity" = true
+		"medievalorigins:high_elf/blazenbreath_weak" = true
+		"medievalorigins:high_elf/extrusive_movement" = true
+		"medievalorigins:high_elf/towering" = true
+		"medievalorigins:high_elf/void_warp" = true
+		"medievalorigins:high_elf/instant_cure" = true
+		"medievalorigins:high_elf/gear_spawn" = true
+		"medievalorigins:high_elf/fragile" = true
+		"medievalorigins:high_elf/blazenbreath" = true
+
+	[origins."medievalorigins:plague_victim"]
+		enabled = true
+		"medievalorigins:plague_victim/foul_aura" = true
+		"medievalorigins:plague_victim/plague_immunity" = true
+		"medievalorigins:plague_victim/risk_of_transmission" = true
+		"medievalorigins:plague_victim/contagious" = true
+		"medievalorigins:plague_victim/insomniac" = true
+		"medievalorigins:plague_victim/sensitive_skin" = true
+		"medievalorigins:plague_victim/skin_and_bones" = true
+		"origins_survive:illness_resistance" = true
+
+	[origins."medievalorigins:revenant"]
+		enabled = true
+		"medievalorigins:revenant/cronch" = true
+		"medievalorigins:revenant/transfer_item" = true
+		"medievalorigins:revenant/skeleton_summons" = true
+		"medievalorigins:revenant/zombie_summons" = true
+		"medievalorigins:revenant/putrid_communion" = true
+		"medievalorigins:revenant/hellraiser" = true
+		"medievalorigins:revenant/siphon" = true
+		"medievalorigins:revenant/unwitherable" = true
+		"medievalorigins:revenant/undeadge" = true
+		"medievalorigins:revenant/poor_reputation" = true
+		"medievalorigins:revenant/black_thumb" = true
+		"medievalorigins:revenant/disturbed" = true
+		"medievalorigins:revenant/unguarded" = true
+		"origins_survive:sleepless" = true
+
+	[origins."medievalorigins:banshee"]
+		enabled = true
+		"medievalorigins:banshee/spectral" = true
+		"medievalorigins:banshee/sonic_shriek" = true
+		"medievalorigins:banshee/lunar_nexus" = true
+		"medievalorigins:banshee/dimeritium_shackles" = true
+		"medievalorigins:banshee/hexed" = true
+		"medievalorigins:banshee/immaterial" = true
+		"medievalorigins:banshee/overwhelmed" = true
+		"origins_survive:sleepless" = true
+
+	[origins."medievalorigins:gorgon"]
+		enabled = true
+		"medievalorigins:gorgon/petrifying_gaze" = true
+		"medievalorigins:gorgon/revenge" = true
+		"medievalorigins:gorgon/hydrophobe" = true
+		"medievalorigins:gorgon/to_stone" = true
+		"medievalorigins:gorgon/silver_aversion" = true
+		"medievalorigins:gorgon/poison_blood" = true
+		"medievalorigins:gorgon/poison_immune" = true
+
+	[origins."medievalorigins:wood_elf"]
+		enabled = true
+		"medievalorigins:wood_elf/archer" = true
+		"medievalorigins:wood_elf/forest_vision" = true
+		"medievalorigins:wood_elf/eagle_eyed" = true
+		"medievalorigins:wood_elf/towering" = true
+		"medievalorigins:wood_elf/steward" = true
+		"medievalorigins:wood_elf/elegant" = true
+		"medievalorigins:wood_elf/graceful" = true
+		"medievalorigins:wood_elf/gear_spawn" = true
+
+	[origins."medievalorigins:fae"]
+		enabled = true
+		"medievalorigins:fae/levitation" = true
+		"medievalorigins:fae/magic_resistance" = true
+		"medievalorigins:fae/magic_damage_boost" = true
+		"medievalorigins:fae/regen" = true
+		"medievalorigins:fae/allure" = true
+		"medievalorigins:fae/diminutive" = true
+		"medievalorigins:fae/iron_aversion" = true
+
+	[origins."medievalorigins:goblin"]
+		enabled = true
+		"medievalorigins:goblin/greedy" = true
+		"medievalorigins:goblin/green" = true
+		"medievalorigins:goblin/durability" = true
+		"medievalorigins:goblin/cunning" = true
+		"medievalorigins:goblin/nippy" = true
+		"medievalorigins:goblin/stunted" = true
+		"medievalorigins:goblin/frail" = true
+
+	[origins."medievalorigins:moon_elf"]
+		enabled = true
+		"medievalorigins:moon_elf/moonlight_rogue" = true
+		"medievalorigins:moon_elf/stealth" = true
+		"medievalorigins:moon_elf/ethereal" = true
+		"medievalorigins:moon_elf/crazed" = true
+		"medievalorigins:moon_elf/elegant" = true
+		"medievalorigins:moon_elf/nimble" = true
+		"medievalorigins:moon_elf/fragile" = true
+		"medievalorigins:moon_elf/towering" = true
+		"origins_survive:sleepless" = true
+
+	[origins."medievalorigins:yeti"]
+		enabled = true
+		"medievalorigins:yeti/frigid_pulse" = true
+		"medievalorigins:yeti/from_whence_you_came" = true
+		"medievalorigins:yeti/frosty_breath" = true
+		"medievalorigins:yeti/titanic" = true
+		"medievalorigins:yeti/unstoppable" = true
+		"medievalorigins:yeti/winter_body" = true
+		"medievalorigins:yeti/flammable" = true
+		"medievalorigins:yeti/thick_fur" = true
+		"origins_survive:cold_resistance" = true
+
+	[origins."medievalorigins:siren"]
+		enabled = true
+		"medievalorigins:siren/siren_song" = true
+		"medievalorigins:siren/amphibious" = true
+		"medievalorigins:siren/holy_water" = true
+		"medievalorigins:siren/out_of_your_depth" = true
+		"medievalorigins:siren/prone" = true
+		"medievalorigins:siren/flammable" = true
+		"medievalorigins:siren/water_vision" = true
+		"medievalorigins:siren/seduce" = true
+		"mermod:fabulous_fins" = true
+		"survive:cold_blooded" = true
+		"origins:aquatic" = true
+
+	[origins."medievalorigins:incubus"]
+		enabled = true
+		"medievalorigins:incubus/demon_fire" = true
+		"medievalorigins:incubus/hellborne" = true
+		"medievalorigins:incubus/carnivore" = true
+		"medievalorigins:incubus/unholy_deal" = true
+		"medievalorigins:incubus/hydrophobe" = true
+		"medievalorigins:incubus/impure" = true
+		"medievalorigins:incubus/dimension_strength" = true
+		"medievalorigins:incubus/lava_swim" = true
+		"medievalorigins:incubus/red" = true
+		"origins:nether_spawn" = true
+		"origins_survive:lava_drinker" = true
+		"origins_survive:heat_resistance" = true
+
+	[origins."medievalorigins:ogre"]
+		enabled = true
+		"medievalorigins:ogre/gargantuan" = true
+		"medievalorigins:ogre/bloodlust" = true
+		"medievalorigins:ogre/ravager" = true
+		"medievalorigins:ogre/lead_belly" = true
+		"medievalorigins:ogre/stocky" = true
+		"medievalorigins:ogre/ravenous" = true
+		"medievalorigins:ogre/sluggish" = true
+		"medievalorigins:ogre/unwieldy" = true
+		"medievalorigins:ogre/ogre_properties" = true
+		"medievalorigins:ogre/bloodlust_camera" = true
+		"medievalorigins:ogre/orcish_pride" = true
+		"origins_survive:illness_resistance" = true
+
+	[origins."medievalorigins:alfiq"]
+		enabled = true
+		"medievalorigins:alfiq/clawed" = true
+		"medievalorigins:alfiq/poor_grip" = true
+		"medievalorigins:alfiq/agile_preference" = true
+		"medievalorigins:alfiq/on_your_feet" = true
+		"medievalorigins:alfiq/crepuscular" = true
+		"medievalorigins:alfiq/pickpocket" = true
+		"medievalorigins:alfiq/pickpocket_player" = true
+		"medievalorigins:alfiq/pounce" = true
+		"origins:carnivore" = true
+		"origins:velvet_paws" = true
+		"origins:scare_creepers" = true
+		"medievalorigins:alfiq/meow" = true
+
+	[origins."medievalorigins:troll"]
+		enabled = true
+		"medievalorigins:troll/ironhide" = true
+		"medievalorigins:troll/ham_fisted" = true
+		"medievalorigins:troll/mountainous" = true
+		"medievalorigins:troll/apex_predator" = true
+		"medievalorigins:troll/lumbering" = true
+		"medievalorigins:troll/old_blood" = true
+		"medievalorigins:troll/out_of_stock" = true
+		"origins_survive:cold_resistance" = true
+
+	[origins."medievalorigins:arachnae"]
+		enabled = true
+		"medievalorigins:arachnae/climber" = true
+		"medievalorigins:arachnae/many_eyes" = true
+		"medievalorigins:arachnae/venomous_bite" = true
+		"medievalorigins:arachnae/web_slinger" = true
+		"medievalorigins:arachnae/bottomless_stomach" = true
+		"medievalorigins:arachnae/brittle" = true
+		"medievalorigins:arachnae/fragile_exoskeleton" = true
+		"origins:master_of_webs" = true
+		"origins:arthropod" = true
+

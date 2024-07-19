@@ -1,0 +1,33 @@
+
+["Mobile Beacon Settings"]
+	#Mobile Beacons will ONLY work when placed in the Mobile Beacon Curios Slot
+	"Curios ONLY" = true
+	#Mobile Beacons can be Toggled ON/OFF when the player uses the beacon in hand  (If false the beacon will ALWAYS be active)
+	Toggle-able = true
+
+["Mobile Beacon Auras"]
+	#Mobile Beacons can emit an Aura effecting all nearby Players  Players within the Aura Range will also gain the Mobile Beacons Effect  (If Aura Range is set to 0 the Beacon will ONLY affect the player using it)(Recommended Range is 50
+	#Range: 0 ~ 100
+	"Aura Range" = 0
+
+["Mobile Beacon Costs"]
+	#Experience Cost to Maintain Buffs  (Set to 0 for no costs)
+	#Range: 0 ~ 1000
+	Cost = 1
+	#Apply Cost every X Seconds
+	#Range: 1 ~ 1000
+	X = 10
+
+["Soulbound Options"]
+	#Set options to true to grant Soulbound to specific Mobile Beacons and have the item remain on the player through death
+	"Mobile Beacon (IRON)" = true
+	"Mobile Beacon II (IRON)" = true
+	"Mobile Beacon (GOLD)" = true
+	"Mobile Beacon II (GOLD)" = true
+	"Mobile Beacon (EMERALD)" = true
+	"Mobile Beacon II (EMERALD)" = true
+	"Mobile Beacon (DIAMOND)" = true
+	"Mobile Beacon II (DIAMOND)" = true
+	"Mobile Beacon (NETHERITE)" = true
+	"Mobile Beacon II (NETHERITE)" = true
+

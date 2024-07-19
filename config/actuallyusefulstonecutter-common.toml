@@ -1,0 +1,7 @@
+
+[General]
+	#Enables/Disables debug mode logging [false/true|default:false]
+	isDebug = false
+	#Determines the difficulty level of the recipes. The easier the difficulty, the more bountiful the results [easy/normal/hard|default:normal]
+	difficulty = "normal"
+

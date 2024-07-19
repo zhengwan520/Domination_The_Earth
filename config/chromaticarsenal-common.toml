@@ -1,0 +1,386 @@
+#Set to false to prevent Chromatic Arsenal from injecting its own items into loot tables. This will cause items only found as loot (such as the Golden Heart) to become unobtainable, and it will be up to the modpack to add a method to obtain them. This setting also affects the Wandering Trader trade for Chroma Shards.
+lootTableInsertion = true
+#Whether super curios are allowed in slots other than super curio slots. Prevents equipping super curios in general purpose curio slots.
+superCuriosOnlyInRespectiveSlot = true
+#Chroma Shards and Chromatic Upgrade Smithing Templates will NOT be added to chest loot tables containing any of these strings. By default, prevents Chroma Shards from being placed inside Jungle Temple dispensers.
+lootTableBlacklist = ["dispenser"]
+
+[CurioSettings]
+
+	[CurioSettings.GoldenHeartSettings]
+		#The max health granted when the player equips a golden heart.
+		#Range: 4.9E-324 ~ 1.7976931348623157E308
+		maxHealthBoost = 4.0
+		#The operation used for the health bonus. 0 for additive, 1 for multiply base, 2 for multiply total.
+		#Range: 0 ~ 2
+		maxHealthBoostOperation = 0
+		#The level of the absorption effect applied to the player while wearing the trinket. 0 is equivalent to effect level 1.
+		#Range: 0 ~ 255
+		absorptionLevel = 0
+		#The duration of the absorption effect, in ticks. When this hits zero, the effect is re-applied.
+		#Range: > 1
+		absorptionDuration = 400
+		#The extra max health gained per level of Protection on the Golden Heart. This obeys the operation, so if you set maxHealthBoostOperation to either 1 or 2, it's recommended to keep this at 0.1 at most.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		enchantmentMaxHealthIncrease = 1.0
+		#The amount in which the duration of the absorption effect is reduced, in ticks. This allows for faster reapplication of the effect.
+		#Range: > 0
+		enchantmentAbsorptionReduction = 20
+		#The duration of the Wither effect, in ticks, when the Golden Heart's Chromatic Twisting effect procs.
+		#Range: > 0
+		twistedWitherDuration = 200
+
+	[CurioSettings.GlassShieldSettings]
+		#The duration, in ticks, for the Glass Shield to recharge after it blocks a hit. Extremely low values effectively make you invincible. It is recommended to make this greater than enchantmentCooldownReduction, unless mending is unobtainable in your modpack.
+		#Range: > 0
+		cooldownDuration = 400
+		#The amount of ticks to remove from the Glass Shield cooldown if Mending is applied. Note that if another mod changes Mending to have multiple levels, this will be multiplied by the level of the enchant.
+		#Range: > 0
+		enchantmentCooldownReduction = 100
+		#The percent chance per level of Unbreaking to prevent the Glass Shield from shattering after blocking a hit. This is rounded up to the nearest whole number in-game. If your modpack has the ability to grant you outrageous levels of unbreaking (looking at you, Apotheosis), this should be set to a low value or kept at the default.
+		#Range: 0.0 ~ 100.0
+		enchantmentFreeBlockChance = 2.0
+		#The multiplier for damage taken when a Glass Shield enchanted with Chromatic Twisting procs.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		twistedShatterDamageMultiplier = 1.5
+
+	[CurioSettings.WardCrystalSettings]
+		#The multiplier for incoming magic damage when wearing a Ward Crystal. 0.0 completely nullifies the attack, and 1.0 does not change the attack strength at all.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		antiMagicMultiplierIncoming = 0.25
+		#The multiplier for outgoing magic damage when wearing a Ward Crystal. 0.0 completely nullifies the attack, and 1.0 does not change the attack strength at all.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		antiMagicMultiplierOutgoing = 0.25
+		#The duration of the Weakness effect, in ticks, when the Ward Crystal's Chromatic Twisting effect procs.
+		#Range: > 0
+		twistedWeaknessDuration = 200
+		#The additional percentage reduction per level of Protection. Can be negative to increase damage instead, if you want that for whatever reason. If using a mod which changes how many levels of Protection exist, this number should be decreased.
+		#Range: -1.0 ~ 1.0
+		antiMagicProtectionModifier = 0.05
+
+	[CurioSettings.ShadowTreadsSettings]
+		#The level of the speed effect applied to the player while in darkness. 0 is equivalent to effect level 1.
+		#Range: 0 ~ 255
+		darkspeedPotency = 0
+		#The amount of passive speed granted by each level of Soul Speed.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		enchantmentSpeedMultiplier = 0.05
+		#The maximum light level in which the Shadow Charm takes effect. Values below 4 are not recommended, as sky light causes the minimum light value to always be 4 on the surface, even at midnight.
+		#Range: 0 ~ 15
+		maxLightLevel = 7
+		#The reduction in mob detection range per level of Swift Sneak. Stacks multiplicatively with other factors such as invisibility. Setting this to 0 effectively disables the mixin injection, if that is causing issues.
+		#Range: 0.0 ~ 1.0
+		swiftSneakDetectionReduction = 0.05
+		#The chance to dodge an attack while in darkness with Shadow Treads enchanted with Chromatic Twisting. Beware that a value of 1 will make every hit guaranteed to be dodged.
+		#Range: 0.0 ~ 1.0
+		twistedShadowDodgeChance = 0.2
+
+	[CurioSettings.DualityRingsSettings]
+		#The damage multiplier of arrow projectiles while the Duality Rings are equipped. Values above 1.0 increase the damage, while values below 1.0 decrease the damage.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		aroOfClubsMultiplier = 1.25
+		#The added projectile damage multiplier for every level of the Power enchantment on the item.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		powerArrowsMultiplierBonus = 0.02
+		#The level of the strength effect applied to the player when consuming Magic Garlic Bread while the Duality Rings are equipped.
+		#Range: 0 ~ 255
+		strengthLevel = 0
+		#The duration of the strength effect, in ticks.
+		#Range: > 1
+		strengthDuration = 2400
+		#The level of the health boost effect applied to the player when consuming Magic Garlic Bread while the Duality Rings are equipped.
+		#Range: 0 ~ 255
+		healthBoostLevel = 2
+		#The duration of the health boost effect, in ticks.
+		#Range: > 1
+		healthBoostDuration = 2400
+		#The duration of the saturation effect with the Chromatic Twisting enchantment present, in ticks.
+		#Range: > 1
+		twistedSaturationDuration = 300
+		#The level of the hunger effect with the Chromatic Twisting enchantment when the player doesn't have the saturation effect.
+		#Range: 0 ~ 255
+		twistedHungerLevel = 1
+
+	[CurioSettings.FriendlyFireFlowerSettings]
+		#The base duration of Fire Resistance granted after taking fire damage, in ticks.
+		#Range: > 1
+		fireResistanceDuration = 600
+		#The additional duration of Fire Resistance per level of Fire Protection on the item.
+		#Range: > 1
+		fireResistanceProtectionDuration = 100
+		#If set to false, prevents the Friendly Fire Flower from being damaged when granting Fire Resistance to the wearer. Note that this will not remove durability values from flowers, and existing damaged flowers will still show as damaged.
+		canBeDamaged = true
+		#The amount of ticks between each attempt to inflict fire damage to the player with Chromatic Twisting. Respects immunity frames.
+		#Range: > 1
+		twistedFireDamageTicks = 40
+		#The amount of fire damage inflicted with Chromatic Twisting. This counts as fire damage, and will be scaled by anything which scales fire damage.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		twistedFireDamageValue = 2.0
+		#The chance for the Friendly Fire Flower to not take durability damage with Chromatic Twisting. Stacks with Unbreaking.
+		#Range: 0.0 ~ 1.0
+		twistedUnbreakingChance = 0.5
+
+	[CurioSettings.LunarCrystalSettings]
+		#A 1 in X chance for an attacked entity to levitate upon being attacked while a Lunar Crystal is equipped.
+		#Range: > 2
+		levitationChance = 10
+		#The duration of the Levitation effect, in ticks.
+		#Range: > 1
+		levitationDuration = 60
+		#The duration added to the Levitation effect, in ticks, per level of Power on the curio.
+		#Range: > 1
+		levitationDurationEnchantmentModifier = 5
+		#The duration added to the Levitation effect, in ticks, when the crystal has Chromatic Twisting.
+		#Range: > 1
+		twistedLevitationDurationModifier = 40
+		#The level of the levitation effect. 0 is equivalent to effect level 1.
+		#Range: 0 ~ 255
+		levitationPotency = 2
+		#The percentage in which the player's gravity is changed while the Lunar Crystal is equipped. Negative values reduce gravity, positive values increase it. -1 is not recommended, unless your planet needs you.
+		#Range: -1.0 ~ 1.7976931348623157E308
+		gravityModifier = -0.25
+		#Set this to true to make my UUID exclusive easter egg apply to all players of the current modpack. Recommended for people named Luna playing singleplayer on a private modpack. Not so recommended in most other cases.
+		everyoneIsLuna = false
+		#The percentage of fall damage reduced per level of feather falling on this item. Set to 0 to effectively disable this feature.
+		#Range: 0.0 ~ 1.0
+		fallDamageReduction = 0.05
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Lunar Crystal to drop when killing an Enderman in the End. This is X.
+		#Range: > 1
+		lunarCrystalDropChance = 200
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Lunar Crystal to drop when killing an Enderman in the End. This is Y.
+		#Range: > 1
+		lunarCrystalDropLootingModifier = 5
+
+	[CurioSettings.CryoRingSettings]
+		#The amount of ticks Chilled should be applied for when hitting an entity with a snowball.
+		#Range: > 0
+		chilledTicks = 100
+		#Same as above, but for enemies which are extra vulnerable to freezing damage.
+		#Range: > 0
+		chilledTicksVulnerable = 200
+		#The amount of damage added when a snowball hits a mob with this curio equipped.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		cryoDamage = 3.0
+		#Should Snow Golems be healed for the damage amount upon being hit with a snowball?
+		cryoHealsGolems = true
+		#The speed penalty when in hot locations with a Chromatic Twisting cryo ring.
+		#Range: -1.0 ~ 0.0
+		twistedCryoSpeedPenalty = -0.2
+		#The damage penalty when in hot locations with a Chromatic Twisting cryo ring.
+		#Range: -1.0 ~ 0.0
+		twistedCryoDamagePenalty = -0.25
+		#The multiplier for fire damage taken with a Chromatic Twisting cryo ring.
+		#Range: 1.0 ~ 3.4028234663852886E38
+		twistedCryoFireDamageMultiplier = 2.0
+
+	[CurioSettings.BubbleAmuletSettings]
+		#The operation 1 attribute modifier for swim speed on the Bubble Amulet.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		amuletSwimSpeed = 0.3
+		#The additional swim speed added per level of Depth Strider. Still operation 1.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		depthStriderAdditionalSpeed = 0.1
+		#The duration of the Bubble Panic! effect when the wearer runs out of breath.
+		#Range: > 0
+		bubblePanicDuration = 1200
+		#The base duration of the cooldown after the Bubble Amulet takes effect.
+		#Range: > 0
+		baseBubbleCooldown = 2400
+		#The amount of ticks removed from the cooldown per level of Respiration.
+		#Range: > 0
+		respirationCooldownReduction = 300
+		#The operation 2 attribute modifier for movement speed when the player is outside of water or rain with a chromatically twisted Bubble Amulet.
+		#Range: -1.0 ~ 0.0
+		twistedBubbleSlowness = -0.5
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Bubble Amulet to drop when killing a Drowned. This is X.
+		#Range: > 1
+		amuletDropChance = 40
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Bubble Amulet to drop when killing a Drowned. This is Y.
+		#Range: > 0
+		amuletDropLootingModifier = 2
+
+	[CurioSettings.MomentumStoneSettings]
+		#The amount of friction added to the player while not sprinting and wearing a Momentum Stone. Stacks with block friction, caps at 0.989.
+		#Range: 0.0 ~ 0.989
+		momentumStoneFriction = 0.3
+		#The amount of armor toughness added per level of Protection.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		momentumStoneProtectionToughness = 1.0
+		#The multiplier given to exhaustion when sprinting with a chromatically twisted Momentum Stone.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		twistedMomentumStoneExhaustion = 1.5
+
+	[CurioSettings.AdvancingHeartSettings]
+		#The amount of bonus health obtainable with every advancement completed. The health bonus is floored to the nearest even number.
+		#Range: > 2
+		advancingHealthModifier = 20
+		#The Advancing Heart will ignore advancements which contain any of these keywords in their name. By default, ignores the impossible Architect's Favor advancement from Enigmatic Legacy.
+		advancementBlacklist = ["cosmic_scroll"]
+		#If the Advancing Heart should only account for advancements that are set to show up in the advancement list. Less confusing for the player, and fixes issues with mods such as Enigmatic Legacy.
+		onlyDisplayedAdvancements = true
+
+	[CurioSettings.ThunderguardSettings]
+		#The duration, in ticks, of the received Thundercharged effect when absorbing lightning damage. Multiplied by the damage of the attack, which is 5 for lightning bolts.
+		#Range: > 0
+		thunderchargedDuration = 60
+		#The amount of damage dealt to an entity that directly attacks the wearer.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		thunderguardZapDamage = 3.0
+		#If set to false, the Glass Shield will not turn into a Thunderguard when destroyed by lightning damage.
+		thunderguardDefaultRecipe = true
+
+	[CurioSettings.WorldAnchorSettings]
+		#The multiplier for the gravity modifier. (e.g. at 0.5, gravity will be increased by +50% at world height)
+		#Range: 0.0 ~ 1.0
+		anchorGravityMultiplier = 1.0
+		#The multiplier for the speed modifier.
+		#Range: -1.0 ~ 0.0
+		anchorSpeedMultiplier = -0.5
+		#The multiplier for the knockback resistance modifier.
+		#Range: 0.0 ~ 1.0
+		anchorKnockbackResistanceMultiplier = 1.0
+		#The bonus armor points given for having the World Anchor equipped.
+		#Range: 0.0 ~ 2048.0
+		anchorArmor = 4.0
+		#Should the World Anchor persist in the player's inventory after death? This setting exists to help provide consistency with other challenge-like items such as the Ring of the Seven Curses from Enigmatic Legacy or the marks from Band of Gigantism.
+		anchorSoulbound = false
+		#The additional flat multiplier for the World Anchor's stat modifiers if the anchor is cursed with Chromatic Twisting.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		twistedAnchorGravityMultiplier = 2.0
+
+	[CurioSettings.CursedTotemSettings]
+		#The level of Fractured applied to enemies that revive from Cursed Revival. Every level is an additional 10% max health lost.
+		#Range: 0 ~ 8
+		cursedTotemFracturedLevel = 4
+		#The amount of looting levels added when killing an enemy which has revived from Cursed Revival.
+		#Range: > 0
+		cursedTotemBonusLooting = 2
+
+	[CurioSettings.HarpyFeatherSettings]
+		#The force of the Harpy Feather jump. This goes by internal values, so tweaking may be required.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		jumpForce = 0.42
+		#The multiplier to fall damage taken when a Harpy Feather is equipped.
+		#Range: 0.0 ~ 1.0
+		fallDamageMultiplier = 0.8
+		#The operation 2 modifier to gravity when a Twisted Harpy Feather is equipped.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		twistedFeatherGravityModifier = 0.25
+
+[SuperCurioSettings]
+
+	[SuperCurioSettings.SuperGoldenHeartSettings]
+		#The duration of the Fractured effect, in ticks.
+		#Range: > 1
+		fracturedDuration = 6000
+		#The level of the Fractured effect. Each level is 10% of max health lost. 0 is equal to level 1.
+		#Range: 0 ~ 8
+		fracturedPotency = 2
+		#The cooldown of the diamond heart before you are allowed to revive again. This is in ticks. Extremely low values effectively make you unable to die.
+		#Range: > 0
+		revivalCooldown = 6000
+
+	[SuperCurioSettings.SuperGlassShieldSettings]
+		#Once this amount of ticks is exceeded, the next fatal blow will kill the wearer. At the default value, this will allow for four revives, unless somehow the wearer miraculously gets killed three times in a single tick.
+		#Range: > 0
+		revivalLimit = 3600
+		#The amount of ticks added each time the Shield of Undying sustains a fatal blow. This stacks until it reaches the value defined in revivalLimit, in which the next fatal blow will kill the wearer.
+		#Range: > 0
+		shatterRevivalCooldown = 1200
+		#The operation 2 modifier given to the player wearing this shield. This should be negative or zero.
+		#Range: -1.0 ~ 0.0
+		healthTradeoff = -0.8
+
+	[SuperCurioSettings.SuperWardCrystalSettings]
+		#The duration of all applied potion effects will be multiplied by this value.
+		#Range: 0.0 ~ 2.0
+		potionDurationMultiplier = 0.2
+		#A list of effects which will NOT have their duration changed. Defined using the effect resource location.
+		effectBlacklist = ["minecraft:night_vision"]
+
+	[SuperCurioSettings.SuperShadowTreadsSettings]
+		#The damage boost applied at noon (time 6000). This is always operation 2.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		damageModifierMax = 0.4
+		#The speed boost applied at midnight (time 18000). This is always operation 2.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		speedModifierMax = 0.4
+
+	[SuperCurioSettings.SuperFriendlyFireFlowerSettings]
+		#The duration of the Inferno potion effect applied when dealing damage, in ticks.
+		#Range: > 0
+		infernoDuration = 100
+		#The damage multiplier against enemies which have been set on fire.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		viciousFireDamageMultiplier = 1.1
+
+	[SuperCurioSettings.SuperLunarCrystalSettings]
+		#The percentage in which the player's gravity is changed while the Super Lunar Crystal is equipped. Negative values reduce gravity, positive values increase it. -1 is not recommended, unless your planet needs you.
+		#Range: -1.0 ~ 0.0
+		superGravityModifier = -0.5
+		#The multiplier for the force applied upon falling below the world's minimum building height. The base force is dependent on the speed in which the player fell into the void.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		voidBounceMultiplier = 2.0
+		#The amount of damage taken when bouncing out of the void. This is void damage, meaning it bypasses most forms of protection, even creative mode.
+		#Range: 0.0 ~ 3.4028234663852886E38
+		voidBounceDamage = 4.0
+
+	[SuperCurioSettings.SuperHarpyFeatherSettings]
+		#The force of the Polychromatic Feather jump.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		superJumpForce = 0.42
+		#The additional force per tick while holding the jump button with the Polychromatic Feather equipped. Multiplied by entity gravity divided by 0.08.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		jumpBonusForce = 0.05
+
+	[SuperCurioSettings.SuperGlowRingSettings]
+		#The duration of the Glowing effect applied when attacking a mob. Set to 0 to disable.
+		#Range: > 0
+		glowingDuration = 1200
+		#The damage multiplier when attacking undead mobs with a Ring of Illuminated Soul.
+		#Range: 1.0 ~ 3.4028234663852886E38
+		illuminatedUndeadMultiplier = 1.2
+
+	[SuperCurioSettings.AscendedStarSettings]
+		#The amount of additional slots granted upon equipping the star.
+		#Range: 0 ~ 3
+		bonusSlots = 1
+		#The multiplier to all incoming damage the player receives.
+		#Range: 1.0 ~ 1.7976931348623157E308
+		damageMultiplier = 3.0
+		#The amount of additional fortune levels granted upon equipping the star.
+		#Range: > 0
+		bonusFortune = 1
+		#The amount of additional looting levels granted upon equipping the star.
+		#Range: > 0
+		bonusLooting = 1
+
+	#Because basic curios are simple and typically only have one or two config values, they are all tacked on here.
+	[SuperCurioSettings.BasicCurioSettings]
+		#The amount of additional reach granted by the Amethyst Ring. Additive.
+		#Range: 0.0 ~ 1.7976931348623157E308
+		amethystRingReachModifier = 1.0
+		#The chance for an item to not use durability with the Copper Ring equipped. Stacks multiplicatively with Unbreaking.
+		#Range: 0.0 ~ 1.0
+		copperRingUnbreakingChance = 0.10000000149011612
+		#How many ticks it takes to heal 1 health.
+		#Range: > 1
+		vitalStoneFrequency = 60
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Vital Stone to drop when killing any mob under y=0 in the Overworld. This is X.
+		#Range: > 1
+		vitalStoneDropChance = 100
+		#There is a 1 in (X - (Looting Level * Y)) chance for a Vital Stone to drop when killing any mob under y=0 in the Overworld. This is Y.
+		#Range: > 0
+		vitalStoneDropLootingModifier = 3
+
+[ChromaSalvagerSettings]
+	#Should the Chroma Salvager take damage when used? Doesn't remove durability from the tool entirely, merely prevents it from taking damage.
+	canDamageSalvager = true
+	#When salvaging a Super Curio, should the standard variant of the curio be returned as well?
+	returnInferiorVaruant = true
+
+#WARNING: These settings could have unintended side effects. You are less likely to receive help with issues if any of these settings are on.
+[ExperimentalSettings]
+	#Whether curios that hook into MobEffectEvent.Applicable should impose a serverside check before running. May fix compatibility issues with mods such as Oh the Biomes You'll Go, but could lead to other issues in the process.
+	potionImmunitySideCheck = true
+

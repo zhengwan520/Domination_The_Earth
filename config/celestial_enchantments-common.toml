@@ -1,0 +1,4 @@
+#This value determines the maximum damage increase
+#Range: > 1
+death_blade_max_add_damage = 75
+

@@ -1,0 +1,4 @@
+levels_xp = [1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900]
+requesting_minimum = false
+use_all_stack = false
+

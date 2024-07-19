@@ -1,0 +1,8 @@
+{
+  "enablePvpFactor": true,
+  "combatFactorPvp": 0.1,
+  "enable_dmg_factor": true,
+  "damageFactor": 0.5,
+  "damageFactorStart": 4.0,
+  "cornelia_hp": 1200.0
+}

@@ -1,0 +1,32 @@
+{
+	/* 显示耐久
+	   Whether to show equipment durability
+	*/
+	"showDurability": true,
+	/* 显示品质分
+	   Whether to show equipment score
+	*/
+	"showScore": true,
+	/* 合并同类属性修改器
+	   Merge attribute modifiers of the same type in tooltips
+	*/
+	"mergeModifiers": true,
+	/* 显示 MULTIPLY_BASE 和 MULTIPLY_TOTAL 的补充说明
+	   Show additional notes for MULTIPLY_BASE and MULTIPLY_TOTAL
+	*/
+	"showMultiplyOperationAdditional": true,
+	/* 基础暴击率
+	   Base crit chance
+	*/
+	"baseCritChance": 0.01,
+	/* 跳击暴击率
+	   Base crit chance
+	*/
+	"jumpAttackCritChance": 0.1,
+	/* 基础暴击伤害倍率
+	   Base crit damage multiplier
+	*/
+	"baseCritDamageMultiplier": 1.5,
+	// 开启 DEBUG 模式，开启可能会有日志刷屏
+	"debug": false
+}

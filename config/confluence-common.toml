@@ -1,0 +1,18 @@
+#In order for the block to be found by the Metal Detector
+#You need to fill the list with string like 'modid:block[state1=true]' or 'modid:block'
+#The higher the block in the list, the higher the value
+rareBlocks = ["minecraft:diamond_ore"]
+#In order for the creature to be found by the Life Form Analyzer
+#You need to fill the list with string like 'modid:entity'
+#The higher the creature in the list, the higher the value
+rareCreatures = ["minecraft:enderman"]
+#If showing curios model
+showingModel = false
+
+["Random Attack Damage"]
+	enable = true
+	#Range: 0.0 ~ 1.0
+	min = 0.8
+	#Range: 1.0 ~ 2.0
+	max = 1.2
+

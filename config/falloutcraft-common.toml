@@ -1,0 +1,9 @@
+#Set this to true if you want to make the rain kill the player!
+radiationRainDamage = true
+#Set this to true if you want to make the item damage the player if the item has radiation !
+itemRadiationDamage = true
+#Set this to true if you want to use the Pimp Boy mechanic !
+usePimpBoy = true
+#If you want to force the player to have the Pimp Boy in there hand for opening the inventory, set this to true
+pimpBoyUtilisation = true
+
