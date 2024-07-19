@@ -1,0 +1,86 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+	"type": "apotheosis:mob_effect",
+	"mob_effect": "minecraft:conduit_power",
+	"target": "HURT_SELF",
+	"values": {
+		"uncommon": {
+			"duration": {
+				"min": 20,
+				"steps": 1,
+				"step": 10
+			},
+			"amplifier": 0,
+			"cooldown": 1200
+		},
+		"rare": {
+			"duration": {
+				"min": 20,
+				"steps": 2,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"epic": {
+			"duration": {
+				"min": 25,
+				"steps": 2,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"mythic": {
+			"duration": {
+				"min": 30,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"ancient": {
+			"duration": {
+				"min": 35,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:artifact": {
+			"duration": {
+				"min": 35,
+				"steps": 3,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:heirloom": {
+			"duration": {
+				"min": 60,
+				"steps": 4,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		},
+		"apotheotic_additions:esoteric": {
+			"duration": {
+				"min": 70,
+				"steps": 7,
+				"step": 15
+			},
+			"amplifier": 0,
+			"cooldown": 1000
+		}
+	},
+	"types": [
+		"curios:scroll", "curios:spellstone", "curios:an_focus"
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tropicraft"
+	}],
+	"weight": 5,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "tropicraft:zirconium_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "tropicraft:zirconium_axe"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:scale_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:scale_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:scale_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:scale_helmet"
+		}
+	}],
+	"tags": [
+		"tropics"
+	]
+}

@@ -1,0 +1,156 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 50,
+        "min": 1000,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "aquamirae:captain_cornelia"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:nausea"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:levitation"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:wither"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:cursed"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:regenerate"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:tank"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:fiery"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:weakness"
+        },
+      {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:reflect"
+        },
+       {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:regenerate"
+        },
+       {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:invisible"
+        },
+        {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        },
+       {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:reprint"
+        },
+      {
+          "free": 4,
+          "min": 4,
+          "trait": "l2hostility:protection"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:blindness"
+        },
+     {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:gravity"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:freezing"
+        },
+       {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:poison"
+        },
+      {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:moonwalk"
+        },
+       {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:slowness"
+        },
+       {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:adaptive"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:counter_strike"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:shulker"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:pulling"
+        },
+      {
+          "free": 1,
+          "min": 1,
+          "trait": "l2hostility:repelling"
+        },
+        {
+          "free": 5,
+          "min": 5,
+          "trait": "l2hostility:speedy"
+        },
+        {
+          "free": 3,
+          "min": 3,
+          "trait": "l2hostility:killer_aura"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "n": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    },
+    "z": {
+      "item": "celestisynth:zephyr_deposit"
+    },
+    "a": {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    "b": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "c": {
+    "item": "celestisynth:celestial_netherite_ingot"
+  }
+  },
+  "pattern": [
+    "aza",
+    "bzb",
+    "ncn"
+  ],
+  "result": {
+    "item": "celestisynth:breezebreaker"
+  }
+}

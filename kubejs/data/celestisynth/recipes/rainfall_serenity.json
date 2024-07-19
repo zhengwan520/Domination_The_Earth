@@ -1,0 +1,25 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "f": {
+      "item": "celestisynth:starstruck_feather"
+    },
+    "n": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    },
+    "s": {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    "a": {
+      "item": "celestisynth:lunar_scrap"
+    }
+  },
+  "pattern": [
+    "nsa",
+    "s f",
+    "nsa"
+  ],
+  "result": {
+    "item": "celestisynth:rainfall_serenity"
+  }
+}

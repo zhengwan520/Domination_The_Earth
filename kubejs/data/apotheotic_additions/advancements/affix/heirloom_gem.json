@@ -1,0 +1,38 @@
+{
+	"parent": "apotheotic_additions:affix/artifact_gem",
+	"conditions": [{
+		"type": "apotheosis:module",
+		"module": "adventure"
+	}],
+	"display": {
+		"icon": {
+			"item": "apotheosis:gem",
+			"nbt": "{gem:\"apotheotic_additions:modded/armor\"}"
+		},
+		"title": {
+			"translate": "advancements.apotheotic_additions:heirloom_gem"
+		},
+		"description": {
+			"translate": "advancements.apotheotic_additions:heirloom_gem.desc"
+		},
+		"frame": "challenge",
+		"hidden": true,
+		"background": "apotheosis:textures/advancements/bg/apoth.png"
+	},
+	"criteria": {
+		"gem": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"apoth": {
+					"type": "gem_rarity",
+					"rarity": "apotheotic_additions:heirloom"
+				}
+			}
+		}
+	},
+	"requirements": [
+		[
+			"gem"
+		]
+	]
+}

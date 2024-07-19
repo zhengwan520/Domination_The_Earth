@@ -1,0 +1,25 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "e": {
+      "item": "celestisynth:eyebomination"
+    },
+    "i": {
+      "item": "celestisynth:celestial_core"
+    },
+    "b": {
+      "item": "celestisynth:zephyr_deposit"
+    },
+    "c": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    }
+  },
+  "pattern": [
+    "ebe",
+    "ece",
+    "ici"
+  ],
+  "result": {
+    "item": "celestisynth:poltergeist"
+  }
+}

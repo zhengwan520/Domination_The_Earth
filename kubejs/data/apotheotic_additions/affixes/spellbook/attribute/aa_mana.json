@@ -1,0 +1,33 @@
+{
+  "conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "irons_spellbooks"
+	},
+  {
+		"type": "forge:mod_loaded",
+		"modid": "apothiccurios"
+	}],
+  "type": "apotheosis:attribute",
+  "attribute": "irons_spellbooks:max_mana",
+  "operation": "ADDITION",
+  "values": {
+    "apotheotic_additions:artifact": {
+      "min": 130,
+      "steps": 3,
+      "step": 10
+    },
+    "apotheotic_additions:heirloom": {
+      "min": 40,
+      "steps": 2,
+      "step": 10
+    },
+    "apotheotic_additions:esoteric": {
+      "min": 150,
+      "steps": 5,
+      "step": 10
+    }
+  },
+  "types": [
+    "curios:spellbook"
+  ]
+}

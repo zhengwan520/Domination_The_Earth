@@ -1,0 +1,163 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	}],
+	"weight": 3,
+	"quality": 2.5,
+	"dimensions": [
+	],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:enchantment",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"enchantment": "sharpness",
+			"_comment": "The enchantment field is unused when global=true, but still must be a valid name",
+			"global": true,
+			"values": {
+				"rare": 1,
+				"epic": 1,
+				"mythic": 2,
+				"ancient": 3,
+				"apotheotic_additions:artifact": 4,
+				"apotheotic_additions:heirloom": 4,
+				"apotheotic_additions:esoteric": 5
+			}
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.armor",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5,
+						"apotheotic_additions:artifact": -0.6,
+						"apotheotic_additions:heirloom": -0.7,
+						"apotheotic_additions:esoteric": -0.8
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5,
+						"apotheotic_additions:artifact": 0.6,
+						"apotheotic_additions:heirloom": 0.7,
+						"apotheotic_additions:esoteric": 0.8
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "lower_armor",
+				"types": [
+					"leggings", "boots"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.max_health",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": -0.15,
+						"rare": -0.25,
+						"epic": -0.35,
+						"mythic": -0.45,
+						"ancient": -0.5,
+						"apotheotic_additions:artifact": -0.6,
+						"apotheotic_additions:heirloom": -0.7,
+						"apotheotic_additions:esoteric": -0.8
+					}
+				},
+				{
+					"attribute": "minecraft:generic.attack_damage",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"uncommon": 0.15,
+						"rare": 0.25,
+						"epic": 0.35,
+						"mythic": 0.45,
+						"ancient": 0.5,
+						"apotheotic_additions:artifact": 0.6,
+						"apotheotic_additions:heirloom": 0.7,
+						"apotheotic_additions:esoteric": 0.8
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "light_weapon",
+				"types": [
+					"sword",
+					"trident"
+				]
+			},
+			"mob_effect": "alexscaves:irradiated",
+			"target": "attack_target",
+			"stack_on_reapply": true,
+			"values": {
+				"rare": {
+					"duration": 220,
+					"amplifier": 0,
+					"cooldown": 200
+				},
+				"epic": {
+					"duration": 240,
+					"amplifier": 0,
+					"cooldown": 200
+				},
+				"mythic": {
+					"duration": 280,
+					"amplifier": 1,
+					"cooldown": 200
+				},
+				"ancient": {
+					"duration": 500,
+					"amplifier": 1,
+					"cooldown": 200
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 750,
+					"amplifier": 1,
+					"cooldown": 200
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 1000,
+					"amplifier": 2,
+					"cooldown": 200
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 2000,
+					"amplifier": 2,
+					"cooldown": 200
+				}
+			}
+		}
+	]
+}

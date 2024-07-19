@@ -1,0 +1,106 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:trident",
+			"nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+		},
+		"title": {"translate":"Master Tridenteer"},
+		"description": {"color":"dark_purple","translate":"Create a trident with all possible enchantments at max level"},
+		"announce_to_chat": true,
+		"frame": "challenge"
+	},
+	"parent": "blazeandcave:enchanting/master_fisher",
+	"rewards": {
+		"function": "bc_rewards:enchanting/master_tridenteer"
+	},		
+	"criteria": {
+		"perfect_trident_loyalty": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"enchantments": [
+							{
+								"enchantment": "minecraft:impaling",
+								"levels": {
+									"min": 5
+								}
+							},
+							{
+								"enchantment": "minecraft:loyalty",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:channeling",
+								"levels": {
+									"min": 1
+								}
+							},
+							{
+								"enchantment": "minecraft:mending",
+								"levels": {
+									"min": 1
+								}
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": {
+									"min": 3
+								}
+							}	
+						]
+					}
+				]
+			}
+		},
+		"perfect_trident_riptide": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": [
+							"minecraft:trident"
+						],
+						"enchantments": [
+							{
+								"enchantment": "minecraft:impaling",
+								"levels": {
+									"min": 5
+								}
+							},
+							{
+								"enchantment": "minecraft:riptide",
+								"levels": {
+									"min": 3
+								}
+							},
+							{
+								"enchantment": "minecraft:mending",
+								"levels": {
+									"min": 1
+								}
+							},
+							{
+								"enchantment": "minecraft:unbreaking",
+								"levels": {
+									"min": 3
+								}
+							}	
+						]
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"perfect_trident_loyalty",
+			"perfect_trident_riptide"
+		]
+	]
+}

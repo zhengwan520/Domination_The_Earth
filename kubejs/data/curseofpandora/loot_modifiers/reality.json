@@ -1,0 +1,25 @@
+{
+    "type": "l2hostility:trait_scaled",
+    "chance": 0.0,
+    "conditions": [
+      {
+        "condition": "minecraft:killed_by_player"
+      },
+      {
+        "condition": "l2hostility:trait_and_level",
+        "maxLevel": 10,
+        "minLevel": 1,
+        "trait": "curseofpandora:reality"
+      },
+      {
+        "condition": "l2hostility:player_has_item",
+        "item": "enigmaticlegacy:cosmic_scroll"
+      }
+    ],
+    "rankBonus": 0.02,
+    "result": {
+      "Count": 1,
+      "id": "curseofpandora:reality"
+    },
+    "trait": "curseofpandora:reality"
+  }

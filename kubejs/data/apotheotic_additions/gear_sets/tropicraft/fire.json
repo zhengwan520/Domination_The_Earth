@@ -1,0 +1,48 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tropicraft"
+	}],
+	"weight": 15,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "tropicraft:eudialyte_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "tropicraft:eudialyte_axe"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:fire_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:fire_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:fire_chestplate"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:fire_helmet"
+		}
+	}],
+	"tags": [
+		"tropics"
+	]
+}

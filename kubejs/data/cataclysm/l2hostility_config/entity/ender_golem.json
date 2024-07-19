@@ -1,0 +1,36 @@
+{
+  "list": [
+    {
+      "blacklist": [],
+      "difficulty": {
+        "apply_chance": 1.0,
+        "base": 30,
+        "min": 600,
+        "scale": 0.0,
+        "trait_chance": 1.0,
+        "variation": 0.0
+      },
+      "entities": [
+        "cataclysm:ender_golem"
+      ],
+      "items": [],
+      "traits": [
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:adaptive"
+        },
+        {
+          "free": 7,
+          "min": 7,
+          "trait": "curseofpandora:reality"
+        },
+        {
+          "free": 0,
+          "min": 1,
+          "trait": "l2hostility:weakness"
+        }
+      ]
+    }
+  ]
+}

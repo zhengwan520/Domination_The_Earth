@@ -1,0 +1,93 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 5,
+	"quality": 4.5,
+	"dimensions": ["undergarden:undergarden"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "chestplate",
+				"types": [
+					"chestplate"
+				]
+			},
+			"attribute": "minecraft:generic.max_health",
+			"operation": "ADDITION",
+			"values": {
+				"rare": 3.0,
+				"epic": 4.0,
+				"mythic": 5.0,
+				"ancient": 6.0,
+				"apotheotic_additions:artifact": 8,
+				"apotheotic_additions:heirloom": 10,
+				"apotheotic_additions:esoteric": 12
+			}
+		},
+		{
+			"type": "apotheosis:attribute",
+			"gem_class": {
+				"key": "helmet",
+				"types": [
+					"helmet"
+				]
+			},
+			"attribute": "attributeslib:life_steal",
+			"operation": "MULTIPLY_TOTAL",
+			"values": {
+				"rare": 0.1,
+				"epic": 0.15,
+				"mythic": 0.2,
+				"ancient": 0.25,
+				"apotheotic_additions:artifact": 0.3,
+				"apotheotic_additions:heirloom": 0.35,
+				"apotheotic_additions:esoteric": 0.4
+			}
+		},
+		{
+			"type": "apotheosis:mob_effect",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow",
+					"crossbow",
+					"trident"
+				]
+			},
+			"mob_effect": "undergarden:virulence",
+			"target": "arrow_target",
+			"values": {
+				"mythic": {
+					"duration": 180,
+					"amplifier": 0,
+					"cooldown": 800
+				},
+				"ancient": {
+					"duration": 240,
+					"amplifier": 0,
+					"cooldown": 800
+				},
+				"apotheotic_additions:artifact": {
+					"duration": 300,
+					"amplifier": 1,
+					"cooldown": 800
+				},
+				"apotheotic_additions:heirloom": {
+					"duration": 360,
+					"amplifier": 1,
+					"cooldown": 700
+				},
+				"apotheotic_additions:esoteric": {
+					"duration": 420,
+					"amplifier": 2,
+					"cooldown": 700
+				}
+			}
+		}
+]
+}

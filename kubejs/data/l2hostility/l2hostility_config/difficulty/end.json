@@ -1,0 +1,13 @@
+{
+  "biomeMap": {},
+  "levelMap": {
+    "minecraft:the_end": {
+      "apply_chance": 1.0,
+      "base": 0,
+      "min": 0,
+      "scale": 1.0,
+      "trait_chance": 1.0,
+      "variation": 16.0
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "type": "l2artifacts:main",
+  "chance": 1,
+  "conditions": [
+	{
+	  "condition": "minecraft:killed_by_player"
+	},
+	{
+	  "condition": "l2hostility:mob_level",
+	  "maxLevel": 0,
+	  "minLevel": 400
+	},
+	{
+	  "condition": "l2hostility:player_has_item",
+	  "item": "l2hostility:curse_of_lust"
+	}
+  ],
+  "healthMax": 0,
+  "healthMin": 5000,
+  "result": {
+	"Count": 1,
+	"id": "l2artifacts:random_5"
+  }
+}

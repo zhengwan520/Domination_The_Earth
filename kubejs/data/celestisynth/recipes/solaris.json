@@ -1,0 +1,28 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "i": {
+      "item": "celestisynth:celestial_core_heated"
+    },
+    "n": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    },
+    "s": {
+      "item": "celestisynth:solar_crystal"
+    },
+    "a": {
+      "item": "minecraft:netherite_scrap"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "pattern": [
+    "sns",
+    "sis",
+    "aba"
+  ],
+  "result": {
+    "item": "celestisynth:solaris"
+  }
+}

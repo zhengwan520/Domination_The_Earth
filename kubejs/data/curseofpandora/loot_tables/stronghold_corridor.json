@@ -1,0 +1,97 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_health",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_armor",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_speed",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_damage",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_heavy_weapon",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_accuracy",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_critical",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_archery",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_protection",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_magic",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_explosion",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_luck",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:wind_thrust",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:earth_crush",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:flaming_explosion",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:waving_spell",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:curse_redirection",
+          "weight": 50
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "curseofpandora:stronghold_corridor"
+}

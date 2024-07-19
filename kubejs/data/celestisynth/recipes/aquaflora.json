@@ -1,0 +1,28 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "i": {
+      "item": "celestisynth:celestial_core"
+    },
+    "n": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    },
+    "a": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "b": {
+      "item": "celestisynth:supernal_netherite_ingot"
+    },
+    "c": {
+      "item": "celestisynth:starstruck_scrap"
+    }
+  },
+  "pattern": [
+    "ana",
+    "ina",
+    "ibc"
+  ],
+  "result": {
+    "item": "celestisynth:aquaflora"
+  }
+}

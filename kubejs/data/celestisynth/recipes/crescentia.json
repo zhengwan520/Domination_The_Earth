@@ -1,0 +1,25 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "key": {
+    "l": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    "d": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    }
+  },
+  "pattern": [
+    "ccl",
+    "bdc",
+    "dbc"
+  ],
+  "result": {
+    "item": "celestisynth:crescentia"
+  }
+}

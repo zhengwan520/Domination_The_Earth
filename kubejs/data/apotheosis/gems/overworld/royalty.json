@@ -1,0 +1,120 @@
+{
+	"weight": 5,
+	"quality": 1.5,
+	"dimensions": ["minecraft:overworld"],
+	"unique": true,
+	"min_rarity": "rare",
+	"bonuses": [{
+		"type": "apotheosis:attribute",
+		"gem_class": {
+			"key": "helmet",
+			"types": [
+				"helmet"
+			]
+		},
+		"attribute": "l2hostility:extra_difficulty",
+		"operation": "ADDITION",
+		"values": {
+			"rare": 10,
+			"epic": 20,
+			"mythic": 50,
+			"ancient": 100
+		}
+	},
+		{
+			"type": "apotheosis:drop_transform",
+			"gem_class": {
+				"key": "pickaxe",
+				"types": [
+					"pickaxe"
+				]
+			},
+			"blocks": "forge:ores/copper",
+			"inputs": {
+				"tag": "forge:raw_materials/copper"
+			},
+			"output": {
+				"item": "minecraft:raw_gold"
+			},
+			"values": {
+				"rare": 0.15,
+				"epic": 0.20,
+				"mythic": 0.25,
+				"ancient": 0.40
+			},
+			"desc": "gem.apotheosis:overworld/royalty.bonus.pickaxe"
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and",
+			"gem_class": {
+				"key": "ranged_weapon",
+				"types": [
+					"bow", "crossbow"
+				]
+			},
+			"modifiers": [{
+					"attribute": "attributeslib:prot_shred",
+					"operation": "ADDITION",
+					"values": {
+						"rare": 0.25,
+						"epic": 0.30,
+						"mythic": 0.35,
+						"ancient": 0.40
+					}
+				},
+				{
+					"attribute": "attributeslib:draw_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.35,
+						"epic": -0.45,
+						"mythic": -0.55,
+						"ancient": -0.65
+					}
+				}
+			]
+		},
+		{
+			"type": "apotheosis:multi_attribute",
+			"desc": "bonus.apotheosis:multi_attr.desc.and_but",
+			"gem_class": {
+				"key": "shield",
+				"types": [
+					"shield"
+				]
+			},
+			"modifiers": [{
+					"attribute": "minecraft:generic.armor",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": 0.15,
+						"epic": 0.25,
+						"mythic": 0.35,
+						"ancient": 0.5
+					}
+				},
+				{
+					"attribute": "minecraft:generic.armor_toughness",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": 0.075,
+						"epic": 0.125,
+						"mythic": 0.225,
+						"ancient": 0.30
+					}
+				},
+				{
+					"attribute": "minecraft:generic.movement_speed",
+					"operation": "MULTIPLY_TOTAL",
+					"values": {
+						"rare": -0.25,
+						"epic": -0.30,
+						"mythic": -0.35,
+						"ancient": -0.40
+					}
+				}
+			]
+		}
+	]
+}

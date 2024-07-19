@@ -1,0 +1,12 @@
+{
+  "type": "curseofpandora:append_table",
+  "bonus": 0.05,
+  "chance": 0.1,
+  "conditions": [
+    {
+      "condition": "forge:loot_table_id",
+      "loot_table_id": "minecraft:chests/village/village_temple"
+    }
+  ],
+  "table": "curseofpandora:village_temple"
+}

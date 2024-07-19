@@ -1,0 +1,46 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "twilightforest"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "ars_nouveau"
+	}],
+	"weight": 45,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "ars_nouveau:enchanters_sword"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "ars_nouveau:sorcerer_boots"
+		}
+	}],
+	"leggings": [{
+		"weight": 1,
+		"stack": {
+			"item": "ars_nouveau:sorcerer_leggings"
+		}
+	}],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "ars_nouveau:sorcerer_robes"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "ars_nouveau:sorcerer_hood"
+		}
+	}],
+	"tags": [
+		"twilight"
+	]
+}

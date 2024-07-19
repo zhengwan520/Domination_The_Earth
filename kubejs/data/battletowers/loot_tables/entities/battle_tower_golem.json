@@ -1,0 +1,41 @@
+{
+	"type": "minecraft:entity",
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:diamond"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:redstone"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:clay_ball",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 8,
+								"max": 11
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

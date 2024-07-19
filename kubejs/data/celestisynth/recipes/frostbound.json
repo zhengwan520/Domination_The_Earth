@@ -1,0 +1,30 @@
+{
+  "type": "celestisynth:shaped_celestial_crafting",
+  "category": "equipment",
+  "key": {
+    "i": {
+      "item": "celestisynth:lunar_scrap"
+    },
+    "n": {
+      "item": "celestisynth:starstruck_scrap"
+    },
+    "s": {
+      "item": "celestisynth:celestial_core"
+    },
+    "a": {
+      "item": "celestisynth:wintereis_shard"
+    },
+    "t": {
+      "item": "celestisynth:celestial_netherite_ingot"
+    }
+  },
+  "pattern": [
+    " in",
+    "sta",
+    "tsa"
+  ],
+  "result": {
+    "item": "celestisynth:frostbound"
+  },
+  "show_notification": true
+}

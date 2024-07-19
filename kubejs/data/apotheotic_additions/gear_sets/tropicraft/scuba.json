@@ -1,0 +1,43 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "tropicraft"
+	}],
+	"weight": 45,
+	"mainhands": [{
+			"weight": 3,
+			"stack": {
+				"item": "tropicraft:eudialyte_sword"
+			}
+		},
+		{
+			"weight": 2,
+			"stack": {
+				"item": "tropicraft:zircon_axe"
+			}
+		}
+	],
+	"offhands": [],
+	"boots": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:yellow_scuba_flippers"
+		}
+	}],
+	"leggings": [],
+	"chestplates": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:yellow_scuba_harness"
+		}
+	}],
+	"helmets": [{
+		"weight": 1,
+		"stack": {
+			"item": "tropicraft:yellow_scuba_goggles"
+		}
+	}],
+	"tags": [
+		"overworld", "tropics"
+	]
+}

@@ -1,0 +1,32 @@
+{
+  "values": [
+    "#l2hostility:melee_weapon_target",
+    "twilightforest:naga",
+    "twilightforest:lich",
+    "twilightforest:knight_phantom",
+    "twilightforest:ur_ghast",
+    "twilightforest:alpha_yeti",
+    "twilightforest:snow_queen",
+    "twilightforest:minoshroom",
+    "twilightforest:hydra",
+    "bosses_of_mass_destruction:lich",
+    "bosses_of_mass_destruction:void_blossom",
+    "bosses_of_mass_destruction:gauntlet",
+   "cataclysm:the_harbinger",
+    "cataclysm:netherite_monstrosity",
+    "cataclysm:the_leviathan",
+    "cataclysm:ancient_remnant",
+    "aquamirae:captain_cornelia",
+    "minecraft:ender_dragon",
+    "cataclysm:ender_guardian",
+    "bosses_of_mass_destruction:obsidilith",
+    "sons_of_sins:wistiver",
+    "sons_of_sins:walking_bed",
+   "sons_of_sins:prowler",
+    "sons_of_sins:kelvin",
+    "sons_of_sins:curse",
+    "sons_of_sins:blud",
+    "sons_of_sins:butcher",
+    "cataclysm:ignis"
+  ]
+}

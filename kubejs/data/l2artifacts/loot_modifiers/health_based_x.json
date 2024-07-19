@@ -1,0 +1,48 @@
+{
+  "type": "l2hostility:trait_scaled",
+  "chance": 0.0,
+  "conditions": [
+	{
+	  "condition": "minecraft:killed_by_player"
+	},
+	{
+	  "condition": "l2hostility:trait_and_level",
+	  "maxLevel": 5,
+	  "minLevel": 1,
+	  "trait": "l2hostility:dementor"
+	}
+  ],
+  "rankBonus": 0.05,
+  "result": {
+	"Count": 1,
+	"id": "l2artifacts:random_1",
+	"tag": {
+	  "Sets": [
+		"l2artifacts:abyss_medal",
+		"l2artifacts:executor",
+		"l2artifacts:sun_block",
+		"l2artifacts:vampire",
+		"l2artifacts:gluttony",
+
+		"l2artifacts:fury_of_fallen",
+		"l2artifacts:damocles",
+		"l2artifacts:berserker",
+		"l2artifacts:physical",
+		"l2artifacts:wrath",
+
+		"l2artifacts:archer",
+		"l2artifacts:long_shooter",
+		"l2artifacts:gambler",
+		"l2artifacts:luck_clover",
+		"l2artifacts:froze",
+
+		"l2artifacts:ancient_scroll",
+		"l2artifacts:perfection",
+		"l2artifacts:photosynthesis",
+		"l2artifacts:protection",
+		"l2artifacts:saint"
+	  ]
+	}
+  },
+  "trait": "l2hostility:dementor"
+}

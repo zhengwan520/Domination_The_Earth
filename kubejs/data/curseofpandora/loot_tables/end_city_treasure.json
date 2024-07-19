@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:empty",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_health",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_armor",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_speed",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_damage",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_heavy_weapon",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_accuracy",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_critical",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_archery",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_protection",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_magic",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_explosion",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_luck",
+          "weight": 100
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:shadow_core",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:shadow_convergence",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:shadow_consolidation",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:shadow_reformation",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:void_overflow",
+          "weight": 50
+        },
+        {
+          "type": "minecraft:item",
+          "name": "curseofpandora:charm_of_calmness",
+          "weight": 200
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "curseofpandora:end_city_treasure"
+}

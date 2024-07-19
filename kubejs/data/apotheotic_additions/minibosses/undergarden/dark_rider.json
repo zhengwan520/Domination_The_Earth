@@ -1,0 +1,88 @@
+{
+	"conditions": [{
+		"type": "forge:mod_loaded",
+		"modid": "alexscaves"
+	},
+	{
+		"type": "forge:mod_loaded",
+		"modid": "undergarden"
+	}],
+	"weight": 90,
+	"quality": 0,
+	"name": "Dark Rider",
+	"chance": 0.03,
+	"entities": [
+		"undergarden:rotling",
+		"undergarden:rotwalker"
+	],
+	"valid_gear_sets": [
+		"#undergarden"
+	],
+	"dimensions": [
+		"undergarden:undergarden"
+	],
+	"affixed": false,
+	"nbt": {
+	},
+	"stats": {
+		"enchant_chance": 0.25,
+		"enchantment_levels": [12, 8, 20, 14],
+		"effects": [],
+		"attribute_modifiers": [{
+				"attribute": "minecraft:generic.max_health",
+				"operation": "ADDITION",
+				"value": {
+					"min": 10,
+					"steps": 10,
+					"step": 2
+				}
+			},
+			{
+				"attribute": "minecraft:generic.movement_speed",
+				"operation": "MULTIPLY_BASE",
+				"value": {
+					"min": 0.05,
+					"steps": 5,
+					"step": 0.01
+				}
+			},
+			{
+				"attribute": "minecraft:generic.attack_damage",
+				"operation": "MULTIPLY_BASE",
+				"value": {
+					"min": 0.30,
+					"steps": 4,
+					"step": 0.05
+				}
+			},
+			{
+				"attribute": "minecraft:generic.knockback_resistance",
+				"operation": "ADDITION",
+				"value": 0.5
+			}
+		]
+	},
+	"mount": {
+		"entity": "alexscaves:vesper",
+		"nbt": {
+			"Tame": true,
+			"Attributes": [
+				{
+					"Name": "generic.flying_speed",
+					"Base": 0.85
+				},
+				{
+					"Name": "generic.knockback_resistance",
+					"Base": 0.5
+				}
+			]
+		}
+	},
+	"exclusions": [{
+			"type": "apotheosis:spawn_type",
+			"spawn_types": [
+				"spawn_egg", "spawner", "mob_summoned", "conversion"
+			]
+		}
+	]
+}
